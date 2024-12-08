@@ -1,8 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import List from "../components/list";
+
+import metadata from "../metadata.json";
 ---
 
 <Layout>
-  <List client:load />
+  <List list={metadata} client:only />
 </Layout>
