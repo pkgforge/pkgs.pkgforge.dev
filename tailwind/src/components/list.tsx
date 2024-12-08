@@ -141,10 +141,13 @@ const columns: ColumnDef<ListItem>[] = [
       )
     },
     cell: ({ row }) => {
-      const date = row.getValue("build_date") as string;
-      const data = new Date(date).toTimeString();
+      const dat = row.getValue("build_date") as string;
+      const date = new Date(dat);
 
-      return <span>{data}</span>;
+      const day = date.toLocaleDateString();
+      const time = date.toLocaleTimeString();
+
+      return <span>{day} at {time}</span>;
     },
   }
 ]
