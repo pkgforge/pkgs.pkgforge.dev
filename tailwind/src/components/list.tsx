@@ -82,7 +82,23 @@ const columns: ColumnDef<ListItem>[] = [
   },
   {
     accessorKey: "size",
-    header: "Size",
+    header: ({ column }) => {
+      return (
+        <div
+          className="flex"
+        >
+          Size
+          <Button
+            variant="ghost"
+            size="sm"
+            className="ml-1 h-6 w-8 rounded-full"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            <ArrowUpDown className="h-4 w-4" />
+          </Button>
+        </div>
+      )
+    },
   },
   {
     accessorKey: "category",
@@ -105,6 +121,32 @@ const columns: ColumnDef<ListItem>[] = [
     accessorKey: "id",
     header: "ID",
   },
+  {
+    accessorKey: "build_date",
+    header: ({ column }) => {
+      return (
+        <div
+          className="flex"
+        >
+          Build Date
+          <Button
+            variant="ghost"
+            size="sm"
+            className="ml-1 h-6 w-8 rounded-full"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            <ArrowUpDown className="h-4 w-4" />
+          </Button>
+        </div>
+      )
+    },
+    cell: ({ row }) => {
+      const date = row.getValue("build_date") as string;
+      const data = new Date(date).toTimeString();
+
+      return <span>{data}</span>;
+    },
+  }
 ]
 
 export default function List({ list }: ListProps) {
