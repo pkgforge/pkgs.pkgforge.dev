@@ -13,10 +13,18 @@ interface ListItem {
   sha: string,
   type: "base" | "pkg" | "bin",
   size: string,
+  sizeNum: number,
   category: string,
   id?: string,
   build_date: string,
 }
+
+const byteValueNumberFormatter = Intl.NumberFormat("en", {
+  notation: "compact",
+  style: "unit",
+  unit: "byte",
+  unitDisplay: "narrow",
+});
 
 interface ListProps {
   list: ListItem[]
@@ -81,7 +89,7 @@ const columns: ColumnDef<ListItem>[] = [
     }
   },
   {
-    accessorKey: "size",
+    accessorKey: "sizeNum",
     header: ({ column }) => {
       return (
         <div
@@ -98,6 +106,11 @@ const columns: ColumnDef<ListItem>[] = [
           </Button>
         </div>
       )
+    },
+    cell: ({ row }) => {
+      const size = row.getValue("sizeNum") as number;
+
+      return <p>{byteValueNumberFormatter.format(size)}</p>;
     },
   },
   {

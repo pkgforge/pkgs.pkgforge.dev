@@ -32,6 +32,7 @@ import { Label } from "./label";
 import { CheckIcon, ChevronLeft, ChevronRight, Search, SkipBack, SkipForward } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "./popover";
 import { cn } from "@/lib/utils";
+import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "./select";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
@@ -46,10 +47,12 @@ export function DataTable<TData, TValue>({
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
     []
   )
+  const [column, setColumn] = React.useState("name");
   const [columnVisibility, setColumnVisibility] =
     React.useState<VisibilityState>({
       category: false,
-      sha: false
+      sha: false,
+      id: false
     });
 
   const table = useReactTable({
@@ -87,12 +90,12 @@ export function DataTable<TData, TValue>({
     <div className="rounded-md border">
       <div className="flex flex-col md:flex-row justify-center md:justify-normal items-center py-4 md:px-3">
         <form
-          className="flex w-[90%] md:w-[20rem]"
+          className="flex w-[90%] md:w-[40rem]"
           onSubmit={(e) => {
             e.preventDefault();
             if (input.current) {
               const val = input.current.value;
-              table.getColumn("name")?.setFilterValue(val);
+              table.getColumn(column)?.setFilterValue(val);
             }
           }}
         >
@@ -103,11 +106,27 @@ export function DataTable<TData, TValue>({
             // value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
             onChange={(event) => {
               if (event.target.value == "") {
-                table.getColumn("name")?.setFilterValue("")
+                table.getAllColumns().forEach((s) => s.setFilterValue(""))
               }
             }}
             className="max-w-sm rounded-r-none"
           />
+          <Select
+            value={column}
+            onValueChange={setColumn}
+          >
+            <SelectTrigger className="w-[180px] rounded-none">
+              <SelectValue placeholder="Theme" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectLabel>Filter among</SelectLabel>
+                <SelectItem value="name">Name</SelectItem>
+                <SelectItem value="family">Package Family</SelectItem>
+                <SelectItem value="category">Category</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
           <Button
             className="rounded-l-none"
           >

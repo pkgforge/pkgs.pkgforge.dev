@@ -3,7 +3,7 @@ const url = "https://bin.ajam.dev/x86_64_Linux/METADATA.AIO.json";
 
 (async () => {
   /**
-   * @type {{ pkg: string, build_date: string, family: string, sha: string, id: string?, name: string, version: string, category: string, size: string, type: "base" | "bin" | "pkg" }[]}
+   * @type {{ pkg: string, build_date: string, family: string, sha: string, id: string?, name: string, version: string, category: string, size: string, sizeNum: number, type: "base" | "bin" | "pkg" }[]}
    */
   const response = [];
 
@@ -23,6 +23,7 @@ const url = "https://bin.ajam.dev/x86_64_Linux/METADATA.AIO.json";
       sha: data.shasum,
       type: "base",
       size: data.size,
+      sizeNum: genSize(data.size),
       category: data.category,
       id: "N/A",
       build_date: data.build_date,
@@ -39,6 +40,7 @@ const url = "https://bin.ajam.dev/x86_64_Linux/METADATA.AIO.json";
       version: data.version,
       type: "bin",
       size: data.size,
+      sizeNum: genSize(data.size),
       category: data.category,
       id: "N/A",
       build_date: data.build_date,
@@ -55,6 +57,7 @@ const url = "https://bin.ajam.dev/x86_64_Linux/METADATA.AIO.json";
       sha: data.shasum,
       type: "pkg",
       size: data.size,
+      sizeNum: genSize(data.size),
       category: data.category,
       id: data.pkg_id,
       build_date: data.build_date,
@@ -67,3 +70,17 @@ const url = "https://bin.ajam.dev/x86_64_Linux/METADATA.AIO.json";
 
   writeFileSync("./src/metadata.json", JSON.stringify(response, null, 2));
 })();
+
+const genSize = (data) => {
+  try {
+    return eval(
+      data
+        .replace("GB", "*1000*1000*1000")
+        .replace("MB", "*1000*1000")
+        .replace("KB", "*1000")
+        .replace("B", "")
+    );
+  } catch (_) {
+    return 0;
+  }
+};
