@@ -169,44 +169,6 @@ export default function List({ list }: ListProps) {
   return <TooltipProvider>
     <div className="mt-2 flex flex-col md:px-6 space-y-2 pb-3">
       <DataTable columns={columns} data={list} />
-      {/* <Table>
-        <TableHeader>
-          <TableRow className="bg-muted/70">
-            <TableHead className="min-w-[20rem]">Package</TableHead>
-            <TableHead>Package Family</TableHead>
-            <TableHead>Version</TableHead>
-            <TableHead>SHA Sum</TableHead>
-            <TableHead className="min-w-32">Size</TableHead>
-            <TableHead>Category</TableHead>
-            <TableHead>ID</TableHead>
-          </TableRow>
-        </TableHeader>
-
-        <TableBody>
-          {items.map((item, i) => (
-            <TableRow key={item.sha + i}>
-              <TableCell className="border border-muted/70">{item.name}</TableCell>
-              <TableCell className="border border-muted/70">{item.family}</TableCell>
-              <TableCell className="border border-muted/70">{item.version}</TableCell>
-              <TableCell className="border border-muted/70">
-                <Tooltip>
-                  <TooltipTrigger>{item.sha.length > 10 ? `${item.sha.substring(0, 10)}...` : item.sha}</TooltipTrigger>
-                  <TooltipContent>
-                    <p>{item.sha}</p>
-                  </TooltipContent>
-                </Tooltip>
-              </TableCell>
-              <TableCell className="border border-muted/70">{item.size}</TableCell>
-              <TableCell className="border border-muted/70">
-                <div className="flex flex-wrap gap-1">
-                  {item.category.split(",").filter((c) => c.trim() != "").map((c) => <Category key={c} cat={c} />)}
-                </div>
-              </TableCell>
-              <TableCell className="border border-muted/70 border-r border-r-muted/70" >{item.id}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table> */}
     </div>
   </TooltipProvider>;
 }
