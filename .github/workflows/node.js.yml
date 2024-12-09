@@ -21,3 +21,4 @@ jobs:
         npm i -g pnpm
         pnpm install
         pnpm build
+      working-directory: web
