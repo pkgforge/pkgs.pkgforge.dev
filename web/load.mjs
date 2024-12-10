@@ -11,15 +11,28 @@ const stableArm64 =
 
 const community = "https://soarpkgs.pkgforge.dev/metadata/METADATA.json";
 
-const writeValue = (data, fileHash, branch, arch) => {
+const writeValue = (data, fileHash, branch, arch, pkgs) => {
   const astroFile = `---
-import Layout from "@/layouts/Layout.astro";
-import App from "@/components/app.tsx";
+import Layout from "../../../../../layouts/Layout.astro";
+import App from "../../../../../components/app.tsx";
 
 const data = ${JSON.stringify(data)};
+
+const logs = await fetch(data.build_log)
+  .then((res) => {
+    if (!res.ok) {
+      throw new Error(\`\${res.status}: \${res.statusText}\`);
+    }
+    return res.text();
+  })
+  .catch((e) => {
+    return "✖️ Unable to fetch build logs!\n" + e;
+  });
 ---
 
-<App data={data} />`;
+<Layout>
+  <App data={data} logs={logs} client:only />
+</Layout>`;
 
   mkdirSync(`./src/pages/app/${branch}/${arch}/${data.pkg_family}`, {
     recursive: true,
@@ -41,9 +54,9 @@ const run = async (url, branch, arch) => {
   const set = new Map();
 
   /**
-   * @type {Map<string, { name: string, hash: string }>}
+   * @type {{ [key: string]: { name: string, hash: string }}}
    */
-  const family = new Map();
+  const familyMap = {};
 
   const resp = await fetch(url).then((res) => res.json());
 
@@ -70,7 +83,13 @@ const run = async (url, branch, arch) => {
         familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       });
 
-      writeValue(data, fileHash, branch, arch);
+      if (familyMap[data.pkg_family]) {
+        familyMap[data.pkg_family].push(data);
+      } else {
+        familyMap[data.pkg_family] = [data];
+      }
+
+      writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
       set.set(data.shasum, { type: "base", index });
     });
   } else {
@@ -96,7 +115,12 @@ const run = async (url, branch, arch) => {
         familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       });
 
-      writeValue(data, fileHash, branch, arch);
+      if (familyMap[data.pkg_family]) {
+        familyMap[data.pkg_family].push(data);
+      } else {
+        familyMap[data.pkg_family] = [data];
+      }
+      writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
       set.set(data.shasum, { type: "base", index });
     });
     resp.bin.forEach((data, index) => {
@@ -121,7 +145,13 @@ const run = async (url, branch, arch) => {
         familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       });
 
-      writeValue(data, fileHash, branch, arch);
+      if (familyMap[data.pkg_family]) {
+        familyMap[data.pkg_family].push(data);
+      } else {
+        familyMap[data.pkg_family] = [data];
+      }
+
+      writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
       set.set(data.shasum, { type: "bin", index });
     });
     resp.pkg.forEach((data, index) => {
@@ -146,7 +176,12 @@ const run = async (url, branch, arch) => {
         familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       });
 
-      writeValue(data, fileHash, branch, arch);
+      if (familyMap[data.pkg_family]) {
+        familyMap[data.pkg_family].push(data);
+      } else {
+        familyMap[data.pkg_family] = [data];
+      }
+      writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
       set.set(data.shasum, { type: "pkg", index });
     });
   }

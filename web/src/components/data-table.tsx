@@ -130,7 +130,7 @@ export function DataTable<TData, TValue>({
           <Input
             placeholder="Filter using name..."
             ref={input}
-            minLength={3}
+            maxLength={64}
             // value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
             onChange={(event) => {
               if (event.target.value == "") {

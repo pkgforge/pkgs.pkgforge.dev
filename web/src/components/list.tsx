@@ -52,7 +52,7 @@ const columns: ColumnDef<ListItem>[] = [
       )
     },
     cell: ({ row }) => {
-      return <a className="font-bold underline underline-offset-4" href={`/app/${row.original.url}`}>{row.getValue("name")}</a>;
+      return <a className="font-bold underline underline-offset-4" href={`/app${row.original.url}`}>{row.getValue("name")}</a>;
     }
   },
   {

@@ -71,5 +71,9 @@
 }
 
 ::-webkit-scrollbar {
-  @apply hidden;
+  @apply w-1 h-1 bg-muted/70;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply transition-all bg-foreground/50 hover:bg-foreground rounded-full m-1;
 }
