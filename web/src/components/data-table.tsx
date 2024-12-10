@@ -27,12 +27,20 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Button, buttonVariants } from "./button";
-import { Label } from "./label";
+import { Button, buttonVariants } from "./ui/button";
+import { Label } from "./ui/label";
 import { CheckIcon, ChevronLeft, ChevronRight, Search, SkipBack, SkipForward } from "lucide-react";
-import { Popover, PopoverContent, PopoverTrigger } from "./popover";
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { cn } from "@/lib/utils";
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "./select";
+import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "./ui/select";
+
+import edgeX86 from "../metadata_edge_x86.json";
+
+const edgeArm64 = import("../metadata_edge_aarch64.json");
+
+const stableX86 = import("../metadata_stable_x86.json");
+
+const stableArm64 = import("../metadata_stable_aarch64.json");
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
@@ -41,7 +49,6 @@ interface DataTableProps<TData, TValue> {
 
 export function DataTable<TData, TValue>({
   columns,
-  data,
 }: DataTableProps<TData, TValue>) {
   const [sorting, setSorting] = React.useState<SortingState>([])
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
@@ -54,9 +61,30 @@ export function DataTable<TData, TValue>({
       sha: false,
       id: false
     });
+  const [page, setPage] = React.useState("edge");
+  const [data, setData] = React.useState<TData[] | "loading">(edgeX86 as unknown as TData[]);
+
+  React.useEffect(() => {
+    (async () => {
+      switch (page) {
+        case "edge":
+          setData(edgeX86 as unknown as TData[]);
+          break;
+        case "edgea":
+          setData((await edgeArm64).default as unknown as TData[]);
+          break;
+        case "stable":
+          setData((await stableX86).default as unknown as TData[]);
+          break;
+        case "stablea":
+          setData((await stableArm64).default as unknown as TData[]);
+          break;
+      }
+    })();
+  }, [page]);
 
   const table = useReactTable({
-    data,
+    data: data == "loading" ? [] : data,
     columns,
     getCoreRowModel: getCoreRowModel(),
     onSortingChange: setSorting,
@@ -83,8 +111,8 @@ export function DataTable<TData, TValue>({
     }
   }, []);
 
-  const input: React.MutableRefObject<HTMLInputElement | null> = React.useRef(null);
-  const pageNumberInput: React.MutableRefObject<HTMLInputElement | null> = React.useRef(null);
+  const input: React.RefObject<HTMLInputElement | null> = React.useRef(null);
+  const pageNumberInput: React.RefObject<HTMLInputElement | null> = React.useRef(null);
 
   return (
     <div className="rounded-md border">
@@ -111,6 +139,26 @@ export function DataTable<TData, TValue>({
             }}
             className="max-w-sm rounded-r-none"
           />
+          <Select
+            value={page}
+            onValueChange={setPage}
+          >
+            <SelectTrigger className="w-[180px] rounded-none">
+              <SelectValue placeholder="Select Repo" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                <SelectLabel>Edge</SelectLabel>
+                <SelectItem value="edge">Edge X86</SelectItem>
+                <SelectItem value="edgea">Edge Aarch64</SelectItem>
+              </SelectGroup>
+              <SelectGroup>
+                <SelectLabel>Stable</SelectLabel>
+                <SelectItem value="stable">Stable X86</SelectItem>
+                <SelectItem value="stablea">Stable Aarch64</SelectItem>
+              </SelectGroup>
+            </SelectContent>
+          </Select>
           <Select
             value={column}
             onValueChange={setColumn}

@@ -1,5 +1,5 @@
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
-import { DataTable } from "./ui/data-table";
+import { DataTable } from "./data-table";
 import type { ColumnDef } from "@tanstack/react-table";
 
 import { ArrowUpDown } from "lucide-react"
@@ -165,12 +165,16 @@ const columns: ColumnDef<ListItem>[] = [
   }
 ]
 
-export default function List({ list }: ListProps) {
+function ShowList({ list }: ListProps) {
   return <TooltipProvider>
     <div className="mt-2 flex flex-col md:px-6 space-y-2 pb-3">
       <DataTable columns={columns} data={list} />
     </div>
   </TooltipProvider>;
+}
+
+export default function List() {
+  return <ShowList list={[]} />;
 }
 
 function Category({ cat }: { cat: string }) {

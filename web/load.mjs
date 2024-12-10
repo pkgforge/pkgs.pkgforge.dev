@@ -1,7 +1,16 @@
 import { writeFileSync } from "fs";
-const url = "https://bin.ajam.dev/x86_64_Linux/METADATA.AIO.json";
 
-(async () => {
+const edgeX86 = "https://bin.pkgforge.dev/x86_64-Linux/METADATA.AIO.json";
+const edgeArm64 = "https://bin.pkgforge.dev/aarch64-Linux/METADATA.AIO.json";
+
+const stableX86 =
+  "https://bincache.pkgforge.dev/x86_64-Linux/METADATA.AIO.json";
+const stableArm64 =
+  "https://bincache.pkgforge.dev/aarch64-Linux/METADATA.AIO.json";
+
+const community = "https://soarpkgs.pkgforge.dev/metadata/METADATA.json";
+
+const run = async (url, branch, arch) => {
   /**
    * @type {{ pkg: string, build_date: string, family: string, sha: string, id: string?, name: string, version: string, category: string, size: string, sizeNum: number, type: "base" | "bin" | "pkg" }[]}
    */
@@ -14,61 +23,101 @@ const url = "https://bin.ajam.dev/x86_64_Linux/METADATA.AIO.json";
 
   const resp = await fetch(url).then((res) => res.json());
 
-  resp.base.forEach((data, index) => {
-    response.push({
-      name: data.pkg,
-      pkg: data.pkg_name,
-      family: data.pkg_family,
-      version: data.version,
-      sha: data.shasum,
-      type: "base",
-      size: data.size,
-      sizeNum: genSize(data.size),
-      category: data.category,
-      id: "N/A",
-      build_date: data.build_date,
-    });
+  if (branch === "com") {
+    resp.forEach((data, index) => {
+      response.push({
+        name: data.pkg,
+        pkg: data.pkg_name,
+        family: data.pkg_family,
+        version: data.version,
+        sha: data.shasum,
+        type: "base",
+        size: data.size,
+        sizeNum: genSize(data.size),
+        category: data.category,
+        id: "N/A",
+        build_date: data.build_date,
+      });
 
-    set.set(data.shasum, { type: "base", index });
-  });
-  resp.bin.forEach((data, index) => {
-    response.push({
-      name: data.pkg,
-      pkg: data.pkg_name,
-      family: data.pkg_family,
-      sha: data.shasum,
-      version: data.version,
-      type: "bin",
-      size: data.size,
-      sizeNum: genSize(data.size),
-      category: data.category,
-      id: "N/A",
-      build_date: data.build_date,
+      set.set(data.shasum, { type: "base", index });
     });
+  } else {
+    resp.base.forEach((data, index) => {
+      response.push({
+        name: data.pkg,
+        pkg: data.pkg_name,
+        family: data.pkg_family,
+        version: data.version,
+        sha: data.shasum,
+        type: "base",
+        size: data.size,
+        sizeNum: genSize(data.size),
+        category: data.category,
+        id: "N/A",
+        build_date: data.build_date,
+      });
 
-    set.set(data.shasum, { type: "bin", index });
-  });
-  resp.pkg.forEach((data, index) => {
-    response.push({
-      name: data.pkg,
-      pkg: data.pkg_name,
-      family: data.pkg_family,
-      version: data.version,
-      sha: data.shasum,
-      type: "pkg",
-      size: data.size,
-      sizeNum: genSize(data.size),
-      category: data.category,
-      id: data.pkg_id,
-      build_date: data.build_date,
+      set.set(data.shasum, { type: "base", index });
     });
+    resp.bin.forEach((data, index) => {
+      response.push({
+        name: data.pkg,
+        pkg: data.pkg_name,
+        family: data.pkg_family,
+        sha: data.shasum,
+        version: data.version,
+        type: "bin",
+        size: data.size,
+        sizeNum: genSize(data.size),
+        category: data.category,
+        id: "N/A",
+        build_date: data.build_date,
+      });
 
-    set.set(data.shasum, { type: "pkg", index });
-  });
+      set.set(data.shasum, { type: "bin", index });
+    });
+    resp.pkg.forEach((data, index) => {
+      response.push({
+        name: data.pkg,
+        pkg: data.pkg_name,
+        family: data.pkg_family,
+        version: data.version,
+        sha: data.shasum,
+        type: "pkg",
+        size: data.size,
+        sizeNum: genSize(data.size),
+        category: data.category,
+        id: data.pkg_id,
+        build_date: data.build_date,
+      });
+
+      set.set(data.shasum, { type: "pkg", index });
+    });
+  }
 
   response.sort((a, b) => a.name.localeCompare(b.name));
 
-  writeFileSync("./src/metadata.json", JSON.stringify(response, null, 2));
+  writeFileSync(
+    `./src/metadata_${branch}_${arch}.json`,
+    JSON.stringify(response)
+  );
+};
+
+(async () => {
+  console.log("⏲️ Downloading Stable x86");
+  await run(stableX86, "stable", "x86");
+
+  console.log("⏲️ Downloading Stable aarc64");
+  await run(stableArm64, "stable", "aarch64");
+
+  console.log("⏲️ Downloading Edge x86");
+  await run(edgeX86, "edge", "x86");
+
+  console.log("⏲️ Downloading Edge aarch64");
+  await run(edgeArm64, "edge", "aarch64");
+
+  console.log("⏲️ Downloading Community");
+  //await run(community, "com", "univ");
 })();
 
 const genSize = (data) => {
