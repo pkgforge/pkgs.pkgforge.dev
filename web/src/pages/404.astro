@@ -1,6 +1,29 @@
 ---
+import { cn } from "@/lib/utils";
 import Layout from "../layouts/Layout.astro";
-import List from "../components/list";
+
+import { Button, buttonVariants } from "@/components/ui/button";
 ---
 
-<Layout />
+<Layout>
+  <div
+    class="h-[calc(100%-5.8rem)] lg:h-[calc(100%-2.9rem)] w-full flex flex-col items-center text-center justify-center select-none"
+  >
+    <h1 class="font-extrabold text-8xl">404</h1>
+    <h2 class="font-light text-xl">Seems like you're lost!</h2>
+    <h2 class="font-extralight text-xl">This page does not exist!</h2>
+
+    <a
+      href="/"
+      class={cn(
+        buttonVariants({
+          variant: "outline",
+          size: "lg",
+          className: "mt-3",
+        })
+      )}
+    >
+      Take me home
+    </a>
+  </div>
+</Layout>

@@ -3,5 +3,7 @@ interface AppProps {
 }
 
 export default function App({ data }: AppProps) {
+  return <div className="flex">
 
+  </div>
 }

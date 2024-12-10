@@ -1,4 +1,5 @@
-import { writeFileSync } from "fs";
+import { mkdirSync, writeFileSync } from "fs";
+import crypto from "node:crypto";
 
 const edgeX86 = "https://bin.pkgforge.dev/x86_64-Linux/METADATA.AIO.json";
 const edgeArm64 = "https://bin.pkgforge.dev/aarch64-Linux/METADATA.AIO.json";
@@ -10,6 +11,24 @@ const stableArm64 =
 
 const community = "https://soarpkgs.pkgforge.dev/metadata/METADATA.json";
 
+const writeValue = (data, fileHash, branch, arch) => {
+  const astroFile = `---
+import Layout from "@/layouts/Layout.astro";
+import App from "@/components/app.tsx";
+
+const data = ${JSON.stringify(data)};
+---
+
+<App data={data} />`;
+
+  mkdirSync(`./src/pages/app/${branch}/${arch}/${data.pkg_family}`, {
+    recursive: true,
+  });
+  writeFileSync(
+    `./src/pages/app/${branch}/${arch}/${data.pkg_family}/${fileHash}.astro`,
+    astroFile
+  );
+};
 const run = async (url, branch, arch) => {
   /**
    * @type {{ pkg: string, build_date: string, family: string, sha: string, id: string?, name: string, version: string, category: string, size: string, sizeNum: number, type: "base" | "bin" | "pkg" }[]}
@@ -21,10 +40,20 @@ const run = async (url, branch, arch) => {
    */
   const set = new Map();
 
+  /**
+   * @type {Map<string, { name: string, hash: string }>}
+   */
+  const family = new Map();
+
   const resp = await fetch(url).then((res) => res.json());
 
   if (branch === "com") {
     resp.forEach((data, index) => {
+      const fileHash = crypto
+        .createHash("md5")
+        .update(`${data.pkg_name}${data.shasum}`)
+        .digest("hex");
+
       response.push({
         name: data.pkg,
         pkg: data.pkg_name,
@@ -37,12 +66,20 @@ const run = async (url, branch, arch) => {
         category: data.category,
         id: "N/A",
         build_date: data.build_date,
+        url: `/${branch}/${arch}/${data.pkg_family}/${fileHash}`,
+        familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       });
 
+      writeValue(data, fileHash, branch, arch);
       set.set(data.shasum, { type: "base", index });
     });
   } else {
     resp.base.forEach((data, index) => {
+      const fileHash = crypto
+        .createHash("md5")
+        .update(`${data.pkg_name}${data.shasum}`)
+        .digest("hex");
+
       response.push({
         name: data.pkg,
         pkg: data.pkg_name,
@@ -55,11 +92,19 @@ const run = async (url, branch, arch) => {
         category: data.category,
         id: "N/A",
         build_date: data.build_date,
+        url: `/${branch}/${arch}/${data.pkg_family}/${fileHash}`,
+        familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       });
 
+      writeValue(data, fileHash, branch, arch);
       set.set(data.shasum, { type: "base", index });
     });
     resp.bin.forEach((data, index) => {
+      const fileHash = crypto
+        .createHash("md5")
+        .update(`${data.pkg_name}${data.shasum}`)
+        .digest("hex");
+
       response.push({
         name: data.pkg,
         pkg: data.pkg_name,
@@ -72,11 +117,19 @@ const run = async (url, branch, arch) => {
         category: data.category,
         id: "N/A",
         build_date: data.build_date,
+        url: `/${branch}/${arch}/${data.pkg_family}/${fileHash}`,
+        familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       });
 
+      writeValue(data, fileHash, branch, arch);
       set.set(data.shasum, { type: "bin", index });
     });
     resp.pkg.forEach((data, index) => {
+      const fileHash = crypto
+        .createHash("md5")
+        .update(`${data.pkg_name}${data.shasum}`)
+        .digest("hex");
+
       response.push({
         name: data.pkg,
         pkg: data.pkg_name,
@@ -89,8 +142,11 @@ const run = async (url, branch, arch) => {
         category: data.category,
         id: data.pkg_id,
         build_date: data.build_date,
+        url: `/${branch}/${arch}/${data.pkg_family}/${fileHash}`,
+        familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       });
 
+      writeValue(data, fileHash, branch, arch);
       set.set(data.shasum, { type: "pkg", index });
     });
   }
