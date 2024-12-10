@@ -148,14 +148,14 @@ export function DataTable<TData, TValue>({
             </SelectTrigger>
             <SelectContent>
               <SelectGroup>
-                <SelectLabel>Edge</SelectLabel>
-                <SelectItem value="edge">Edge X86</SelectItem>
-                <SelectItem value="edgea">Edge Aarch64</SelectItem>
+                <SelectLabel>edge</SelectLabel>
+                <SelectItem value="edge">edge (x86_64)</SelectItem>
+                <SelectItem value="edgea">edge (aarch64)</SelectItem>
               </SelectGroup>
               <SelectGroup>
-                <SelectLabel>Stable</SelectLabel>
-                <SelectItem value="stable">Stable X86</SelectItem>
-                <SelectItem value="stablea">Stable Aarch64</SelectItem>
+                <SelectLabel>stable</SelectLabel>
+                <SelectItem value="stable">stable (x86_64)</SelectItem>
+                <SelectItem value="stablea">stable (aarch64)</SelectItem>
               </SelectGroup>
             </SelectContent>
           </Select>
