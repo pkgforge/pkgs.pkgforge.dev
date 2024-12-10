@@ -1,0 +1,17 @@
+name: ♻️ Auto Deploy ♻️
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+    
+jobs:
+  auto-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Hook
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          curl -qfsSL -X 'POST' "${{ secrets.CF_DEPLOY_HOOK }}"
+        continue-on-error: false

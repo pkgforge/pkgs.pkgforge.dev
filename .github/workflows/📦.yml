@@ -1,0 +1,36 @@
+name: 📦 Mock Build 📦
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions: write-all
+
+jobs:
+  build:
+    name: Build Application
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      
+    - name: Install Deps & Build
+      run: | 
+        npm i -g pnpm
+        pnpm install
+        pnpm build
+      working-directory: web
+
+    # - name: Deploy
+    #   continue-on-error: true
+    #   uses: cloudflare/wrangler-action@v3
+    #   with:
+    #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    #     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    #     command: pages deploy ./web/dist --project-name=pkgs.pkgforge.dev
+    #     gitHubToken: ${{ secrets.GITHUB_TOKEN }}
