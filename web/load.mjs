@@ -18,7 +18,7 @@ import App from "../../../../../components/app.tsx";
 
 const data = ${JSON.stringify(data)};
 
-const logs = await fetch(data.build_log)
+const logs = data.build_log; /*await fetch(data.build_log)
   .then((res) => {
     if (!res.ok) {
       throw new Error(res.status + ": " + res.statusText);
@@ -27,7 +27,7 @@ const logs = await fetch(data.build_log)
   })
   .catch((e) => {
     return "✖️ Unable to fetch build logs!\\n" + e;
-  });
+  });*/
 ---
 
 <Layout>
