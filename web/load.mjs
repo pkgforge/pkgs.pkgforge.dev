@@ -26,7 +26,7 @@ const logs = await fetch(data.build_log)
     return res.text();
   })
   .catch((e) => {
-    return "✖️ Unable to fetch build logs!\n" + e;
+    return "✖️ Unable to fetch build logs!\\n" + e;
   });
 ---
 
