@@ -21,4 +21,7 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    concurrency: 50,
+  },
 });
