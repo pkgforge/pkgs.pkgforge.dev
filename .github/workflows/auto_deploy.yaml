@@ -2,8 +2,8 @@ name: ♻️ Auto Deploy ♻️
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
-    
+    - cron: "*/45 * * * *"
+
 jobs:
   auto-deploy:
     runs-on: ubuntu-latest

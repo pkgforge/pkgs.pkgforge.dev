@@ -25,3 +25,4 @@ pnpm-debug.log*
 
 # The App folder
 src/pages/app/
+src/metadata*.json

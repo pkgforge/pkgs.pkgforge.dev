@@ -34,12 +34,36 @@ const logs = await fetch(data.build_log)
   <App data={data} logs={logs} client:only />
 </Layout>`;
 
+  const pkgFamilyFile = `---
+import Layout from "../../../../../layouts/Layout.astro";
+import App from "../../../../../components/family.tsx";
+
+const apps = ${JSON.stringify(
+    pkgs
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map(({ name, hash }) => ({
+        name,
+        url: `/app/${branch}/${arch}/${data.pkg_family}/${hash}`,
+      })),
+    null,
+    2
+  )};
+---
+
+<Layout>
+  <App apps={apps} />
+</Layout>`;
+
   mkdirSync(`./src/pages/app/${branch}/${arch}/${data.pkg_family}`, {
     recursive: true,
   });
   writeFileSync(
     `./src/pages/app/${branch}/${arch}/${data.pkg_family}/${fileHash}.astro`,
     astroFile
+  );
+  writeFileSync(
+    `./src/pages/app/${branch}/${arch}/${data.pkg_family}/index.astro`,
+    pkgFamilyFile
   );
 };
 const run = async (url, branch, arch) => {
@@ -54,7 +78,7 @@ const run = async (url, branch, arch) => {
   const set = new Map();
 
   /**
-   * @type {{ [key: string]: { name: string, hash: string }}}
+   * @type {{ [key: string]: { name: string, hash: string }[] }}
    */
   const familyMap = {};
 
@@ -62,15 +86,16 @@ const run = async (url, branch, arch) => {
 
   if (branch === "com") {
     resp.forEach((data, index) => {
+      data.pkg_family = "community";
       const fileHash = crypto
         .createHash("md5")
-        .update(`${data.pkg_name}${data.shasum}`)
+        .update(`${data.pkg}${data.shasum}`)
         .digest("hex");
 
       response.push({
         name: data.pkg,
-        pkg: data.pkg_name,
-        family: data.pkg_family,
+        pkg: data.pkg,
+        family: "community",
         version: data.version,
         sha: data.shasum,
         type: "base",
@@ -79,17 +104,17 @@ const run = async (url, branch, arch) => {
         category: data.category,
         id: "N/A",
         build_date: data.build_date,
-        url: `/${branch}/${arch}/${data.pkg_family}/${fileHash}`,
-        familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
+        url: `/${branch}/${arch}/community/${fileHash}`,
+        familyUrl: `/${branch}/${arch}/community`,
       });
 
-      if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data);
+      if (familyMap["community"]) {
+        familyMap["community"].push({ name: data.pkg, hash: data.shasum });
       } else {
-        familyMap[data.pkg_family] = [data];
+        familyMap["community"] = [{ name: data.pkg, hash: data.shasum }];
       }
 
-      writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
+      writeValue(data, fileHash, branch, arch, familyMap["community"]);
       set.set(data.shasum, { type: "base", index });
     });
   } else {
@@ -116,10 +141,11 @@ const run = async (url, branch, arch) => {
       });
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data);
+        familyMap[data.pkg_family].push({ name: data.pkg, hash: data.shasum });
       } else {
-        familyMap[data.pkg_family] = [data];
+        familyMap[data.pkg_family] = [{ name: data.pkg, hash: data.shasum }];
       }
+
       writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
       set.set(data.shasum, { type: "base", index });
     });
@@ -146,9 +172,9 @@ const run = async (url, branch, arch) => {
       });
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data);
+        familyMap[data.pkg_family].push({ name: data.pkg, hash: data.shasum });
       } else {
-        familyMap[data.pkg_family] = [data];
+        familyMap[data.pkg_family] = [{ name: data.pkg, hash: data.shasum }];
       }
 
       writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
@@ -177,10 +203,11 @@ const run = async (url, branch, arch) => {
       });
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data);
+        familyMap[data.pkg_family].push({ name: data.pkg, hash: data.shasum });
       } else {
-        familyMap[data.pkg_family] = [data];
+        familyMap[data.pkg_family] = [{ name: data.pkg, hash: data.shasum }];
       }
+
       writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
       set.set(data.shasum, { type: "pkg", index });
     });
@@ -195,20 +222,20 @@ const run = async (url, branch, arch) => {
 };
 
 (async () => {
-  console.log("⏲️ Downloading Stable x86");
-  await run(stableX86, "stable", "x86");
-
-  console.log("⏲️ Downloading Stable aarc64");
-  await run(stableArm64, "stable", "aarch64");
-
   console.log("⏲️ Downloading Edge x86");
   await run(edgeX86, "edge", "x86");
 
   console.log("⏲️ Downloading Edge aarch64");
   await run(edgeArm64, "edge", "aarch64");
 
+  console.log("⏲️ Downloading Stable x86");
+  await run(stableX86, "stable", "x86");
+
+  console.log("⏲️ Downloading Stable aarc64");
+  await run(stableArm64, "stable", "aarch64");
+
   console.log("⏲️ Downloading Community");
-  //await run(community, "com", "univ");
+  await run(community, "com", "univ");
 })();
 
 const genSize = (data) => {

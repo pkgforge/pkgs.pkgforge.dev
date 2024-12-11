@@ -42,6 +42,8 @@ const stableX86 = import("../metadata_stable_x86.json");
 
 const stableArm64 = import("../metadata_stable_aarch64.json");
 
+const comUniv = import("../metadata_com_univ.json");
+
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
   data: TData[]
@@ -78,6 +80,9 @@ export function DataTable<TData, TValue>({
           break;
         case "stablea":
           setData((await stableArm64).default as unknown as TData[]);
+          break;
+        case "com":
+          setData((await comUniv).default as unknown as TData[]);
           break;
       }
     })();
@@ -157,6 +162,7 @@ export function DataTable<TData, TValue>({
                 <SelectItem value="stable">stable (x86_64)</SelectItem>
                 <SelectItem value="stablea">stable (aarch64)</SelectItem>
               </SelectGroup>
+              <SelectItem value="com">community</SelectItem>
             </SelectContent>
           </Select>
           <Select
