@@ -27,7 +27,13 @@ jobs:
           pnpm build
         working-directory: web
 
-      - name: Upload artifact
+      - name: Upload site
+        uses: actions/upload-artifact@v4
+        with:
+          compression-level: 9
+          path: ./web/dist/
+
+      - name: Upload doc
         uses: actions/upload-artifact@v4
         with:
           compression-level: 9
