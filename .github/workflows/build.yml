@@ -10,7 +10,7 @@ permissions: write-all
 jobs:
   build:
     name: Build Site
-    runs-on: macos-14
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
