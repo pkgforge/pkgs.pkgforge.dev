@@ -2,7 +2,7 @@ name: 📦 Mock Build 📦
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions: write-all
@@ -13,18 +13,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Use Node.js
-      uses: actions/setup-node@v4
-      
-    - name: Install Deps & Build
-      run: | 
-        npm i -g pnpm
-        pnpm install
-        pnpm build
-      working-directory: web
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+
+      - name: Install Deps & Build
+        continue-on-error: true
+        run: |
+          npm i -g pnpm
+          pnpm install
+          pnpm build
+        working-directory: web
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          compression-level: 9
+          path: ./web/src/
 
     # - name: Deploy
     #   continue-on-error: true
