@@ -28,7 +28,7 @@ jobs:
         working-directory: web
 
       - name: Upload site
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: thisisabuild
           path: ./web/dist/
