@@ -4,6 +4,8 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
 
 permissions: write-all
 
@@ -16,6 +18,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Cache .astro file
+        uses: actions/cache@v4
+        with:
+          key: astro-cache
+          path: ./web/.astro
 
       - name: Use Node.js
         uses: actions/setup-node@v4
