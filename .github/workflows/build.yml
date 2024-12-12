@@ -27,7 +27,7 @@ jobs:
           path: ./web/.astro
 
       - name: Delete outdated cache
-        uses: actions/gh-script@v7
+        uses: actions/github-script@v7
         with:
           script: |
             github.rest.actions.deleteActionsCacheByKey({
