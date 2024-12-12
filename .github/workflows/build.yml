@@ -20,6 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Cache .astro file
+        id: cache
         uses: actions/cache/restore@v4
         with:
           key: astro-cache
@@ -29,7 +30,6 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: Install Deps & Build
-        continue-on-error: true
         run: |
           npm i -g pnpm
           pnpm install
@@ -45,7 +45,7 @@ jobs:
       - name: Post Cache .astro file
         uses: actions/cache/save@v4
         with:
-          key: astro-cache
+          key: ${{ steps.cache.outputs.cache-primary-key }}
           path: ./web/.astro
 
   deploy:
