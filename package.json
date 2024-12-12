@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "astro-react-swc": "github:ahqsoftwares/astro-react-swc"
+  }
+}
