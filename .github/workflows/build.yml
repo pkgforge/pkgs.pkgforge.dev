@@ -26,6 +26,16 @@ jobs:
           key: astro-cache
           path: ./web/.astro
 
+      - name: Delete outdated cache
+        uses: actions/gh-script@v7
+        with:
+          script: |
+            github.rest.actions.deleteActionsCacheByKey({
+              owner: "pkgforge",
+              repo: "pkgs.pkgforge.dev",
+              key: "astro-cache"
+            });
+
       - name: Use Node.js
         uses: actions/setup-node@v4
 
@@ -45,7 +55,7 @@ jobs:
       - name: Post Cache .astro file
         uses: actions/cache/save@v4
         with:
-          key: ${{ steps.cache.outputs.cache-primary-key }}
+          key: astro-cache
           path: ./web/.astro
 
   deploy:
