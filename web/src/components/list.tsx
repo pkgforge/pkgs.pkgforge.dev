@@ -75,7 +75,7 @@ const columns: ColumnDef<ListItem>[] = [
       )
     },
     cell: ({ row }) => {
-      return <a className="underline underline-offset-4" href={"/app/" + row.original.familyUrl}>{row.original.family}</a>
+      return <a className="underline underline-offset-4" href={"/app" + row.original.familyUrl}>{row.original.family}</a>
     }
   },
   {
@@ -166,9 +166,26 @@ const columns: ColumnDef<ListItem>[] = [
       const date = new Date(dat);
 
       const day = date.toLocaleDateString();
-      const time = date.toLocaleTimeString();
 
-      return <span>{day} at {time}</span>;
+      if (day == "Invalid Date") {
+        return <Tooltip>
+          <TooltipTrigger>
+            <span>Unknown</span>
+          </TooltipTrigger>
+          <TooltipContent>
+            The Build Date is not available
+          </TooltipContent>
+        </Tooltip>;
+      }
+
+      return <Tooltip>
+        <TooltipTrigger>
+          <span>{date.toLocaleString()}</span>
+        </TooltipTrigger>
+        <TooltipContent>
+          {date.toISOString()}
+        </TooltipContent>
+      </Tooltip>;
     },
   }
 ]

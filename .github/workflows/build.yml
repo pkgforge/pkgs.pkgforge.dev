@@ -24,7 +24,9 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           key: astro-cache
-          path: ./web/.astro
+          path: |
+            ./web/.astro
+            ./web/node_modules
 
       - name: Delete outdated cache
         continue-on-error: true
@@ -57,7 +59,9 @@ jobs:
         uses: actions/cache/save@v4
         with:
           key: astro-cache
-          path: ./web/.astro
+          path: |
+            ./web/.astro
+            ./web/node_modules
 
   deploy:
     environment:

@@ -33,17 +33,7 @@ import { CheckIcon, ChevronLeft, ChevronRight, ListTree, Search, SkipBack, SkipF
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { cn } from "@/lib/utils";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "./ui/select";
-
-import edgeX86 from "../metadata_edge_x86.json";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
-
-const edgeArm64 = import("../metadata_edge_aarch64.json");
-
-const stableX86 = import("../metadata_stable_x86.json");
-
-const stableArm64 = import("../metadata_stable_aarch64.json");
-
-const comUniv = import("../metadata_com_univ.json");
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
@@ -52,57 +42,25 @@ interface DataTableProps<TData, TValue> {
 
 export function DataTable<TData, TValue>({
   columns,
+  data
 }: DataTableProps<TData, TValue>) {
   const [sorting, setSorting] = React.useState<SortingState>([])
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
     []
-  )
-  const [column, setColumn] = React.useState("name");
-  const [columnVisibility, setColumnVisibility] =
-    React.useState<VisibilityState>({
-      category: false,
-      sha: false,
-      id: false
-    });
-  const [page, setPage] = React.useState("edge");
-  const [data, setData] = React.useState<TData[] | "loading">(edgeX86 as unknown as TData[]);
-
-  React.useEffect(() => {
-    (async () => {
-      switch (page) {
-        case "edge":
-          setData(edgeX86 as unknown as TData[]);
-          break;
-        case "edgea":
-          setData((await edgeArm64).default as unknown as TData[]);
-          break;
-        case "stable":
-          setData((await stableX86).default as unknown as TData[]);
-          break;
-        case "stablea":
-          setData((await stableArm64).default as unknown as TData[]);
-          break;
-        case "com":
-          setData((await comUniv).default as unknown as TData[]);
-          break;
-      }
-    })();
-  }, [page]);
+  );
 
   const table = useReactTable({
-    data: data == "loading" ? [] : data,
+    data: data,
     columns,
     getCoreRowModel: getCoreRowModel(),
     onSortingChange: setSorting,
     getSortedRowModel: getSortedRowModel(),
     onColumnFiltersChange: setColumnFilters,
     getFilteredRowModel: getFilteredRowModel(),
-    onColumnVisibilityChange: setColumnVisibility,
     getPaginationRowModel: getPaginationRowModel(),
     state: {
       sorting,
       columnFilters,
-      columnVisibility,
     },
   });
 
@@ -129,7 +87,7 @@ export function DataTable<TData, TValue>({
             e.preventDefault();
             if (input.current) {
               const val = input.current.value;
-              table.getColumn(column)?.setFilterValue(val);
+              table.getColumn("name")?.setFilterValue(val);
             }
           }}
         >
@@ -145,43 +103,6 @@ export function DataTable<TData, TValue>({
             }}
             className="max-w-sm rounded-r-none"
           />
-          <Select
-            value={page}
-            onValueChange={setPage}
-          >
-            <SelectTrigger className="w-[180px] rounded-none">
-              <SelectValue placeholder="Select Repo" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectGroup>
-                <SelectLabel>edge</SelectLabel>
-                <SelectItem value="edge">edge (x86_64)</SelectItem>
-                <SelectItem value="edgea">edge (aarch64)</SelectItem>
-              </SelectGroup>
-              <SelectGroup>
-                <SelectLabel>stable</SelectLabel>
-                <SelectItem value="stable">stable (x86_64)</SelectItem>
-                <SelectItem value="stablea">stable (aarch64)</SelectItem>
-              </SelectGroup>
-              <SelectItem value="com">community</SelectItem>
-            </SelectContent>
-          </Select>
-          <Select
-            value={column}
-            onValueChange={setColumn}
-          >
-            <SelectTrigger className="w-[180px] rounded-none">
-              <SelectValue placeholder="Theme" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectGroup>
-                <SelectLabel>Filter among</SelectLabel>
-                <SelectItem value="name">Name</SelectItem>
-                <SelectItem value="family">Package Family</SelectItem>
-                <SelectItem value="category">Category</SelectItem>
-              </SelectGroup>
-            </SelectContent>
-          </Select>
           <Tooltip>
             <TooltipTrigger
               className={buttonVariants({ variant: "default", size: "default", className: "rounded-l-none" })}
@@ -194,35 +115,6 @@ export function DataTable<TData, TValue>({
             </TooltipContent>
           </Tooltip>
         </form>
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button variant="outline" className="my-2 md:my-0 w-[90%] md:w-auto md:ml-auto">
-              Configure
-              <ListTree />
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="end">
-            {table
-              .getAllColumns()
-              .filter(
-                (column) => column.getCanHide()
-              )
-              .map((column) => {
-                return (
-                  <DropdownMenuCheckboxItem
-                    key={column.id}
-                    className="capitalize"
-                    checked={column.getIsVisible()}
-                    onCheckedChange={(value) =>
-                      column.toggleVisibility(!!value)
-                    }
-                  >
-                    {column.id}
-                  </DropdownMenuCheckboxItem>
-                )
-              })}
-          </DropdownMenuContent>
-        </DropdownMenu>
       </div>
       <Table className="border-t border-t-muted/50">
         <TableHeader>

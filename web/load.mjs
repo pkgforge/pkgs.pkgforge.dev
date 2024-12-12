@@ -51,7 +51,7 @@ const apps = ${JSON.stringify(
 ---
 
 <Layout>
-  <App apps={apps} />
+  <App apps={apps} client:only />
 </Layout>`;
 
   mkdirSync(`./src/pages/app/${branch}/${arch}/${data.pkg_family}`, {
@@ -89,7 +89,7 @@ const run = async (url, branch, arch) => {
       data.pkg_family = "community";
       const fileHash = crypto
         .createHash("md5")
-        .update(`${data.pkg}${data.shasum}`)
+        .update(JSON.stringify(data))
         .digest("hex");
 
       response.push({
@@ -109,9 +109,9 @@ const run = async (url, branch, arch) => {
       });
 
       if (familyMap["community"]) {
-        familyMap["community"].push({ name: data.pkg, hash: data.shasum });
+        familyMap["community"].push({ name: data.pkg, hash: fileHash });
       } else {
-        familyMap["community"] = [{ name: data.pkg, hash: data.shasum }];
+        familyMap["community"] = [{ name: data.pkg, hash: fileHash }];
       }
 
       writeValue(data, fileHash, branch, arch, familyMap["community"]);
@@ -121,7 +121,7 @@ const run = async (url, branch, arch) => {
     resp.base.forEach((data, index) => {
       const fileHash = crypto
         .createHash("md5")
-        .update(`${data.pkg_name}${data.shasum}`)
+        .update(JSON.stringify(data))
         .digest("hex");
 
       response.push({
@@ -141,9 +141,9 @@ const run = async (url, branch, arch) => {
       });
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push({ name: data.pkg, hash: data.shasum });
+        familyMap[data.pkg_family].push({ name: data.pkg, hash: fileHash });
       } else {
-        familyMap[data.pkg_family] = [{ name: data.pkg, hash: data.shasum }];
+        familyMap[data.pkg_family] = [{ name: data.pkg, hash: fileHash }];
       }
 
       writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
@@ -152,7 +152,7 @@ const run = async (url, branch, arch) => {
     resp.bin.forEach((data, index) => {
       const fileHash = crypto
         .createHash("md5")
-        .update(`${data.pkg_name}${data.shasum}`)
+        .update(JSON.stringify(data))
         .digest("hex");
 
       response.push({
@@ -172,9 +172,9 @@ const run = async (url, branch, arch) => {
       });
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push({ name: data.pkg, hash: data.shasum });
+        familyMap[data.pkg_family].push({ name: data.pkg, hash: fileHash });
       } else {
-        familyMap[data.pkg_family] = [{ name: data.pkg, hash: data.shasum }];
+        familyMap[data.pkg_family] = [{ name: data.pkg, hash: fileHash }];
       }
 
       writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
@@ -183,7 +183,7 @@ const run = async (url, branch, arch) => {
     resp.pkg.forEach((data, index) => {
       const fileHash = crypto
         .createHash("md5")
-        .update(`${data.pkg_name}${data.shasum}`)
+        .update(JSON.stringify(data))
         .digest("hex");
 
       response.push({
@@ -203,9 +203,9 @@ const run = async (url, branch, arch) => {
       });
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push({ name: data.pkg, hash: data.shasum });
+        familyMap[data.pkg_family].push({ name: data.pkg, hash: fileHash });
       } else {
-        familyMap[data.pkg_family] = [{ name: data.pkg, hash: data.shasum }];
+        familyMap[data.pkg_family] = [{ name: data.pkg, hash: fileHash }];
       }
 
       writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);

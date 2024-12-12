@@ -4,8 +4,19 @@ import "@/styles/globals.css";
 import { Separator } from "@/components/ui/separator.tsx";
 
 const links = [
-  { text: "Home", href: "/", target: "_self" },
-  { text: "Discord", href: "https://discord.gg/wc3eseffpB", target: "_blank" },
+  { text: "Home", href: "/", target: "_self", icon: 0 },
+  {
+    text: "GitHub",
+    href: "https://github.com/pkgforge",
+    target: "_blank",
+    icon: 1,
+  },
+  {
+    text: "Discord",
+    href: "https://discord.gg/wc3eseffpB",
+    target: "_blank",
+    icon: 2,
+  },
 ];
 ---
 
@@ -19,13 +30,19 @@ const links = [
     <title>PkgForge Index</title>
   </head>
   <body class="overflow-auto">
-    <div class="flex flex-col lg:flex-row w-full h-15 lg:h-10 mb-1">
-      <h1 class="mt-auto mx-auto lg:mx-0 text-xl lg:text-4xl">Package Forge</h1>
-      <div class="flex text-center lg:ml-3">
+    <div class="flex flex-row w-full h-16 mb-1 px-3 text-center items-center">
+      <img id="secret" src="/favicon.svg" class="h-10 w-10" alt="Icon" />
+      <a href="/" class="ml-2 font-bold select-none cursor-pointer hidden sm:block"
+        >pkgforge/pkgs</a
+      >
+      <div class="flex w-full text-center ml-2">
         {
           links.map((s) => (
-            <a class="desktop-a" href={s.href} target={s.target}>
-              {s.text}
+            <a class={"desktop-a"} href={s.href} target={s.target}>
+              {s.icon == 0 ? <img src="/home.svg" class="h-4 w-4 dark:invert" /> :
+                s.icon == 1 ? <img src="/github.svg" class="h-4 w-4 dark:invert" /> :
+               <img src="/discord.svg" class="h-4 w-4 dark:invert" />} 
+              <span class="hidden vvs:block">{s.text}</span>
             </a>
           ))
         }
@@ -36,6 +53,10 @@ const links = [
   </body>
 
   <script is:inline>
+    document.getElementById("secret").addEventListener("click", () => {
+      window.location.href = "/";
+    });
+
     const getThemePreference = () => {
       if (
         typeof localStorage !== "undefined" &&
@@ -71,7 +92,22 @@ const links = [
     height: 100%;
   }
 
+  #secret {
+    @apply lg:hover:scale-125 lg:active:scale-[500] transition-all select-none cursor-pointer;
+  }
+
+  /** Reduced motion*/
+  @media (prefers-reduced-motion: reduce) {
+    #secret {
+      @apply lg:hover:scale-125 lg:active:scale-125;
+    }
+  }
+
   .desktop-a {
-    @apply mt-auto hover:bg-gray-200 hover:dark:bg-gray-500 px-2;
+    @apply transition-all mr-2 px-3 py-2 space-x-2 rounded-lg hover:scale-105 focus:scale-95 items-center hover:bg-muted/70 my-auto flex;
+  }
+
+  .desktop-a:nth-last-child(2) {
+    @apply ml-auto;
   }
 </style>

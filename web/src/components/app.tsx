@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from "react";
 import { Table, TableBody, TableCell, TableRow } from "./ui/table";
 
-import { Package, ScrollText } from "lucide-react";
+import { ExternalLink, Image, LucideTerminalSquare, Package, ScrollText } from "lucide-react";
+import { buttonVariants } from "./ui/button";
 
 interface AppProps {
   data: { [key: string]: string };
@@ -9,9 +9,18 @@ interface AppProps {
 }
 
 const resolver: { [key: string]: string } = {
+  _disabled: "Disabled",
   pkg: "Package",
   pkg_family: "Package Family",
   pkg_name: "Package Name",
+  pkg_id: "Package ID",
+  bsum: "B Sum",
+  repology: "Repology",
+  appstream: "AppStream",
+  license: "License",
+  snapshots: "Snapshots",
+  tag: "Tag",
+  app_id: "Application ID",
   version: "Version",
   note: "Note",
   build_date: "Build Date",
@@ -29,29 +38,13 @@ const resolver: { [key: string]: string } = {
 };
 
 export default function App({ data, logs: build }: AppProps) {
-  const tableRef = useRef<HTMLTableElement | null>(null); // Ref to the table container
-  const [tableHeight, setTableHeight] = useState<number>(0); // State to store the table's height
-
-  useEffect(() => {
-    // Function to update height dynamically
-    const updateHeight = () => {
-      if (tableRef.current) {
-        setTableHeight(tableRef.current.offsetHeight); // Get the table's height
-      }
-    };
-
-    updateHeight(); // Set the initial height
-    window.addEventListener("resize", updateHeight); // Update on window resize
-    return () => window.removeEventListener("resize", updateHeight);
-  }, []);
-
-  return <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 px-5 mt-3 items-stretch">
-    <div className="w-full rounded-lg flex flex-col flex-1">
+  return <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 px-5 mt-3 items-stretch pb-4">
+    <div className="md:max-w-[90%] rounded-lg flex flex-col flex-1">
       <h1 className="mx-auto text-xl my-1 flex space-x-1">
         <Package />
         <span className="block">Package Details</span>
       </h1>
-      <Table ref={tableRef} className="border border-muted/70 rounded-xl">
+      <Table className="border border-muted/70 rounded-xl">
         <TableBody>
           {
             Object.entries(data)
@@ -61,7 +54,9 @@ export default function App({ data, logs: build }: AppProps) {
                     {resolver[Key] || Key}
                   </TableCell>
                   <TableCell>
-                    {Value.startsWith("http") ? <a href={Value} target="_blank" rel="noreferrer" className="text-blue-500 dark:text-blue-400 hover:text-purple-500 underline underline-offset-4">{Value}</a> : Value}
+                    {(typeof (Value) == "object" && !Array.isArray(Value)) && JSON.stringify(Value, null, 2)}
+                    {Array.isArray(Value) && Value.join(", ")}
+                    {(typeof (Value) != "object") && (String(Value).startsWith("http") ? <a href={Value} target="_blank" rel="noreferrer" className="text-blue-500 dark:text-blue-400 hover:text-purple-500 underline underline-offset-4">{Value}</a> : Value)}
                   </TableCell>
                 </TableRow>
               ))
@@ -70,14 +65,37 @@ export default function App({ data, logs: build }: AppProps) {
       </Table>
     </div>
 
-    <div className="md:w-[50%] flex flex-col flex-1">
-      <h1 className="mx-auto text-xl my-1 flex space-x-1">
+    <div className="md:max-w-[15%] h-auto flex flex-col">
+      <h1 className="mx-auto text-xl mb-2 flex space-x-1">
         <ScrollText />
         <span className="block">Build Logs</span>
       </h1>
-      <div className="flex-1 h-full">
-        <a href={build} target="_blank" rel="noreferrer" className="text-blue-500 dark:text-blue-400 hover:text-purple-500 underline underline-offset-4">Click here to view build logs</a>
+      <div className="mx-auto">
+        {/* <a href={build} target="_blank" rel="noreferrer" className="mx-auto text-blue-500 dark:text-blue-400 hover:text-purple-500 underline underline-offset-4">Click here to view build logs</a> */}
+        <a href={build} target="_blank" rel="noreferrer" className={buttonVariants({ size: "lg", variant: "default" })}>View <ExternalLink /> </a>
       </div>
+
+      {data.build_script && <>
+        <h1 className="mx-auto text-xl mt-4 my-2 flex space-x-1">
+          <LucideTerminalSquare />
+          <span className="block">Build Script</span>
+        </h1>
+        <div className="mx-auto">
+          {/* <a href={build} target="_blank" rel="noreferrer" className="mx-auto text-blue-500 dark:text-blue-400 hover:text-purple-500 underline underline-offset-4">Click here to view build logs</a> */}
+          <a href={data.build_script} target="_blank" rel="noreferrer" className={buttonVariants({ size: "lg", variant: "outline" })}>View <ExternalLink /> </a>
+        </div>
+      </>}
+
+      {data.icon && <>
+        <h1 className="mx-auto text-xl mt-4 my-2 flex space-x-1">
+          <Image />
+          <span className="block">Icon</span>
+        </h1>
+        <div className="mx-auto">
+          {/* <a href={build} target="_blank" rel="noreferrer" className="mx-auto text-blue-500 dark:text-blue-400 hover:text-purple-500 underline underline-offset-4">Click here to view build logs</a> */}
+          <a href={data.icon} target="_blank" rel="noreferrer" className={buttonVariants({ size: "lg", variant: "outline" })}>View <ExternalLink /> </a>
+        </div>
+      </>}
     </div>
   </div >
 }
