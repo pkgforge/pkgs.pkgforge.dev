@@ -38,6 +38,7 @@ const logs = data.build_log; /*await fetch(data.build_log)
 import Layout from "../../../../../layouts/Layout.astro";
 import App from "../../../../../components/family.tsx";
 
+const familyName = ${JSON.stringify(data.pkg_family)};
 const apps = ${JSON.stringify(
     pkgs
       .sort((a, b) => a.name.localeCompare(b.name))
@@ -51,7 +52,7 @@ const apps = ${JSON.stringify(
 ---
 
 <Layout>
-  <App apps={apps} client:only />
+  <App apps={apps} name={familyName} client:only />
 </Layout>`;
 
   mkdirSync(`./src/pages/app/${branch}/${arch}/${data.pkg_family}`, {

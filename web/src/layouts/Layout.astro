@@ -32,16 +32,30 @@ const links = [
   <body class="overflow-auto">
     <div class="flex flex-row w-full h-16 mb-1 px-3 text-center items-center">
       <img id="secret" src="/favicon.svg" class="h-10 w-10" alt="Icon" />
-      <a href="/" class="ml-2 font-bold select-none cursor-pointer hidden sm:block"
+      <a
+        href="/"
+        class="ml-2 font-bold select-none cursor-pointer hidden sm:block"
         >pkgforge/pkgs</a
       >
       <div class="flex w-full text-center ml-2">
         {
           links.map((s) => (
             <a class={"desktop-a"} href={s.href} target={s.target}>
-              {s.icon == 0 ? <img src="/home.svg" class="h-4 w-4 dark:invert" /> :
-                s.icon == 1 ? <img src="/github.svg" class="h-4 w-4 dark:invert" /> :
-               <img src="/discord.svg" class="h-4 w-4 dark:invert" />} 
+              {s.icon == 0 ? (
+                <img src="/home.svg" alt="Home" class="h-4 w-4 dark:invert" />
+              ) : s.icon == 1 ? (
+                <img
+                  src="/github.svg"
+                  alt="GitHub"
+                  class="h-4 w-4 dark:invert"
+                />
+              ) : (
+                <img
+                  src="/discord.svg"
+                  alt="Discord Server"
+                  class="h-4 w-4 dark:invert"
+                />
+              )}
               <span class="hidden vvs:block">{s.text}</span>
             </a>
           ))

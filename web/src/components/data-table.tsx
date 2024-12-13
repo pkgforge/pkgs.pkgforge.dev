@@ -50,6 +50,19 @@ interface DataTableProps<TData, TValue> {
   data: TData[]
 }
 
+const getColumnVis = () => {
+  try {
+    return JSON.parse(localStorage.visiv);
+  } catch (e) {
+    console.log("Using Default", e);
+    return {
+      sha: false,
+      id: false,
+      size: false
+    };
+  }
+}
+
 export function DataTable<TData, TValue>({
   columns,
 }: DataTableProps<TData, TValue>) {
@@ -59,13 +72,13 @@ export function DataTable<TData, TValue>({
   )
   const [column, setColumn] = React.useState("name");
   const [columnVisibility, setColumnVisibility] =
-    React.useState<VisibilityState>({
-      category: false,
-      sha: false,
-      id: false
-    });
+    React.useState<VisibilityState>(getColumnVis());
   const [page, setPage] = React.useState("edge");
   const [data, setData] = React.useState<TData[] | "loading">(edgeX86 as unknown as TData[]);
+
+  React.useEffect(() => {
+    localStorage.visiv = JSON.stringify(columnVisibility);
+  }, [columnVisibility]);
 
   React.useEffect(() => {
     (async () => {
@@ -107,7 +120,7 @@ export function DataTable<TData, TValue>({
   });
 
   React.useEffect(() => {
-    table.setPageSize(20);
+    table.setPageSize(50);
 
     const search = window.location.search;
     const page = Number(new URLSearchParams(search).get("page"));

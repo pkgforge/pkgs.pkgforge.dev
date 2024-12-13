@@ -8,6 +8,7 @@ interface Family { name: string, url: string };
 
 interface FamilyProps {
   apps: Family[];
+  name: string;
 }
 
 const columns: ColumnDef<Family>[] = [
@@ -38,15 +39,18 @@ const columns: ColumnDef<Family>[] = [
     accessorKey: "url",
     header: "",
     cell: ({ row }) => {
-      return <a className="w-14 ml-auto mr-2 underline underline-offset-4 flex" href={row.original.url}><span>View</span> <ExternalLinkIcon className="h-3 w-3" /></a>;
+      return <a className="w-14 ml-auto mr-2 underline underline-offset-4 flex space-x-1 items-center" href={row.original.url}><span>View</span> <ExternalLinkIcon className="h-3 w-3" /></a>;
     }
   }
 ];
 
-export default function App({ apps }: FamilyProps) {
+export default function App({ apps, name }: FamilyProps) {
   return (
     <div className="mt-2 flex flex-col md:px-6 space-y-2 pb-3">
-      <h1 className="flex mx-auto space-x-1"><Package /> <span>{apps.length} Packages under this family</span></h1>
+      <h1 className="flex mx-auto space-x-1"><Package />
+        <span>{apps.length} Packages under the package family {name}
+        </span>
+      </h1>
       <TooltipProvider>
         <DataTable columns={columns} data={apps} />
       </TooltipProvider>

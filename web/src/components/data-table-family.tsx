@@ -65,7 +65,7 @@ export function DataTable<TData, TValue>({
   });
 
   React.useEffect(() => {
-    table.setPageSize(20);
+    table.setPageSize(50);
 
     const search = window.location.search;
     const page = Number(new URLSearchParams(search).get("page"));

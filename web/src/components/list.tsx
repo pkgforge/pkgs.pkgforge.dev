@@ -52,7 +52,7 @@ const columns: ColumnDef<ListItem>[] = [
       )
     },
     cell: ({ row }) => {
-      return <a className="font-bold underline underline-offset-4" href={`/app${row.original.url}`}>{row.getValue("name")}</a>;
+      return <a className="text-blue-500 font-bold underline underline-offset-4" href={`/app${row.original.url}`}>{row.getValue("name")}</a>;
     }
   },
   {
@@ -75,7 +75,7 @@ const columns: ColumnDef<ListItem>[] = [
       )
     },
     cell: ({ row }) => {
-      return <a className="underline underline-offset-4" href={"/app" + row.original.familyUrl}>{row.original.family}</a>
+      return <a className="text-blue-500 font-bold underline underline-offset-4" href={"/app" + row.original.familyUrl}>{row.original.family}</a>
     }
   },
   {
@@ -90,8 +90,8 @@ const columns: ColumnDef<ListItem>[] = [
 
       return <Tooltip>
         <TooltipTrigger>{sha.length > 10 ? `${sha.substring(0, 10)}...` : sha}</TooltipTrigger>
-        <TooltipContent>
-          <p>{sha}</p>
+        <TooltipContent className="text-wrap">
+          <p className="break-all whitespace-normal">{sha}</p>
         </TooltipContent>
       </Tooltip>;
     }
@@ -126,16 +126,23 @@ const columns: ColumnDef<ListItem>[] = [
     header: "Categories",
     cell: ({ row }) => {
       const cate = row.getValue("category") as string;
-      const cates = cate.split(",").filter((c) => c.trim() != "");
+      const cates: string[] = Array.isArray(cate) ? cate : cate.split(",").filter((c) => c.trim() != "");
 
-      return <Tooltip>
-        <TooltipTrigger>{cates.length}</TooltipTrigger>
-        <TooltipContent>
-          <div className="flex flex-wrap gap-1">
-            {cates.map((c) => <Category key={c} cat={c} />)}
-          </div>
-        </TooltipContent>
-      </Tooltip>;
+      return <>
+        <Tooltip>
+          <TooltipTrigger>
+            <div className="flex flex-wrap gap-1">
+              {cates.slice(0, 3).map((c) => <Category key={c} cat={c} />)}
+              {cates.length > 3 ? <p className="mt-auto">...</p> : ""}
+            </div>
+          </TooltipTrigger>
+          <TooltipContent>
+            <div className="flex flex-wrap gap-1">
+              {cates.map((c) => <Category key={c} cat={c} />)}
+            </div>
+          </TooltipContent>
+        </Tooltip>
+      </>;
     },
   },
   {
