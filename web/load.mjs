@@ -11,6 +11,16 @@ const stableArm64 =
 
 const community = "https://soarpkgs.pkgforge.dev/metadata/METADATA.json";
 
+const parseIntoValidStuff = (data) => {
+  const look = ["[", "{", "}", "]"];
+
+  if (look.some((x) => data.includes(x))) {
+    return crypto.createHash("md5").update(data).digest("hex");
+  }
+
+  return data;
+};
+
 const writeValue = (data, fileHash, branch, arch, pkgs) => {
   const astroFile = `---
 import Layout from "../../../../../layouts/Layout.astro";
@@ -88,7 +98,7 @@ const run = async (url, branch, arch) => {
   if (branch === "com") {
     resp.forEach((data, index) => {
       data.pkg_family = data.pkg_id || "community";
-      const fileHash = encodeURI(data.pkg);
+      const fileHash = parseIntoValidStuff(data.pkg);
 
       response.push({
         name: data.pkg,
@@ -117,7 +127,7 @@ const run = async (url, branch, arch) => {
     });
   } else {
     resp.base.forEach((data, index) => {
-      const fileHash = encodeURI(data.pkg);
+      const fileHash = parseIntoValidStuff(data.pkg);
 
       response.push({
         name: data.pkg,
@@ -145,7 +155,7 @@ const run = async (url, branch, arch) => {
       set.set(data.shasum, { type: "base", index });
     });
     resp.bin.forEach((data, index) => {
-      const fileHash = encodeURI(data.pkg);
+      const fileHash = parseIntoValidStuff(data.pkg);
 
       response.push({
         name: data.pkg,
@@ -173,7 +183,7 @@ const run = async (url, branch, arch) => {
       set.set(data.shasum, { type: "bin", index });
     });
     resp.pkg.forEach((data, index) => {
-      const fileHash = encodeURI(data.pkg);
+      const fileHash = parseIntoValidStuff(data.pkg);
 
       response.push({
         name: data.pkg,
@@ -211,17 +221,17 @@ const run = async (url, branch, arch) => {
 };
 
 (async () => {
-  console.log("⏲️ Downloading Edge x86");
-  await run(edgeX86, "edge", "x86");
+  console.log("⏲️ Downloading Edge x86_64+");
+  await run(edgeX86, "edge", "x86_64-Linux");
 
   console.log("⏲️ Downloading Edge aarch64");
-  await run(edgeArm64, "edge", "aarch64");
+  await run(edgeArm64, "edge", "aarch64-Linux");
 
-  console.log("⏲️ Downloading Stable x86");
-  await run(stableX86, "stable", "x86");
+  console.log("⏲️ Downloading Stable x86_64+");
+  await run(stableX86, "stable", "x86_64-Linux");
 
   console.log("⏲️ Downloading Stable aarc64");
-  await run(stableArm64, "stable", "aarch64");
+  await run(stableArm64, "stable", "aarch64-Linux");
 
   console.log("⏲️ Downloading Community");
   await run(community, "com", "univ");
