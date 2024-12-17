@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "node load.mjs && ls -R && astro build --verbose",
+    "build": "node load.mjs && astro build --verbose",
     "preview": "astro preview",
     "astro": "astro"
   },

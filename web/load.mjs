@@ -99,7 +99,7 @@ const run = async (url, branch, arch) => {
 
   const resp = await fetch(url).then((res) => res.json());
 
-  if (branch === "com") {
+  if (branch === "com" || branch == "community") {
     resp.forEach((data, index) => {
       data.pkg_family = data.pkg_id || "community";
       const fileHash = parseIntoValidStuff(data.pkg);
@@ -226,6 +226,7 @@ const run = async (url, branch, arch) => {
 
 (async () => {
   console.log("⏲️ Downloading Community");
+  await run(community, "com", "univ");
   await run(community, "community", "univ");
   await run(community, "community", "universal");
   await run(community, "community", "universal-linux");
