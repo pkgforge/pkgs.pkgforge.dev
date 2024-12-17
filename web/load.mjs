@@ -88,7 +88,7 @@ const run = async (url, branch, arch) => {
   if (branch === "com") {
     resp.forEach((data, index) => {
       data.pkg_family = data.pkg_id || "community";
-      const fileHash = data.pkg;
+      const fileHash = encodeURI(data.pkg);
 
       response.push({
         name: data.pkg,
@@ -117,7 +117,7 @@ const run = async (url, branch, arch) => {
     });
   } else {
     resp.base.forEach((data, index) => {
-      const fileHash = data.pkg;
+      const fileHash = encodeURI(data.pkg);
 
       response.push({
         name: data.pkg,
@@ -145,7 +145,7 @@ const run = async (url, branch, arch) => {
       set.set(data.shasum, { type: "base", index });
     });
     resp.bin.forEach((data, index) => {
-      const fileHash = data.pkg;
+      const fileHash = encodeURI(data.pkg);
 
       response.push({
         name: data.pkg,
@@ -173,7 +173,7 @@ const run = async (url, branch, arch) => {
       set.set(data.shasum, { type: "bin", index });
     });
     resp.pkg.forEach((data, index) => {
-      const fileHash = data.pkg;
+      const fileHash = encodeURI(data.pkg);
 
       response.push({
         name: data.pkg,
