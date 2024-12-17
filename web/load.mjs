@@ -87,16 +87,13 @@ const run = async (url, branch, arch) => {
 
   if (branch === "com") {
     resp.forEach((data, index) => {
-      data.pkg_family = "community";
-      const fileHash = crypto
-        .createHash("md5")
-        .update(JSON.stringify(data))
-        .digest("hex");
+      data.pkg_family = data.pkg_id || "community";
+      const fileHash = data.pkg;
 
       response.push({
         name: data.pkg,
         pkg: data.pkg,
-        family: "community",
+        family: data.pkg_family,
         version: data.version,
         sha: data.shasum,
         type: "base",
@@ -105,25 +102,22 @@ const run = async (url, branch, arch) => {
         category: data.category,
         id: "N/A",
         build_date: data.build_date,
-        url: `/${branch}/${arch}/community/${fileHash}`,
-        familyUrl: `/${branch}/${arch}/community`,
+        url: `/${branch}/${arch}/${data.pkg_family}/${fileHash}`,
+        familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       });
 
-      if (familyMap["community"]) {
-        familyMap["community"].push({ name: data.pkg, hash: fileHash });
+      if (familyMap[data.pkg_family]) {
+        familyMap[data.pkg_family].push({ name: data.pkg, hash: fileHash });
       } else {
-        familyMap["community"] = [{ name: data.pkg, hash: fileHash }];
+        familyMap[data.pkg_family] = [{ name: data.pkg, hash: fileHash }];
       }
 
-      writeValue(data, fileHash, branch, arch, familyMap["community"]);
+      writeValue(data, fileHash, branch, arch, familyMap[data.pkg_family]);
       set.set(data.shasum, { type: "base", index });
     });
   } else {
     resp.base.forEach((data, index) => {
-      const fileHash = crypto
-        .createHash("md5")
-        .update(JSON.stringify(data))
-        .digest("hex");
+      const fileHash = data.pkg;
 
       response.push({
         name: data.pkg,
@@ -151,10 +145,7 @@ const run = async (url, branch, arch) => {
       set.set(data.shasum, { type: "base", index });
     });
     resp.bin.forEach((data, index) => {
-      const fileHash = crypto
-        .createHash("md5")
-        .update(JSON.stringify(data))
-        .digest("hex");
+      const fileHash = data.pkg;
 
       response.push({
         name: data.pkg,
@@ -182,10 +173,7 @@ const run = async (url, branch, arch) => {
       set.set(data.shasum, { type: "bin", index });
     });
     resp.pkg.forEach((data, index) => {
-      const fileHash = crypto
-        .createHash("md5")
-        .update(JSON.stringify(data))
-        .digest("hex");
+      const fileHash = data.pkg;
 
       response.push({
         name: data.pkg,
