@@ -34,16 +34,16 @@ import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { cn } from "@/lib/utils";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "./ui/select";
 
-import edgeX86 from "../metadata_edge_x86.json";
+import edgeX86 from "../metadata_edge_x86_64-Linux.json";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
-const edgeArm64 = import("../metadata_edge_aarch64.json");
+const edgeArm64 = import("../metadata_edge_aarch64-Linux.json");
 
-const stableX86 = import("../metadata_stable_x86.json");
+const stableX86 = import("../metadata_stable_x86_64-Linux.json");
 
-const stableArm64 = import("../metadata_stable_aarch64.json");
+const stableArm64 = import("../metadata_stable_aarch64-Linux.json");
 
-const comUniv = import("../metadata_com_univ.json");
+const comUniv = import("../metadata_com_universal.json");
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]

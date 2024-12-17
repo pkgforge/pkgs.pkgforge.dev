@@ -234,7 +234,7 @@ const run = async (url, branch, arch) => {
   await run(stableArm64, "stable", "aarch64-Linux");
 
   console.log("⏲️ Downloading Community");
-  await run(community, "com", "univ");
+  await run(community, "com", "universal");
 })();
 
 const genSize = (data) => {
