@@ -226,9 +226,9 @@ const run = async (url, branch, arch) => {
 
 (async () => {
   console.log("⏲️ Downloading Community");
-  await run(community, "com", "univ");
-  await run(community, "com", "universal");
-  await run(community, "com", "universal-linux");
+  await run(community, "community", "univ");
+  await run(community, "community", "universal");
+  await run(community, "community", "universal-linux");
 
   console.log("⏲️ Downloading Edge x86_64");
   await run(edgeX86, "edge", "x86_64");

@@ -20,7 +20,20 @@ export default defineConfig({
       },
     },
   },
+  redirects: {
+    "/app/edge/x86_64/[...slug]": "/app/edge/x86_64-linux/[...slug]",
+    "/app/edge/x86_64-Linux/[...slug]": "/app/edge/x86_64-linux/[...slug]",
+    "/app/edge/aarch64/[...slug]": "/app/edge/aarch64-linux/[...slug]",
+    "/app/edge/aarch64-Linux/[...slug]": "/app/edge/aarch64-linux/[...slug]",
+
+    "/app/stable/x86_64/[...slug]": "/app/stable/x86_64-linux/[...slug]",
+    "/app/stable/x86_64-Linux/[...slug]": "/app/stable/x86_64-linux/[...slug]",
+    "/app/stable/aarch64/[...slug]": "/app/stable/aarch64-linux/[...slug]",
+    "/app/stable/aarch64-Linux/[...slug]":
+      "/app/stable/aarch64-linux/[...slug]",
+  },
   build: {
     concurrency: 4,
+    redirects: true,
   },
 });

@@ -43,7 +43,7 @@ const stableX86 = import("../metadata_stable_x86_64-Linux.json");
 
 const stableArm64 = import("../metadata_stable_aarch64-Linux.json");
 
-const comUniv = import("../metadata_com_universal.json");
+const comUniv = import("../metadata_community_universal.json");
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
