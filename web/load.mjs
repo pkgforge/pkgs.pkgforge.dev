@@ -221,20 +221,32 @@ const run = async (url, branch, arch) => {
 };
 
 (async () => {
-  console.log("⏲️ Downloading Edge x86_64+");
+  console.log("⏲️ Downloading Community");
+  await run(community, "com", "");
+  await run(community, "com", "univ");
+  await run(community, "com", "universal");
+  await run(community, "com", "universal-linux");
+  await run(community, "com", "universal-Linux");
+
+  console.log("⏲️ Downloading Edge x86_64");
+  await run(edgeX86, "edge", "x86_64");
+  await run(edgeX86, "edge", "x86_64-linux");
   await run(edgeX86, "edge", "x86_64-Linux");
 
   console.log("⏲️ Downloading Edge aarch64");
+  await run(edgeArm64, "edge", "aarch64");
+  await run(edgeArm64, "edge", "aarch64-linux");
   await run(edgeArm64, "edge", "aarch64-Linux");
 
-  console.log("⏲️ Downloading Stable x86_64+");
+  console.log("⏲️ Downloading Stable x86_64");
+  await run(stableX86, "stable", "x86_64");
+  await run(stableX86, "stable", "x86_64-linux");
   await run(stableX86, "stable", "x86_64-Linux");
 
   console.log("⏲️ Downloading Stable aarch64");
+  await run(stableArm64, "stable", "aarch64");
+  await run(stableArm64, "stable", "aarch64-linux");
   await run(stableArm64, "stable", "aarch64-Linux");
-
-  console.log("⏲️ Downloading Community");
-  await run(community, "com", "universal");
 })();
 
 const genSize = (data) => {
