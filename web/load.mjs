@@ -12,6 +12,10 @@ const stableArm64 =
 const community = "https://soarpkgs.pkgforge.dev/metadata/METADATA.json";
 
 const parseIntoValidStuff = (data) => {
+  if (data.startsWith(".")) {
+    return data.replace(".", "dot_");
+  }
+
   const look = ["[", "{", "}", "]"];
 
   if (look.some((x) => data.includes(x))) {
@@ -222,7 +226,6 @@ const run = async (url, branch, arch) => {
 
 (async () => {
   console.log("⏲️ Downloading Community");
-  await run(community, "com", "");
   await run(community, "com", "univ");
   await run(community, "com", "universal");
   await run(community, "com", "universal-linux");
