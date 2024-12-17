@@ -230,7 +230,7 @@ const run = async (url, branch, arch) => {
   console.log("⏲️ Downloading Stable x86_64+");
   await run(stableX86, "stable", "x86_64-Linux");
 
-  console.log("⏲️ Downloading Stable aarc64");
+  console.log("⏲️ Downloading Stable aarch64");
   await run(stableArm64, "stable", "aarch64-Linux");
 
   console.log("⏲️ Downloading Community");
