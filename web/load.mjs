@@ -58,7 +58,7 @@ const apps = ${JSON.stringify(
       .sort((a, b) => a.name.localeCompare(b.name))
       .map(({ name, hash }) => ({
         name,
-        url: `/app/${branch}/${arch}/${data.pkg_family}/${hash}`,
+        url: `/repo/${branch}/${arch}/${data.pkg_family}/${hash}`,
       })),
     null,
     2
@@ -69,15 +69,15 @@ const apps = ${JSON.stringify(
   <App apps={apps} name={familyName} client:only />
 </Layout>`;
 
-  mkdirSync(`./src/pages/app/${branch}/${arch}/${data.pkg_family}`, {
+  mkdirSync(`./src/pages/repo/${branch}/${arch}/${data.pkg_family}`, {
     recursive: true,
   });
   writeFileSync(
-    `./src/pages/app/${branch}/${arch}/${data.pkg_family}/${fileHash}.astro`,
+    `./src/pages/repo/${branch}/${arch}/${data.pkg_family}/${fileHash}.astro`,
     astroFile
   );
   writeFileSync(
-    `./src/pages/app/${branch}/${arch}/${data.pkg_family}/index.astro`,
+    `./src/pages/repo/${branch}/${arch}/${data.pkg_family}/index.astro`,
     pkgFamilyFile
   );
 };

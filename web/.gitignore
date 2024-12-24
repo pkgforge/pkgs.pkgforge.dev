@@ -23,6 +23,6 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# The App folder
-src/pages/app/
+# The Repo folder
+src/pages/repo/
 src/metadata*.json

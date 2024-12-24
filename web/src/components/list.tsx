@@ -52,7 +52,7 @@ const columns: ColumnDef<ListItem>[] = [
       )
     },
     cell: ({ row }) => {
-      return <a className="text-blue-500 font-bold underline underline-offset-4" href={`/app${row.original.url}`}>{row.getValue("name")}</a>;
+      return <a className="text-blue-500 font-bold underline underline-offset-4" href={`/repo${row.original.url}`}>{row.getValue("name")}</a>;
     }
   },
   {
@@ -75,7 +75,7 @@ const columns: ColumnDef<ListItem>[] = [
       )
     },
     cell: ({ row }) => {
-      return <a className="text-blue-500 font-bold underline underline-offset-4" href={"/app" + row.original.familyUrl}>{row.original.family}</a>
+      return <a className="text-blue-500 font-bold underline underline-offset-4" href={"/repo" + row.original.familyUrl}>{row.original.family}</a>
     }
   },
   {
