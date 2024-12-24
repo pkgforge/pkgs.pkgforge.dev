@@ -83,7 +83,7 @@ jobs:
           path: ./build
 
       - name: Upload
-        uses: actions/upload-pages-artifact@v3
+        uses: ahqsoftwares/upload-pages-artifact@main
         with:
           path: ./build
 
