@@ -11,7 +11,7 @@ export async function getStaticPaths() {
       name: family,
       apps: apps.map((name) => ({
         name,
-        url: `/repo/edge/x86_64-linux/${family}/${name}`,
+        url: `/repo/edge/aarch64-linux/${family}/${name}`,
       })),
     },
   }));
