@@ -82,3 +82,9 @@
 ::-webkit-scrollbar-thumb {
   @apply transition-all bg-foreground/50 hover:bg-foreground rounded-full m-1;
 }
+
+@media screen and (prefers-contrast: more) {
+  * {
+    @apply dark:border-white border-black !important;
+  }
+}
