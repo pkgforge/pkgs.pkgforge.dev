@@ -52,6 +52,7 @@ jobs:
       - name: Upload site
         uses: actions/upload-artifact@v4
         with:
+          include-hidden-files: true
           name: thisisabuild
           path: ./web/dist/
 
