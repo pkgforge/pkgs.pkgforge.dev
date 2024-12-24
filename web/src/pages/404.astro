@@ -25,5 +25,13 @@ import { Button, buttonVariants } from "@/components/ui/button";
     >
       Take me home
     </a>
+
+    <script>
+      const url = window.location.href;
+
+      if (url != url.toLowerCase()) {
+        window.location.href = url.toLowerCase();
+      }
+    </script>
   </div>
 </Layout>
