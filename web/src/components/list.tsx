@@ -1,4 +1,5 @@
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
+import { Badge } from "./ui/badge";
 import { DataTable } from "./data-table";
 import type { ColumnDef } from "@tanstack/react-table";
 
@@ -52,7 +53,7 @@ const columns: ColumnDef<ListItem>[] = [
       )
     },
     cell: ({ row }) => {
-      return <a className="text-blue-500 font-bold underline underline-offset-4" href={`/repo${row.original.url}`}>{row.getValue("name")}</a>;
+      return <a className="font-bold text-blue-600 dark:text-blue-400 hover:underline underline-offset-4" href={`/repo${row.original.url}`}>{row.getValue("name")}</a>;
     }
   },
   {
@@ -75,12 +76,19 @@ const columns: ColumnDef<ListItem>[] = [
       )
     },
     cell: ({ row }) => {
-      return <a className="text-blue-500 font-bold underline underline-offset-4" href={"/repo" + row.original.familyUrl}>{row.original.family}</a>
+      return <a className="text-purple-600 dark:text-purple-400 hover:underline underline-offset-4" href={"/repo" + row.original.familyUrl}>{row.original.family}</a>
     }
   },
   {
     accessorKey: "version",
     header: "Version",
+    cell: ({ row }) => {
+      return (
+        <Badge className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-100">
+          {row.getValue("version")}
+        </Badge>
+      )
+    }
   },
   {
     accessorKey: "sha",
@@ -89,9 +97,9 @@ const columns: ColumnDef<ListItem>[] = [
       const sha = row.getValue("sha") as string;
 
       return <Tooltip>
-        <TooltipTrigger>{sha.length > 10 ? `${sha.substring(0, 10)}...` : sha}</TooltipTrigger>
+        <TooltipTrigger className="font-mono text-gray-600 dark:text-gray-400">{sha.length > 10 ? `${sha.substring(0, 10)}...` : sha}</TooltipTrigger>
         <TooltipContent className="text-wrap">
-          <p className="break-all whitespace-normal">{sha}</p>
+          <p className="break-all whitespace-normal font-mono">{sha}</p>
         </TooltipContent>
       </Tooltip>;
     }
@@ -115,11 +123,9 @@ const columns: ColumnDef<ListItem>[] = [
         </div>
       )
     },
-    // cell: ({ row }) => {
-    //   const size = row.getValue("sizeNum") as number;
-
-    //   return <p>{byteValueNumberFormatter.format(size)}</p>;
-    // },
+    cell: ({ row }) => {
+      return <p className="text-amber-700 dark:text-amber-400 font-medium">{row.getValue('size')}</p>;
+    },
   },
   {
     accessorKey: "category",
@@ -133,7 +139,7 @@ const columns: ColumnDef<ListItem>[] = [
           <TooltipTrigger>
             <div className="flex flex-wrap gap-1">
               {cates.slice(0, 3).map((c) => <Category key={c} cat={c} />)}
-              {cates.length > 3 ? <p className="mt-auto">...</p> : ""}
+              {cates.length > 3 ? <p className="mt-auto text-gray-500">...</p> : ""}
             </div>
           </TooltipTrigger>
           <TooltipContent>
@@ -148,6 +154,9 @@ const columns: ColumnDef<ListItem>[] = [
   {
     accessorKey: "id",
     header: "ID",
+    cell: ({ row }) => {
+      return <span className="text-gray-500 dark:text-gray-400 font-mono text-sm">{row.getValue("id")}</span>
+    }
   },
   {
     accessorKey: "build_date",
@@ -177,7 +186,7 @@ const columns: ColumnDef<ListItem>[] = [
       if (day == "Invalid Date") {
         return <Tooltip>
           <TooltipTrigger>
-            <span>Unknown</span>
+            <span className="italic text-gray-500">Unknown</span>
           </TooltipTrigger>
           <TooltipContent>
             The Build Date is not available
@@ -187,10 +196,10 @@ const columns: ColumnDef<ListItem>[] = [
 
       return <Tooltip>
         <TooltipTrigger>
-          <span>{date.toLocaleString()}</span>
+          <span className="text-indigo-600 dark:text-indigo-400">{date.toLocaleString()}</span>
         </TooltipTrigger>
         <TooltipContent>
-          {date.toISOString()}
+          <span className="font-mono">{date.toISOString()}</span>
         </TooltipContent>
       </Tooltip>;
     },
@@ -211,5 +220,5 @@ export default function List() {
 
 function Category({ cat }: { cat: string }) {
   const cate = cat.trim();
-  return <div className="p-1 px-2 border border-foreground rounded-xl">{cate.split("")[0].toUpperCase()}{cate.substring(1)}</div>;
+  return <div className="p-1 px-2 border border-foreground rounded-xl bg-gray-100 dark:bg-gray-800 text-sm">{cate.split("")[0].toUpperCase()}{cate.substring(1)}</div>;
 }
