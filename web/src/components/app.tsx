@@ -1,8 +1,9 @@
 import { Table, TableBody, TableCell, TableRow } from "./ui/table";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 import { Badge } from "./ui/badge";
-import { ExternalLink, Image, LucideTerminalSquare, Package, ScrollText } from "lucide-react";
+import { ExternalLink, Image as ImageIcon, LucideTerminalSquare, Package, ScrollText, Download } from "lucide-react";
 import { buttonVariants } from "./ui/button";
+import { useClipboard } from "../hooks/use-clipboard";
 
 interface AppProps {
   data: { [key: string]: any };
@@ -26,7 +27,7 @@ const resolver: { [key: string]: ResolverField } = {
   repology: { label: "Repology", type: "link" },
   appstream: { label: "AppStream", type: "link" },
   license: { label: "License", type: "default" },
-  snapshots: { label: "Snapshots", type: "default" },
+  snapshots: { label: "Snapshots", type: "version" },
   tag: { label: "Tag", type: "default" },
   app_id: { label: "Application ID", type: "default" },
   version: { label: "Version", type: "version" },
@@ -40,6 +41,7 @@ const resolver: { [key: string]: ResolverField } = {
   homepage: { label: "Homepage", type: "link" },
   build_script: { label: "Build Script", type: "link" },
   build_log: { label: "Build Log", type: "link" },
+  build_gha: { label: "Build CI", type: "link" },
   category: { label: "Category", type: "category" },
   icon: { label: "Icon", type: "link" },
   provides: { label: "Provides", type: "default" },
@@ -54,15 +56,16 @@ const resolver: { [key: string]: ResolverField } = {
   ghcr_files: { label: "GHCR Files", type: "files" },
   ghcr_pkg: { label: "GHCR Package", type: "link" },
   ghcr_size: { label: "GHCR Size", type: "size" },
-  ghcr_size_raw: { label: "GHCR Size (Raw)", type: "number" },
+  ghcr_size_raw: { label: "GHCR Size (Raw)", type: "size" },
   ghcr_url: { label: "GHCR URL", type: "link" },
-  size_raw: { label: "Size (Raw)", type: "number" },
+  size_raw: { label: "Size (Raw)", type: "size" },
   manifest_url: { label: "Manifest URL", type: "link" },
   download_count: { label: "Download Count", type: "metric" },
   build_id: { label: "Build ID", type: "number" }
 };
 
 function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string }) {
+  const { copy, copied } = useClipboard();
   const field = Key ? resolver[Key] || { label: Key, type: "default" } : { label: "Default", type: "default" };
 
   switch (field.type) {
@@ -98,7 +101,21 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
       );
 
     case "hash":
-      return <span className="font-mono text-gray-600 dark:text-gray-400">{value}</span>;
+      return (
+        <Tooltip open={copied}>
+          <TooltipTrigger asChild>
+            <code
+              onClick={() => copy(value)}
+              className="font-mono text-gray-600 dark:text-gray-400 px-2 py-1 rounded bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer transition-colors"
+            >
+              {value}
+            </code>
+          </TooltipTrigger>
+          <TooltipContent>
+            <p>Copied!</p>
+          </TooltipContent>
+        </Tooltip>
+      );
 
     case "number":
       return <span className="font-mono text-gray-600 dark:text-gray-400">{value}</span>;
@@ -160,8 +177,9 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
 }
 
 export default function App({ data, logs: build }: AppProps) {
+  const { copy, copied } = useClipboard();
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={0}>
       <div className="flex flex-col lg:flex-row space-y-3 lg:space-y-0 lg:space-x-3 px-5 mt-3 items-start pb-4">
         <div className="lg:max-w-[85%] rounded-lg flex flex-col flex-1">
           <h1 className="text-xl mb-4 flex justify-center items-center space-x-2 font-semibold">
@@ -198,6 +216,33 @@ export default function App({ data, logs: build }: AppProps) {
         </div>
 
         <div className="lg:w-[15%] lg:sticky lg:top-3 flex w-full flex-col space-y-4">
+          <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
+            <h2 className="text-lg font-semibold flex items-center space-x-2">
+              <Download className="text-blue-600 dark:text-blue-400" />
+              <span>Install Package</span>
+            </h2>
+            <div className="w-full overflow-x-auto rounded bg-muted/70 p-2 relative">
+              <code 
+                onClick={() => copy(`soar add "${data.pkg_id}"`)} 
+                className="block cursor-pointer font-mono text-sm"
+              >
+                <span className="text-blue-600 dark:text-blue-400">soar</span>
+                <span className="text-foreground"> add </span>
+                <span className="text-green-600 dark:text-green-400">{data.pkg_id}</span>
+              </code>
+              <div
+                className={`absolute inset-0 bg-black/60 text-white flex cursor-pointer items-center justify-center text-xs font-medium transition-opacity duration-200 ${
+                  copied ? "opacity-100" : "opacity-0 pointer-events-none"
+                }`}
+              >
+                Copied!
+              </div>
+            </div>
+            <a href="https://github.com/pkgforge/soar" target="_blank" rel="noreferrer" className="text-xs underline text-muted-foreground text-center">
+              Note: Requires soar to be installed
+            </a>
+          </div>
+
           {build && (
             <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
               <h2 className="text-lg font-semibold flex items-center space-x-2">
@@ -235,7 +280,7 @@ export default function App({ data, logs: build }: AppProps) {
           {data.icon && (
             <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
               <h2 className="text-lg font-semibold flex items-center space-x-2">
-                <Image className="text-amber-600 dark:text-amber-400" />
+                <ImageIcon className="text-amber-600 dark:text-amber-400" />
                 <span>Package Icon</span>
               </h2>
               <img src={data.icon} alt="Package Icon" className="w-16 h-16 rounded-lg" />
