@@ -5,6 +5,8 @@ import App from "../../../../../components/app.tsx";
 export async function getStaticPaths() {
   const { default: apps } = await import("../_apps.json");
 
+  console.log("ran static paths, out", apps);
+
   return apps.map((app) => ({
     params: {
       family: app.pkg_family,
