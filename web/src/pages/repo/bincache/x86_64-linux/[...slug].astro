@@ -7,7 +7,7 @@ export async function getStaticPaths() {
 
   return apps.map((app) => ({
     params: {
-      slug: `./${app.pkg_family}/${app.pkg_name || app.pkg}`,
+      slug: `/${app.pkg_family}/${app.pkg_name || app.pkg}`,
     },
     props: {
       data: app,
