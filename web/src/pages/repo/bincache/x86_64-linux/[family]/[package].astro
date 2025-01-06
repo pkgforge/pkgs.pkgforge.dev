@@ -5,21 +5,23 @@ import App from "../../../../../components/app.tsx";
 export async function getStaticPaths() {
   const { default: apps } = await import("../_apps.json");
 
-  return apps.map((app) => ({
-    params: {
-      family: app.pkg_family,
-      package: app.pkg_name || app.pkg,
-    },
-    props: {
-      data: app,
-      logs: app.build_log || "",
-    },
-  }));
+  return apps.map((app) => {
+    return {
+      params: {
+        family: app.pkg_family,
+        package: app.pkg_name || app.pkg,
+      },
+      props: {
+        data: app,
+        logs: app.build_log || "",
+      },
+    };
+  });
 }
 
 const { data, logs } = Astro.props;
 ---
 
 <Layout>
-  <App data={data} logs={logs} client:load />
+  <App data={data} logs={logs} client:only />
 </Layout>
