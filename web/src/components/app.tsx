@@ -71,7 +71,7 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
   switch (field.type) {
     case "link":
       return (
-        <a href={`https://${value}`} target="_blank" rel="noreferrer"
+        <a href={value} target="_blank" rel="noreferrer"
           className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-4">
           {value}
         </a>
