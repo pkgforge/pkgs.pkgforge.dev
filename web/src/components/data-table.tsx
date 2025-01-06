@@ -35,15 +35,9 @@ import { cn } from "@/lib/utils";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "./ui/select";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
-import edgeX86 from "../metadata_edge_x86_64-linux.json";
+import binX86 from "../metadata_bincache_x86_64-linux.json";
 
-const edgeArm64 = import("../metadata_edge_aarch64-linux.json");
-
-const stableX86 = import("../metadata_stable_x86_64-linux.json");
-
-const stableArm64 = import("../metadata_stable_aarch64-linux.json");
-
-const comUniv = import("../metadata_community_universal-linux.json");
+const binArm64 = import("../metadata_bincache_aarch64-linux.json");
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
@@ -74,7 +68,7 @@ export function DataTable<TData, TValue>({
   const [columnVisibility, setColumnVisibility] =
     React.useState<VisibilityState>(getColumnVis());
   const [page, setPage] = React.useState("edge");
-  const [data, setData] = React.useState<TData[] | "loading">(edgeX86 as unknown as TData[]);
+  const [data, setData] = React.useState<TData[] | "loading">(binX86 as unknown as TData[]);
 
   React.useEffect(() => {
     localStorage.visiv = JSON.stringify(columnVisibility);
@@ -83,20 +77,11 @@ export function DataTable<TData, TValue>({
   React.useEffect(() => {
     (async () => {
       switch (page) {
-        case "edge":
-          setData(edgeX86 as unknown as TData[]);
+        case "bin":
+          setData(binX86 as unknown as TData[]);
           break;
-        case "edgea":
-          setData((await edgeArm64).default as unknown as TData[]);
-          break;
-        case "stable":
-          setData((await stableX86).default as unknown as TData[]);
-          break;
-        case "stablea":
-          setData((await stableArm64).default as unknown as TData[]);
-          break;
-        case "com":
-          setData((await comUniv).default as unknown as TData[]);
+        case "bina":
+          setData((await binArm64).default as unknown as TData[]);
           break;
       }
     })();
@@ -167,16 +152,10 @@ export function DataTable<TData, TValue>({
             </SelectTrigger>
             <SelectContent>
               <SelectGroup>
-                <SelectLabel>edge</SelectLabel>
-                <SelectItem value="edge">edge (x86_64)</SelectItem>
-                <SelectItem value="edgea">edge (aarch64)</SelectItem>
+                <SelectLabel>bincache</SelectLabel>
+                <SelectItem value="bin">bincache (x86_64)</SelectItem>
+                <SelectItem value="bina">bincache (aarch64)</SelectItem>
               </SelectGroup>
-              <SelectGroup>
-                <SelectLabel>stable</SelectLabel>
-                <SelectItem value="stable">stable (x86_64)</SelectItem>
-                <SelectItem value="stablea">stable (aarch64)</SelectItem>
-              </SelectGroup>
-              <SelectItem value="com">community</SelectItem>
             </SelectContent>
           </Select>
           <Select
