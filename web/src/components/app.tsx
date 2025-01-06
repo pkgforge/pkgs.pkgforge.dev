@@ -86,7 +86,7 @@ export default function App({ data, logs: build }: AppProps) {
               Raw
             </TableCell>
             <TableCell className="text-wrap break-all whitespace-normal">
-              <Show value={data.pkg_webpage.replace("/repo/", "/repo/raw/")} />
+              <Show value={`${data.pkg_webpage}/raw.json`} />
             </TableCell>
           </TableRow>
 
