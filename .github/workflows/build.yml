@@ -29,17 +29,21 @@ jobs:
           pnpm install
 
           $env:CI = "false"
-
-          node load.mjs
-
-          pnpm astro build
-
-          node postbuild.mjs
+          pnpm build
         working-directory: web
+
+      - name: Upload for debugging
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          include-hidden-files: true
+          name: debug
+          path: |
+            ./web/dist
+            ./web/src
 
       - name: Upload site
         uses: actions/upload-artifact@v4
-        if: always()
         with:
           include-hidden-files: true
           name: thisisabuild
