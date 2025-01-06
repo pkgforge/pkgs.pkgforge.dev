@@ -1,14 +1,8 @@
 import { writeFileSync } from "fs";
 
-const edgeX86 = "https://bin.pkgforge.dev/x86_64-Linux/METADATA.AIO.json";
-const edgeArm64 = "https://bin.pkgforge.dev/aarch64-Linux/METADATA.AIO.json";
+const binArm64 = "https://meta.pkgforge.dev/bincache/aarch64-Linux.json";
+const binX86 = "https://meta.pkgforge.dev/bincache/x86_64-Linux.json";
 
-const stableX86 =
-  "https://bincache.pkgforge.dev/x86_64-Linux/METADATA.AIO.json";
-const stableArm64 =
-  "https://bincache.pkgforge.dev/aarch64-Linux/METADATA.AIO.json";
-
-const community = "https://soarpkgs.pkgforge.dev/metadata/METADATA.json";
 const run = async (url, branch, arch) => {
   /**
    * @type {{ pkg: string, build_date: string, family: string, sha: string, id: string?, name: string, version: string, category: string, size: string, sizeNum: number, type: "base" | "bin" | "pkg" }[]}
@@ -29,44 +23,24 @@ const run = async (url, branch, arch) => {
       response.push(data);
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data.pkg);
+        familyMap[data.pkg_family].push(data.pkg_name);
       } else {
-        familyMap[data.pkg_family] = [data.pkg];
+        familyMap[data.pkg_family] = [data.pkg_name];
       }
     });
   } else {
-    resp.base.forEach((data) => {
+    resp.forEach((data) => {
       response.push(data);
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data.pkg);
+        familyMap[data.pkg_family].push(data.pkg_name);
       } else {
-        familyMap[data.pkg_family] = [data.pkg];
-      }
-    });
-    resp.bin.forEach((data) => {
-      response.push(data);
-
-      if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data.pkg);
-      } else {
-        familyMap[data.pkg_family] = [data.pkg];
-      }
-    });
-    resp.pkg.forEach((data) => {
-      response.push(data);
-
-      if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data.pkg);
-      } else {
-        familyMap[data.pkg_family] = [data.pkg];
+        familyMap[data.pkg_family] = [data.pkg_name];
       }
     });
   }
 
-  response.sort((a, b) =>
-    (a.pkg_name || a.pkg).localeCompare(b.pkg_name || b.pkg)
-  );
+  response.sort((a, b) => a.pkg_name.localeCompare(b.pkg_name));
 
   writeFileSync(
     `./src/pages/repo/${branch}/${arch}/_family.json`,
@@ -91,7 +65,7 @@ const run = async (url, branch, arch) => {
         category: data.category,
         id: "N/A",
         build_date: data.build_date,
-        url: `/${branch}/${arch}/${data.pkg_family}/${data.pkg}`,
+        url: data.pkg_webpage,
         familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       }))
     )
@@ -99,20 +73,26 @@ const run = async (url, branch, arch) => {
 };
 
 (async () => {
-  console.log("⏲️ Downloading Community");
-  await run(community, "community", "universal-linux");
+  console.log("⏲️ Downloading bincache aarch64");
+  await run(binArm64, "bincache", "aarch64-linux");
 
-  console.log("⏲️ Downloading Edge x86_64");
-  await run(edgeX86, "edge", "x86_64-linux");
+  console.log("⏲️ Downloading bincache x86_64");
+  await run(binX86, "bincache", "x86_64-linux");
 
-  console.log("⏲️ Downloading Edge aarch64");
-  await run(edgeArm64, "edge", "aarch64-linux");
+  // console.log("⏲️ Downloading Community");
+  // await run(community, "community", "universal-linux");
 
-  console.log("⏲️ Downloading Stable x86_64");
-  await run(stableX86, "stable", "x86_64-linux");
+  // console.log("⏲️ Downloading Edge x86_64");
+  // await run(edgeX86, "edge", "x86_64-linux");
 
-  console.log("⏲️ Downloading Stable aarch64");
-  await run(stableArm64, "stable", "aarch64-linux");
+  // console.log("⏲️ Downloading Edge aarch64");
+  // await run(edgeArm64, "edge", "aarch64-linux");
+
+  // console.log("⏲️ Downloading Stable x86_64");
+  // await run(stableX86, "stable", "x86_64-linux");
+
+  // console.log("⏲️ Downloading Stable aarch64");
+  // await run(stableArm64, "stable", "aarch64-linux");
 })();
 
 const genSize = (data) => {

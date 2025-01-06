@@ -35,6 +35,23 @@ const resolver: { [key: string]: string } = {
   icon: "Icon",
   provides: "Provides",
   description: "Description",
+  host: "Host",
+  pkg_type: "Package Type",
+  pkg_webpage: "Package Webpage",
+  maintainer: "Maintainer",
+  rank: "Rank",
+  build_ghactions: "GH Actions Build",
+  version_upstream: "Upstream Version",
+  ghcr_blob: "GHCR Blob",
+  ghcr_files: "GHCR Files",
+  ghcr_pkg: "GHCR Package",
+  ghcr_size: "GHCR Size",
+  ghcr_size_raw: "GHCR Size (Raw)",
+  ghcr_url: "GHCR URL",
+  size_raw: "Size (Raw)",
+  manifest_url: "Manifest URL",
+  download_count: "Download Count",
+  build_id: "Build ID"
 };
 
 function Show({ value }: { value: any }) {
@@ -64,6 +81,15 @@ export default function App({ data, logs: build }: AppProps) {
       </h1>
       <Table className="border border-muted/70 rounded-xl">
         <TableBody>
+          <TableRow>
+            <TableCell className="min-w-28 bg-muted/70 text-wrap">
+              Raw
+            </TableCell>
+            <TableCell className="text-wrap break-all whitespace-normal">
+              <Show value={data.pkg_webpage.replace("/repo/", "/repo/raw/")} />
+            </TableCell>
+          </TableRow>
+
           {
             Object.entries(data)
               .map(([Key, Value]) => (
