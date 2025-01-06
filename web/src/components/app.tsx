@@ -10,7 +10,7 @@ interface AppProps {
   logs: string;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default";
+type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags";
 
 interface ResolverField {
   label: string;
@@ -28,7 +28,7 @@ const resolver: { [key: string]: ResolverField } = {
   appstream: { label: "AppStream", type: "link" },
   license: { label: "License", type: "default" },
   snapshots: { label: "Snapshots", type: "version" },
-  tag: { label: "Tag", type: "default" },
+  tag: { label: "Tags", type: "tags" },
   app_id: { label: "Application ID", type: "default" },
   version: { label: "Version", type: "version" },
   version_upstream: { label: "Upstream Version", type: "version" },
@@ -38,7 +38,7 @@ const resolver: { [key: string]: ResolverField } = {
   download_url: { label: "Download URL", type: "link" },
   shasum: { label: "BLAKE3SUM", type: "hash" },
   src_url: { label: "Source URL", type: "link" },
-  homepage: { label: "Homepage", type: "link" },
+  homepage: { label: "Homepage", type: "links" },
   build_script: { label: "Build Script", type: "link" },
   build_log: { label: "Build Log", type: "link" },
   build_gha: { label: "Build CI", type: "link" },
@@ -160,6 +160,31 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
               </div>
             );
           })}
+        </div>
+      );
+
+    case "links":
+      const links = Array.isArray(value) ? value : [value];
+      return (
+        <div className="flex flex-col space-y-1">
+          {links.map((link) => (
+            <a key={link} href={link} target="_blank" rel="noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-4">
+              {link}
+            </a>
+          ))}
+        </div>
+      );
+
+    case "tags":
+      const tags = Array.isArray(value) ? value : [value];
+      return (
+        <div className="flex flex-wrap gap-1">
+          {tags.map((tag) => (
+            <Badge key={tag} className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100">
+              {tag}
+            </Badge>
+          ))}
         </div>
       );
 
