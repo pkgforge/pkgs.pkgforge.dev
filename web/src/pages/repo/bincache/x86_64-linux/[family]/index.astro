@@ -1,9 +1,9 @@
 ---
-import Layout from "../../../../layouts/Layout.astro";
-import App from "../../../../components/family.tsx";
+import Layout from "../../../../../layouts/Layout.astro";
+import App from "../../../../../components/family.tsx";
 
 export async function getStaticPaths() {
-  const { default: family } = await import("./_family.json");
+  const { default: family } = await import("../_family.json");
 
   return Object.entries(family).map(([family, apps]) => ({
     params: { family },
@@ -11,7 +11,7 @@ export async function getStaticPaths() {
       name: family,
       apps: apps.map((name) => ({
         name,
-        url: `/repo/bincache/x86_64-linux/${family}/${name}`,
+        url: `/repo/bincache/aarch64-linux/${family}/${name}`,
       })),
     },
   }));

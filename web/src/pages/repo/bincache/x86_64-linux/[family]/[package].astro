@@ -1,13 +1,14 @@
 ---
-import Layout from "../../../../layouts/Layout.astro";
-import App from "../../../../components/app.tsx";
+import Layout from "../../../../../layouts/Layout.astro";
+import App from "../../../../../components/app.tsx";
 
 export async function getStaticPaths() {
-  const { default: apps } = await import("./_apps.json");
+  const { default: apps } = await import("../_apps.json");
 
   return apps.map((app) => ({
     params: {
-      slug: `/${app.pkg_family}/${app.pkg_name || app.pkg}`,
+      family: app.pkg_family,
+      package: app.pkg_name || app.pkg,
     },
     props: {
       data: app,

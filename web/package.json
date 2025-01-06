@@ -20,7 +20,7 @@
     "@tanstack/react-table": "^8.20.6",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
-    "astro": "^5.1.1",
+    "astro": "^5.1.2",
     "astro-react-swc": "github:ahqsoftwares/astro-react-swc",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
