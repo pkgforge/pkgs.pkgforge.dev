@@ -3,7 +3,6 @@ import { writeFileSync } from "fs";
 const binArm64 = "https://meta.pkgforge.dev/bincache/aarch64-Linux.json";
 const binX86 = "https://meta.pkgforge.dev/bincache/x86_64-Linux.json";
 
-const community = "https://soarpkgs.pkgforge.dev/metadata/METADATA.json";
 const run = async (url, branch, arch) => {
   /**
    * @type {{ pkg: string, build_date: string, family: string, sha: string, id: string?, name: string, version: string, category: string, size: string, sizeNum: number, type: "base" | "bin" | "pkg" }[]}
@@ -24,9 +23,9 @@ const run = async (url, branch, arch) => {
       response.push(data);
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data.pkg);
+        familyMap[data.pkg_family].push(data.pkg_name);
       } else {
-        familyMap[data.pkg_family] = [data.pkg];
+        familyMap[data.pkg_family] = [data.pkg_name];
       }
     });
   } else {
@@ -34,16 +33,14 @@ const run = async (url, branch, arch) => {
       response.push(data);
 
       if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data.pkg);
+        familyMap[data.pkg_family].push(data.pkg_name);
       } else {
-        familyMap[data.pkg_family] = [data.pkg];
+        familyMap[data.pkg_family] = [data.pkg_name];
       }
     });
   }
 
-  response.sort((a, b) =>
-    (a.pkg_name || a.pkg).localeCompare(b.pkg_name || b.pkg)
-  );
+  response.sort((a, b) => a.pkg_name.localeCompare(b.pkg_name));
 
   writeFileSync(
     `./src/pages/repo/${branch}/${arch}/_family.json`,
@@ -68,7 +65,7 @@ const run = async (url, branch, arch) => {
         category: data.category,
         id: "N/A",
         build_date: data.build_date,
-        url: `/${branch}/${arch}/${data.pkg_family}/${data.pkg}`,
+        url: data.pkg_webpage,
         familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
       }))
     )

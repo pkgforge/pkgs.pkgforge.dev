@@ -1,0 +1,20 @@
+---
+export async function getStaticPaths() {
+  const { default: apps } = await import(
+    "../../../bincache/x86_64-linux/_apps.json"
+  );
+
+  return apps.map((app) => ({
+    params: {
+      slug: `${app.pkg_family || "community"}/${app.pkg_name || app.pkg}`,
+    },
+    props: {
+      data: app,
+    },
+  }));
+}
+
+const { data } = Astro.props;
+---
+
+{JSON.stringify(data)}
