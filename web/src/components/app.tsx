@@ -14,7 +14,7 @@ const resolver: { [key: string]: string } = {
   pkg_family: "Package Family",
   pkg_name: "Package Name",
   pkg_id: "Package ID",
-  bsum: "B Sum",
+  bsum: "BLAKE3SUM",
   repology: "Repology",
   appstream: "AppStream",
   license: "License",
@@ -26,7 +26,7 @@ const resolver: { [key: string]: string } = {
   build_date: "Build Date",
   size: "Size",
   download_url: "Download URL",
-  shasum: "SHA Sum",
+  shasum: "BLAKE3SUM",
   src_url: "Source URL",
   homepage: "Homepage",
   build_script: "Build Script",
@@ -54,12 +54,32 @@ const resolver: { [key: string]: string } = {
   build_id: "Build ID"
 };
 
-function Show({ value }: { value: any }) {
+function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string }) {
+  if (Key == "ghcr_pkg" || Key == "ghcr_blob") {
+    return <a href={`https://${value}`} target="_blank" rel="noreferrer" className="underline underline-offset-4">{value}</a>;
+  }
+
+  if (Key == "ghcr_files") {
+    const dwnl = URL.parse(props.data.download_url as string)
+    const val = value as string[];
+
+    return <div className="flex space-x-1 flex-wrap">
+      {val.map((s, i) => {
+        dwnl?.searchParams.set("download", s);
+
+        return <div key={s} className="flex">
+          <a href={dwnl?.toString()} target="_blank" rel="noreferrer" className="underline underline-offset-4">{s}</a>
+          {(i + 1) == value.length ? <></> : <span className="block">,</span>}
+        </div>;
+      })}
+    </div>;
+  }
+
   if (typeof (value) == "object") {
     if (Array.isArray(value)) {
       return <div className="flex space-x-1">{value.map((s, i) => (
         <div className="flex" key={JSON.stringify({ s, i })}>
-          <Show value={s} key={JSON.stringify(s)} />
+          <Show value={s} key={JSON.stringify(s)} props={props} />
           {(i + 1) == value.length ? <></> : <span className="block">,</span>}
         </div>
       ))}</div>;
@@ -91,7 +111,7 @@ export default function App({ data, logs: build }: AppProps) {
               Raw
             </TableCell>
             <TableCell className="text-wrap break-all whitespace-normal">
-              <Show value={`${data.pkg_webpage}/raw.json`} />
+              <Show value={`${data.pkg_webpage}/raw.json`} props={{ data, logs: build }} />
             </TableCell>
           </TableRow>
 
@@ -103,7 +123,7 @@ export default function App({ data, logs: build }: AppProps) {
                     {resolver[Key] || Key}
                   </TableCell>
                   <TableCell className="text-wrap break-all whitespace-normal">
-                    <Show value={Value} />
+                    <Show value={Value} props={{ data, logs: build }} Key={Key} />
                   </TableCell>
                 </TableRow>
               ))
