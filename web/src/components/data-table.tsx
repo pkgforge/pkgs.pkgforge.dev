@@ -67,7 +67,7 @@ export function DataTable<TData, TValue>({
   const [column, setColumn] = React.useState("name");
   const [columnVisibility, setColumnVisibility] =
     React.useState<VisibilityState>(getColumnVis());
-  const [page, setPage] = React.useState("edge");
+  const [page, setPage] = React.useState("bin");
   const [data, setData] = React.useState<TData[] | "loading">(binX86 as unknown as TData[]);
 
   React.useEffect(() => {
