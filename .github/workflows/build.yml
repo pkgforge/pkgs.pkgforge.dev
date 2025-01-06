@@ -12,7 +12,7 @@ permissions: write-all
 jobs:
   build:
     name: Build Site
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     cancel-timeout-minutes: 60
 
     steps:
@@ -23,10 +23,18 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: Install Deps & Build
+        shell: pwsh
         run: |
           npm i -g pnpm
           pnpm install
-          pnpm build
+
+          $env:CI = "false"
+
+          node load.mjs
+
+          pnpm astro build
+
+          node postbuild.mjs
         working-directory: web
 
       - name: Upload site
