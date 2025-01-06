@@ -57,7 +57,12 @@ const resolver: { [key: string]: string } = {
 function Show({ value }: { value: any }) {
   if (typeof (value) == "object") {
     if (Array.isArray(value)) {
-      return <div className="flex space-x-2">{value.map((s) => (<Show value={s} key={JSON.stringify(s)} />))}</div>;
+      return <div className="flex space-x-2">{value.map((s, i) => (
+        <div className="flex" key={JSON.stringify({ s, i })}>
+          <Show value={s} key={JSON.stringify(s)} />
+          {(i + 1) == value.length ? <></> : <span className="block">,</span>}
+        </div>
+      ))}</div>;
     } else {
       return <span className="block">{JSON.stringify(value)}</span>;
     }
