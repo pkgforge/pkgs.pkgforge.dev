@@ -59,17 +59,17 @@ function Show({ value }: { value: any }) {
     if (Array.isArray(value)) {
       return <div className="flex space-x-2">{value.map((s) => (<Show value={s} key={JSON.stringify(s)} />))}</div>;
     } else {
-      return <>{JSON.stringify(value)}</>;
+      return <span className="block">{JSON.stringify(value)}</span>;
     }
   } else if (typeof (value) == "string") {
     if (value.startsWith("http")) {
       return <a href={value} target="_blank" rel="noreferrer" className="underline underline-offset-4">{value}</a>;
     } else {
-      return <>{value}</>;
+      return <span className="block">{value}</span>;
     }
   }
 
-  return <>{JSON.stringify(value)}</>;
+  return <span className="block">{JSON.stringify(value)}</span>;
 }
 
 export default function App({ data, logs: build }: AppProps) {
