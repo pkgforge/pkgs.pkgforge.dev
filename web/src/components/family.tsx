@@ -16,41 +16,54 @@ const columns: ColumnDef<Family>[] = [
     accessorKey: "name",
     header: ({ column }) => {
       return (
-        <div
-          className="flex"
+        <Button
+          variant="ghost"
+          size='sm'
+          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          className="flex items-center gap-2"
         >
-          Package
-          <Button
-            variant="ghost"
-            size="sm"
-            className="ml-1 h-6 w-8 rounded-full"
-            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-          >
+          Package Name
+          {column.getIsSorted() === "asc" ? (
+            <ArrowDownWideNarrow className="h-4 w-4" />
+          ) : (
             <ArrowUpDown className="h-4 w-4" />
-          </Button>
-        </div>
+          )}
+        </Button>
       )
     },
     cell: ({ row }) => {
-      return <a className="font-bold underline underline-offset-4" href={row.original.url}>{row.getValue("name")}</a>;
+      return <a className="font-medium hover:underline px-4" href={row.original.url}>{row.getValue("name")}</a>;
     }
   },
   {
     accessorKey: "url",
-    header: "",
+    header: "Actions",
     cell: ({ row }) => {
-      return <a className="w-14 ml-auto mr-2 underline underline-offset-4 flex space-x-1 items-center" href={row.original.url}><span>View</span> <ExternalLinkIcon className="h-3 w-3" /></a>;
+      return (
+        <a 
+          className="flex items-center gap-1 hover:underline text-sm text-muted-foreground"
+          href={row.original.url}
+        >
+          <span>Open</span>
+          <ExternalLinkIcon className="h-3 w-3" />
+        </a>
+      );
     }
   }
 ];
 
 export default function App({ apps, name }: FamilyProps) {
   return (
-    <div className="mt-2 flex flex-col md:px-6 space-y-2 pb-3">
-      <h1 className="flex mx-auto space-x-1"><Package />
-        <span>{apps.length} Packages under the package family {name}
-        </span>
-      </h1>
+    <div className="mt-2 flex flex-col md:px-6 space-y-4 pb-3">
+      <div className="flex flex-col items-center my-4 space-y-2">
+        <h1 className="text-2xl font-semibold flex items-center gap-2">
+          <Package className="h-6 w-6" />
+          <span>{name} Family</span>
+        </h1>
+        <p className="text-muted-foreground">
+          A collection of {apps.length} packages
+        </p>
+      </div>
       <TooltipProvider>
         <DataTable columns={columns} data={apps} />
       </TooltipProvider>

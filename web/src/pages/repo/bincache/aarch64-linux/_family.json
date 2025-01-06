@@ -3,24 +3,24 @@
     "7z"
   ],
   "a-utils": [
-    "importenv",
-    "isainfo",
     "ccat",
-    "xo",
-    "issue",
-    "fin",
-    "relf",
     "ed",
-    "catv",
-    "listen",
-    "cal",
     "printf",
-    "wttr",
-    "walk",
+    "fin",
     "fortune",
-    "test",
-    "hpwd",
     "envsubst",
+    "test",
+    "importenv",
+    "cal",
+    "isainfo",
+    "walk",
+    "catv",
+    "hpwd",
+    "wttr",
+    "listen",
+    "issue",
+    "xo",
+    "relf",
     "dial"
   ],
   "aix": [
@@ -36,8 +36,8 @@
     "alist"
   ],
   "almalinux": [
-    "almalinux-minimal",
-    "almalinux"
+    "almalinux",
+    "almalinux-minimal"
   ],
   "alpine": [
     "alpine"
@@ -83,8 +83,8 @@
     "bandwhich"
   ],
   "bash": [
-    "bash",
     "sh",
+    "bash",
     "bash"
   ],
   "bat": [
@@ -104,38 +104,38 @@
     "binocle"
   ],
   "bintools": [
-    "elfedit",
     "strings",
+    "ld.gold",
+    "as",
+    "dwp",
     "ar",
+    "addr2line",
+    "strip",
     "size",
     "ranlib",
-    "as",
+    "elfedit",
     "nm",
-    "dwp",
-    "gprof",
-    "strip",
     "ld",
     "objcopy",
-    "ld.bfd",
-    "addr2line",
     "readelf",
-    "ld.gold"
+    "gprof",
+    "ld.bfd"
   ],
   "binutils": [
-    "readelf",
-    "as",
-    "ld.gold",
-    "ld.bfd",
     "ranlib",
-    "elfedit",
     "dwp",
-    "size",
-    "nm",
-    "strip",
     "ar",
+    "as",
+    "elfedit",
+    "ld.gold",
     "addr2line",
+    "size",
+    "readelf",
+    "strip",
+    "nm",
+    "gprof",
     "strings",
-    "gprof"
+    "ld.bfd"
   ],
   "bita": [
     "bita"
@@ -172,14 +172,14 @@
     "btop"
   ],
   "btrfs-progs": [
-    "mkfs.btrfs",
-    "fsck.btrfs",
-    "btrfs-map-logical",
-    "btrfs-image",
-    "btrfs",
-    "btrfsck",
     "btrfs-find-root",
-    "btrfstune"
+    "btrfs",
+    "mkfs.btrfs",
+    "btrfstune",
+    "fsck.btrfs",
+    "btrfs-image",
+    "btrfs-map-logical",
+    "btrfsck"
   ],
   "bucketloot": [
     "bucketloot"
@@ -219,14 +219,14 @@
     "cfspeedtest"
   ],
   "cfssl": [
-    "cfssljson",
+    "cfssl-newkey",
     "cfssl-scan",
+    "cfssljson",
+    "cfssl-certinfo",
     "multirootca",
-    "cfssl-bundle",
     "cfssl",
     "mkbundle",
-    "cfssl-certinfo",
-    "cfssl-newkey"
+    "cfssl-bundle"
   ],
   "chaos-client": [
     "chaos-client"
@@ -244,10 +244,10 @@
     "circumflex"
   ],
   "clipcat": [
-    "clipcatd",
+    "clipcat-menu",
     "clipcatctl",
     "clipcat-notify",
-    "clipcat-menu"
+    "clipcatd"
   ],
   "cloudcash": [
     "cloudcash"
@@ -272,8 +272,8 @@
     "cobalt-cli"
   ],
   "cocogitto": [
-    "cog",
-    "cocogitto"
+    "cocogitto",
+    "cog"
   ],
   "containerd": [
     "containerd"
@@ -335,23 +335,23 @@
     "czkawka-cli"
   ],
   "dateutils": [
+    "dzone",
+    "strptime",
+    "dategrep",
+    "ddiff",
     "dseq",
     "datediff",
-    "dtest",
-    "dateround",
-    "dateseq",
-    "dateconv",
-    "datetest",
-    "dzone",
-    "dgrep",
-    "dconv",
     "datesort",
-    "dround",
-    "dategrep",
+    "dateseq",
     "dateadd",
     "dsort",
-    "ddiff",
-    "strptime"
+    "dround",
+    "dtest",
+    "datetest",
+    "dconv",
+    "dgrep",
+    "dateconv",
+    "dateround"
   ],
   "dbus": [
     "dbus-uuidgen"
@@ -366,15 +366,15 @@
     "unix2mac"
   ],
   "e2fsprogs": [
-    "e2scrub_all",
-    "debugfs",
-    "e2mmpstatus",
-    "e4defrag",
-    "compile_et",
-    "e4crypt",
-    "e2label",
     "badblocks",
-    "e2undo"
+    "compile_et",
+    "debugfs",
+    "e4crypt",
+    "e2mmpstatus",
+    "e2undo",
+    "e2label",
+    "e4defrag",
+    "e2scrub_all"
   ],
   "entr": [
     "entr"
@@ -389,9 +389,9 @@
     "fdupes"
   ],
   "findutils": [
-    "find",
     "xargs",
-    "xargs"
+    "xargs",
+    "find"
   ],
   "fuse": [
     "fusermount",
@@ -399,97 +399,97 @@
     "ulockmgr_server"
   ],
   "fuse3": [
-    "fusermount3",
-    "mount.fuse3"
+    "mount.fuse3",
+    "fusermount3"
   ],
   "gawk": [
     "gawk"
   ],
   "gdb": [
-    "gcore",
     "gdbserver",
     "gdb",
+    "gcore",
     "gdb-add-index"
   ],
   "gettext": [
-    "msgen",
-    "msgcomm",
     "msguniq",
-    "msgfilter",
-    "msggrep",
-    "msgexec",
-    "msginit",
     "msgconv",
+    "gettext.sh",
+    "msgen",
+    "msgunfmt",
+    "gettext",
+    "msginit",
+    "msgfilter",
+    "msgmerge",
+    "xgettext",
+    "recode-sr-latin",
+    "msgexec",
+    "msgcmp",
     "ngettext",
     "gettextize",
-    "msgmerge",
-    "msgcmp",
-    "recode-sr-latin",
-    "gettext.sh",
-    "gettext",
-    "msgunfmt",
-    "msgfmt",
+    "msggrep",
     "envsubst",
     "autopoint",
-    "xgettext"
+    "msgfmt",
+    "msgcomm"
   ],
   "gzip": [
-    "zcmp",
-    "zforce",
-    "zless",
-    "zdiff",
-    "gunzip",
     "zcat",
-    "zmore",
-    "gzexe",
+    "zless",
+    "znew",
     "gzip",
-    "znew"
+    "zforce",
+    "gzexe",
+    "zmore",
+    "gunzip",
+    "zcmp",
+    "zdiff"
   ],
   "hashcat-utils": [
-    "cutb",
-    "rules_optimize",
-    "splitlen",
-    "tmesis",
-    "strip-bsr",
-    "mli2",
+    "permute_exist",
+    "rli",
     "permute",
+    "prepare",
+    "req-include",
+    "combinator",
+    "tmesis-dynamic",
+    "cutb",
+    "splitlen",
+    "req-exclude",
+    "cleanup-rules",
+    "hcstatgen",
     "combinator3",
-    "expander",
+    "rules_optimize",
+    "strip-bsr",
+    "tmesis",
+    "strip-bsn",
     "topmorph",
     "morph",
     "hcstat2gen",
-    "strip-bsn",
-    "req-include",
-    "req-exclude",
-    "rli2",
     "remaining",
-    "len",
-    "cleanup-rules",
-    "tmesis-dynamic",
-    "gate",
-    "permute_exist",
-    "rli",
-    "hcstatgen",
-    "combinator",
+    "mli2",
     "cap2hccapx",
-    "prepare",
     "seprule",
     "ct3_to_ntlm",
-    "generate-rules"
+    "generate-rules",
+    "len",
+    "gate",
+    "rli2",
+    "expander"
   ],
   "hcxdumptool": [
     "hcxdumptool"
   ],
   "hcxtools": [
-    "hcxeiutool",
-    "whoismac",
     "hcxpsktool",
-    "hcxhash2cap",
-    "hcxwltool",
-    "wlancap2wpasec",
-    "hcxpcapngtool",
+    "hcxeiutool",
     "hcxpmktool",
-    "hcxhashtool"
+    "whoismac",
+    "hcxhashtool",
+    "hcxhash2cap",
+    "hcxpcapngtool",
+    "hcxwltool",
+    "wlancap2wpasec"
   ],
   "hurl": [
     "hurl",
@@ -500,45 +500,45 @@
     "iotop-c"
   ],
   "iperf3": [
-    "iperf3",
-    "iperf"
+    "iperf",
+    "iperf3"
   ],
   "iproute2": [
-    "rtstat",
-    "ifstat",
     "nstat",
-    "ss",
-    "ip",
-    "ctstat",
+    "rtacct",
     "lnstat",
     "vdpa",
-    "genl",
-    "tipc",
-    "tc",
+    "rtstat",
+    "ifstat",
+    "ctstat",
+    "arpd",
     "rdma",
-    "bridge",
-    "rtacct",
     "devlink",
     "rtmon",
     "dcb",
-    "arpd"
+    "ss",
+    "ip",
+    "tipc",
+    "bridge",
+    "tc",
+    "genl"
   ],
   "iputils": [
-    "clockdiff",
+    "tracepath",
     "arping",
     "ping",
-    "tracepath"
+    "clockdiff"
   ],
   "less": [
     "less",
-    "lesskey",
-    "lessecho"
+    "lessecho",
+    "lesskey"
   ],
   "libarchive": [
-    "bsdcpio",
-    "bsdtar",
     "bsdcat",
-    "bsdunzip"
+    "bsdunzip",
+    "bsdcpio",
+    "bsdtar"
   ],
   "libtree": [
     "libtree"
@@ -563,102 +563,102 @@
     "mtr"
   ],
   "net-tools": [
+    "ifconfig",
     "mii-tool",
-    "domainname",
     "nameif",
-    "route",
-    "netstat",
-    "nisdomainname",
-    "arp",
-    "plipconfig",
     "dnsdomainname",
+    "domainname",
+    "slattach",
+    "nisdomainname",
+    "netstat",
+    "arp",
     "hostname",
     "rarp",
-    "slattach",
-    "ifconfig"
+    "route",
+    "plipconfig"
   ],
   "netcat": [
-    "nc",
+    "netcat",
     "nc",
     "netcat",
-    "netcat"
+    "nc"
   ],
   "numactl": [
+    "numastat",
+    "migspeed",
     "numactl",
     "numademo",
-    "migspeed",
-    "numastat",
     "memhog"
   ],
   "oksh": [
     "oksh"
   ],
   "openssl": [
-    "c_rehash",
-    "openssl"
+    "openssl",
+    "c_rehash"
   ],
   "patchelf": [
     "patchelf"
   ],
   "pax-utils": [
-    "pspax",
-    "scanmacho",
     "scanelf",
     "dumpelf",
+    "pspax",
+    "scanmacho",
     "symtree"
   ],
   "pigz": [
-    "unpigz",
-    "pigz"
+    "pigz",
+    "unpigz"
   ],
   "procps": [
-    "pmap",
-    "uptime",
-    "vmstat",
-    "pwdx",
-    "slabtop",
-    "ps",
-    "sysctl",
-    "free",
     "kill",
+    "free",
+    "ps",
+    "pwdx",
+    "pidof",
     "tload",
-    "top",
-    "pgrep",
+    "vmstat",
     "watch",
-    "pidof"
+    "pmap",
+    "slabtop",
+    "uptime",
+    "sysctl",
+    "pgrep",
+    "top"
   ],
   "psmisc": [
-    "fuser",
-    "peekfd",
-    "pstree",
+    "killall",
     "pslog",
     "pstree.x11",
-    "killall"
+    "fuser",
+    "peekfd",
+    "pstree"
   ],
   "python3": [
-    "python",
+    "python3",
     "python-config",
-    "python3"
+    "python"
   ],
   "rsync": [
     "rsync"
   ],
   "s6-dns": [
     "s6-randomip",
+    "s6-dnstxt",
     "s6-dnssrv",
-    "s6-dnsqualify",
-    "s6-dnsip",
-    "s6-dnsmx",
-    "skadnsd",
-    "s6-dnsq",
-    "s6-dnsip6",
-    "s6-dnsname-filter",
-    "s6-dnsns",
-    "s6-dnsip4-filter",
-    "s6-dnsip6-filter",
-    "s6-dnssoa",
-    "s6-dnsqr",
     "s6-dns-hosts-compile",
-    "s6-dnstxt"
+    "s6-dnsqualify",
+    "s6-dnsmx",
+    "s6-dnsname-filter",
+    "s6-dnsq",
+    "s6-dnsns",
+    "skadnsd",
+    "s6-dnsip4-filter",
+    "s6-dnssoa",
+    "s6-dnsip",
+    "s6-dnsip6-filter",
+    "s6-dnsqr",
+    "s6-dnsip6"
   ]
 }
