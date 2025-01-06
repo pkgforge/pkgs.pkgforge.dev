@@ -222,18 +222,24 @@ export default function App({ data, logs: build }: AppProps) {
               <span>Install Package</span>
             </h2>
             <div className="w-full overflow-x-auto rounded bg-muted/70 p-2 relative">
-              <code 
-                onClick={() => copy(`soar add "${data.pkg_id}"`)} 
-                className="block cursor-pointer font-mono text-sm"
-              >
-                <span className="text-blue-600 dark:text-blue-400">soar</span>
-                <span className="text-foreground"> add </span>
-                <span className="text-green-600 dark:text-green-400">{data.pkg_id}</span>
-              </code>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <code
+                    onClick={() => copy(`soar add "${data.pkg_id}"`)}
+                    className="block cursor-pointer font-mono text-sm"
+                  >
+                    <span className="text-blue-600 dark:text-blue-400">soar</span>
+                    <span className="text-foreground"> add </span>
+                    <span className="text-green-600 dark:text-green-400">{data.pkg_id}</span>
+                  </code>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <span>Click to copy</span>
+                </TooltipContent>
+              </Tooltip>
               <div
-                className={`absolute inset-0 bg-black/60 text-white flex cursor-pointer items-center justify-center text-xs font-medium transition-opacity duration-200 ${
-                  copied ? "opacity-100" : "opacity-0 pointer-events-none"
-                }`}
+                className={`absolute inset-0 bg-black/60 text-white flex cursor-pointer items-center justify-center text-xs font-medium transition-opacity duration-200 ${copied ? "opacity-100" : "opacity-0 pointer-events-none"
+                  }`}
               >
                 Copied!
               </div>
