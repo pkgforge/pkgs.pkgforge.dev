@@ -12,32 +12,12 @@ permissions: write-all
 jobs:
   build:
     name: Build Site
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     cancel-timeout-minutes: 60
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Cache .astro file
-        id: cache
-        uses: actions/cache/restore@v4
-        with:
-          key: astro-cache
-          path: |
-            ./web/.astro
-            ./web/node_modules
-
-      - name: Delete outdated cache
-        continue-on-error: true
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.actions.deleteActionsCacheByKey({
-              owner: "pkgforge",
-              repo: "pkgs.pkgforge.dev",
-              key: "astro-cache"
-            });
 
       - name: Use Node.js
         uses: actions/setup-node@v4
@@ -56,14 +36,6 @@ jobs:
           include-hidden-files: true
           name: thisisabuild
           path: ./web/dist/
-
-      - name: Post Cache .astro file
-        uses: actions/cache/save@v4
-        with:
-          key: astro-cache
-          path: |
-            ./web/.astro
-            ./web/node_modules
 
   deploy:
     environment:
