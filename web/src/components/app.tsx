@@ -63,7 +63,7 @@ function Show({ value }: { value: any }) {
     }
   } else if (typeof (value) == "string") {
     if (value.startsWith("http")) {
-      return <a href={value} target="_blank" rel="noreferrer" className="text-blue-500 dark:text-blue-400 hover:text-purple-500 underline underline-offset-4">{value}</a>;
+      return <a href={value} target="_blank" rel="noreferrer" className="underline underline-offset-4">{value}</a>;
     } else {
       return <>{value}</>;
     }
