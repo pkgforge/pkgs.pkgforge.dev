@@ -1,0 +1,19 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { getStaticPaths } from "./index.astro";
+export { getStaticPaths };
+const { data } = Astro.props;
+---
+
+<meta http-equiv="refresh" content={`0;url=${data.download_url}`} />
+<Layout>
+  <div class="flex min-h-[50vh] flex-col items-center justify-center space-y-4">
+    <h1 class="text-2xl font-bold">Download Started!</h1>
+    <p class="text-gray-600">
+      Your download should begin automatically. If it hasn't started, <a
+        href={data.download_url}
+        class="text-blue-500 underline">click here</a
+      >.
+    </p>
+  </div>
+</Layout>

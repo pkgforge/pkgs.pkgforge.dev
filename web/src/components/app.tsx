@@ -4,6 +4,7 @@ import { Badge } from "./ui/badge";
 import { ExternalLink, Image as ImageIcon, LucideTerminalSquare, Package, ScrollText, Download } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import { useClipboard } from "../hooks/use-clipboard";
+import FormulaLinks from "./formula-links";
 
 interface AppProps {
   data: { [key: string]: any };
@@ -211,7 +212,13 @@ export default function App({ data, logs: build }: AppProps) {
             <Package className="text-blue-600 dark:text-blue-400" />
             <span>Package Details</span>
           </h1>
-          <Table className="border border-muted/70 rounded-xl">
+          <FormulaLinks
+            webpage_url={data.pkg_webpage}
+            family={data.pkg_family}
+            name={data.pkg_name}
+            download_url={data.download_url}
+          />
+          <Table className="border border-muted/70 mt-4 rounded-xl">
             <TableBody>
               <TableRow>
                 <TableCell className="min-w-28 bg-muted/70 font-medium">
