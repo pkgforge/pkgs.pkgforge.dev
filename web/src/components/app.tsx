@@ -256,16 +256,20 @@ export default function App({ data, logs: build, repo }: AppProps) {
               <Download className="text-blue-600 dark:text-blue-400" />
               <span>Install Package</span>
             </h2>
-            <div className="w-full overflow-x-auto rounded bg-muted/70 p-2 relative">
+            <div className="w-full rounded bg-muted/70 p-2 relative">
               <Tooltip>
                 <TooltipTrigger asChild>
                   <code
-                    onClick={() => copy(`soar add "${data.pkg_id}"`)}
-                    className="block cursor-pointer font-mono text-sm"
+                    onClick={() => copy(`soar add "${data.pkg_name}#${data.pkg_id}"`)}
+                    className="block cursor-pointer whitespace-pre-wrap break-all font-mono text-sm"
                   >
                     <span className="text-blue-600 dark:text-blue-400">soar</span>
                     <span className="text-foreground"> add </span>
-                    <span className="text-green-600 dark:text-green-400">{data.pkg_id}</span>
+                    <span className="text-muted-foreground">"</span>
+                    <span className="text-green-600 dark:text-green-400">{data.pkg_name}</span>
+                    <span className="text-muted-foreground">#</span>
+                    <span className="text-red-600 dark:text-red-400">{data.pkg_id}</span>
+                    <span className="text-muted-foreground">"</span>
                   </code>
                 </TooltipTrigger>
                 <TooltipContent>
