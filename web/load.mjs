@@ -16,29 +16,15 @@ const run = async (url, branch, arch) => {
 
   const resp = await fetch(url).then((res) => res.json());
 
-  if (branch === "com" || branch == "community") {
-    resp.forEach((data) => {
-      data.pkg_family = data.pkg_id || "community";
+  resp.forEach((data) => {
+    response.push(data);
 
-      response.push(data);
-
-      if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data.pkg_name);
-      } else {
-        familyMap[data.pkg_family] = [data.pkg_name];
-      }
-    });
-  } else {
-    resp.forEach((data) => {
-      response.push(data);
-
-      if (familyMap[data.pkg_family]) {
-        familyMap[data.pkg_family].push(data.pkg_name);
-      } else {
-        familyMap[data.pkg_family] = [data.pkg_name];
-      }
-    });
-  }
+    if (familyMap[data.pkg_family]) {
+      familyMap[data.pkg_family].push([data.pkg_name, data.pkg_webpage]);
+    } else {
+      familyMap[data.pkg_family] = [[data.pkg_name, data.pkg_webpage]];
+    }
+  });
 
   response.sort((a, b) => a.pkg_name.localeCompare(b.pkg_name));
 
@@ -53,21 +39,23 @@ const run = async (url, branch, arch) => {
   writeFileSync(
     `./src/metadata_${branch}_${arch}.json`,
     JSON.stringify(
-      response.map((data) => ({
-        name: data.pkg_name || data.pkg,
-        pkg: data.pkg,
-        family: data.pkg_family || data.pkg_id,
-        version: data.version,
-        sha: data.shasum,
-        type: "base",
-        size: data.size,
-        sizeNum: genSize(data.size),
-        category: data.category,
-        id: "N/A",
-        build_date: data.build_date,
-        url: data.pkg_webpage,
-        familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
-      }))
+      response.map((data) => {
+        return {
+          name: data.pkg_name || data.pkg,
+          pkg: data.pkg,
+          family: data.pkg_family || data.pkg_id,
+          version: data.version,
+          sha: data.shasum,
+          type: "base",
+          size: data.size,
+          sizeNum: genSize(data.size),
+          category: data.category,
+          id: "N/A",
+          build_date: data.build_date,
+          url: data.pkg_webpage,
+          familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
+        };
+      })
     )
   );
 };

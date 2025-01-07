@@ -6,10 +6,13 @@ export async function getStaticPaths() {
   const { default: apps } = await import("../_apps.json");
 
   return apps.map((app) => {
+    // Thanks @Azathothas for forcing us to write this hellifying script
+    const [, , , , , , pkg_family, pkg] = app.pkg_webpage.split("/");
+
     return {
       params: {
-        family: app.pkg_family,
-        package: app.pkg_name || app.pkg,
+        family: pkg_family,
+        package: pkg,
       },
       props: {
         data: app,

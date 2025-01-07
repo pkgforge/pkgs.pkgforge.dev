@@ -9,9 +9,9 @@ export async function getStaticPaths() {
     params: { family },
     props: {
       name: family,
-      apps: apps.map((name) => ({
+      apps: apps.map(([name, url]) => ({
         name,
-        url: `/repo/bincache/aarch64-linux/${family}/${name}`,
+        url,
       })),
     },
   }));
