@@ -10,8 +10,10 @@ readdirSync("./src/pages/repo/").forEach((repo) => {
     );
 
     apps.forEach((app) => {
+      const [, , , , , , pkg_family, pkg] = app.pkg_webpage.split("/");
+
       writeFileSync(
-        `./dist/repo/${repo}/${arch}/${app.pkg_family}/${app.pkg_name}/raw.json`,
+        `./dist/repo/${repo}/${arch}/${pkg_family}/${pkg}/raw.json`,
         JSON.stringify(app, null, 2)
       );
     });

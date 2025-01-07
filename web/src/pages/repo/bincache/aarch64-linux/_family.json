@@ -6,7 +6,6 @@
     ]
   ],
   "a-utils": [
-<<<<<<< HEAD
     [
       "dial",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/a-utils/dial"
@@ -83,27 +82,6 @@
       "issue",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/a-utils/issue"
     ]
-=======
-    "fin",
-    "fortune",
-    "ed",
-    "cal",
-    "ccat",
-    "envsubst",
-    "xo",
-    "printf",
-    "isainfo",
-    "catv",
-    "importenv",
-    "hpwd",
-    "wttr",
-    "walk",
-    "dial",
-    "issue",
-    "test",
-    "listen",
-    "relf"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "aix": [
     [
@@ -228,7 +206,6 @@
     ]
   ],
   "bash": [
-<<<<<<< HEAD
     [
       "bash",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/gnuguix-bash/bash"
@@ -251,15 +228,6 @@
       "bat",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bat/bat"
     ]
-=======
-    "bash",
-    "bash",
-    "bash"
-  ],
-  "bat": [
-    "batcat",
-    "bat"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "bearer": [
     [
@@ -286,7 +254,6 @@
     ]
   ],
   "bintools": [
-<<<<<<< HEAD
     [
       "strings",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/strings"
@@ -425,44 +392,6 @@
       "nm",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/nm"
     ]
-=======
-    "ranlib",
-    "ld.gold",
-    "ar",
-    "objdump",
-    "ld.bfd",
-    "dwp",
-    "gprof",
-    "strip",
-    "readelf",
-    "addr2line",
-    "size",
-    "as",
-    "nm",
-    "objcopy",
-    "ld",
-    "elfedit",
-    "strings"
-  ],
-  "binutils": [
-    "addr2line",
-    "as",
-    "objdump",
-    "size",
-    "dwp",
-    "ranlib",
-    "ld",
-    "readelf",
-    "ld.gold",
-    "ld.bfd",
-    "ar",
-    "elfedit",
-    "objcopy",
-    "strings",
-    "gprof",
-    "nm",
-    "strip"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "bita": [
     [
@@ -544,7 +473,6 @@
     ]
   ],
   "btrfs-progs": [
-<<<<<<< HEAD
     [
       "btrfs-image",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/btrfs-progs/btrfs-image"
@@ -577,16 +505,6 @@
       "btrfs",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/btrfs-progs/btrfs"
     ]
-=======
-    "btrfs",
-    "btrfs-find-root",
-    "btrfsck",
-    "btrfstune",
-    "mkfs.btrfs",
-    "btrfs-map-logical",
-    "fsck.btrfs",
-    "btrfs-image"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "bucketloot": [
     [
@@ -665,7 +583,6 @@
     ]
   ],
   "cfssl": [
-<<<<<<< HEAD
     [
       "cfssl-newkey",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cfssl/cfssl-newkey"
@@ -698,16 +615,6 @@
       "cfssl",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cfssl/cfssl"
     ]
-=======
-    "cfssljson",
-    "cfssl-newkey",
-    "mkbundle",
-    "cfssl-scan",
-    "multirootca",
-    "cfssl",
-    "cfssl-certinfo",
-    "cfssl-bundle"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "chaos-client": [
     [
@@ -740,7 +647,6 @@
     ]
   ],
   "clipcat": [
-<<<<<<< HEAD
     [
       "clipcat-notify",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/clipcat/clipcat-notify"
@@ -757,12 +663,6 @@
       "clipcat-menu",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/clipcat/clipcat-menu"
     ]
-=======
-    "clipcatd",
-    "clipcat-menu",
-    "clipcat-notify",
-    "clipcatctl"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "cloudcash": [
     [
@@ -801,7 +701,6 @@
     ]
   ],
   "cobalt-cli": [
-<<<<<<< HEAD
     [
       "cobalt-cli",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cobalt-cli/cobalt-cli"
@@ -810,10 +709,6 @@
       "cobalt",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cobalt-cli/cobalt"
     ]
-=======
-    "cobalt-cli",
-    "cobalt"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "cocogitto": [
     [
@@ -844,7 +739,6 @@
     ]
   ],
   "cowsay": [
-<<<<<<< HEAD
     [
       "cowsay",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cowsay/cowsay"
@@ -853,10 +747,6 @@
       "cowthink",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cowsay/cowthink"
     ]
-=======
-    "cowsay",
-    "cowthink"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "cpufetch": [
     [
@@ -959,7 +849,6 @@
     ]
   ],
   "dateutils": [
-<<<<<<< HEAD
     [
       "datesort",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/dateutils/datesort"
@@ -1028,25 +917,6 @@
       "dateseq",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/dateutils/dateseq"
     ]
-=======
-    "dseq",
-    "dsort",
-    "datesort",
-    "dateadd",
-    "ddiff",
-    "dgrep",
-    "strptime",
-    "datetest",
-    "dateseq",
-    "dateround",
-    "dategrep",
-    "datediff",
-    "dzone",
-    "dateconv",
-    "dtest",
-    "dround",
-    "dconv"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "dbus": [
     [
@@ -1073,7 +943,6 @@
     ]
   ],
   "e2fsprogs": [
-<<<<<<< HEAD
     [
       "e4defrag",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/e2fsprogs/e4defrag"
@@ -1110,17 +979,6 @@
       "badblocks",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/e2fsprogs/badblocks"
     ]
-=======
-    "e4crypt",
-    "e2mmpstatus",
-    "badblocks",
-    "e4defrag",
-    "e2label",
-    "e2scrub_all",
-    "compile_et",
-    "e2undo",
-    "debugfs"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "entr": [
     [
@@ -1147,7 +1005,6 @@
     ]
   ],
   "findutils": [
-<<<<<<< HEAD
     [
       "xargs",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/github-com-uutils-findutils/xargs"
@@ -1184,20 +1041,6 @@
       "mount.fuse3",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/fuse3/mount.fuse3"
     ]
-=======
-    "xargs",
-    "xargs",
-    "xargs"
-  ],
-  "fuse": [
-    "ulockmgr_server",
-    "mount.fuse",
-    "fusermount"
-  ],
-  "fuse3": [
-    "mount.fuse3",
-    "fusermount3"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "gawk": [
     [
@@ -1206,7 +1049,6 @@
     ]
   ],
   "gdb": [
-<<<<<<< HEAD
     [
       "gdb",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/gdb/gdb"
@@ -1469,78 +1311,6 @@
       "combinator",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/hashcat-utils/combinator"
     ]
-=======
-    "gdb",
-    "gcore",
-    "gdbserver",
-    "gdb-add-index"
-  ],
-  "gettext": [
-    "xgettext",
-    "msggrep",
-    "msgconv",
-    "msguniq",
-    "ngettext",
-    "msgfilter",
-    "autopoint",
-    "recode-sr-latin",
-    "msgcmp",
-    "msginit",
-    "envsubst",
-    "msgmerge",
-    "msgfmt",
-    "gettextize",
-    "msgen",
-    "gettext.sh",
-    "gettext",
-    "msgunfmt",
-    "msgexec",
-    "msgcomm"
-  ],
-  "gzip": [
-    "zdiff",
-    "zmore",
-    "gzip",
-    "zcat",
-    "zcmp",
-    "gzexe",
-    "znew",
-    "zless",
-    "gunzip",
-    "zforce"
-  ],
-  "hashcat-utils": [
-    "combinator",
-    "tmesis-dynamic",
-    "expander",
-    "rli",
-    "permute",
-    "len",
-    "topmorph",
-    "strip-bsr",
-    "req-exclude",
-    "remaining",
-    "combinator3",
-    "hcstatgen",
-    "req-include",
-    "cap2hccapx",
-    "gate",
-    "morph",
-    "splitlen",
-    "mli2",
-    "tmesis",
-    "strip-bsn",
-    "generate-rules",
-    "seprule",
-    "hcstat2gen",
-    "prepare",
-    "ct3_to_ntlm",
-    "cleanup-rules",
-    "rli2",
-    "rules_optimize",
-    "cutb",
-    "permute_exist"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "hcxdumptool": [
     [
@@ -1549,7 +1319,6 @@
     ]
   ],
   "hcxtools": [
-<<<<<<< HEAD
     [
       "hcxpsktool",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/hcxtools/hcxpsktool"
@@ -1586,17 +1355,6 @@
       "wlancap2wpasec",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/hcxtools/wlancap2wpasec"
     ]
-=======
-    "whoismac",
-    "wlancap2wpasec",
-    "hcxhash2cap",
-    "hcxpsktool",
-    "hcxwltool",
-    "hcxpmktool",
-    "hcxeiutool",
-    "hcxhashtool",
-    "hcxpcapngtool"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "hurl": [
     [
@@ -1609,7 +1367,6 @@
     ]
   ],
   "iotop-c": [
-<<<<<<< HEAD
     [
       "iotop-c",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/iotop-c/iotop-c"
@@ -1752,51 +1509,6 @@
       "bsdcat",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/libarchive/bsdcat"
     ]
-=======
-    "iotop-c",
-    "iotop"
-  ],
-  "iperf3": [
-    "iperf",
-    "iperf3"
-  ],
-  "iproute2": [
-    "dcb",
-    "rdma",
-    "tipc",
-    "rtstat",
-    "rtacct",
-    "ip",
-    "ss",
-    "arpd",
-    "ctstat",
-    "tc",
-    "devlink",
-    "rtmon",
-    "vdpa",
-    "lnstat",
-    "bridge",
-    "ifstat",
-    "genl",
-    "nstat"
-  ],
-  "iputils": [
-    "arping",
-    "ping",
-    "tracepath",
-    "clockdiff"
-  ],
-  "less": [
-    "lesskey",
-    "less",
-    "lessecho"
-  ],
-  "libarchive": [
-    "bsdcpio",
-    "bsdcat",
-    "bsdunzip",
-    "bsdtar"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "libtree": [
     [
@@ -1835,7 +1547,6 @@
     ]
   ],
   "mtr": [
-<<<<<<< HEAD
     [
       "mtr-packet",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/mtr/mtr-packet"
@@ -1938,38 +1649,6 @@
       "numactl",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/numactl/numactl"
     ]
-=======
-    "mtr",
-    "mtr-packet"
-  ],
-  "net-tools": [
-    "arp",
-    "route",
-    "ifconfig",
-    "mii-tool",
-    "slattach",
-    "plipconfig",
-    "rarp",
-    "dnsdomainname",
-    "hostname",
-    "nisdomainname",
-    "nameif",
-    "netstat",
-    "domainname"
-  ],
-  "netcat": [
-    "nc",
-    "nc",
-    "nc",
-    "nc"
-  ],
-  "numactl": [
-    "numademo",
-    "memhog",
-    "numactl",
-    "migspeed",
-    "numastat"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "oksh": [
     [
@@ -1978,7 +1657,6 @@
     ]
   ],
   "openssl": [
-<<<<<<< HEAD
     [
       "c_rehash",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/openssl/c_rehash"
@@ -2053,28 +1731,6 @@
       "sha1",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/sha1"
     ]
-=======
-    "openssl",
-    "c_rehash"
-  ],
-  "outils": [
-    "jot",
-    "unvis",
-    "cksum",
-    "md5",
-    "sha1",
-    "rs",
-    "calendar",
-    "sha512",
-    "lndir",
-    "vis",
-    "signify",
-    "rdate",
-    "sha256",
-    "ts",
-    "lam",
-    "what"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "patchelf": [
     [
@@ -2083,7 +1739,6 @@
     ]
   ],
   "pax-utils": [
-<<<<<<< HEAD
     [
       "scanelf",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/pax-utils/scanelf"
@@ -2104,13 +1759,6 @@
       "symtree",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/pax-utils/symtree"
     ]
-=======
-    "dumpelf",
-    "scanelf",
-    "symtree",
-    "scanmacho",
-    "pspax"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "pigz": [
     [
@@ -2123,7 +1771,6 @@
     ]
   ],
   "procps": [
-<<<<<<< HEAD
     [
       "slabtop",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/procps/slabtop"
@@ -2206,30 +1853,6 @@
       "pstree.x11",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/psmisc/pstree.x11"
     ]
-=======
-    "pgrep",
-    "sysctl",
-    "kill",
-    "slabtop",
-    "vmstat",
-    "tload",
-    "watch",
-    "pidof",
-    "uptime",
-    "pwdx",
-    "top",
-    "pmap",
-    "free",
-    "ps"
-  ],
-  "psmisc": [
-    "pstree.x11",
-    "pslog",
-    "killall",
-    "fuser",
-    "pstree",
-    "peekfd"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "python3": [
     [
@@ -2252,7 +1875,6 @@
     ]
   ],
   "s6-dns": [
-<<<<<<< HEAD
     [
       "s6-dnsq",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-dns/s6-dnsq"
@@ -2675,135 +2297,5 @@
       "tmux",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/tmux/tmux"
     ]
-=======
-    "s6-dnsq",
-    "s6-dnsip4-filter",
-    "s6-dnsmx",
-    "s6-dnsname-filter",
-    "s6-dnsip6",
-    "s6-dnssoa",
-    "skadnsd",
-    "s6-randomip",
-    "s6-dnsns",
-    "s6-dnsqualify",
-    "s6-dnsip",
-    "s6-dns-hosts-compile",
-    "s6-dnsqr",
-    "s6-dnstxt",
-    "s6-dnssrv",
-    "s6-dnsip6-filter"
-  ],
-  "s6-rc": [
-    "s6-rc",
-    "s6-rc-format-upgrade",
-    "s6-rc-update",
-    "s6-rc-dryrun",
-    "s6-rc-bundle",
-    "s6-rc-db",
-    "s6-rc-compile",
-    "s6-rc-init"
-  ],
-  "s6": [
-    "s6-accessrules-fs-from-cdb",
-    "s6-cleanfifodir",
-    "s6-instance-delete",
-    "s6-ipcclient",
-    "s6-applyuidgid",
-    "s6-ftrigrd",
-    "s6-ftrig-listen",
-    "s6-mkfifodir",
-    "s6-fdholder-daemon",
-    "s6-svwait",
-    "s6-fdholder-getdump",
-    "s6-svunlink",
-    "s6-fdholder-list",
-    "s6-log",
-    "s6-ftrig-listen1",
-    "s6-instance-list",
-    "s6-fdholder-store",
-    "s6-supervise",
-    "s6-ftrig-notify",
-    "s6-fdholderd",
-    "s6-fdholder-retrieve",
-    "s6-fdholder-transferdump",
-    "s6-instance-control",
-    "s6-sudoc",
-    "s6-setsid",
-    "s6-fdholder-setdump",
-    "s6-connlimit",
-    "s6-instance-status",
-    "s6-instance-create",
-    "s6-setlock",
-    "s6-fdholder-delete",
-    "s6-envdir",
-    "s6-accessrules-cdb-from-fs",
-    "s6-svscan",
-    "s6-ftrig-wait",
-    "s6-ipcserver-socketbinder",
-    "s6-instance-maker",
-    "s6-ipcserverd",
-    "s6-notifyoncheck",
-    "s6-ipcserver-access",
-    "s6-ipcserver",
-    "s6-envuidgid",
-    "s6-fghack",
-    "s6-permafailon",
-    "s6-ioconnect"
-  ],
-  "sed": [
-    "sed"
-  ],
-  "sharutils": [
-    "unshar",
-    "uuencode",
-    "shar",
-    "uudecode"
-  ],
-  "slirp4netns": [
-    "slirp4netns"
-  ],
-  "sqlite": [
-    "sqlite3",
-    "sqlite"
-  ],
-  "squashfs-tools-ng": [
-    "sqfsdiff",
-    "gensquashfs",
-    "sqfs2tar",
-    "tar2sqfs",
-    "rdsquashfs"
-  ],
-  "squashfs-tools": [
-    "sqfscat",
-    "sqfstar",
-    "mksquashfs",
-    "unsquashfs"
-  ],
-  "squashfuse": [
-    "squashfuse",
-    "squashfuse_ll"
-  ],
-  "strace": [
-    "strace-log-merge",
-    "strace"
-  ],
-  "sudo": [
-    "sudo_logsrvd",
-    "sudoedit",
-    "sudoreplay",
-    "sudo"
-  ],
-  "tar": [
-    "tar"
-  ],
-  "tcpdump": [
-    "tcpdump"
-  ],
-  "tio": [
-    "tio"
-  ],
-  "tmux": [
-    "tmux"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ]
 }

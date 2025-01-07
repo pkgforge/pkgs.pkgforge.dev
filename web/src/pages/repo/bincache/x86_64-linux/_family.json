@@ -6,7 +6,6 @@
     ]
   ],
   "a-utils": [
-<<<<<<< HEAD
     [
       "wttr",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/a-utils/wttr"
@@ -83,27 +82,6 @@
       "cal",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/a-utils/cal"
     ]
-=======
-    "walk",
-    "envsubst",
-    "printf",
-    "cal",
-    "test",
-    "fin",
-    "wttr",
-    "ccat",
-    "ed",
-    "hpwd",
-    "listen",
-    "isainfo",
-    "fortune",
-    "xo",
-    "relf",
-    "issue",
-    "dial",
-    "importenv",
-    "catv"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "aix": [
     [
@@ -130,7 +108,6 @@
     ]
   ],
   "almalinux": [
-<<<<<<< HEAD
     [
       "almalinux-minimal",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/almalinux/almalinux-minimal"
@@ -139,10 +116,6 @@
       "almalinux",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/almalinux/almalinux"
     ]
-=======
-    "almalinux",
-    "almalinux-minimal"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "alpine": [
     [
@@ -227,7 +200,6 @@
     ]
   ],
   "bash": [
-<<<<<<< HEAD
     [
       "bash",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/nixpkgs-bash/bash"
@@ -240,11 +212,6 @@
       "bash",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gnuguix-bash/bash"
     ]
-=======
-    "bash",
-    "bash",
-    "bash"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "bat": [
     [
@@ -281,7 +248,6 @@
     ]
   ],
   "bintools": [
-<<<<<<< HEAD
     [
       "size",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bintools/size"
@@ -420,44 +386,6 @@
       "nm",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/nm"
     ]
-=======
-    "addr2line",
-    "size",
-    "ld.gold",
-    "elfedit",
-    "ar",
-    "objcopy",
-    "gprof",
-    "dwp",
-    "as",
-    "objdump",
-    "strip",
-    "ranlib",
-    "ld.bfd",
-    "nm",
-    "ld",
-    "strings",
-    "readelf"
-  ],
-  "binutils": [
-    "ar",
-    "strip",
-    "elfedit",
-    "addr2line",
-    "size",
-    "objcopy",
-    "objdump",
-    "readelf",
-    "nm",
-    "ld",
-    "gprof",
-    "dwp",
-    "strings",
-    "ranlib",
-    "ld.gold",
-    "as",
-    "ld.bfd"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "bita": [
     [
@@ -496,7 +424,6 @@
     ]
   ],
   "bottom": [
-<<<<<<< HEAD
     [
       "bottom",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bottom/bottom"
@@ -505,10 +432,6 @@
       "btm",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bottom/btm"
     ]
-=======
-    "bottom",
-    "btm"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "boxxy": [
     [
@@ -550,7 +473,6 @@
     ]
   ],
   "btrfs-progs": [
-<<<<<<< HEAD
     [
       "btrfs-map-logical",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/btrfs-progs/btrfs-map-logical"
@@ -591,18 +513,6 @@
       "btrfs",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/btrfs-progs/btrfs"
     ]
-=======
-    "btrfs",
-    "btrfs-select-super",
-    "mkfs.btrfs",
-    "btrfs-find-root",
-    "btrfs-map-logical",
-    "btrfstune",
-    "btrfsck",
-    "btrfs-convert",
-    "fsck.btrfs",
-    "btrfs-image"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "bucketloot": [
     [
@@ -687,7 +597,6 @@
     ]
   ],
   "cfssl": [
-<<<<<<< HEAD
     [
       "mkbundle",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cfssl/mkbundle"
@@ -720,16 +629,6 @@
       "cfssl-newkey",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cfssl/cfssl-newkey"
     ]
-=======
-    "cfssl-bundle",
-    "multirootca",
-    "cfssl-scan",
-    "cfssl",
-    "cfssl-certinfo",
-    "cfssljson",
-    "mkbundle",
-    "cfssl-newkey"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "chaos-client": [
     [
@@ -768,7 +667,6 @@
     ]
   ],
   "clipcat": [
-<<<<<<< HEAD
     [
       "clipcat-notify",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/clipcat-notify"
@@ -785,12 +683,6 @@
       "clipcat-menu",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/clipcat-menu"
     ]
-=======
-    "clipcat-menu",
-    "clipcatd",
-    "clipcat-notify",
-    "clipcatctl"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "cloudcash": [
     [
@@ -839,7 +731,6 @@
     ]
   ],
   "cocogitto": [
-<<<<<<< HEAD
     [
       "cog",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cocogitto/cog"
@@ -848,10 +739,6 @@
       "cocogitto",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cocogitto/cocogitto"
     ]
-=======
-    "cog",
-    "cocogitto"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "containerd": [
     [
@@ -928,7 +815,6 @@
     ]
   ],
   "cryptsetup": [
-<<<<<<< HEAD
     [
       "cryptsetup",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cryptsetup/cryptsetup"
@@ -941,11 +827,6 @@
       "integritysetup",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cryptsetup/integritysetup"
     ]
-=======
-    "integritysetup",
-    "veritysetup",
-    "cryptsetup"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "csprecon": [
     [
@@ -966,7 +847,6 @@
     ]
   ],
   "curl": [
-<<<<<<< HEAD
     [
       "curl",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/curl/curl"
@@ -975,10 +855,6 @@
       "trurl",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/curl/trurl"
     ]
-=======
-    "curl",
-    "trurl"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "cut-cdn": [
     [
@@ -993,7 +869,6 @@
     ]
   ],
   "czkawka": [
-<<<<<<< HEAD
     [
       "czkawka_cli",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/czkawka/czkawka_cli"
@@ -1098,37 +973,6 @@
       "update-desktop-database",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/desktop-file-utils/update-desktop-database"
     ]
-=======
-    "czkawka-cli",
-    "czkawka_cli"
-  ],
-  "dateutils": [
-    "dround",
-    "dategrep",
-    "datetest",
-    "datediff",
-    "dateconv",
-    "dateseq",
-    "ddiff",
-    "dateadd",
-    "dgrep",
-    "dzone",
-    "dateround",
-    "dsort",
-    "dconv",
-    "dseq",
-    "dtest",
-    "datezone",
-    "strptime",
-    "datesort",
-    "dadd"
-  ],
-  "desktop-file-utils": [
-    "update-desktop-database",
-    "desktop-file-edit",
-    "desktop-file-validate",
-    "desktop-file-install"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "doas": [
     [
@@ -1137,7 +981,6 @@
     ]
   ],
   "dos2unix": [
-<<<<<<< HEAD
     [
       "unix2dos",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dos2unix/unix2dos"
@@ -1268,42 +1111,6 @@
       "fsck.ext3",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/fsck.ext3"
     ]
-=======
-    "unix2mac",
-    "unix2dos",
-    "mac2unix",
-    "dos2unix"
-  ],
-  "e2fsprogs": [
-    "dumpe2fs",
-    "lsattr",
-    "badblocks",
-    "e2fsck",
-    "mke2fs",
-    "e2image",
-    "fsck.ext4",
-    "tune2fs",
-    "e2scrub_all",
-    "e4defrag",
-    "fsck.ext3",
-    "mkfs.ext4",
-    "compile_et",
-    "logsave",
-    "mk_cmds",
-    "e2scrub",
-    "chattr",
-    "e4crypt",
-    "resize2fs",
-    "fsck.ext2",
-    "e2label",
-    "mkfs.ext2",
-    "e2freefrag",
-    "e2mmpstatus",
-    "debugfs",
-    "e2undo",
-    "filefrag",
-    "mkfs.ext3"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "entr": [
     [
@@ -1312,7 +1119,6 @@
     ]
   ],
   "exfat": [
-<<<<<<< HEAD
     [
       "mount.exfat-fuse",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/exfat/mount.exfat-fuse"
@@ -1375,25 +1181,6 @@
       "mkfs.exfat",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/exfatprogs/mkfs.exfat"
     ]
-=======
-    "mount.exfat-fuse",
-    "exfatfsck",
-    "exfatlabel",
-    "dumpexfat",
-    "mount.exfat",
-    "exfatattrib",
-    "mkexfatfs",
-    "mkfs.exfat",
-    "fsck.exfat"
-  ],
-  "exfatprogs": [
-    "tune.exfat",
-    "mkfs.exfat",
-    "exfatlabel",
-    "fsck.exfat",
-    "dump.exfat",
-    "exfat2img"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "fdupes": [
     [
@@ -1402,7 +1189,6 @@
     ]
   ],
   "findutils": [
-<<<<<<< HEAD
     [
       "find",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/nixpkgs-findutils/find"
@@ -1451,23 +1237,6 @@
       "fusermount3",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fuse3/fusermount3"
     ]
-=======
-    "find",
-    "find",
-    "find",
-    "find",
-    "find",
-    "find"
-  ],
-  "fuse": [
-    "fusermount",
-    "mount.fuse",
-    "ulockmgr_server"
-  ],
-  "fuse3": [
-    "mount.fuse3",
-    "fusermount3"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "gawk": [
     [
@@ -1476,7 +1245,6 @@
     ]
   ],
   "gdb": [
-<<<<<<< HEAD
     [
       "gcore",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdb/gcore"
@@ -1767,85 +1535,6 @@
       "cutb",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/hashcat-utils/cutb"
     ]
-=======
-    "gcore",
-    "gdb-add-index",
-    "gdb",
-    "gdbserver"
-  ],
-  "gettext": [
-    "msginit",
-    "msgcat",
-    "msgmerge",
-    "msgen",
-    "gettext",
-    "msgattrib",
-    "msgcmp",
-    "autopoint",
-    "msgconv",
-    "msgcomm",
-    "xgettext",
-    "gettextize",
-    "msguniq",
-    "gettext.sh",
-    "msgfmt",
-    "recode-sr-latin",
-    "envsubst",
-    "msggrep",
-    "msgunfmt",
-    "msgfilter",
-    "ngettext",
-    "msgexec"
-  ],
-  "gzip": [
-    "zless",
-    "gunzip",
-    "zforce",
-    "znew",
-    "zmore",
-    "gzexe",
-    "zcmp",
-    "gzip",
-    "uncompress",
-    "zcat",
-    "zdiff",
-    "zgrep"
-  ],
-  "hashcat-utils": [
-    "cutb",
-    "strip-bsr",
-    "tmesis-dynamic",
-    "len",
-    "rli",
-    "combinator",
-    "mli2",
-    "prepare",
-    "cleanup-rules",
-    "tmesis",
-    "seprule",
-    "req-exclude",
-    "strip-bsn",
-    "ct3_to_ntlm",
-    "cap2hccapx",
-    "hcstat2gen",
-    "generate-rules",
-    "keyspace",
-    "rli2",
-    "rules_optimize",
-    "remaining",
-    "req-include",
-    "permute",
-    "expander",
-    "hcstatgen",
-    "topmorph",
-    "permute_exist",
-    "combinator3",
-    "gate",
-    "splitlen",
-    "deskey_to_ntlm",
-    "morph",
-    "combipow"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "hcxdumptool": [
     [
@@ -1854,7 +1543,6 @@
     ]
   ],
   "hcxtools": [
-<<<<<<< HEAD
     [
       "hcxpmktool",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/hcxtools/hcxpmktool"
@@ -1891,17 +1579,6 @@
       "hcxeiutool",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/hcxtools/hcxeiutool"
     ]
-=======
-    "hcxhashtool",
-    "whoismac",
-    "hcxwltool",
-    "hcxeiutool",
-    "wlancap2wpasec",
-    "hcxhash2cap",
-    "hcxpcapngtool",
-    "hcxpmktool",
-    "hcxpsktool"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "iotop-c": [
     [
@@ -1914,7 +1591,6 @@
     ]
   ],
   "iperf3": [
-<<<<<<< HEAD
     [
       "iperf",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/iperf3/iperf"
@@ -2043,46 +1719,6 @@
       "bsdunzip",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/libarchive/bsdunzip"
     ]
-=======
-    "iperf3",
-    "iperf"
-  ],
-  "iproute2": [
-    "rtstat",
-    "genl",
-    "ss",
-    "nstat",
-    "dcb",
-    "rtmon",
-    "tc",
-    "arpd",
-    "devlink",
-    "ctstat",
-    "tipc",
-    "vdpa",
-    "bridge",
-    "ifstat",
-    "lnstat",
-    "rdma",
-    "rtacct",
-    "ip"
-  ],
-  "iputils": [
-    "tracepath",
-    "ping",
-    "clockdiff"
-  ],
-  "less": [
-    "lessecho",
-    "lesskey",
-    "less"
-  ],
-  "libarchive": [
-    "bsdcat",
-    "bsdunzip",
-    "bsdtar",
-    "bsdcpio"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "libtree": [
     [
@@ -2127,7 +1763,6 @@
     ]
   ],
   "net-tools": [
-<<<<<<< HEAD
     [
       "arp",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/net-tools/arp"
@@ -2208,31 +1843,6 @@
       "migspeed",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/numactl/migspeed"
     ]
-=======
-    "plipconfig",
-    "ypdomainname",
-    "slattach",
-    "rarp",
-    "mii-tool",
-    "domainname",
-    "arp",
-    "route",
-    "netstat"
-  ],
-  "netcat": [
-    "nc",
-    "nc",
-    "nc",
-    "nc"
-  ],
-  "numactl": [
-    "memhog",
-    "migspeed",
-    "numastat",
-    "numactl",
-    "migratepages",
-    "numademo"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "oksh": [
     [
@@ -2297,7 +1907,6 @@
     ]
   ],
   "pax-utils": [
-<<<<<<< HEAD
     [
       "pspax",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pax-utils/pspax"
@@ -2416,42 +2025,6 @@
       "pstree",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/psmisc/pstree"
     ]
-=======
-    "pspax",
-    "scanelf",
-    "dumpelf",
-    "scanmacho",
-    "symtree"
-  ],
-  "pigz": [
-    "pigz",
-    "unpigz"
-  ],
-  "procps": [
-    "pgrep",
-    "sysctl",
-    "top",
-    "free",
-    "vmstat",
-    "slabtop",
-    "pkill",
-    "ps",
-    "pmap",
-    "uptime",
-    "watch",
-    "kill",
-    "tload",
-    "pidof",
-    "pwdx"
-  ],
-  "psmisc": [
-    "pslog",
-    "fuser",
-    "pstree.x11",
-    "killall",
-    "prtstat",
-    "pstree"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "python3": [
     [
@@ -2474,7 +2047,6 @@
     ]
   ],
   "s6-dns": [
-<<<<<<< HEAD
     [
       "s6-dnsmx",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/s6-dns/s6-dnsmx"
@@ -2577,35 +2149,6 @@
       "s6-linux-init",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/s6-linux-init/s6-linux-init"
     ]
-=======
-    "s6-dnsmx",
-    "s6-dnsname",
-    "s6-dnsip4-filter",
-    "s6-dnstxt",
-    "s6-dnsname-filter",
-    "skadnsd",
-    "s6-dnsip6-filter",
-    "s6-dnsqualify",
-    "s6-dnsns",
-    "s6-dns-hosts-compile",
-    "s6-dnsqr",
-    "s6-dnssrv",
-    "s6-randomip",
-    "s6-dnsip6",
-    "s6-dnssoa",
-    "s6-dnsip",
-    "s6-dnsq"
-  ],
-  "s6-linux-init": [
-    "s6-linux-init-umountall",
-    "s6-linux-init-telinit",
-    "s6-linux-init-shutdown",
-    "s6-linux-init",
-    "s6-linux-init-shutdownd",
-    "s6-linux-init-hpr",
-    "s6-linux-init-maker",
-    "s6-linux-init-logouthookd"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "s6-linux-utils": [
     [
@@ -2622,7 +2165,6 @@
     ]
   ],
   "s6-networking": [
-<<<<<<< HEAD
     [
       "s6-tlsd",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/s6-networking/s6-tlsd"
@@ -3129,139 +2671,6 @@
       "s6-ftrig-listen1",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/s6/s6-ftrig-listen1"
     ]
-=======
-    "s6-tcpclient",
-    "s6-taiclockd",
-    "s6-ucspitlsd",
-    "s6-tcpserver-access",
-    "s6-tlsc",
-    "s6-tlsclient",
-    "s6-ident-client",
-    "s6-tlsd-io",
-    "s6-tcpserverd",
-    "s6-tcpserver-socketbinder",
-    "s6-tlsserver",
-    "s6-tcpserver",
-    "s6-getservbyname",
-    "s6-ucspitlsc",
-    "s6-tlsd",
-    "s6-tlsc-io"
-  ],
-  "s6-portable-utils": [
-    "s6-rename",
-    "s6-tai64ndiff",
-    "s6-ln",
-    "s6-cat",
-    "s6-sleep",
-    "s6-printenv",
-    "s6-quote-filter",
-    "s6-head",
-    "s6-ls",
-    "s6-mkfifo",
-    "s6-env",
-    "s6-echo",
-    "s6-false",
-    "s6-basename",
-    "s6-hiercopy",
-    "s6-mkdir",
-    "s6-grep",
-    "s6-tail",
-    "s6-quote",
-    "s6-expr",
-    "s6-touch",
-    "s6-linkname",
-    "s6-maximumtime",
-    "s6-seq",
-    "s6-cut",
-    "s6-rmrf",
-    "s6-nuke",
-    "s6-sort",
-    "s6-dirname",
-    "s6-pause",
-    "s6-sync",
-    "s6-chown",
-    "s6-chmod",
-    "s6-dumpenv",
-    "s6-nice",
-    "s6-clock",
-    "s6-format-filter"
-  ],
-  "s6-rc": [
-    "s6-rc-update",
-    "s6-rc",
-    "s6-rc-format-upgrade",
-    "s6-rc-init",
-    "s6-rc-compile",
-    "s6-rc-dryrun",
-    "s6-rc-bundle",
-    "s6-rc-db"
-  ],
-  "s6": [
-    "s6-ipcserver-socketbinder",
-    "s6-fdholder-setdump",
-    "s6-ftrig-notify",
-    "s6-svperms",
-    "s6-ipcclient",
-    "s6-setlock",
-    "s6-fdholder-retrieve",
-    "s6-log",
-    "s6-ipcserverd",
-    "s6-envuidgid",
-    "s6-svc",
-    "s6-fdholder-list",
-    "s6-svstat",
-    "s6-fdholder-daemon",
-    "s6-svlink",
-    "s6-ipcserver",
-    "s6-instance-delete",
-    "s6-sudoc",
-    "s6-usertree-maker",
-    "s6-ftrigrd",
-    "s6-fdholder-store",
-    "s6-setsid",
-    "s6-socklog",
-    "s6-svlisten",
-    "s6-svunlink",
-    "s6-fdholder-transferdump",
-    "s6-svdt",
-    "s6-applyuidgid",
-    "s6-ftrig-listen1",
-    "ucspilogd",
-    "s6-svwait",
-    "s6-notifyoncheck",
-    "s6-connlimit",
-    "s6-cleanfifodir",
-    "s6-svscanctl",
-    "s6-fdholderd",
-    "s6-fghack",
-    "s6-instance-control",
-    "s6-svlisten1",
-    "s6-supervise",
-    "s6-svdt-clear",
-    "s6-instance-maker",
-    "s6-ipcserver-access",
-    "s6-accessrules-cdb-from-fs",
-    "s6-sudod",
-    "s6-envdir",
-    "s6-setuidgid",
-    "s6-fdholder-getdump",
-    "s6-softlimit",
-    "s6-mkfifodir",
-    "s6-instance-create",
-    "s6-tai64n",
-    "s6-instance-status",
-    "s6-fdholder-delete",
-    "s6-tai64nlocal",
-    "s6-ftrig-wait",
-    "s6-ioconnect",
-    "s6-permafailon",
-    "s6-svok",
-    "s6-svscan",
-    "s6-ftrig-listen",
-    "s6-accessrules-fs-from-cdb",
-    "s6-instance-list",
-    "s6-sudo"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "sed": [
     [
@@ -3270,7 +2679,6 @@
     ]
   ],
   "sharutils": [
-<<<<<<< HEAD
     [
       "shar",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sharutils/shar"
@@ -3283,11 +2691,6 @@
       "uuencode",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sharutils/uuencode"
     ]
-=======
-    "shar",
-    "uuencode",
-    "uudecode"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "slirp4netns": [
     [
@@ -3296,7 +2699,6 @@
     ]
   ],
   "socat": [
-<<<<<<< HEAD
     [
       "procan",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/socat/procan"
@@ -3309,11 +2711,6 @@
       "socat",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/socat/socat"
     ]
-=======
-    "socat",
-    "filan",
-    "procan"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "sqlite": [
     [
@@ -3326,7 +2723,6 @@
     ]
   ],
   "squashfs-tools-ng": [
-<<<<<<< HEAD
     [
       "gensquashfs",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/squashfs-tools-ng/gensquashfs"
@@ -3375,23 +2771,6 @@
       "squashfuse_ll",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/squashfuse/squashfuse_ll"
     ]
-=======
-    "gensquashfs",
-    "tar2sqfs",
-    "sqfs2tar",
-    "sqfsdiff",
-    "rdsquashfs"
-  ],
-  "squashfs-tools": [
-    "sqfscat",
-    "sqfstar",
-    "mksquashfs",
-    "unsquashfs"
-  ],
-  "squashfuse": [
-    "squashfuse_ll",
-    "squashfuse"
->>>>>>> 3516a337ed9b13d03ef30b20daa84efa0b27b79b
   ],
   "strace": [
     [
