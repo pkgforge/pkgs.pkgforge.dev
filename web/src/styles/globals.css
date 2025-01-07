@@ -98,5 +98,5 @@
 }
 
 a {
-  @apply text-primary hover:text-secondary;
+  @apply text-primary hover:text-secondary-foreground;
 }

@@ -12,7 +12,7 @@ import { buttonVariants } from './ui/button';
 const links = [
     {
         text: "GitHub",
-        href: "https://github.com/pkgforge",
+        href: "https://github.com/pkgforge/soarpkgs",
         target: "_blank",
         icon: 1,
     },
