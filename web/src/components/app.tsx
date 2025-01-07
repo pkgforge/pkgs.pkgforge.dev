@@ -1,7 +1,7 @@
 import { Table, TableBody, TableCell, TableRow } from "./ui/table";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 import { Badge } from "./ui/badge";
-import { ExternalLink, Image as ImageIcon, LucideTerminalSquare, Package, ScrollText, Download } from "lucide-react";
+import { ExternalLink, Image as ImageIcon, LucideTerminalSquare, Package, ScrollText, Download, Bug } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import { useClipboard } from "../hooks/use-clipboard";
 import FormulaLinks from "./formula-links";
@@ -322,23 +322,20 @@ export default function App({ data, logs: build, repo }: AppProps) {
             </div>
           )}
 
-          {data.icon && (
-            <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
-              <h2 className="text-lg font-semibold flex items-center space-x-2">
-                <ImageIcon className="text-amber-600 dark:text-amber-400" />
-                <span>Package Icon</span>
-              </h2>
-              <img src={data.icon} alt="Package Icon" className="w-16 h-16 rounded-lg" />
-              <a href={data.icon} target="_blank" rel="noreferrer"
-                className={buttonVariants({
-                  variant: "outline",
-                  className: "w-full flex items-center justify-center space-x-2"
-                })}>
-                <span>View Raw</span>
-                <ExternalLink className="h-4 w-4" />
-              </a>
-            </div>
-          )}
+          <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
+            <h2 className="text-lg font-semibold flex items-center space-x-2">
+              <Bug className="text-red-600 dark:text-red-400" />
+              <span>Report Issues</span>
+            </h2>
+            <a href="https://github.com/pkgforge/soarpkgs/issues/new/choose" target="_blank" rel="noreferrer"
+              className={buttonVariants({
+                variant: "outline",
+                className: "w-full flex items-center justify-center space-x-2"
+              })}>
+              <span>Create Issue</span>
+              <ExternalLink className="h-4 w-4" />
+            </a>
+          </div>
         </div>
       </div>
     </TooltipProvider>
