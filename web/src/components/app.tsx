@@ -9,6 +9,7 @@ import FormulaLinks from "./formula-links";
 interface AppProps {
   data: { [key: string]: any };
   logs: string;
+  repo: string;
 }
 
 type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags";
@@ -202,7 +203,7 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
   }
 }
 
-export default function App({ data, logs: build }: AppProps) {
+export default function App({ data, logs: build, repo }: AppProps) {
   const { copy, copied } = useClipboard();
   return (
     <TooltipProvider delayDuration={0}>
@@ -214,20 +215,22 @@ export default function App({ data, logs: build }: AppProps) {
           </h1>
           <FormulaLinks
             webpage_url={data.pkg_webpage}
+            repo={repo}
+            arch={data.host}
             family={data.pkg_family}
             name={data.pkg_name}
             download_url={data.download_url}
           />
           <Table className="border border-muted/70 mt-4 rounded-xl">
             <TableBody>
-              <TableRow>
+              {/* <TableRow>
                 <TableCell className="min-w-28 bg-muted/70 font-medium">
                   Raw
                 </TableCell>
                 <TableCell className="text-wrap break-all whitespace-normal">
-                  <Show value={`${data.pkg_webpage}/raw.json`} props={{ data, logs: build }} />
+                  <Show value={`${data.pkg_webpage}/raw.json`} props={{ data, logs: build, repo }} />
                 </TableCell>
-              </TableRow>
+              </TableRow> */}
 
               {
                 Object.entries(data)
@@ -238,7 +241,7 @@ export default function App({ data, logs: build }: AppProps) {
                         {(resolver[Key]?.label || Key)}
                       </TableCell>
                       <TableCell className="text-wrap break-all whitespace-normal">
-                        <Show value={Value} props={{ data, logs: build }} Key={Key} />
+                        <Show value={Value} props={{ data, logs: build, repo }} Key={Key} />
                       </TableCell>
                     </TableRow>
                   ))

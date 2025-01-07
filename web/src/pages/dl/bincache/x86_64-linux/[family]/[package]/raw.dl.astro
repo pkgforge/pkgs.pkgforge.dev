@@ -1,7 +1,23 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import { getStaticPaths } from "./index.astro";
-export { getStaticPaths };
+
+export async function getStaticPaths() {
+  const { default: apps } = await import("../../../../../repo/bincache/x86_64-linux/_apps.json");
+
+  return apps.map((app) => {
+    return {
+      params: {
+        family: app.pkg_family,
+        package: app.pkg_name || app.pkg,
+      },
+      props: {
+        data: app,
+        logs: app.build_log || "",
+      },
+    };
+  });
+}
+
 const { data } = Astro.props;
 ---
 
