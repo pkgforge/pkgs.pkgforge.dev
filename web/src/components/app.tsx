@@ -26,7 +26,7 @@ const resolver: { [key: string]: ResolverField } = {
   pkg_name: { label: "Package Name", type: "default" },
   pkg_id: { label: "Package ID", type: "default" },
   bsum: { label: "BLAKE3SUM", type: "hash" },
-  repology: { label: "Repology", type: "category" },
+  repology: { label: "Repology", type: "tags" },
   appstream: { label: "AppStream", type: "link" },
   license: { label: "License", type: "default" },
   snapshots: { label: "Snapshots", type: "version" },
