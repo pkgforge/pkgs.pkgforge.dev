@@ -12,7 +12,7 @@ interface AppProps {
   repo: string;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology";
+type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides";
 
 interface ResolverField {
   label: string;
@@ -46,7 +46,7 @@ const resolver: { [key: string]: ResolverField } = {
   build_gha: { label: "Build CI", type: "link" },
   category: { label: "Category", type: "category" },
   icon: { label: "Icon", type: "link" },
-  provides: { label: "Provides", type: "tags" },
+  provides: { label: "Provides", type: "provides" },
   description: { label: "Description", type: "default" },
   host: { label: "Host", type: "default" },
   pkg_type: { label: "Package Type", type: "default" },
@@ -177,6 +177,30 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
                 <a href={`https://repology.org/project/${s}/information`} target="_blank" rel="noreferrer"
                   className="underline underline-offset-4">
                   <Badge className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100">
+                    {s}
+                  </Badge>
+                </a>
+              </div>
+            );
+          })}
+        </div>
+      );
+
+    case "provides":
+      const data = URL.parse(props.data.pkg_webpage as string)!!.toString().split("/");
+      data.pop();
+
+      const uri = data.join("/");
+
+      const provides = value as string[];
+      return (
+        <div className="flex flex-wrap gap-1">
+          {provides.map((s) => {
+            return (
+              <div key={s} className="flex">
+                <a href={`${uri}/${s}`} target="_blank" rel="noreferrer"
+                  className="underline underline-offset-4">
+                  <Badge className="bg-blue-100 dark:bg-teal-900 text-teal-800 dark:text-blue-100">
                     {s}
                   </Badge>
                 </a>

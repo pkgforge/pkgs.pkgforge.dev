@@ -279,6 +279,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/strip"
     ],
     [
+      "ld.bfd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/ld.bfd"
+    ],
+    [
       "elfedit",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/elfedit"
     ],
@@ -303,20 +307,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/objcopy"
     ],
     [
+      "ld.gold",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/ld.gold"
+    ],
+    [
       "ld",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/ld"
     ],
     [
       "size",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/size"
-    ],
-    [
-      "ld.bfd",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/ld.bfd"
-    ],
-    [
-      "ld.gold",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/bintools/ld.gold"
     ]
   ],
   "binutils": [
@@ -345,6 +345,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/strip"
     ],
     [
+      "ld.bfd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld.bfd"
+    ],
+    [
       "elfedit",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/elfedit"
     ],
@@ -369,6 +373,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/objcopy"
     ],
     [
+      "ld.gold",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld.gold"
+    ],
+    [
       "ld",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld"
     ],
@@ -379,14 +387,6 @@
     [
       "objdump",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/objdump"
-    ],
-    [
-      "ld.bfd",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld.bfd"
-    ],
-    [
-      "ld.gold",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld.gold"
     ]
   ],
   "bita": [
@@ -1645,6 +1645,14 @@
   ],
   "outils": [
     [
+      "cksum",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/cksum"
+    ],
+    [
+      "md5",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/md5"
+    ],
+    [
       "sha1",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/sha1"
     ],
@@ -1669,22 +1677,6 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/calendar"
     ],
     [
-      "what",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/what"
-    ],
-    [
-      "ts",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/ts"
-    ],
-    [
-      "cksum",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/cksum"
-    ],
-    [
-      "md5",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/md5"
-    ],
-    [
       "rdate",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/rdate"
     ],
@@ -1703,6 +1695,14 @@
     [
       "lam",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/lam"
+    ],
+    [
+      "what",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/what"
+    ],
+    [
+      "ts",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/outils/ts"
     ],
     [
       "unvis",
@@ -1915,6 +1915,240 @@
     [
       "s6-dnsip",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-dns/s6-dnsip"
+    ]
+  ],
+  "s6-linux-utils": [
+    [
+      "s6-ps",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-ps"
+    ],
+    [
+      "s6-chroot",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-chroot"
+    ],
+    [
+      "s6-hostname",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-hostname"
+    ],
+    [
+      "s6-pivotchroot",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-pivotchroot"
+    ],
+    [
+      "s6-freeramdisk",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-freeramdisk"
+    ],
+    [
+      "s6-swapoff",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-swapoff"
+    ],
+    [
+      "s6-logwatch",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-logwatch"
+    ],
+    [
+      "rngseed",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/rngseed"
+    ]
+  ],
+  "s6-networking": [
+    [
+      "s6-tcpserverd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tcpserverd"
+    ],
+    [
+      "s6-tlsserver",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tlsserver"
+    ],
+    [
+      "s6-tlsd-io",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tlsd-io"
+    ],
+    [
+      "s6-tcpserver",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tcpserver"
+    ],
+    [
+      "s6-tlsd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tlsd"
+    ],
+    [
+      "s6-tlsc-io",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tlsc-io"
+    ],
+    [
+      "s6-taiclock",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-taiclock"
+    ],
+    [
+      "s6-tcpserver-socketbinder",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tcpserver-socketbinder"
+    ],
+    [
+      "s6-ucspitlsd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-ucspitlsd"
+    ],
+    [
+      "s6-ident-client",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-ident-client"
+    ],
+    [
+      "s6-tlsc",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tlsc"
+    ],
+    [
+      "s6-tlsclient",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tlsclient"
+    ],
+    [
+      "s6-ucspitlsc",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-ucspitlsc"
+    ],
+    [
+      "s6-tcpserver-access",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tcpserver-access"
+    ],
+    [
+      "s6-tcpclient",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tcpclient"
+    ],
+    [
+      "s6-getservbyname",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-getservbyname"
+    ],
+    [
+      "s6-sntpclock",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-sntpclock"
+    ],
+    [
+      "s6-clockadd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-clockadd"
+    ],
+    [
+      "s6-clockview",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-clockview"
+    ]
+  ],
+  "s6-portable-utils": [
+    [
+      "s6-linkname",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-linkname"
+    ],
+    [
+      "s6-nuke",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-nuke"
+    ],
+    [
+      "s6-pause",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-pause"
+    ],
+    [
+      "s6-head",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-head"
+    ],
+    [
+      "s6-clock",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-clock"
+    ],
+    [
+      "s6-ln",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-ln"
+    ],
+    [
+      "s6-false",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-false"
+    ],
+    [
+      "s6-chown",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-chown"
+    ],
+    [
+      "s6-chmod",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-chmod"
+    ],
+    [
+      "s6-quote-filter",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-quote-filter"
+    ],
+    [
+      "s6-rmrf",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-rmrf"
+    ],
+    [
+      "s6-format-filter",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-format-filter"
+    ],
+    [
+      "s6-basename",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-basename"
+    ],
+    [
+      "s6-nice",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-nice"
+    ],
+    [
+      "s6-grep",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-grep"
+    ],
+    [
+      "s6-env",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-env"
+    ],
+    [
+      "s6-seq",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-seq"
+    ],
+    [
+      "s6-ls",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-ls"
+    ],
+    [
+      "s6-mkdir",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-mkdir"
+    ],
+    [
+      "s6-hiercopy",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-hiercopy"
+    ],
+    [
+      "s6-maximumtime",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-maximumtime"
+    ],
+    [
+      "s6-echo",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-echo"
+    ],
+    [
+      "s6-cut",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-cut"
+    ],
+    [
+      "s6-cat",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-cat"
+    ],
+    [
+      "s6-mkfifo",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-mkfifo"
+    ],
+    [
+      "s6-printenv",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-printenv"
+    ],
+    [
+      "s6-quote",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-quote"
+    ],
+    [
+      "s6-rename",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-rename"
+    ],
+    [
+      "s6-expr",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-expr"
+    ],
+    [
+      "s6-sleep",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-portable-utils/s6-sleep"
     ]
   ],
   "s6-rc": [
@@ -2141,6 +2375,10 @@
   ],
   "sharutils": [
     [
+      "unshar",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sharutils/unshar"
+    ],
+    [
       "shar",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sharutils/shar"
     ],
@@ -2151,10 +2389,6 @@
     [
       "uuencode",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sharutils/uuencode"
-    ],
-    [
-      "unshar",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sharutils/unshar"
     ]
   ],
   "slirp4netns": [
@@ -2239,16 +2473,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudo"
     ],
     [
-      "sudoedit",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudoedit"
-    ],
-    [
       "sudoreplay",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudoreplay"
     ],
     [
       "sudo_logsrvd",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudo_logsrvd"
+    ],
+    [
+      "sudoedit",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudoedit"
     ]
   ],
   "tar": [

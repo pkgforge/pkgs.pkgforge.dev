@@ -257,6 +257,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bintools/objcopy"
     ],
     [
+      "ld.bfd",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bintools/ld.bfd"
+    ],
+    [
       "strings",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bintools/strings"
     ],
@@ -271,6 +275,10 @@
     [
       "strip",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bintools/strip"
+    ],
+    [
+      "ld.gold",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bintools/ld.gold"
     ],
     [
       "ranlib",
@@ -303,14 +311,6 @@
     [
       "as",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bintools/as"
-    ],
-    [
-      "ld.bfd",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bintools/ld.bfd"
-    ],
-    [
-      "ld.gold",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bintools/ld.gold"
     ]
   ],
   "binutils": [
@@ -327,6 +327,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/objcopy"
     ],
     [
+      "ld.bfd",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/ld.bfd"
+    ],
+    [
       "strings",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/strings"
     ],
@@ -341,6 +345,10 @@
     [
       "strip",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/strip"
+    ],
+    [
+      "ld.gold",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/ld.gold"
     ],
     [
       "ranlib",
@@ -373,14 +381,6 @@
     [
       "as",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/as"
-    ],
-    [
-      "ld.bfd",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/ld.bfd"
-    ],
-    [
-      "ld.gold",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/ld.gold"
     ]
   ],
   "bita": [
