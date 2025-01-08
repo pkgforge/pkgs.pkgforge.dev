@@ -65,7 +65,7 @@ const resolver: { [key: string]: ResolverField } = {
   download_count: { label: "Total Downloads", type: "metric" },
   download_count_month: { label: "Monthly Downloads", type: "metric" },
   download_count_week: { label: "Weekly Downloads", type: "metric" },
-  build_id: { label: "Build ID", type: "number" },
+  build_id: { label: "Build ID", type: "hash" },
 };
 
 function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string }) {
