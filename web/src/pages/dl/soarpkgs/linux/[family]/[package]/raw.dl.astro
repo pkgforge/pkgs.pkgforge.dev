@@ -3,7 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 
 export async function getStaticPaths() {
   const { default: apps } = await import(
-    "../../../../../repo/bincache/x86_64-linux/_apps.json"
+    "../../../../../repo/soarpkgs/linux/_apps.json"
   );
 
   return apps.map((app) => {
@@ -17,7 +17,6 @@ export async function getStaticPaths() {
       },
       props: {
         data: app,
-        logs: app.build_log || "",
       },
     };
   });

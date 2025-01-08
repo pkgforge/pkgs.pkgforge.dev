@@ -39,6 +39,8 @@ import binX86 from "../metadata_bincache_x86_64-linux.json";
 
 const binArm64 = import("../metadata_bincache_aarch64-linux.json");
 
+const soarPkgs = import("../metadata_soarpkgs_linux.json");
+
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
   data: TData[]
@@ -77,6 +79,9 @@ export function DataTable<TData, TValue>({
   React.useEffect(() => {
     (async () => {
       switch (page) {
+        case "s":
+          setData(soarPkgs as unknown as TData[]);
+          break;
         case "bin":
           setData(binX86 as unknown as TData[]);
           break;
@@ -156,6 +161,7 @@ export function DataTable<TData, TValue>({
                 <SelectItem value="bin">bincache (x86_64)</SelectItem>
                 <SelectItem value="bina">bincache (aarch64)</SelectItem>
               </SelectGroup>
+              <SelectItem value="s">soarpkgs</SelectItem>
             </SelectContent>
           </Select>
           <Select
@@ -204,7 +210,7 @@ export function DataTable<TData, TValue>({
                   <DropdownMenuCheckboxItem
                     key={column.id}
                     className={cn("capitalize", {
-                      "uppercase": column.id == "sha" ||   column.id == 'id',
+                      "uppercase": column.id == "sha" || column.id == 'id',
                     })}
                     checked={column.getIsVisible()}
                     onCheckedChange={(value) =>

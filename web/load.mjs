@@ -3,6 +3,8 @@ import { writeFileSync } from "fs";
 const binArm64 = "https://meta.pkgforge.dev/bincache/aarch64-Linux.json";
 const binX86 = "https://meta.pkgforge.dev/bincache/x86_64-Linux.json";
 
+const soarpkgs = "https://meta.pkgforge.dev/soarpkgs/INDEX.json";
+
 const run = async (url, branch, arch) => {
   /**
    * @type {{ pkg: string, build_date: string, family: string, sha: string, id: string?, name: string, version: string, category: string, size: string, sizeNum: number, type: "base" | "bin" | "pkg" }[]}
@@ -19,14 +21,28 @@ const run = async (url, branch, arch) => {
   resp.forEach((data) => {
     response.push(data);
 
+    if (!data.pkg_webpage) {
+      console.log(`⚠️ Auto guessed pkg_webpage for ${branch}-${arch}/${data.pkg_family}/${data.pkg_name || data.pkg}`)
+      data.pkg_webpage = `https://pkgs.pkgforge.dev/repo/${branch}/${arch}/${
+        data.pkg_family
+      }/${data.pkg_name || data.pkg}`;
+    }
+
     if (familyMap[data.pkg_family]) {
-      familyMap[data.pkg_family].push([data.pkg_name, data.pkg_webpage]);
+      familyMap[data.pkg_family].push([
+        data.pkg_name || data.pkg,
+        data.pkg_webpage,
+      ]);
     } else {
-      familyMap[data.pkg_family] = [[data.pkg_name, data.pkg_webpage]];
+      familyMap[data.pkg_family] = [
+        [data.pkg_name || data.pkg, data.pkg_webpage],
+      ];
     }
   });
 
-  response.sort((a, b) => a.pkg_name.localeCompare(b.pkg_name));
+  response.sort((a, b) =>
+    (a.pkg_name || a.pkg).localeCompare(b.pkg_name || b.pkg)
+  );
 
   writeFileSync(
     `./src/pages/repo/${branch}/${arch}/_family.json`,
@@ -66,6 +82,9 @@ const run = async (url, branch, arch) => {
 
   console.log("⏲️ Downloading bincache x86_64");
   await run(binX86, "bincache", "x86_64-linux");
+
+  console.log("⏲️ Downloading soarpkgs");
+  await run(soarpkgs, "soarpkgs", "linux");
 
   // console.log("⏲️ Downloading Community");
   // await run(community, "community", "universal-linux");
