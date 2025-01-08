@@ -12,7 +12,7 @@ interface AppProps {
   repo: string;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags";
+type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology";
 
 interface ResolverField {
   label: string;
@@ -26,7 +26,7 @@ const resolver: { [key: string]: ResolverField } = {
   pkg_name: { label: "Package Name", type: "default" },
   pkg_id: { label: "Package ID", type: "default" },
   bsum: { label: "BLAKE3SUM", type: "hash" },
-  repology: { label: "Repology", type: "tags" },
+  repology: { label: "Repology", type: "repology" },
   appstream: { label: "AppStream", type: "link" },
   license: { label: "License", type: "default" },
   snapshots: { label: "Snapshots", type: "version" },
@@ -167,7 +167,7 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
         </div>
       );
 
-    case "files":
+    case "repology":
       const repology = value as string[];
       return (
         <div className="flex flex-wrap gap-1">
