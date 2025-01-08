@@ -38,7 +38,7 @@ const resolver: { [key: string]: ResolverField } = {
   build_date: { label: "Build Date", type: "date" },
   size: { label: "Size", type: "size" },
   download_url: { label: "Download URL", type: "link" },
-  shasum: { label: "BLAKE3SUM", type: "hash" },
+  shasum: { label: "SHA 256 SUM", type: "hash" },
   src_url: { label: "Source URL", type: "link" },
   homepage: { label: "Homepage", type: "links" },
   build_script: { label: "Build Script", type: "link" },
