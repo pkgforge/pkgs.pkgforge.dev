@@ -11,7 +11,7 @@ export async function getStaticPaths() {
     return {
       params: {
         family: pkg_family,
-        package: pkg_name,
+        package: pkg,
       },
       props: {
         data: app,
