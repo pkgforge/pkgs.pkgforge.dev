@@ -80,7 +80,7 @@ export function DataTable<TData, TValue>({
     (async () => {
       switch (page) {
         case "s":
-          setData(soarPkgs as unknown as TData[]);
+          setData((await soarPkgs).default as unknown as TData[]);
           break;
         case "bin":
           setData(binX86 as unknown as TData[]);
