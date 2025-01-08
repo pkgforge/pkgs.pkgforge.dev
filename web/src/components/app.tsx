@@ -62,8 +62,10 @@ const resolver: { [key: string]: ResolverField } = {
   ghcr_url: { label: "GHCR URL", type: "link" },
   size_raw: { label: "Size (Raw)", type: "size" },
   manifest_url: { label: "Manifest URL", type: "link" },
-  download_count: { label: "Download Count", type: "metric" },
-  build_id: { label: "Build ID", type: "number" }
+  download_count: { label: "Total Downloads", type: "metric" },
+  download_count_month: { label: "Monthly Downloads", type: "metric" },
+  download_count_week: { label: "Weekly Downloads", type: "metric" },
+  build_id: { label: "Build ID", type: "number" },
 };
 
 function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string }) {
