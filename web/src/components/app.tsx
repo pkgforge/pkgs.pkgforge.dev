@@ -205,6 +205,10 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
 
 export default function App({ data, logs: build, repo }: AppProps) {
   const { copy, copied } = useClipboard();
+
+  // Thanks @Azathothas for forcing us to write this hellifying script
+  const [, , , , , , pkg_family, pkg] = data.pkg_webpage.split("/");
+
   return (
     <TooltipProvider delayDuration={0}>
       <div className="flex flex-col lg:flex-row space-y-3 lg:space-y-0 lg:space-x-3 px-5 mt-3 items-start pb-4">
@@ -217,8 +221,8 @@ export default function App({ data, logs: build, repo }: AppProps) {
             webpage_url={data.pkg_webpage}
             repo={repo}
             arch={data.host}
-            family={data.pkg_family}
-            name={data.pkg_name}
+            family={pkg_family}
+            name={pkg}
             download_url={data.download_url}
           />
           <Table className="border border-muted/70 mt-4 rounded-xl">
