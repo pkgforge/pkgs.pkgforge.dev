@@ -167,6 +167,25 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
         </div>
       );
 
+    case "files":
+      const repology = value as string[];
+      return (
+        <div className="flex flex-wrap gap-1">
+          {repology.map((s) => {
+            return (
+              <div key={s} className="flex">
+                <a href={`https://repology.org/project/${s}/information`} target="_blank" rel="noreferrer"
+                  className="underline underline-offset-4">
+                  <Badge className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100">
+                    {s}
+                  </Badge>
+                </a>
+              </div>
+            );
+          })}
+        </div>
+      );
+
     case "links":
       const links = Array.isArray(value) ? value : [value];
       return (
