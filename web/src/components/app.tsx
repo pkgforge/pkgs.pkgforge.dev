@@ -244,7 +244,7 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
           </a>
         );
       }
-      return <span className="block">{value}</span>;
+      return <span className="block">{typeof (value) == "object" ? JSON.stringify(value, null, 2) : value}</span>;
   }
 }
 
