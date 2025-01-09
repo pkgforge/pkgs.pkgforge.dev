@@ -7,16 +7,17 @@ export async function getStaticPaths() {
 
   return apps.map((app) => {
     // Thanks @Azathothas for forcing us to write this hellifying script
-    const [, , , , , , pkg_family, pkg] = app.pkg_webpage.split("/");
+    const [, , , , , category, pkg_family, pkg] = app.pkg_webpage.split("/");
 
     return {
       params: {
         family: pkg_family,
         package: pkg,
+        category: category,
       },
       props: {
         data: app,
-        logs: app.build_log || "",
+        logs: "",
       },
     };
   });
@@ -26,5 +27,11 @@ const { data, logs } = Astro.props;
 ---
 
 <Layout>
-  <App data={data} logs={logs} repo="bincache" client:only />
+  <App
+    data={data}
+    logs={logs}
+    repo="bincache"
+    downloadable={false}
+    client:only
+  />
 </Layout>

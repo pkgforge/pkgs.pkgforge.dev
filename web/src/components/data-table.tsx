@@ -39,7 +39,7 @@ import binX86 from "../metadata_bincache_x86_64-linux.json";
 
 const binArm64 = import("../metadata_bincache_aarch64-linux.json");
 
-const soarPkgs = import("../metadata_soarpkgs_linux.json");
+const soarPkgs = import("../metadata_soarpkgs_[category].json");
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]

@@ -1,7 +1,7 @@
 import { Table, TableBody, TableCell, TableRow } from "./ui/table";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 import { Badge } from "./ui/badge";
-import { ExternalLink, Image as ImageIcon, LucideTerminalSquare, Package, ScrollText, Download, Bug } from "lucide-react";
+import { ExternalLink, LucideTerminalSquare, Package, ScrollText, Download, Bug } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import { useClipboard } from "../hooks/use-clipboard";
 import FormulaLinks from "./formula-links";
@@ -10,9 +10,10 @@ interface AppProps {
   data: { [key: string]: any };
   logs: string;
   repo: string;
+  downloadable?: boolean;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]";
+type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license";
 
 interface ResolverField {
   label: string;
@@ -29,7 +30,7 @@ const resolver: { [key: string]: ResolverField } = {
   bsum: { label: "BLAKE3SUM", type: "hash" },
   repology: { label: "Repology", type: "repology" },
   appstream: { label: "AppStream", type: "link" },
-  license: { label: "License", type: "string[]", joinWith: ", " },
+  license: { label: "License", type: "license" },
   snapshots: { label: "Snapshots", type: "version" },
   tag: { label: "Tags", type: "tags" },
   app_id: { label: "Application ID", type: "default" },
@@ -49,10 +50,10 @@ const resolver: { [key: string]: ResolverField } = {
   icon: { label: "Icon", type: "link" },
   provides: { label: "Provides", type: "provides" },
   description: { label: "Description", type: "default" },
-  host: { label: "Host", type: "default" },
   pkg_type: { label: "Package Type", type: "default" },
   pkg_webpage: { label: "Package Webpage", type: "link" },
-  maintainer: { label: "Maintainer", type: "string[]", joinWith: ", " },
+  maintainer: { label: "Maintainer", type: "string[]", joinWith: "\n" },
+  host: { label: "Host", type: "tags" },
   rank: { label: "Rank", type: "metric" },
   build_ghactions: { label: "GH Actions Build", type: "link" },
   ghcr_blob: { label: "GHCR Blob", type: "link" },
@@ -175,6 +176,24 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
         </div>
       );
 
+    case "license":
+      const l = value as string[];
+      return (
+        <div className="flex flex-wrap gap-1">
+          {l.map((s) => {
+            return (
+              <div key={s} className="flex">
+                <a href={`https://spdx.org/licenses/${s}.html`} target="_blank" rel="noreferrer"
+                  className="underline underline-offset-4">
+                  <Badge className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100">
+                    {s}
+                  </Badge>
+                </a>
+              </div>
+            );
+          })}
+        </div>
+      );
     case "repology":
       const repology = value as string[];
       return (
@@ -256,7 +275,7 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
   }
 }
 
-export default function App({ data, logs: build, repo }: AppProps) {
+export default function App({ data, logs: build, repo, downloadable = true }: AppProps) {
   const { copy, copied } = useClipboard();
 
   // Thanks @Azathothas for forcing us to write this hellifying script
@@ -276,7 +295,7 @@ export default function App({ data, logs: build, repo }: AppProps) {
             arch={data.host}
             family={pkg_family}
             name={pkg}
-            download_url={data.download_url}
+            download_url={downloadable ? data.download_url : "none"}
           />
           <Table className="border border-muted/70 mt-4 rounded-xl">
             <TableBody>

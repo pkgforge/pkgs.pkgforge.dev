@@ -37,7 +37,7 @@ const FormulaLinks = ({ webpage_url, family, name, arch, repo, download_url }: P
             </div>
           </a>
 
-          <a
+          {download_url != "none" && <a
             href={downloadUrl.toString()}
             target="_blank"
             rel="noreferrer"
@@ -50,7 +50,7 @@ const FormulaLinks = ({ webpage_url, family, name, arch, repo, download_url }: P
                 /{family}/{name}/raw.dl
               </code>
             </div>
-          </a>
+          </a>}
         </div>
       </div>
     </div>

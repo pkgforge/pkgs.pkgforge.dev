@@ -22,20 +22,27 @@ const run = async (url, branch, arch) => {
     response.push(data);
 
     if (!data.pkg_webpage) {
-      console.log(`⚠️ Auto guessed pkg_webpage for ${branch}-${arch}/${data.pkg_family}/${data.pkg_name || data.pkg}`)
+      console.log(
+        `⚠️ Auto guessed pkg_webpage for ${branch}-${arch}/${data.pkg_family}/${
+          data.pkg_name || data.pkg
+        }`
+      );
       data.pkg_webpage = `https://pkgs.pkgforge.dev/repo/${branch}/${arch}/${
         data.pkg_family
       }/${data.pkg_name || data.pkg}`;
     }
 
-    if (familyMap[data.pkg_family]) {
-      familyMap[data.pkg_family].push([
-        data.pkg_name || data.pkg,
+    const [, , , , , category, pkg_family, pkg] = data.pkg_webpage.split("/");
+
+    if (familyMap[pkg_family || data.pkg_family]) {
+      familyMap[pkg_family || data.pkg_family].push([
+        category,
+        pkg,
         data.pkg_webpage,
       ]);
     } else {
-      familyMap[data.pkg_family] = [
-        [data.pkg_name || data.pkg, data.pkg_webpage],
+      familyMap[pkg_family || data.pkg_family] = [
+        [category, pkg, data.pkg_webpage],
       ];
     }
   });
@@ -84,7 +91,7 @@ const run = async (url, branch, arch) => {
   await run(binX86, "bincache", "x86_64-linux");
 
   console.log("⏲️ Downloading soarpkgs");
-  await run(soarpkgs, "soarpkgs", "linux");
+  await run(soarpkgs, "soarpkgs", "[category]");
 
   // console.log("⏲️ Downloading Community");
   // await run(community, "community", "universal-linux");

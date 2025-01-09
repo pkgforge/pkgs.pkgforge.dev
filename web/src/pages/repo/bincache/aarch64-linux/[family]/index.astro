@@ -9,7 +9,7 @@ export async function getStaticPaths() {
     params: { family },
     props: {
       name: family,
-      apps: apps.map(([name, url]) => ({
+      apps: apps.map(([, name, url]) => ({
         name,
         url,
       })),
