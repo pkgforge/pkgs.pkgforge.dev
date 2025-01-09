@@ -5,16 +5,20 @@ import App from "../../../../../components/family.tsx";
 export async function getStaticPaths() {
   const { default: family } = await import("../_family.json");
 
-  return Object.entries(family).map(([family, apps]) => ({
-    params: { family },
-    props: {
-      name: family,
-      apps: apps.map(([name, url]) => ({
-        name,
-        url,
-      })),
-    },
-  }));
+  return Object.entries(family).map(([family, apps]) => {
+    const [category, fam] = family.split("/");
+
+    return {
+      params: { family: fam, category },
+      props: {
+        name: family,
+        apps: apps.map(([name, url]) => ({
+          name,
+          url,
+        })),
+      },
+    };
+  });
 }
 
 const { name, apps } = Astro.props;

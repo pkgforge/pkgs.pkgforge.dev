@@ -34,16 +34,12 @@ const run = async (url, branch, arch) => {
 
     const [, , , , , category, pkg_family, pkg] = data.pkg_webpage.split("/");
 
-    if (familyMap[pkg_family || data.pkg_family]) {
-      familyMap[pkg_family || data.pkg_family].push([
-        category,
-        pkg,
-        data.pkg_webpage,
-      ]);
+    const key = `${category}/${pkg_family || data.pkg_family}`;
+
+    if (familyMap[key]) {
+      familyMap[key].push([pkg, data.pkg_webpage]);
     } else {
-      familyMap[pkg_family || data.pkg_family] = [
-        [category, pkg, data.pkg_webpage],
-      ];
+      familyMap[key] = [[pkg, data.pkg_webpage]];
     }
   });
 
