@@ -59,10 +59,11 @@ const run = async (url, branch, arch) => {
     `./src/metadata_${branch}_${arch}.json`,
     JSON.stringify(
       response.map((data) => {
+        const [, , , , , category, pkg_family] = data.pkg_webpage.split("/");
         return {
           name: data.pkg_name || data.pkg,
           pkg: data.pkg,
-          family: data.pkg_family || data.pkg_id,
+          family: pkg_family || data.pkg_id,
           version: data.version,
           sha: data.shasum,
           type: "base",
@@ -72,7 +73,7 @@ const run = async (url, branch, arch) => {
           id: "N/A",
           build_date: data.build_date,
           url: data.pkg_webpage,
-          familyUrl: `/${branch}/${arch}/${data.pkg_family}`,
+          familyUrl: `/${branch}/${category}/${pkg_family}`,
         };
       })
     )
