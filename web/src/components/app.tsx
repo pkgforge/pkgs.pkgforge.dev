@@ -12,11 +12,12 @@ interface AppProps {
   repo: string;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides";
+type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]";
 
 interface ResolverField {
   label: string;
   type: FieldType;
+  joinWith?: string;
 }
 
 const resolver: { [key: string]: ResolverField } = {
@@ -28,13 +29,13 @@ const resolver: { [key: string]: ResolverField } = {
   bsum: { label: "BLAKE3SUM", type: "hash" },
   repology: { label: "Repology", type: "repology" },
   appstream: { label: "AppStream", type: "link" },
-  license: { label: "License", type: "default" },
+  license: { label: "License", type: "string[]", joinWith: ", " },
   snapshots: { label: "Snapshots", type: "version" },
   tag: { label: "Tags", type: "tags" },
   app_id: { label: "Application ID", type: "default" },
   version: { label: "Version", type: "version" },
   version_upstream: { label: "Upstream Version", type: "version" },
-  note: { label: "Note", type: "default" },
+  note: { label: "Note", type: "string[]", joinWith: "\n" },
   build_date: { label: "Build Date", type: "date" },
   size: { label: "Size", type: "size" },
   download_url: { label: "Download URL", type: "link" },
@@ -51,7 +52,7 @@ const resolver: { [key: string]: ResolverField } = {
   host: { label: "Host", type: "default" },
   pkg_type: { label: "Package Type", type: "default" },
   pkg_webpage: { label: "Package Webpage", type: "link" },
-  maintainer: { label: "Maintainer", type: "default" },
+  maintainer: { label: "Maintainer", type: "string[]", joinWith: ", " },
   rank: { label: "Rank", type: "metric" },
   build_ghactions: { label: "GH Actions Build", type: "link" },
   ghcr_blob: { label: "GHCR Blob", type: "link" },
@@ -70,9 +71,16 @@ const resolver: { [key: string]: ResolverField } = {
 
 function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string }) {
   const { copy, copied } = useClipboard();
-  const field = Key ? resolver[Key] || { label: Key, type: "default" } : { label: "Default", type: "default" };
+  const field: ResolverField = Key ? resolver[Key] || { label: Key, type: "default" } : { label: "Default", type: "default" };
 
   switch (field.type) {
+    case "string[]":
+      return (
+        <span>
+          {value.join(field?.joinWith || ", ")}
+        </span>
+      );
+
     case "link":
       return (
         <a href={value} target="_blank" rel="noreferrer"

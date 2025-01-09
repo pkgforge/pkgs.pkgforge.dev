@@ -83,6 +83,56 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/a-utils/importenv"
     ]
   ],
+  "act": [
+    [
+      "act",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/act/act"
+    ]
+  ],
+  "actionlint": [
+    [
+      "actionlint",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/actionlint/actionlint"
+    ]
+  ],
+  "age": [
+    [
+      "age-keygen",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/age/age-keygen"
+    ],
+    [
+      "age",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/age/age"
+    ]
+  ],
+  "agg": [
+    [
+      "agg",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/agg/agg"
+    ]
+  ],
+  "aggligator": [
+    [
+      "agg-speed",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/aggligator/agg-speed"
+    ],
+    [
+      "agg-tunnel",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/aggligator/agg-tunnel"
+    ]
+  ],
+  "agrind": [
+    [
+      "agrind",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/agrind/agrind"
+    ]
+  ],
+  "airixss": [
+    [
+      "airixss",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/airixss/airixss"
+    ]
+  ],
   "aix": [
     [
       "aix",
@@ -107,6 +157,12 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/alist/alist"
     ]
   ],
+  "allxfr": [
+    [
+      "allxfr",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/allxfr/allxfr"
+    ]
+  ],
   "almalinux": [
     [
       "almalinux",
@@ -129,10 +185,52 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/alterx/alterx"
     ]
   ],
+  "amass": [
+    [
+      "amass",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/amass/amass"
+    ]
+  ],
   "amazonlinux": [
     [
       "amazonlinux",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/amazonlinux/amazonlinux"
+    ]
+  ],
+  "amp": [
+    [
+      "amp",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/amp/amp"
+    ]
+  ],
+  "anakin": [
+    [
+      "anakin",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/anakin/anakin"
+    ]
+  ],
+  "analyticsrelationships": [
+    [
+      "analyticsrelationships",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/analyticsrelationships/analyticsrelationships"
+    ]
+  ],
+  "anew-rs": [
+    [
+      "anew-rs",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/anew-rs/anew-rs"
+    ]
+  ],
+  "anew": [
+    [
+      "anew",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/anew/anew"
+    ]
+  ],
+  "anewer": [
+    [
+      "anewer",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/anewer/anewer"
     ]
   ],
   "ani-cli": [
@@ -141,10 +239,22 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/ani-cli/ani-cli"
     ]
   ],
+  "apk-tools": [
+    [
+      "apk-static",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/apk-tools/apk-static"
+    ]
+  ],
   "apk.sh": [
     [
       "apk.sh",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/apk.sh/apk.sh"
+    ]
+  ],
+  "apkeep": [
+    [
+      "apkeep",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/apkeep/apkeep"
     ]
   ],
   "appstream": [
@@ -159,6 +269,18 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/aptly/aptly"
     ]
   ],
+  "arc": [
+    [
+      "arc",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/arc/arc"
+    ]
+  ],
+  "archey": [
+    [
+      "archey",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/archey/archey"
+    ]
+  ],
   "archlinux": [
     [
       "archlinux",
@@ -171,14 +293,40 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/arduino/arduino-cli"
     ]
   ],
+  "aretext": [
+    [
+      "aretext",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/aretext/aretext"
+    ]
+  ],
   "aria2": [
     [
       "aria2",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/aria2/aria2"
-    ],
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/github-com-aria2-aria2/aria2"
+    ]
+  ],
+  "askalono": [
     [
-      "aria2c",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/aria2/aria2c"
+      "askalono",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/askalono/askalono"
+    ]
+  ],
+  "asn": [
+    [
+      "asn",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/asn/asn"
+    ]
+  ],
+  "asnmap": [
+    [
+      "asnmap",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/asnmap/asnmap"
+    ]
+  ],
+  "assetfinder": [
+    [
+      "assetfinder",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/assetfinder/assetfinder"
     ]
   ],
   "assh": [
@@ -187,10 +335,34 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/assh/assh"
     ]
   ],
+  "atuin": [
+    [
+      "atuin",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/atuin/atuin"
+    ]
+  ],
+  "awk": [
+    [
+      "awk",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/awk/awk"
+    ]
+  ],
   "aws-nuke": [
     [
       "aws-nuke",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/aws-nuke/aws-nuke"
+    ]
+  ],
+  "aws-wire-lengths": [
+    [
+      "aws-wire-lengths",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/aws-wire-lengths/aws-wire-lengths"
+    ]
+  ],
+  "axel": [
+    [
+      "axel",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/axel/axel"
     ]
   ],
   "b3sum": [
@@ -467,10 +639,6 @@
   ],
   "btrfs-progs": [
     [
-      "mkfs.btrfs",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/btrfs-progs/mkfs.btrfs"
-    ],
-    [
       "btrfstune",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/btrfs-progs/btrfstune"
     ],
@@ -497,6 +665,10 @@
     [
       "btrfs-image",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/btrfs-progs/btrfs-image"
+    ],
+    [
+      "mkfs.btrfs",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/btrfs-progs/mkfs.btrfs"
     ]
   ],
   "bucketloot": [
@@ -597,12 +769,12 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cfssl/mkbundle"
     ],
     [
-      "cfssl-bundle",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cfssl/cfssl-bundle"
-    ],
-    [
       "cfssljson",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cfssl/cfssljson"
+    ],
+    [
+      "cfssl-bundle",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cfssl/cfssl-bundle"
     ]
   ],
   "chaos-client": [
@@ -637,16 +809,16 @@
   ],
   "clipcat": [
     [
+      "clipcatd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/clipcat/clipcatd"
+    ],
+    [
       "clipcat-notify",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/clipcat/clipcat-notify"
     ],
     [
       "clipcatctl",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/clipcat/clipcatctl"
-    ],
-    [
-      "clipcatd",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/clipcat/clipcatd"
     ],
     [
       "clipcat-menu",
@@ -729,12 +901,12 @@
   ],
   "cowsay": [
     [
-      "cowthink",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cowsay/cowthink"
-    ],
-    [
       "cowsay",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cowsay/cowsay"
+    ],
+    [
+      "cowthink",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/cowsay/cowthink"
     ]
   ],
   "cpufetch": [
@@ -996,11 +1168,11 @@
   "findutils": [
     [
       "xargs",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/nixpkgs-findutils/xargs"
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/github-com-uutils-findutils/xargs"
     ],
     [
       "xargs",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/github-com-uutils-findutils/xargs"
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/nixpkgs-findutils/xargs"
     ]
   ],
   "fuse": [
@@ -1917,11 +2089,49 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-dns/s6-dnsip"
     ]
   ],
-  "s6-linux-utils": [
+  "s6-linux-init": [
     [
-      "s6-ps",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-ps"
+      "s6-linux-init-nuke",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init-nuke"
     ],
+    [
+      "s6-linux-init-shutdown",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init-shutdown"
+    ],
+    [
+      "s6-linux-init-logouthookd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init-logouthookd"
+    ],
+    [
+      "s6-linux-init-hpr",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init-hpr"
+    ],
+    [
+      "s6-linux-init-umountall",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init-umountall"
+    ],
+    [
+      "s6-linux-init-echo",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init-echo"
+    ],
+    [
+      "s6-linux-init-maker",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init-maker"
+    ],
+    [
+      "s6-linux-init-telinit",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init-telinit"
+    ],
+    [
+      "s6-linux-init-shutdownd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init-shutdownd"
+    ],
+    [
+      "s6-linux-init",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-init/s6-linux-init"
+    ]
+  ],
+  "s6-linux-utils": [
     [
       "s6-chroot",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-chroot"
@@ -1929,6 +2139,10 @@
     [
       "s6-hostname",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-hostname"
+    ],
+    [
+      "s6-ps",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-linux-utils/s6-ps"
     ],
     [
       "s6-pivotchroot",
@@ -1969,6 +2183,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tcpserver"
     ],
     [
+      "s6-sntpclock",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-sntpclock"
+    ],
+    [
       "s6-tlsd",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tlsd"
     ],
@@ -2005,8 +2223,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-ucspitlsc"
     ],
     [
+      "s6-clockadd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-clockadd"
+    ],
+    [
       "s6-tcpserver-access",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-tcpserver-access"
+    ],
+    [
+      "s6-clockview",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-clockview"
     ],
     [
       "s6-tcpclient",
@@ -2015,18 +2241,6 @@
     [
       "s6-getservbyname",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-getservbyname"
-    ],
-    [
-      "s6-sntpclock",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-sntpclock"
-    ],
-    [
-      "s6-clockadd",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-clockadd"
-    ],
-    [
-      "s6-clockview",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/s6-networking/s6-clockview"
     ]
   ],
   "s6-portable-utils": [
@@ -2397,6 +2611,12 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/slirp4netns/slirp4netns"
     ]
   ],
+  "soar": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/soar/soar"
+    ]
+  ],
   "sqlite": [
     [
       "sqlite",
@@ -2473,16 +2693,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudo"
     ],
     [
+      "sudoedit",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudoedit"
+    ],
+    [
       "sudoreplay",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudoreplay"
     ],
     [
       "sudo_logsrvd",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudo_logsrvd"
-    ],
-    [
-      "sudoedit",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/sudo/sudoedit"
     ]
   ],
   "tar": [
@@ -2507,6 +2727,146 @@
     [
       "tmux",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/tmux/tmux"
+    ]
+  ],
+  "util-linux": [
+    [
+      "cfdisk",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/cfdisk"
+    ],
+    [
+      "chmem",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/chmem"
+    ],
+    [
+      "chrt",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/chrt"
+    ],
+    [
+      "blockdev",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/blockdev"
+    ],
+    [
+      "uuidd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/uuidd"
+    ],
+    [
+      "more",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/more"
+    ],
+    [
+      "blkid",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/blkid"
+    ],
+    [
+      "chsh",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/chsh"
+    ],
+    [
+      "utmpdump",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/utmpdump"
+    ],
+    [
+      "choom",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/choom"
+    ],
+    [
+      "chcpu",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/chcpu"
+    ],
+    [
+      "rtcwake",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/rtcwake"
+    ],
+    [
+      "rfkill",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/rfkill"
+    ],
+    [
+      "cal",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/cal"
+    ],
+    [
+      "agetty",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/agetty"
+    ],
+    [
+      "blkdiscard",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/blkdiscard"
+    ],
+    [
+      "blkpr",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/blkpr"
+    ],
+    [
+      "irqtop",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/irqtop"
+    ],
+    [
+      "chfn",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/chfn"
+    ],
+    [
+      "swapoff",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/swapoff"
+    ],
+    [
+      "addpart",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/addpart"
+    ],
+    [
+      "lsirq",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/lsirq"
+    ],
+    [
+      "setterm",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/setterm"
+    ]
+  ],
+  "vim": [
+    [
+      "vimtutor",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/vimtutor"
+    ],
+    [
+      "ex",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/ex"
+    ],
+    [
+      "rvim",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/rvim"
+    ],
+    [
+      "vi",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/vi"
+    ],
+    [
+      "vim",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/vim"
+    ],
+    [
+      "rview",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/rview"
+    ],
+    [
+      "view",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/view"
+    ],
+    [
+      "vimdiff",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/vimdiff"
+    ]
+  ],
+  "which": [
+    [
+      "which",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/which/which"
+    ]
+  ],
+  "whois": [
+    [
+      "whois",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/whois/whois"
     ]
   ]
 }
