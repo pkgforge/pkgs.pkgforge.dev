@@ -6107,8 +6107,7 @@
     "tag": [
       "Applications/Internet",
       "network"
-    ],
-    "version": "v1.0.6"
+    ]
   },
   {
     "_disabled": "false",
@@ -9715,8 +9714,7 @@
       "litecoin",
       "segwit",
       "wallet"
-    ],
-    "version": "v4.46.3"
+    ]
   },
   {
     "_disabled": "false",
@@ -11412,7 +11410,7 @@
       "Networking/WWW",
       "network.web.browser"
     ],
-    "version": "firefox-nightly-v136.0.r20250108093633"
+    "version": "firefox-nightly-v136.0.r20250108215653"
   },
   {
     "_disabled": "false",
@@ -11463,7 +11461,8 @@
       "browser",
       "Networking/WWW",
       "network.web.browser"
-    ]
+    ],
+    "version": "v1.75.156"
   },
   {
     "_disabled": "false",
@@ -11515,7 +11514,7 @@
       "Networking/WWW",
       "network.web.browser"
     ],
-    "version": "v1.75.155"
+    "version": "v1.76.1"
   },
   {
     "_disabled": "false",
@@ -14874,6 +14873,7 @@
     "pkg_id": "github.com.cheat.cheat",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/cheat-cheat/cheat/cheat",
+    "bincache": "ghcr.io/pkgforge/bincache/cheat/official/cheat",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/cheat/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -14922,7 +14922,7 @@
       "man-page",
       "tldr"
     ],
-    "version": "HEAD-bbecf77-240928T155735"
+    "version": "HEAD-7908a67-240108T153448"
   },
   {
     "_disabled": "false",
@@ -15012,7 +15012,7 @@
       "llm",
       "openai"
     ],
-    "version": "v0.9.5"
+    "version": "v0.9.6"
   },
   {
     "_disabled": "false",
@@ -16069,7 +16069,6 @@
       "https://github.com/clearlinux/docker-brew-clearlinux"
     ],
     "host": [
-      "aarch64-linux",
       "x86_64-linux"
     ],
     "license": [
@@ -16520,6 +16519,7 @@
     "pkg_id": "github.com.cloudflare.cloudflared",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/cloudflare-cloudflared/cloudflared/cloudflared",
+    "bincache": "ghcr.io/pkgforge/bincache/cloudflared/official/cloudflared",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/cloudflared/static.official.stable.yaml",
     "category": [
       "ConsoleOnly",
@@ -17192,7 +17192,7 @@
       "changelog",
       "git-commit"
     ],
-    "version": "HEAD-9a75fc8-250108T100949"
+    "version": "HEAD-27f1a67-250109T092441"
   },
   {
     "_disabled": "false",
@@ -19545,8 +19545,7 @@
       "finance",
       "portfolio",
       "portfolio-optimization"
-    ],
-    "version": "v0.0.1"
+    ]
   },
   {
     "_disabled": "false",
@@ -27950,8 +27949,7 @@
     ],
     "src_url": [
       "https://github.com/PowerBall253/EternalModManager-Avalonia"
-    ],
-    "version": "v4.2.1"
+    ]
   },
   {
     "_disabled": "false",
@@ -29092,7 +29090,7 @@
     "tag": [
       "ls"
     ],
-    "version": "HEAD-7241ea4-250108T084544"
+    "version": "HEAD-3f72de8-250109T052420"
   },
   {
     "_disabled": "false",
@@ -41761,8 +41759,7 @@
       "fabric-ui",
       "mastodon",
       "reactjs"
-    ],
-    "version": "0.7.0"
+    ]
   },
   {
     "_disabled": "false",
@@ -45078,7 +45075,7 @@
       "git",
       "vcs"
     ],
-    "version": "HEAD-8a3ae86-250109T000705"
+    "version": "HEAD-720c903-250109T072308"
   },
   {
     "_disabled": "false",
@@ -45403,7 +45400,7 @@
       "calculator",
       "math"
     ],
-    "version": "HEAD-5b88b6f-250105T205710"
+    "version": "HEAD-7348e18-250108T210541"
   },
   {
     "_disabled": "false",
@@ -46670,6 +46667,7 @@
     "pkg_id": "nixpkgs.kmod",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-kmod/kmod/kmod",
+    "bincache": "ghcr.io/pkgforge/bincache/kmod/nixpkgs/insmod",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/kmod/static.nixpkgs.stable.yaml",
     "category": [
       "ConsoleOnly",
@@ -49690,7 +49688,7 @@
       "vex",
       "vex-robotics"
     ],
-    "version": "v2.4.8"
+    "version": "v2.4.9"
   },
   {
     "_disabled": "false",
@@ -56484,7 +56482,7 @@
       "games-strategy",
       "games.action"
     ],
-    "version": "v0.12.1"
+    "version": "v0.12.2"
   },
   {
     "_disabled": "false",
@@ -57382,7 +57380,7 @@
       "security",
       "wireguard"
     ],
-    "version": "HEAD-5c3961a-250101T154557"
+    "version": "HEAD-c524ef3-250109T104758"
   },
   {
     "_disabled": "false",
@@ -59683,7 +59681,7 @@
     "tag": [
       "shell"
     ],
-    "version": "HEAD-5cf6dea-250108T172431"
+    "version": "HEAD-f360489-250109T135108"
   },
   {
     "_disabled": "false",
@@ -75859,8 +75857,7 @@
     ],
     "tag": [
       "baduk"
-    ],
-    "version": "v0.52.2"
+    ]
   },
   {
     "_disabled": "false",
@@ -76292,7 +76289,7 @@
       "pkgforge",
       "sbuild"
     ],
-    "version": "HEAD-1c85eca-250108T214803"
+    "version": "HEAD-3a25567-250109T171009"
   },
   {
     "_disabled": "false",
@@ -81613,8 +81610,7 @@
     ],
     "src_url": [
       "https://github.com/noisymime/SpeedyLoader"
-    ],
-    "version": "v1.6.0"
+    ]
   },
   {
     "_disabled": "false",
@@ -84783,7 +84779,7 @@
     "pkg_id": "nixpkgs.sudo",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-sudo/sudo/sudo",
-    "bincache": "ghcr.io/pkgforge/bincache/sudo/nixpkgs/sudo",
+    "bincache": "ghcr.io/pkgforge/bincache/sudo/nixpkgs/cvtsudoers",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/sudo/static.nixpkgs.stable.yaml",
     "category": [
       "ConsoleOnly",
@@ -86428,7 +86424,7 @@
       "wireguard",
       "zerotier"
     ],
-    "version": "HEAD-d8579a4-250108T124449"
+    "version": "HEAD-68997e0-250109T071519"
   },
   {
     "_disabled": "false",
@@ -92982,7 +92978,7 @@
       "psvita",
       "vita"
     ],
-    "version": "3/3"
+    "version": "3/3////3"
   },
   {
     "_disabled": "false",
@@ -93053,7 +93049,7 @@
     "src_url": [
       "https://github.com/ivan-hc/Vivaldi-appimage"
     ],
-    "version": "7.1.3569.4-1"
+    "version": "7.1.3570.3-1"
   },
   {
     "_disabled": "false",
@@ -93384,7 +93380,7 @@
       "multimedia.video",
       "video"
     ],
-    "version": "20250108-0227"
+    "version": "20250109-0228"
   },
   {
     "_disabled": "false",
@@ -97207,7 +97203,7 @@
       "csv",
       "tsv"
     ],
-    "version": "HEAD-268fa34-250108T172900"
+    "version": "HEAD-89b18c6-250109T112558"
   },
   {
     "_disabled": "false",
@@ -98175,6 +98171,7 @@
     "pkg_id": "nixpkgs.xz",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-xz/xz/xz",
+    "bincache": "ghcr.io/pkgforge/bincache/xz/nixpkgs/xz",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/xz/static.nixpkgs.stable.yaml",
     "category": [
       "ConsoleOnly",
@@ -98715,7 +98712,7 @@
       "explorer",
       "manager"
     ],
-    "version": "HEAD-ba62b40-250108T183821"
+    "version": "HEAD-1e0c5ff-250109T155838"
   },
   {
     "_disabled": "false",
@@ -100203,6 +100200,7 @@
     "pkg_id": "nixpkgs.zsh",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-zsh/zsh/zsh",
+    "bincache": "ghcr.io/pkgforge/bincache/zsh/nixpkgs/zsh",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/zsh/static.nixpkgs.stable.yaml",
     "category": [
       "ConsoleOnly",
@@ -100265,6 +100263,7 @@
     "pkg_id": "nixpkgs.zstd",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-zstd/zstd/zstd",
+    "bincache": "ghcr.io/pkgforge/bincache/zstd/nixpkgs/zstd",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/zstd/static.nixpkgs.stable.yaml",
     "category": [
       "ConsoleOnly",

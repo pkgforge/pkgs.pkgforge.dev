@@ -519,10 +519,6 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/strip"
     ],
     [
-      "ld.bfd",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld.bfd"
-    ],
-    [
       "elfedit",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/elfedit"
     ],
@@ -547,10 +543,6 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/objcopy"
     ],
     [
-      "ld.gold",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld.gold"
-    ],
-    [
       "ld",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld"
     ],
@@ -561,6 +553,14 @@
     [
       "objdump",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/objdump"
+    ],
+    [
+      "ld.bfd",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld.bfd"
+    ],
+    [
+      "ld.gold",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/binutils/ld.gold"
     ]
   ],
   "aarch64-linux/bita": [
@@ -2741,12 +2741,20 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/cfdisk"
     ],
     [
+      "addpart",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/addpart"
+    ],
+    [
       "chmem",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/chmem"
     ],
     [
       "chrt",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/chrt"
+    ],
+    [
+      "lsirq",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/lsirq"
     ],
     [
       "blockdev",
@@ -2771,6 +2779,10 @@
     [
       "utmpdump",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/utmpdump"
+    ],
+    [
+      "setterm",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/setterm"
     ],
     [
       "choom",
@@ -2815,18 +2827,6 @@
     [
       "swapoff",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/swapoff"
-    ],
-    [
-      "addpart",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/addpart"
-    ],
-    [
-      "lsirq",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/lsirq"
-    ],
-    [
-      "setterm",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/util-linux/setterm"
     ]
   ],
   "aarch64-linux/vim": [
@@ -2839,6 +2839,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/ex"
     ],
     [
+      "rview",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/rview"
+    ],
+    [
       "rvim",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/rvim"
     ],
@@ -2847,16 +2851,12 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/vi"
     ],
     [
-      "vim",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/vim"
-    ],
-    [
-      "rview",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/rview"
-    ],
-    [
       "view",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/view"
+    ],
+    [
+      "vim",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/vim/vim"
     ],
     [
       "vimdiff",

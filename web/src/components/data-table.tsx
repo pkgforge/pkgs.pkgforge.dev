@@ -59,18 +59,63 @@ const getColumnVis = () => {
   }
 }
 
+const initialFilters = {
+  column: "name",
+  columnVisibility: getColumnVis(),
+  page: "bin",
+  search: '',
+}
+
+const getUrlParams = () => {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    column: params.get('searchBy') || initialFilters.column,
+    page: params.get('repo') || initialFilters.page,
+    search: params.get('search') || initialFilters.search,
+  };
+};
+
+const updateUrlParams = (params: typeof initialFilters) => {
+  const urlParams = new URLSearchParams();
+  if (params.column !== initialFilters.column) urlParams.set('searchBy', params.column);
+  if (params.page !== initialFilters.page) urlParams.set('repo', params.page);
+  if (params.search) urlParams.set('search', params.search);
+  
+  const newUrl = `${window.location.pathname}${urlParams.toString() ? '?' + urlParams.toString() : ''}`;
+  window.history.replaceState({}, '', newUrl);
+};
+
 export function DataTable<TData, TValue>({
   columns,
 }: DataTableProps<TData, TValue>) {
+  const urlParams = getUrlParams();
   const [sorting, setSorting] = React.useState<SortingState>([])
-  const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
-    []
-  )
-  const [column, setColumn] = React.useState("name");
-  const [columnVisibility, setColumnVisibility] =
-    React.useState<VisibilityState>(getColumnVis());
-  const [page, setPage] = React.useState("bin");
+  const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>([])
+  const [column, setColumn] = React.useState(urlParams.column);
+  const [columnVisibility, setColumnVisibility] = React.useState<VisibilityState>(getColumnVis());
+  const [page, setPage] = React.useState(urlParams.page);
   const [data, setData] = React.useState<TData[] | "loading">(binX86 as unknown as TData[]);
+
+
+  React.useEffect(() => {
+    updateUrlParams(
+      {
+        column,
+        page,
+        search: (table?.getColumn(column)?.getFilterValue() as string) || '',
+        columnVisibility,
+      },
+    );
+  }, [column, page, columnFilters, columnVisibility]);
+
+  React.useEffect(() => {
+    if (urlParams.search) {
+      table?.getColumn(urlParams.column)?.setFilterValue(urlParams.search);
+      if (input.current) {
+        input.current.value = urlParams.search;
+      }
+    }
+  }, []);
 
   React.useEffect(() => {
     localStorage.visiv = JSON.stringify(columnVisibility);
@@ -79,13 +124,13 @@ export function DataTable<TData, TValue>({
   React.useEffect(() => {
     (async () => {
       switch (page) {
-        case "s":
+        case "soar":
           setData((await soarPkgs).default as unknown as TData[]);
           break;
         case "bin":
           setData(binX86 as unknown as TData[]);
           break;
-        case "bina":
+        case "bin_arm":
           setData((await binArm64).default as unknown as TData[]);
           break;
       }
@@ -159,9 +204,9 @@ export function DataTable<TData, TValue>({
               <SelectGroup>
                 <SelectLabel>bincache</SelectLabel>
                 <SelectItem value="bin">bincache (x86_64)</SelectItem>
-                <SelectItem value="bina">bincache (aarch64)</SelectItem>
+                <SelectItem value="bin_arm">bincache (aarch64)</SelectItem>
+                <SelectItem value="soar">soarpkgs</SelectItem>
               </SelectGroup>
-              <SelectItem value="s">soarpkgs</SelectItem>
             </SelectContent>
           </Select>
           <Select
