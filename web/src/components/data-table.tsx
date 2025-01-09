@@ -62,7 +62,7 @@ const getColumnVis = () => {
 const initialFilters = {
   column: "name",
   columnVisibility: getColumnVis(),
-  page: "bin",
+  page: "bincache_amd64",
   search: '',
 }
 
@@ -124,13 +124,13 @@ export function DataTable<TData, TValue>({
   React.useEffect(() => {
     (async () => {
       switch (page) {
-        case "soar":
+        case "soarpkgs":
           setData((await soarPkgs).default as unknown as TData[]);
           break;
-        case "bin":
+        case "bincache_amd64":
           setData(binX86 as unknown as TData[]);
           break;
-        case "bin_arm":
+        case "bincache_arm64":
           setData((await binArm64).default as unknown as TData[]);
           break;
       }
@@ -203,9 +203,9 @@ export function DataTable<TData, TValue>({
             <SelectContent>
               <SelectGroup>
                 <SelectLabel>bincache</SelectLabel>
-                <SelectItem value="bin">bincache (x86_64)</SelectItem>
-                <SelectItem value="bin_arm">bincache (aarch64)</SelectItem>
-                <SelectItem value="soar">soarpkgs</SelectItem>
+                <SelectItem value="bincache_amd64">bincache (x86_64)</SelectItem>
+                <SelectItem value="bincache_arm64">bincache (aarch64)</SelectItem>
+                <SelectItem value="soarpkgs">soarpkgs</SelectItem>
               </SelectGroup>
             </SelectContent>
           </Select>
