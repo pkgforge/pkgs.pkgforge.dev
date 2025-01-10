@@ -17,7 +17,7 @@ interface ListItem {
   sizeNum: number,
   category: string,
   id?: string,
-  build_date: string,
+  "Build Date": string,
   url: string,
   familyUrl: string,
 }
@@ -175,7 +175,7 @@ const columns: (page: string) => ColumnDef<ListItem>[] = (page) => ([
       )
     },
     cell: ({ row }) => {
-      const dat = row.original.build_date || row.original.type as string;
+      const dat = row.original["Build Date"] || row.original.type as string;
       const date = new Date(dat);
 
       const day = date.toLocaleDateString();

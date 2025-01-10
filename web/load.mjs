@@ -61,19 +61,19 @@ const run = async (url, branch, arch) => {
       response.map((data) => {
         const [, , , , , category, pkg_family] = data.pkg_webpage.split("/");
         return {
-          name: data.pkg_name || data.pkg,
-          pkg: data.pkg,
-          family: pkg_family || data.pkg_id,
-          version: data.version,
-          sha: data.shasum,
-          type: data.pkg_type || "none",
-          size: data.size,
-          sizeNum: genSize(data.size),
-          category: data.category,
-          id: "N/A",
-          build_date: data.build_date,
-          url: data.pkg_webpage,
-          familyUrl: `/${branch}/${category}/${pkg_family}`,
+          "name": data.pkg_name || data.pkg,
+          "pkg": data.pkg,
+          "family": pkg_family || data.pkg_id,
+          "version": data.version,
+          "sha": data.shasum,
+          "type": data.pkg_type || "none",
+          "size": data.size,
+          "sizeNum": genSize(data.size),
+          "category": data.category,
+          "id": "N/A",
+          "Build Date": data.build_date,
+          "url": data.pkg_webpage,
+          "familyUrl": `/${branch}/${category}/${pkg_family}`,
         };
       })
     )
