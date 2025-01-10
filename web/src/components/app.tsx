@@ -13,7 +13,7 @@ interface AppProps {
   downloadable?: boolean;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license";
+type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license" | "note";
 
 interface ResolverField {
   label: string;
@@ -36,7 +36,7 @@ const resolver: { [key: string]: ResolverField } = {
   app_id: { label: "Application ID", type: "default" },
   version: { label: "Version", type: "version" },
   version_upstream: { label: "Upstream Version", type: "version" },
-  note: { label: "Note", type: "string[]", joinWith: "\n" },
+  note: { label: "Note", type: "note", joinWith: "\n" },
   build_date: { label: "Build Date", type: "date" },
   size: { label: "Size", type: "size" },
   download_url: { label: "Download URL", type: "link" },
@@ -69,6 +69,8 @@ const resolver: { [key: string]: ResolverField } = {
   download_count_week: { label: "Weekly Downloads", type: "metric" },
   build_id: { label: "Build ID", type: "hash" },
 };
+
+const ignored_fields = ["distro_pkg"];
 
 function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string }) {
   const { copy, copied } = useClipboard();
@@ -171,6 +173,18 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
                 </a>
                 {(i + 1) !== files.length && <span className="block">,</span>}
               </div>
+            );
+          })}
+        </div>
+      );
+
+    case "note":
+      const n = value as string[];
+      return (
+        <div className="flex flex-col flex-wrap gap-1">
+          {n.map((s) => {
+            return (
+              <span>{s}</span>
             );
           })}
         </div>
@@ -310,6 +324,7 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
 
               {
                 Object.entries(data)
+                  .filter(([key,]) => !ignored_fields.includes(key))
                   .map(([Key, Value]) => (
                     <TableRow key={"index_" + Key + Value}>
 

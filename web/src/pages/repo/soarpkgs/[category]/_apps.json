@@ -370,6 +370,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/ip7z/7zip"
     ],
+    "provides": [
+      "7z"
+    ],
     "repology": [
       "7z"
     ],
@@ -946,6 +949,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/nektos/act"
     ],
+    "provides": [
+      "act"
+    ],
     "repology": [
       "act"
     ],
@@ -1008,6 +1014,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/rhysd/actionlint"
+    ],
+    "provides": [
+      "actionlint"
     ],
     "repology": [
       "actionlint"
@@ -1585,6 +1594,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/asciinema/agg"
     ],
+    "provides": [
+      "agg"
+    ],
     "repology": [
       "agg-asciinema"
     ],
@@ -1714,6 +1726,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/rcoh/angle-grinder"
+    ],
+    "provides": [
+      "agrind:angle-grinder"
     ],
     "src_url": [
       "https://github.com/rcoh/angle-grinder"
@@ -1884,6 +1899,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/ferreiraklet/airixss"
     ],
+    "provides": [
+      "airixss"
+    ],
     "src_url": [
       "https://github.com/ferreiraklet/airixss"
     ],
@@ -2041,6 +2059,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/projectdiscovery/aix"
     ],
+    "provides": [
+      "aix"
+    ],
     "src_url": [
       "https://github.com/projectdiscovery/aix"
     ],
@@ -2163,6 +2184,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/alba4k/albafetch"
+    ],
+    "provides": [
+      "albafetch"
     ],
     "repology": [
       "albafetch"
@@ -2296,6 +2320,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/xyproto/algernon"
     ],
+    "provides": [
+      "algernon"
+    ],
     "repology": [
       "algernon"
     ],
@@ -2350,6 +2377,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/alist-org/alist"
+    ],
+    "provides": [
+      "alist"
     ],
     "repology": [
       "alist"
@@ -2441,6 +2471,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/lanrat/allxfr"
     ],
+    "provides": [
+      "allxfr"
+    ],
     "src_url": [
       "https://github.com/lanrat/allxfr"
     ],
@@ -2526,6 +2559,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/alpine)"
+    ],
+    "provides": [
+      "alpine"
     ],
     "repology": [
       "alpine"
@@ -2618,6 +2654,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/projectdiscovery/alterx"
+    ],
+    "provides": [
+      "alterx"
     ],
     "repology": [
       "alterx"
@@ -2812,6 +2851,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/owasp-amass/amass"
     ],
+    "provides": [
+      "amass"
+    ],
     "repology": [
       "amass"
     ],
@@ -2858,6 +2900,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/amazonlinux)"
+    ],
+    "provides": [
+      "amazonlinux"
     ],
     "src_url": [
       "https://github.com/aws/amazon-linux-docker-images"
@@ -2998,6 +3043,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/jmacdonald/amp"
     ],
+    "provides": [
+      "amp"
+    ],
     "repology": [
       "amp-editor"
     ],
@@ -3087,6 +3135,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/Timmmm/anakin"
     ],
+    "provides": [
+      "anakin"
+    ],
     "repology": [
       "anakin"
     ],
@@ -3130,6 +3181,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/Josue87/AnalyticsRelationships"
+    ],
+    "provides": [
+      "analyticsrelationships"
     ],
     "src_url": [
       "https://github.com/Josue87/AnalyticsRelationships"
@@ -3572,6 +3626,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/tomnomnom/anew"
     ],
+    "provides": [
+      "anew"
+    ],
     "repology": [
       "anew"
     ],
@@ -3615,6 +3672,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/zer0yu/anew"
+    ],
+    "provides": [
+      "anew-rs"
     ],
     "repology": [
       "anew-rs"
@@ -3670,6 +3730,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/ysf/anewer"
     ],
+    "provides": [
+      "anewer"
+    ],
     "repology": [
       "anewer"
     ],
@@ -3713,6 +3776,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Fetched from Upstream. Check/Report @ https://github.com/pystardust/ani-cli"
+    ],
+    "provides": [
+      "ani-cli"
     ],
     "repology": [
       "ani-cli"
@@ -4313,6 +4379,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://gitlab.alpinelinux.org/alpine/apk-tools"
     ],
+    "provides": [
+      "apk-static:apk"
+    ],
     "repology": [
       "apk-static"
     ],
@@ -4356,6 +4425,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Fetched from Upstream. Check/Report @ https://github.com/ax/apk.sh"
+    ],
+    "provides": [
+      "apk.sh==apk"
     ],
     "src_url": [
       "https://github.com/ax/apk.sh"
@@ -4411,6 +4483,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/EFForg/apkeep"
+    ],
+    "provides": [
+      "apkeep"
     ],
     "repology": [
       "apkeep"
@@ -5086,6 +5161,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Third-Party. Check/Report @ https://github.com/probonopd/static-tools"
     ],
+    "provides": [
+      "appstreamcli"
+    ],
     "repology": [
       "appstreamcli"
     ],
@@ -5195,6 +5273,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/aptly-dev/aptly"
     ],
+    "provides": [
+      "aptly"
+    ],
     "repology": [
       "aptly"
     ],
@@ -5284,6 +5365,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/avs-origami/arc"
+    ],
+    "provides": [
+      "arc"
     ],
     "src_url": [
       "https://github.com/avs-origami/arc"
@@ -5378,6 +5462,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source using Staticx. Check/Report @ https://github.com/HorlogeSkynet/archey4"
+    ],
+    "provides": [
+      "archey:archey4"
     ],
     "repology": [
       "archey4"
@@ -5503,6 +5590,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/archlinux)"
     ],
+    "provides": [
+      "archlinux"
+    ],
     "src_url": [
       "https://github.com/pkgforge-dev/docker-archlinux"
     ],
@@ -5556,6 +5646,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/arduino/arduino-cli"
+    ],
+    "provides": [
+      "arduino-cli"
     ],
     "repology": [
       "arduino-cli"
@@ -5715,6 +5808,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/aretext/aretext"
     ],
+    "provides": [
+      "aretext"
+    ],
     "repology": [
       "aretext"
     ],
@@ -5785,8 +5881,7 @@
       "Community Created Binary. Check/Report @ https://github.com/abcfy2/aria2-static-build"
     ],
     "provides": [
-      "aria2",
-      "aria2c"
+      "aria2:aria2c"
     ],
     "repology": [
       "aria2"
@@ -5807,7 +5902,6 @@
     "pkg_id": "github.com.aria2.aria2",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/aria2-aria2/aria2/aria2",
-    "bincache": "ghcr.io/pkgforge/bincache/aria2/abcfy2/continuous",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/aria2/static.abcfy2.continuous.yaml",
     "category": [
       "ConsoleOnly",
@@ -5858,8 +5952,7 @@
       "Community Created Binary. Check/Report @ https://github.com/abcfy2/aria2-static-build"
     ],
     "provides": [
-      "aria2",
-      "aria2c"
+      "aria2:aria2c"
     ],
     "repology": [
       "aria2"
@@ -6107,7 +6200,8 @@
     "tag": [
       "Applications/Internet",
       "network"
-    ]
+    ],
+    "version": "v1.0.6"
   },
   {
     "_disabled": "false",
@@ -6270,6 +6364,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/jpeddicord/askalono"
     ],
+    "provides": [
+      "askalono"
+    ],
     "repology": [
       "askalono"
     ],
@@ -6330,6 +6427,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Fetched from Upstream. Check/Report @ https://github.com/nitefood/asn"
     ],
+    "provides": [
+      "asn"
+    ],
     "repology": [
       "asn"
     ],
@@ -6376,6 +6476,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/projectdiscovery/asnmap"
+    ],
+    "provides": [
+      "asnmap"
     ],
     "repology": [
       "asnmap"
@@ -6437,6 +6540,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/tomnomnom/assetfinder"
     ],
+    "provides": [
+      "assetfinder"
+    ],
     "repology": [
       "assetfinder"
     ],
@@ -6494,6 +6600,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/moul/assh"
+    ],
+    "provides": [
+      "assh"
     ],
     "repology": [
       "assh"
@@ -6700,6 +6809,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/atuinsh/atuin"
+    ],
+    "provides": [
+      "atuin"
     ],
     "repology": [
       "atuin"
@@ -7307,6 +7419,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/onetrueawk/awk"
     ],
+    "provides": [
+      "awk"
+    ],
     "repology": [
       "awk"
     ],
@@ -7363,6 +7478,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/ekristen/aws-nuke"
     ],
+    "provides": [
+      "aws-nuke"
+    ],
     "repology": [
       "aws-nuke"
     ],
@@ -7405,6 +7523,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/oxidecomputer/aws-wire-lengths"
+    ],
+    "provides": [
+      "aws-wire-lengths"
     ],
     "src_url": [
       "https://github.com/oxidecomputer/aws-wire-lengths"
@@ -7498,6 +7619,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/axel-download-accelerator/axel"
+    ],
+    "provides": [
+      "axel"
     ],
     "repology": [
       "axel"
@@ -7603,6 +7727,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/BLAKE3-team/BLAKE3"
+    ],
+    "provides": [
+      "b3sum"
     ],
     "repology": [
       "blake3"
@@ -7791,6 +7918,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/imsnif/bandwhich"
+    ],
+    "provides": [
+      "bandwhich"
     ],
     "repology": [
       "bandwhich"
@@ -8006,8 +8136,7 @@
       "Built Using Nix. Check/Report @ https://github.com/NixOS/nixpkgs"
     ],
     "provides": [
-      "bash",
-      "sh"
+      "bash==sh"
     ],
     "repology": [
       "bash"
@@ -8105,8 +8234,7 @@
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/BLAKE3-team/BLAKE3"
     ],
     "provides": [
-      "bat",
-      "batcat"
+      "bat==batcat"
     ],
     "repology": [
       "bat-cat"
@@ -8118,7 +8246,7 @@
       "cat",
       "text-viewer"
     ],
-    "version": "HEAD-1321160-250108T065203"
+    "version": "HEAD-b6158c0-250109T185002"
   },
   {
     "_disabled": "false",
@@ -8296,6 +8424,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/Bearer/bearer"
+    ],
+    "provides": [
+      "bearer"
     ],
     "repology": [
       "bearer"
@@ -8479,6 +8610,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/itchyny/bed"
     ],
+    "provides": [
+      "bed"
+    ],
     "repology": [
       "bed-editor-itchyny"
     ],
@@ -8618,6 +8752,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/berty/berty"
+    ],
+    "provides": [
+      "berty"
     ],
     "repology": [
       "berty"
@@ -9169,6 +9306,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/marcosnils/bin"
     ],
+    "provides": [
+      "bin"
+    ],
     "repology": [
       "bin-marcosnils"
     ],
@@ -9207,6 +9347,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://codeberg.org/koutheir/binary-security-check"
+    ],
+    "provides": [
+      "binary-security-check"
     ],
     "src_url": [
       "https://codeberg.org/koutheir/binary-security-check"
@@ -9337,6 +9480,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/m4b/bingrep"
     ],
+    "provides": [
+      "bingrep"
+    ],
     "repology": [
       "bingrep"
     ],
@@ -9394,6 +9540,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/sharkdp/binocle"
+    ],
+    "provides": [
+      "binocle"
     ],
     "repology": [
       "binocle"
@@ -9714,7 +9863,8 @@
       "litecoin",
       "segwit",
       "wallet"
-    ]
+    ],
+    "version": "v4.46.3"
   },
   {
     "_disabled": "false",
@@ -9913,6 +10063,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/blevesearch/bleve"
+    ],
+    "provides": [
+      "bleve"
     ],
     "src_url": [
       "https://github.com/blevesearch/bleve"
@@ -10236,6 +10389,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/darkhz/bluetuith"
+    ],
+    "provides": [
+      "bluetuith"
     ],
     "repology": [
       "bluetuith"
@@ -10593,6 +10749,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/ekzhang/bore"
     ],
+    "provides": [
+      "bore:bore-cli"
+    ],
     "repology": [
       "bore-cli"
     ],
@@ -10648,6 +10807,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/cloudflare/boringtun"
+    ],
+    "provides": [
+      "boringtun"
     ],
     "repology": [
       "boringtun"
@@ -10746,6 +10908,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/xyproto/botsay"
+    ],
+    "provides": [
+      "botsay"
     ],
     "repology": [
       "botsay"
@@ -11007,8 +11172,7 @@
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/ClementTsang/bottom"
     ],
     "provides": [
-      "bottom",
-      "btm"
+      "bottom==btm"
     ],
     "repology": [
       "bottom"
@@ -11067,6 +11231,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/queer/boxxy"
+    ],
+    "provides": [
+      "boxxy"
     ],
     "repology": [
       "boxxy"
@@ -11410,7 +11577,7 @@
       "Networking/WWW",
       "network.web.browser"
     ],
-    "version": "firefox-nightly-v136.0.r20250108215653"
+    "version": "firefox-nightly-v136.0.r20250109183505"
   },
   {
     "_disabled": "false",
@@ -11514,7 +11681,7 @@
       "Networking/WWW",
       "network.web.browser"
     ],
-    "version": "v1.76.1"
+    "version": "v1.76.3"
   },
   {
     "_disabled": "false",
@@ -11645,6 +11812,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/shenwei356/brename"
+    ],
+    "provides": [
+      "brename"
     ],
     "repology": [
       "brename"
@@ -11801,6 +11971,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/txthinking/brook"
     ],
+    "provides": [
+      "brook"
+    ],
     "repology": [
       "brook"
     ],
@@ -11861,6 +12034,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/Canop/broot"
+    ],
+    "provides": [
+      "broot"
     ],
     "repology": [
       "broot"
@@ -12090,6 +12266,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/x90skysn3k/brutespray"
     ],
+    "provides": [
+      "brutespray"
+    ],
     "repology": [
       "brutespray"
     ],
@@ -12156,6 +12335,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/aristocratos/btop"
+    ],
+    "provides": [
+      "btop"
     ],
     "repology": [
       "btop"
@@ -12313,6 +12495,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/redhuntlabs/BucketLoot"
+    ],
+    "provides": [
+      "bucketloot"
     ],
     "src_url": [
       "https://github.com/redhuntlabs/BucketLoot"
@@ -12699,6 +12884,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/lobuhi/byp4xx"
     ],
+    "provides": [
+      "byp4xx"
+    ],
     "repology": [
       "byp4xx"
     ],
@@ -12828,6 +13016,77 @@
     "pkg_id": "github.com.caddyserver.caddy",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/caddyserver-caddy/caddy/caddy",
+    "bincache": "ghcr.io/pkgforge/bincache/caddy/official/beta",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/caddy/static.official.beta.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "A powerful, enterprise-ready, and extensible HTTP/2 + HTTP/3 web server with automatic HTTPS (Beta)",
+    "distro_pkg": {
+      "alpine": [
+        "caddy"
+      ],
+      "archlinux": {
+        "aur": [
+          "caddy-git"
+        ],
+        "extra": [
+          "caddy"
+        ]
+      },
+      "debian": [
+        "caddy"
+      ],
+      "homebrew": [
+        "caddy"
+      ],
+      "nixpkgs": [
+        "caddy"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/caddy/static.official.beta.yaml",
+    "homepage": [
+      "https://caddyserver.com",
+      "https://github.com/caddyserver/caddy"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/caddyserver/caddy"
+    ],
+    "provides": [
+      "caddy:caddy-beta"
+    ],
+    "repology": [
+      "caddy"
+    ],
+    "src_url": [
+      "https://github.com/caddyserver/caddy"
+    ],
+    "tag": [
+      "caddy",
+      "server",
+      "nginx"
+    ],
+    "version": "v2.9.0-beta.3"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "caddy",
+    "pkg_family": "caddy",
+    "pkg_id": "github.com.caddyserver.caddy",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/caddyserver-caddy/caddy/caddy",
     "bincache": "ghcr.io/pkgforge/bincache/caddy/official/stable",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/caddy/static.official.stable.yaml",
     "category": [
@@ -12876,6 +13135,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/caddyserver/caddy"
     ],
+    "provides": [
+      "caddy"
+    ],
     "repology": [
       "caddy"
     ],
@@ -12888,73 +13150,6 @@
       "nginx"
     ],
     "version": "v2.9.1"
-  },
-  {
-    "_disabled": "false",
-    "pkg": "caddy",
-    "pkg_family": "caddy",
-    "pkg_id": "github.com.caddyserver.caddy",
-    "pkg_type": "static",
-    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/caddyserver-caddy/caddy/caddy",
-    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/caddy/static.official.beta.yaml",
-    "category": [
-      "ConsoleOnly",
-      "Utility"
-    ],
-    "description": "A powerful, enterprise-ready, and extensible HTTP/2 + HTTP/3 web server with automatic HTTPS (Beta)",
-    "distro_pkg": {
-      "alpine": [
-        "caddy"
-      ],
-      "archlinux": {
-        "aur": [
-          "caddy-git"
-        ],
-        "extra": [
-          "caddy"
-        ]
-      },
-      "debian": [
-        "caddy"
-      ],
-      "homebrew": [
-        "caddy"
-      ],
-      "nixpkgs": [
-        "caddy"
-      ]
-    },
-    "download_url": "https://soarpkgs.pkgforge.dev/binaries/caddy/static.official.beta.yaml",
-    "homepage": [
-      "https://caddyserver.com",
-      "https://github.com/caddyserver/caddy"
-    ],
-    "host": [
-      "aarch64-linux",
-      "x86_64-linux"
-    ],
-    "license": [
-      "Apache-2.0"
-    ],
-    "maintainer": [
-      "Azathothas (https://github.com/Azathothas)"
-    ],
-    "note": [
-      "[DO NOT RUN] (Meant for pkgforge CI Only)",
-      "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/caddyserver/caddy"
-    ],
-    "repology": [
-      "caddy"
-    ],
-    "src_url": [
-      "https://github.com/caddyserver/caddy"
-    ],
-    "tag": [
-      "caddy",
-      "server",
-      "nginx"
-    ],
-    "version": "v2.9.0-beta.3"
   },
   {
     "_disabled": "false",
@@ -13494,6 +13689,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/dtolnay/cargo-unlock"
     ],
+    "provides": [
+      "cargo-unlock"
+    ],
     "src_url": [
       "https://github.com/dtolnay/cargo-unlock"
     ],
@@ -13718,6 +13916,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/openSUSE/catatonit"
     ],
+    "provides": [
+      "catatonit"
+    ],
     "repology": [
       "catatonit"
     ],
@@ -13811,6 +14012,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/rapiz1/catp"
+    ],
+    "provides": [
+      "catp"
     ],
     "repology": [
       "catp"
@@ -13949,6 +14153,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/projectdiscovery/cdncheck"
     ],
+    "provides": [
+      "cdncheck"
+    ],
     "repology": [
       "cdncheck"
     ],
@@ -13992,6 +14199,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/synoet/cdwe"
+    ],
+    "provides": [
+      "cdwe"
     ],
     "repology": [
       "cdwe"
@@ -14197,6 +14407,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/xm1k3/cent"
     ],
+    "provides": [
+      "cent"
+    ],
     "repology": [
       "cent"
     ],
@@ -14328,6 +14541,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/lanrat/certgraph"
     ],
+    "provides": [
+      "certgraph"
+    ],
     "repology": [
       "certgraph"
     ],
@@ -14386,6 +14602,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/SSLMate/certspotter"
     ],
+    "provides": [
+      "certspotter"
+    ],
     "repology": [
       "certspotter"
     ],
@@ -14426,6 +14645,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/d-Rickyy-b/certstream-server-go"
+    ],
+    "provides": [
+      "certstream-server:certstream-server-go"
     ],
     "src_url": [
       "https://github.com/d-Rickyy-b/certstream-server-go"
@@ -14470,6 +14692,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/mrusme/cexec"
     ],
+    "provides": [
+      "cexec"
+    ],
     "src_url": [
       "https://github.com/mrusme/cexec"
     ],
@@ -14506,6 +14731,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/makotom/cfspeed"
+    ],
+    "provides": [
+      "cfspeed"
     ],
     "src_url": [
       "https://github.com/makotom/cfspeed"
@@ -14557,6 +14785,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/code-inflation/cfspeedtest"
+    ],
+    "provides": [
+      "cfspeedtest"
     ],
     "repology": [
       "cfspeedtest"
@@ -14910,6 +15141,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/cheat/cheat"
     ],
+    "provides": [
+      "cheat"
+    ],
     "repology": [
       "cheat"
     ],
@@ -15050,6 +15284,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/blst-security/cherrybomb"
+    ],
+    "provides": [
+      "cherrybomb"
     ],
     "repology": [
       "cherrybomb"
@@ -15250,6 +15487,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/jpillora/chisel"
     ],
+    "provides": [
+      "chisel"
+    ],
     "repology": [
       "chisel-tcp-tunnel-over-http",
       "chisel-tunnel",
@@ -15370,7 +15610,7 @@
       "www",
       "www-client"
     ],
-    "version": "32----////__-131.0.6778.204-1.121-386"
+    "version": "32----////--_3.0.21-0%2121-386"
   },
   {
     "_disabled": "false",
@@ -15541,7 +15781,7 @@
     "tag": [
       "browser"
     ],
-    "version": "131.0.6778.204"
+    "version": "131.0.6778.264"
   },
   {
     "_disabled": "false",
@@ -15739,6 +15979,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/bschaatsbergen/cidr"
     ],
+    "provides": [
+      "cidr"
+    ],
     "repology": [
       "cidr"
     ],
@@ -15918,6 +16161,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/bensadeh/circumflex"
     ],
+    "provides": [
+      "circumflex"
+    ],
     "repology": [
       "circumflex"
     ],
@@ -16080,6 +16326,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Created using DockerC, might require ROOT (Details: https://hub.docker.com/_/clearlinux)"
+    ],
+    "provides": [
+      "clearlinux"
     ],
     "repology": [
       "clearlinux"
@@ -16501,6 +16750,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/mrusme/cloudcash"
     ],
+    "provides": [
+      "cloudcash"
+    ],
     "src_url": [
       "https://github.com/mrusme/cloudcash"
     ],
@@ -16565,6 +16817,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/cloudflare/cloudflared"
     ],
+    "provides": [
+      "cloudflared"
+    ],
     "repology": [
       "cloudflared"
     ],
@@ -16614,6 +16869,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/BishopFox/cloudfox"
+    ],
+    "provides": [
+      "cloudfox"
     ],
     "repology": [
       "cloudfox"
@@ -16675,6 +16933,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/projectdiscovery/cloudlist"
     ],
+    "provides": [
+      "cloudlist"
+    ],
     "repology": [
       "cloudlist"
     ],
@@ -16726,6 +16987,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/cloudreve/Cloudreve"
+    ],
+    "provides": [
+      "cloudreve"
     ],
     "repology": [
       "cloudreve"
@@ -16862,6 +17126,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/YiNNx/cmd-wrapped"
+    ],
+    "provides": [
+      "cmd-wrapped"
     ],
     "repology": [
       "cmd-wrapped"
@@ -17010,6 +17277,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/contabo/cntb"
     ],
+    "provides": [
+      "cntb"
+    ],
     "repology": [
       "cntb"
     ],
@@ -17111,8 +17381,7 @@
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/lostdusty/cobalt"
     ],
     "provides": [
-      "cobalt",
-      "cobalt-cli"
+      "cobalt:cobalt-cli"
     ],
     "repology": [
       "cobalt-cli"
@@ -17179,8 +17448,7 @@
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/cocogitto/cocogitto"
     ],
     "provides": [
-      "cocogitto",
-      "cog"
+      "cocogitto==cog"
     ],
     "repology": [
       "cocogitto"
@@ -17958,6 +18226,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/containerd/containerd"
     ],
+    "provides": [
+      "containerd"
+    ],
     "repology": [
       "containerd"
     ],
@@ -18254,6 +18525,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/replydev/cotp"
     ],
+    "provides": [
+      "cotp"
+    ],
     "repology": [
       "cotp"
     ],
@@ -18264,7 +18538,7 @@
       "authy",
       "totp"
     ],
-    "version": "HEAD-6a38c8f-250108T172216"
+    "version": "HEAD-bd8019c-250109T224119"
   },
   {
     "_disabled": "false",
@@ -18294,6 +18568,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/stolenusername/cowitness"
+    ],
+    "provides": [
+      "cowitness"
     ],
     "repology": [
       "cowitness"
@@ -18639,6 +18916,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built Using Nix. Check/Report @ https://github.com/NixOS/nixpkgs"
     ],
+    "provides": [
+      "cpufetch"
+    ],
     "repology": [
       "cpufetch"
     ],
@@ -18734,6 +19014,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/s0rg/crawley"
+    ],
+    "provides": [
+      "crawley"
     ],
     "repology": [
       "crawley"
@@ -19123,6 +19406,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/schollz/croc"
     ],
+    "provides": [
+      "croc"
+    ],
     "repology": [
       "croc"
     ],
@@ -19495,6 +19781,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/cemulus/crt"
     ],
+    "provides": [
+      "crt"
+    ],
     "repology": [
       "crt"
     ],
@@ -19545,7 +19834,8 @@
       "finance",
       "portfolio",
       "portfolio-optimization"
-    ]
+    ],
+    "version": "v0.0.1"
   },
   {
     "_disabled": "false",
@@ -19807,6 +20097,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/edoardottt/csprecon"
     ],
+    "provides": [
+      "csprecon"
+    ],
     "repology": [
       "csprecon"
     ],
@@ -19866,6 +20159,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/wfxr/csview"
     ],
+    "provides": [
+      "csview"
+    ],
     "repology": [
       "csview"
     ],
@@ -19905,6 +20201,9 @@
     "note": [
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/crtsh/ct_monitor"
+    ],
+    "provides": [
+      "ct_monitor"
     ],
     "src_url": [
       "https://github.com/crtsh/ct_monitor"
@@ -20176,6 +20475,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/ImAyrix/cut-cdn"
     ],
+    "provides": [
+      "cut-cdn"
+    ],
     "src_url": [
       "https://github.com/ImAyrix/cut-cdn"
     ],
@@ -20400,6 +20702,9 @@
       "[DO NOT RUN] (Meant for pkgforge CI Only)",
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/fkie-cad/cwe_checker"
     ],
+    "provides": [
+      "cwe-checker"
+    ],
     "repology": [
       "cwe-checker"
     ],
@@ -20591,8 +20896,7 @@
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/qarmin/czkawka"
     ],
     "provides": [
-      "czkawka-cli",
-      "czkawka_cli"
+      "czkawka-cli:czkawka_cli"
     ],
     "repology": [
       "czkawka"
@@ -22054,7 +22358,7 @@
       "diff",
       "git-delta"
     ],
-    "version": "HEAD-ef3e1be-241210T000405"
+    "version": "HEAD-d10095b-250109T230747"
   },
   {
     "_disabled": "false",
@@ -23266,7 +23570,7 @@
       "network.im",
       "Networking/Chat"
     ],
-    "version": "0.0.556"
+    "version": "0.0.558"
   },
   {
     "_disabled": "false",
@@ -23320,7 +23624,7 @@
       "network.im",
       "Networking/Chat"
     ],
-    "version": "0.0.124"
+    "version": "0.0.125"
   },
   {
     "_disabled": "false",
@@ -26860,7 +27164,7 @@
     "src_url": [
       "https://github.com/EmuDeck/emudeck-electron"
     ],
-    "version": "v2.3.5"
+    "version": "v2.3.6"
   },
   {
     "_disabled": "false",
@@ -27949,7 +28253,8 @@
     ],
     "src_url": [
       "https://github.com/PowerBall253/EternalModManager-Avalonia"
-    ]
+    ],
+    "version": "v4.2.1"
   },
   {
     "_disabled": "false",
@@ -34855,7 +35160,7 @@
       "programming.docs",
       "universe/graphics"
     ],
-    "version": "32----////__-131.0.6778.204-1.121-386"
+    "version": "32----////--_3.0.21-0%2121-386"
   },
   {
     "_disabled": "false",
@@ -35741,7 +36046,7 @@
       "vcs",
       "version-control"
     ],
-    "version": "HEAD-8d84818-250108T195457"
+    "version": "HEAD-1ca480a-250109T211853"
   },
   {
     "_disabled": "false",
@@ -35855,7 +36160,7 @@
       "git",
       "tui"
     ],
-    "version": "HEAD-27e28d5-241220T121027"
+    "version": "HEAD-fd0ccfb-250109T222058"
   },
   {
     "_disabled": "false",
@@ -37278,7 +37583,7 @@
     "src_url": [
       "https://github.com/ivan-hc/Chrome-appimage"
     ],
-    "version": "133.0.6905.0-1"
+    "version": "133.0.6943.6-1"
   },
   {
     "_disabled": "false",
@@ -38977,7 +39282,7 @@
     "src_url": [
       "https://github.com/vim/vim-appimage"
     ],
-    "version": "v9.1.0998"
+    "version": "v9.1.1000"
   },
   {
     "_disabled": "false",
@@ -41759,7 +42064,8 @@
       "fabric-ui",
       "mastodon",
       "reactjs"
-    ]
+    ],
+    "version": "0.7.0"
   },
   {
     "_disabled": "false",
@@ -45075,7 +45381,7 @@
       "git",
       "vcs"
     ],
-    "version": "HEAD-720c903-250109T072308"
+    "version": "HEAD-e124404-250110T054516"
   },
   {
     "_disabled": "false",
@@ -45400,7 +45706,7 @@
       "calculator",
       "math"
     ],
-    "version": "HEAD-7348e18-250108T210541"
+    "version": "HEAD-33174bc-250109T230319"
   },
   {
     "_disabled": "false",
@@ -50584,7 +50890,7 @@
       "video",
       "windows"
     ],
-    "version": "v0.3.8"
+    "version": "v0.4.0"
   },
   {
     "_disabled": "false",
@@ -51925,7 +52231,7 @@
       "pump",
       "steam"
     ],
-    "version": "v1.5.5"
+    "version": "v1.5.6"
   },
   {
     "_disabled": "false",
@@ -52847,7 +53153,7 @@
       "web",
       "www"
     ],
-    "version": "v11.4.3"
+    "version": "v11.5"
   },
   {
     "_disabled": "false",
@@ -59681,7 +59987,7 @@
     "tag": [
       "shell"
     ],
-    "version": "HEAD-f360489-250109T135108"
+    "version": "HEAD-3a1601d-250109T170916"
   },
   {
     "_disabled": "false",
@@ -62502,7 +62808,7 @@
       "art",
       "multimedia"
     ],
-    "version": "v3.3.2"
+    "version": "v3.4.0"
   },
   {
     "_disabled": "false",
@@ -70517,7 +70823,7 @@
       "csv",
       "textproc"
     ],
-    "version": "HEAD-49ec4e2-250108T133907"
+    "version": "HEAD-0ae6b6c-250109T130932"
   },
   {
     "_disabled": "false",
@@ -71986,7 +72292,7 @@
       "s3",
       "sync"
     ],
-    "version": "HEAD-7692ef2-250108T173500"
+    "version": "HEAD-30ef1dd-250109T185518"
   },
   {
     "_disabled": "false",
@@ -72147,7 +72453,7 @@
       "cybersecurity",
       "redteam"
     ],
-    "version": "HEAD-f881d14-250106T235726"
+    "version": "HEAD-1375eab-250109T192902"
   },
   {
     "_disabled": "false",
@@ -75857,7 +76163,8 @@
     ],
     "tag": [
       "baduk"
-    ]
+    ],
+    "version": "v0.52.2"
   },
   {
     "_disabled": "false",
@@ -81610,7 +81917,8 @@
     ],
     "src_url": [
       "https://github.com/noisymime/SpeedyLoader"
-    ]
+    ],
+    "version": "v1.6.0"
   },
   {
     "_disabled": "false",
@@ -82103,7 +82411,7 @@
       "database",
       "sql"
     ],
-    "version": "HEAD-cfe6c55-241227T133511"
+    "version": "HEAD-bcd3096-250109T110626"
   },
   {
     "_disabled": "false",
@@ -86424,7 +86732,7 @@
       "wireguard",
       "zerotier"
     ],
-    "version": "HEAD-68997e0-250109T071519"
+    "version": "HEAD-fc8b6d9-250110T063358"
   },
   {
     "_disabled": "false",
@@ -93380,7 +93688,7 @@
       "multimedia.video",
       "video"
     ],
-    "version": "20250109-0228"
+    "version": "20250110-0223"
   },
   {
     "_disabled": "false",
@@ -97203,7 +97511,7 @@
       "csv",
       "tsv"
     ],
-    "version": "HEAD-89b18c6-250109T112558"
+    "version": "HEAD-86d2f80-250109T180455"
   },
   {
     "_disabled": "false",
@@ -97487,7 +97795,7 @@
       "game.emulator",
       "games"
     ],
-    "version": "v0.8.7"
+    "version": "v0.8.8"
   },
   {
     "_disabled": "false",
@@ -99497,7 +99805,7 @@
     "tag": [
       "dns"
     ],
-    "version": "HEAD-79b2303-241226T102221"
+    "version": "HEAD-99c8323-250109T120324"
   },
   {
     "_disabled": "false",

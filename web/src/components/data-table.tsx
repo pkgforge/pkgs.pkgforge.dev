@@ -80,15 +80,16 @@ const updateUrlParams = (params: typeof initialFilters) => {
   if (params.column !== initialFilters.column) urlParams.set('searchBy', params.column);
   if (params.page !== initialFilters.page) urlParams.set('repo', params.page);
   if (params.search) urlParams.set('search', params.search);
-  
+
   const newUrl = `${window.location.pathname}${urlParams.toString() ? '?' + urlParams.toString() : ''}`;
   window.history.replaceState({}, '', newUrl);
 };
 
-export function DataTable<TData, TValue>({
-  columns,
-}: DataTableProps<TData, TValue>) {
+export function DataTable<TData>({
+  columns: col,
+}: { columns: (_: string) => ColumnDef<TData>[] }) {
   const urlParams = getUrlParams();
+
   const [sorting, setSorting] = React.useState<SortingState>([])
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>([])
   const [column, setColumn] = React.useState(urlParams.column);
@@ -96,6 +97,9 @@ export function DataTable<TData, TValue>({
   const [page, setPage] = React.useState(urlParams.page);
   const [data, setData] = React.useState<TData[] | "loading">(binX86 as unknown as TData[]);
 
+  const columns = React.useMemo(() => {
+    return col(page)
+  }, [page]);
 
   React.useEffect(() => {
     updateUrlParams(

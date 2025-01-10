@@ -66,7 +66,7 @@ const run = async (url, branch, arch) => {
           family: pkg_family || data.pkg_id,
           version: data.version,
           sha: data.shasum,
-          type: "base",
+          type: data.pkg_type || "none",
           size: data.size,
           sizeNum: genSize(data.size),
           category: data.category,

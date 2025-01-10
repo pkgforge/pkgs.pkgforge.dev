@@ -29,10 +29,7 @@ interface ListItem {
 //   unitDisplay: "narrow",
 // });
 
-interface ListProps {
-  list: ListItem[]
-}
-const columns: ColumnDef<ListItem>[] = [
+const columns: (page: string) => ColumnDef<ListItem>[] = (page) => ([
   {
     accessorKey: "name",
     header: ({ column }) => {
@@ -159,29 +156,33 @@ const columns: ColumnDef<ListItem>[] = [
     }
   },
   {
-    accessorKey: "build_date",
+    accessorKey: page != "soarpkgs" ? "Build Date" : "Package Type",
     header: ({ column }) => {
       return (
         <div
           className="flex"
         >
-          Build Date
-          <Button
+          {page != "soarpkgs" ? "Build Date" : "Package Type"}
+          {page != "soarpkgs" && <Button
             variant="ghost"
             size="sm"
             className="ml-1 h-6 w-8 rounded-full"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
           >
             <ArrowUpDown className="h-4 w-4" />
-          </Button>
+          </Button>}
         </div>
       )
     },
     cell: ({ row }) => {
-      const dat = row.getValue("build_date") as string;
+      const dat = row.original.build_date || row.original.type as string;
       const date = new Date(dat);
 
       const day = date.toLocaleDateString();
+
+      if (row.original.type) {
+        return <span className="text-gray-500 dark:text-gray-400 font-mono text-sm">{dat}</span>;
+      }
 
       if (day == "Invalid Date") {
         return <Tooltip>
@@ -204,18 +205,18 @@ const columns: ColumnDef<ListItem>[] = [
       </Tooltip>;
     },
   }
-]
+]);
 
-function ShowList({ list }: ListProps) {
+function ShowList() {
   return <TooltipProvider>
     <div className="mt-2 flex flex-col md:px-6 space-y-2 pb-3">
-      <DataTable columns={columns} data={list} />
+      <DataTable columns={columns} />
     </div>
   </TooltipProvider>;
 }
 
 export default function List() {
-  return <ShowList list={[]} />;
+  return <ShowList />;
 }
 
 function Category({ cat }: { cat: string }) {

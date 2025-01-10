@@ -507,6 +507,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/objcopy"
     ],
     [
+      "ld.bfd",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/ld.bfd"
+    ],
+    [
       "strings",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/strings"
     ],
@@ -521,6 +525,10 @@
     [
       "strip",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/strip"
+    ],
+    [
+      "ld.gold",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/ld.gold"
     ],
     [
       "ranlib",
@@ -553,14 +561,6 @@
     [
       "as",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/as"
-    ],
-    [
-      "ld.bfd",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/ld.bfd"
-    ],
-    [
-      "ld.gold",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/binutils/ld.gold"
     ]
   ],
   "x86_64-linux/bita": [
@@ -2965,6 +2965,10 @@
   ],
   "x86_64-linux/sudo": [
     [
+      "cvtsudoers",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sudo/cvtsudoers"
+    ],
+    [
       "sudo",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sudo/sudo"
     ],
@@ -2973,20 +2977,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sudo/sudoedit"
     ],
     [
+      "sudo_sendlog",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sudo/sudo_sendlog"
+    ],
+    [
       "sudoreplay",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sudo/sudoreplay"
     ],
     [
       "sudo_logsrvd",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sudo/sudo_logsrvd"
-    ],
-    [
-      "cvtsudoers",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sudo/cvtsudoers"
-    ],
-    [
-      "sudo_sendlog",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sudo/sudo_sendlog"
     ]
   ],
   "x86_64-linux/tar": [
@@ -3095,6 +3095,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/more"
     ],
     [
+      "mesg",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/mesg"
+    ],
+    [
       "ionice",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/ionice"
     ],
@@ -3143,8 +3147,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/login"
     ],
     [
+      "mkfs.bfs",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/mkfs.bfs"
+    ],
+    [
       "col",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/col"
+    ],
+    [
+      "flock",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/flock"
     ],
     [
       "hardlink",
@@ -3235,6 +3247,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/lsmem"
     ],
     [
+      "mkfs.cramfs",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/mkfs.cramfs"
+    ],
+    [
       "mkfs.minix",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/mkfs.minix"
     ],
@@ -3291,6 +3307,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/isosize"
     ],
     [
+      "dmesg",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/dmesg"
+    ],
+    [
       "fdisk",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/fdisk"
     ],
@@ -3309,26 +3329,6 @@
     [
       "pivot_root",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/pivot_root"
-    ],
-    [
-      "mesg",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/mesg"
-    ],
-    [
-      "mkfs.bfs",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/mkfs.bfs"
-    ],
-    [
-      "flock",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/flock"
-    ],
-    [
-      "mkfs.cramfs",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/mkfs.cramfs"
-    ],
-    [
-      "dmesg",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/dmesg"
     ]
   ],
   "x86_64-linux/vim": [
