@@ -13,7 +13,7 @@ interface AppProps {
   downloadable?: boolean;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license" | "note";
+type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license" | "note" | "package_id";
 
 interface ResolverField {
   label: string;
@@ -26,7 +26,7 @@ const resolver: { [key: string]: ResolverField } = {
   pkg: { label: "Package", type: "default" },
   pkg_family: { label: "Package Family", type: "default" },
   pkg_name: { label: "Package Name", type: "default" },
-  pkg_id: { label: "Package ID", type: "default" },
+  pkg_id: { label: "Package ID", type: "package_id" },
   bsum: { label: "BLAKE3SUM", type: "hash" },
   repology: { label: "Repology", type: "repology" },
   appstream: { label: "AppStream", type: "link" },
@@ -276,6 +276,11 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
         </div>
       );
 
+    case "package_id":
+      return (
+          <span className="font-mono text-gray-600 dark:text-gray-400">{value}</span>
+      );
+
     default:
       if (typeof value === "string" && value.startsWith("http")) {
         return (
@@ -342,7 +347,7 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
         </div>
 
         <div className="lg:w-[15%] lg:sticky lg:top-3 flex w-full flex-col space-y-4">
-          <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
+          {data.pkg_name && data.pkg_id && (<div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
             <h2 className="text-lg font-semibold flex items-center space-x-2">
               <Download className="text-blue-600 dark:text-blue-400" />
               <span>Install Package</span>
@@ -377,7 +382,7 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
             <a href="https://github.com/pkgforge/soar" target="_blank" rel="noreferrer" className="text-xs underline text-muted-foreground text-center">
               Note: Requires soar to be installed
             </a>
-          </div>
+          </div>)}
 
           {build && (
             <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
