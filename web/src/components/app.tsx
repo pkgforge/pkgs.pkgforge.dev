@@ -184,7 +184,7 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
         <div className="flex flex-col flex-wrap gap-1">
           {n.map((s) => {
             return (
-              <span>{s}</span>
+              <span key={s}>{s}</span>
             );
           })}
         </div>

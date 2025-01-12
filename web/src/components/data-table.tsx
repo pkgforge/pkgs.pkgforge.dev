@@ -41,6 +41,10 @@ const binArm64 = import("../metadata_bincache_aarch64-linux.json");
 
 const soarPkgs = import("../metadata_soarpkgs_[category].json");
 
+const pkgArm64 = import("../metadata_pkgcache_aarch64-linux.json");
+
+const pkgX86 = import("../metadata_pkgcache_x86_64-linux.json");
+
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
   data: TData[]
@@ -50,7 +54,6 @@ const getColumnVis = () => {
   try {
     return JSON.parse(localStorage.visiv);
   } catch (e) {
-    console.log("Using Default", e);
     return {
       sha: false,
       id: false,
@@ -137,6 +140,12 @@ export function DataTable<TData>({
         case "bincache_arm64":
           setData((await binArm64).default as unknown as TData[]);
           break;
+        case "pkgcache_amd64":
+          setData((await pkgX86).default as unknown as TData[]);
+          break;
+        case "pkgcache_arm64":
+          setData((await pkgArm64).default as unknown as TData[]);
+          break;
       }
     })();
   }, [page]);
@@ -209,6 +218,8 @@ export function DataTable<TData>({
                 <SelectLabel>bincache</SelectLabel>
                 <SelectItem value="bincache_amd64">bincache (x86_64)</SelectItem>
                 <SelectItem value="bincache_arm64">bincache (aarch64)</SelectItem>
+                <SelectItem value="pkgcache_amd64">pkgcache (x86_64)</SelectItem>
+                <SelectItem value="pkgcache_arm64">pkgcache (aarch64)</SelectItem>
                 <SelectItem value="soarpkgs">soarpkgs</SelectItem>
               </SelectGroup>
             </SelectContent>
@@ -360,7 +371,6 @@ export function DataTable<TData>({
                     if (pageNumberInput.current) {
                       const val = Number(pageNumberInput.current.value);
 
-                      console.log(val);
                       if (val > 0 && val < table.getPageCount()) {
                         table.setPageIndex(val - 1);
                       }

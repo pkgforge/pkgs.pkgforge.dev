@@ -1,0 +1,2475 @@
+[
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "1",
+    "pkg": "0ad.appimage",
+    "pkg_family": "0ad",
+    "pkg_id": "github.0ad-matters.0ad-appimage.prerelease",
+    "pkg_name": "0ad",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-0ad-matters-0ad-appimage-prerelease/0ad",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad?tag=v0.0.27-rc1-27645-alpha-x86_64-linux&download=0ad.appdata.xml",
+    "category": [
+      "Game"
+    ],
+    "description": "A FOSS historical Real Time Strategy (RTS) game [prerelease]",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad?tag=v0.0.27-rc1-27645-alpha-x86_64-linux&download=0ad.desktop",
+    "homepage": [
+      "https://play0ad.com",
+      "https://wildfiregames.com/0ad",
+      "https://gitea.wildfiregames.com/0ad/0ad"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad?tag=v0.0.27-rc1-27645-alpha-x86_64-linux&download=0ad.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "0ad"
+    ],
+    "note": [
+      "Community Created AppImage. Check/Report @ https://github.com/0ad-matters/0ad-appimage",
+      "If you have a GPU that has a chipset other than Nvidia, the Vulkan backend may be automatically disabled in some cases",
+      "This version is based on the latest Ubuntu LTS, so it should not work on older distros",
+      "In case of problems, install '0ad' instead"
+    ],
+    "repology": [
+      "0ad"
+    ],
+    "src_url": [
+      "https://github.com/0ad-matters/0ad-appimage"
+    ],
+    "tag": [
+      "Amusements/Games",
+      "Amusements/Games/Strategy/Real Time",
+      "Games",
+      "Games/Strategy",
+      "age-of-empires",
+      "games",
+      "games-strategy",
+      "games.strategy",
+      "universe/games"
+    ],
+    "version": "v0.0.27-rc1-27645-alpha",
+    "version_upstream": "v0.0.27-rc1-27645-alpha",
+    "bsum": "3c9b764927e523c38e8791e941d4d9a3a2e9907247a2a58e394b7946b55fd976",
+    "build_date": "2025-01-11T17:02:20Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad?tag=v0.0.27-rc1-27645-alpha-x86_64-linux&download=0ad.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/0ad/appimage.0ad-matters.prerelease.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad?tag=v0.0.27-rc1-27645-alpha-x86_64-linux&download=0ad",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad@sha256:686bd29fad5ec2322f4f22fab93235f2976fb849a32af7a7edca078eac559946",
+    "ghcr_files": [
+      "0ad",
+      "0ad.appdata.xml",
+      "0ad.appdata.xml.sig",
+      "0ad.desktop",
+      "0ad.desktop.sig",
+      "0ad.json",
+      "0ad.json.sig",
+      "0ad.log",
+      "0ad.log.sig",
+      "0ad.png",
+      "0ad.png.sig",
+      "0ad.sig",
+      "0ad.version",
+      "0ad.version.sig",
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad:v0.0.27-rc1-27645-alpha-x86_64-linux",
+    "ghcr_size": "1.62 GB",
+    "ghcr_size_raw": "1739549616",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad?tag=v0.0.27-rc1-27645-alpha-x86_64-linux&manifest",
+    "shasum": "686bd29fad5ec2322f4f22fab93235f2976fb849a32af7a7edca078eac559946",
+    "size": "1.7 GB",
+    "size_raw": "1739440880"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "2",
+    "pkg": "0ad.appimage",
+    "pkg_family": "0ad",
+    "pkg_id": "github.0ad-matters.0ad-appimage.stable",
+    "pkg_name": "0ad",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-0ad-matters-0ad-appimage-stable/0ad",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad?tag=v0.0.26-alpha-x86_64-linux&download=0ad.appdata.xml",
+    "category": [
+      "Game"
+    ],
+    "description": "A FOSS historical Real Time Strategy (RTS) game [stable]",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad?tag=v0.0.26-alpha-x86_64-linux&download=0ad.desktop",
+    "homepage": [
+      "https://play0ad.com",
+      "https://wildfiregames.com/0ad",
+      "https://gitea.wildfiregames.com/0ad/0ad"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad?tag=v0.0.26-alpha-x86_64-linux&download=0ad.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "0ad"
+    ],
+    "note": [
+      "Community Created AppImage. Check/Report @ https://github.com/0ad-matters/0ad-appimage"
+    ],
+    "repology": [
+      "0ad"
+    ],
+    "src_url": [
+      "https://github.com/0ad-matters/0ad-appimage"
+    ],
+    "tag": [
+      "Amusements/Games",
+      "Amusements/Games/Strategy/Real Time",
+      "Games",
+      "Games/Strategy",
+      "age-of-empires",
+      "games",
+      "games-strategy",
+      "games.strategy",
+      "universe/games"
+    ],
+    "version": "v0.0.26-alpha",
+    "version_upstream": "v0.0.26-alpha",
+    "bsum": "5b2fe602a9b620bc51f2586642b5796b1119925af5910e4d903f13744ccc1feb",
+    "build_date": "2025-01-12T02:19:10Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12729552436",
+    "build_id": "12729552436",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad?tag=v0.0.26-alpha-x86_64-linux&download=0ad.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/0ad/appimage.0ad-matters.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad?tag=v0.0.26-alpha-x86_64-linux&download=0ad",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad@sha256:ce7c0e3f978680a4c1bc9b4ca1436d8a9e6c921d835aba3b99f3b00f660a6e28",
+    "ghcr_files": [
+      "0ad",
+      "0ad.appdata.xml",
+      "0ad.appdata.xml.sig",
+      "0ad.desktop",
+      "0ad.desktop.sig",
+      "0ad.json",
+      "0ad.json.sig",
+      "0ad.log",
+      "0ad.log.sig",
+      "0ad.png",
+      "0ad.png.sig",
+      "0ad.sig",
+      "0ad.version",
+      "0ad.version.sig",
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad:v0.0.26-alpha-x86_64-linux",
+    "ghcr_size": "1.53 GB",
+    "ghcr_size_raw": "1639056378",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad?tag=v0.0.26-alpha-x86_64-linux&manifest",
+    "shasum": "ce7c0e3f978680a4c1bc9b4ca1436d8a9e6c921d835aba3b99f3b00f660a6e28",
+    "size": "1.6 GB",
+    "size_raw": "1638949616"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "3",
+    "pkg": "86box.appimage",
+    "pkg_family": "86box",
+    "pkg_id": "github.com.86Box.86Box.stable",
+    "pkg_name": "86box",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/86box/86box",
+    "app_id": "net._86box._86Box",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-x86_64-linux&download=86box.appdata.xml",
+    "category": [
+      "Emulator"
+    ],
+    "description": "Emulator of x86-based machines",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-x86_64-linux&download=86box.desktop",
+    "homepage": [
+      "https://86box.net",
+      "https://86box.readthedocs.io"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-x86_64-linux&download=86box.png",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "86box"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box",
+      "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
+    ],
+    "repology": [
+      "86box"
+    ],
+    "src_url": [
+      "https://github.com/86Box/86Box"
+    ],
+    "tag": [
+      "app-emulation",
+      "emulators",
+      "game",
+      "system"
+    ],
+    "version": "v4.2.1",
+    "version_upstream": "v4.2.1",
+    "bsum": "0499ed7289ef6086af6dca4d17ecbc9dd4c58d4d6b5bb1629a4e19f4d89596ae",
+    "build_date": "2025-01-11T17:35:02Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-x86_64-linux&download=86box.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-x86_64-linux&download=86box",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:28e166a2253f058bfe380bd856cd056b3ca9d8544fc82193f017bb7fdc39b749",
+    "ghcr_files": [
+      "86box",
+      "86box.appdata.xml",
+      "86box.appdata.xml.sig",
+      "86box.desktop",
+      "86box.desktop.sig",
+      "86box.json",
+      "86box.json.sig",
+      "86box.log",
+      "86box.log.sig",
+      "86box.png",
+      "86box.png.sig",
+      "86box.sig",
+      "86box.version",
+      "86box.version.sig",
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-x86_64-linux",
+    "ghcr_size": "55.34 MB",
+    "ghcr_size_raw": "58024344",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-x86_64-linux&manifest",
+    "shasum": "28e166a2253f058bfe380bd856cd056b3ca9d8544fc82193f017bb7fdc39b749",
+    "size": "56 MB",
+    "size_raw": "57938672"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "4",
+    "pkg": "9launcher.appimage",
+    "pkg_family": "9launcher",
+    "pkg_id": "github.com.wearrrrr.9Launcher",
+    "pkg_name": "9launcher",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/9launcher/9launcher",
+    "category": [
+      "Utility"
+    ],
+    "description": "An actively maintained and cross platform remake of Touhou Relauncher",
+    "homepage": [
+      "https://github.com/wearrrrr/9Launcher"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher?tag=v.1.3.1-x86_64-linux&download=9launcher.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "9launcher"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/wearrrrr/9Launcher"
+    ],
+    "repology": [
+      "9launcher"
+    ],
+    "src_url": [
+      "https://github.com/wearrrrr/9Launcher"
+    ],
+    "tag": [
+      "game-launcher",
+      "linux",
+      "touhou",
+      "windows",
+      "wine"
+    ],
+    "version": "v.1.3.1",
+    "version_upstream": "v.1.3.1",
+    "bsum": "229efb79a326c692371898ef13760965e14ab634dcc56132b716ea8221658edb",
+    "build_date": "2025-01-11T17:38:03Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher?tag=v.1.3.1-x86_64-linux&download=9launcher.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/9launcher/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher?tag=v.1.3.1-x86_64-linux&download=9launcher",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher@sha256:7d1051a7628e7650b8e12791852214a4dc6dbc2a523471a6d0d0b2b5abf22932",
+    "ghcr_files": [
+      "9launcher",
+      "9launcher.json",
+      "9launcher.json.sig",
+      "9launcher.log",
+      "9launcher.log.sig",
+      "9launcher.png",
+      "9launcher.sig",
+      "9launcher.version",
+      "9launcher.version.sig",
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher:v.1.3.1-x86_64-linux",
+    "ghcr_size": "130.77 MB",
+    "ghcr_size_raw": "137124008",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher?tag=v.1.3.1-x86_64-linux&manifest",
+    "shasum": "7d1051a7628e7650b8e12791852214a4dc6dbc2a523471a6d0d0b2b5abf22932",
+    "size": "131 MB",
+    "size_raw": "137069760"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "5",
+    "pkg": "aaaaxy.appimage",
+    "pkg_family": "aaaaxy",
+    "pkg_id": "github.com.divVerent.aaaaxy",
+    "pkg_name": "aaaaxy",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/aaaaxy/aaaaxy",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy?tag=v1.5.250-x86_64-linux&download=aaaaxy.metainfo.xml",
+    "category": [
+      "Game"
+    ],
+    "description": "A nonlinear 2D puzzle platformer taking place in impossible spaces",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy?tag=v1.5.250-x86_64-linux&download=aaaaxy.desktop",
+    "homepage": [
+      "https://divverent.github.io/aaaaxy",
+      "https://github.com/divVerent/aaaaxy"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy?tag=v1.5.250-x86_64-linux&download=aaaaxy.png",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "aaaaxy"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/divVerent/aaaaxy"
+    ],
+    "repology": [
+      "aaaaxy"
+    ],
+    "src_url": [
+      "https://github.com/divVerent/aaaaxy"
+    ],
+    "tag": [
+      "2d",
+      "Games",
+      "games",
+      "games-puzzle"
+    ],
+    "version": "v1.5.250",
+    "version_upstream": "v1.5.250",
+    "bsum": "cb7e2415dc2538430d5f4639386359b08c4df509e951343b5dd0547124b15f0a",
+    "build_date": "2025-01-11T17:38:56Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy?tag=v1.5.250-x86_64-linux&download=aaaaxy.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/aaaaxy/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy?tag=v1.5.250-x86_64-linux&download=aaaaxy",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy@sha256:e06d41cc5099fc6494861a81d018646d23846a70fc6fefc3f17920f98b2a927a",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "aaaaxy",
+      "aaaaxy.desktop",
+      "aaaaxy.desktop.sig",
+      "aaaaxy.json",
+      "aaaaxy.json.sig",
+      "aaaaxy.log",
+      "aaaaxy.log.sig",
+      "aaaaxy.metainfo.xml",
+      "aaaaxy.metainfo.xml.sig",
+      "aaaaxy.png",
+      "aaaaxy.png.sig",
+      "aaaaxy.sig",
+      "aaaaxy.version",
+      "aaaaxy.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy:v1.5.250-x86_64-linux",
+    "ghcr_size": "31.99 MB",
+    "ghcr_size_raw": "33542194",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy?tag=v1.5.250-x86_64-linux&manifest",
+    "shasum": "e06d41cc5099fc6494861a81d018646d23846a70fc6fefc3f17920f98b2a927a",
+    "size": "32 MB",
+    "size_raw": "33485552"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "6",
+    "pkg": "abiword.appimage",
+    "pkg_family": "abiword",
+    "pkg_id": "github.com.ivan-hc.Abiword-appimage",
+    "pkg_name": "abiword",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/abiword/abiword",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword?tag=3.0.6-2-3.4.4-2-x86_64-linux&download=abiword.appdata.xml",
+    "category": [
+      "Office"
+    ],
+    "description": "Open-source, cross-platform WYSIWYG word processor",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword?tag=3.0.6-2-3.4.4-2-x86_64-linux&download=abiword.desktop",
+    "homepage": [
+      "https://gitlab.gnome.org/World/AbiWord"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword?tag=3.0.6-2-3.4.4-2-x86_64-linux&download=abiword.png",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "abiword"
+    ],
+    "note": [
+      "Community Created AppImage based on JuNest. Check/Report @ https://github.com/ivan-hc/Abiword-appimage"
+    ],
+    "repology": [
+      "abiword"
+    ],
+    "src_url": [
+      "https://github.com/ivan-hc/Abiword-appimage"
+    ],
+    "tag": [
+      "Applications/Editors",
+      "Applications/Office",
+      "Documentation",
+      "Editors",
+      "Office",
+      "Office/Word",
+      "Productivity/Office/Word",
+      "Text"
+    ],
+    "version": "3.0.6-2-3.4.4-2",
+    "version_upstream": "3.0.6-2-3.4.4-2",
+    "bsum": "fb9b632e8bcc00905133ab4f0af77595ec1b7c106cc84669fdaf4112669f7beb",
+    "build_date": "2025-01-12T02:54:07Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12729802085",
+    "build_id": "12729802085",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword?tag=3.0.6-2-3.4.4-2-x86_64-linux&download=abiword.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/abiword/appimage.ivan-hc.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword?tag=3.0.6-2-3.4.4-2-x86_64-linux&download=abiword",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword@sha256:82ed3afe9f9322abfd27744e7ade52410e9b5834324e4cb42434d85be8349c8a",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "abiword",
+      "abiword.appdata.xml",
+      "abiword.appdata.xml.sig",
+      "abiword.desktop",
+      "abiword.desktop.sig",
+      "abiword.json",
+      "abiword.json.sig",
+      "abiword.log",
+      "abiword.log.sig",
+      "abiword.png",
+      "abiword.png.sig",
+      "abiword.sig",
+      "abiword.version",
+      "abiword.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword:3.0.6-2-3.4.4-2-x86_64-linux",
+    "ghcr_size": "71.24 MB",
+    "ghcr_size_raw": "74703767",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword?tag=3.0.6-2-3.4.4-2-x86_64-linux&manifest",
+    "shasum": "82ed3afe9f9322abfd27744e7ade52410e9b5834324e4cb42434d85be8349c8a",
+    "size": "71 MB",
+    "size_raw": "74363632"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "7",
+    "pkg": "acreom.appimage",
+    "pkg_family": "acreom",
+    "pkg_id": "github.com.Acreom.releases.stable",
+    "pkg_name": "acreom",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/acreom/acreom",
+    "category": [
+      "Database",
+      "Education",
+      "IDE"
+    ],
+    "description": "An IDE based Knowledge Base using Markdown",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/acreom/appimage/official/stable/acreom?tag=v1.20.4-x86_64-linux&download=acreom.desktop",
+    "homepage": [
+      "https://acreom.com",
+      "https://github.com/Acreom/app"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/acreom/appimage/official/stable/acreom?tag=v1.20.4-x86_64-linux&download=acreom.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "acreom"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Acreom/app"
+    ],
+    "repology": [
+      "acreom"
+    ],
+    "src_url": [
+      "https://github.com/Acreom/app"
+    ],
+    "tag": [
+      "knowledge-base",
+      "wiki"
+    ],
+    "version": "v1.20.4",
+    "version_upstream": "v1.20.4",
+    "bsum": "0a16e1f20af82ffe1d195d38bab3ecf75a91590434c6736e066c8031fb809ccd",
+    "build_date": "2025-01-11T17:43:15Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/acreom/appimage/official/stable/acreom?tag=v1.20.4-x86_64-linux&download=acreom.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/acreom/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/acreom/appimage/official/stable/acreom?tag=v1.20.4-x86_64-linux&download=acreom",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/acreom/appimage/official/stable/acreom@sha256:ff0206de1df5e4b3bcd9d3747f2e9f5046f2dc0ec6a4653544d67fec5f41ee85",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "acreom",
+      "acreom.desktop",
+      "acreom.desktop.sig",
+      "acreom.json",
+      "acreom.json.sig",
+      "acreom.log",
+      "acreom.log.sig",
+      "acreom.png",
+      "acreom.png.sig",
+      "acreom.sig",
+      "acreom.version",
+      "acreom.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/acreom/appimage/official/stable/acreom:v1.20.4-x86_64-linux",
+    "ghcr_size": "133.31 MB",
+    "ghcr_size_raw": "139782671",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/acreom/appimage/official/stable/acreom",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/acreom/appimage/official/stable/acreom?tag=v1.20.4-x86_64-linux&manifest",
+    "shasum": "ff0206de1df5e4b3bcd9d3747f2e9f5046f2dc0ec6a4653544d67fec5f41ee85",
+    "size": "134 MB",
+    "size_raw": "139461360"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "8",
+    "pkg": "actual.appimage",
+    "pkg_family": "actual",
+    "pkg_id": "github.com.actualbudget.actual.stable",
+    "pkg_name": "actual",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/actual/actual",
+    "category": [
+      "Finance"
+    ],
+    "description": "Privacy-focused app for managing your finances",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/actual/appimage/official/stable/actual?tag=v25.1.0-x86_64-linux&download=actual.desktop",
+    "homepage": [
+      "https://actualbudget.org",
+      "https://github.com/actualbudget/actual"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/actual/appimage/official/stable/actual?tag=v25.1.0-x86_64-linux&download=actual.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "actual"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/actualbudget/actual"
+    ],
+    "repology": [
+      "actual"
+    ],
+    "src_url": [
+      "https://github.com/actualbudget/actual"
+    ],
+    "tag": [
+      "finance"
+    ],
+    "version": "v25.1.0",
+    "version_upstream": "v25.1.0",
+    "bsum": "48aec0eadd5f70480a2ad61aaa19f2e4aa77bf8e512ea15ea569d19badf44a35",
+    "build_date": "2025-01-11T17:46:42Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/actual/appimage/official/stable/actual?tag=v25.1.0-x86_64-linux&download=actual.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/actual/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/actual/appimage/official/stable/actual?tag=v25.1.0-x86_64-linux&download=actual",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/actual/appimage/official/stable/actual@sha256:e5face4a5907fe4e85575fc24fb597297fcd93ef0a3827f416139f228b533dc6",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "actual",
+      "actual.desktop",
+      "actual.desktop.sig",
+      "actual.json",
+      "actual.json.sig",
+      "actual.log",
+      "actual.log.sig",
+      "actual.png",
+      "actual.png.sig",
+      "actual.sig",
+      "actual.version",
+      "actual.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/actual/appimage/official/stable/actual:v25.1.0-x86_64-linux",
+    "ghcr_size": "89.2 MB",
+    "ghcr_size_raw": "93532219",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/actual/appimage/official/stable/actual",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/actual/appimage/official/stable/actual?tag=v25.1.0-x86_64-linux&manifest",
+    "shasum": "e5face4a5907fe4e85575fc24fb597297fcd93ef0a3827f416139f228b533dc6",
+    "size": "89 MB",
+    "size_raw": "92791536"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "9",
+    "pkg": "advanced-passgen.appimage",
+    "pkg_family": "advanced-passgen",
+    "pkg_id": "github.com.CodeDead.Advanced-PassGen",
+    "pkg_name": "advanced-passgen",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/advanced-passgen/advanced-passgen",
+    "category": [
+      "Security",
+      "Utility"
+    ],
+    "description": "Advanced Password Generator",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen?tag=v2.5.2-x86_64-linux&download=advanced-passgen.desktop",
+    "homepage": [
+      "https://advancedpassgen.codedead.com",
+      "https://github.com/CodeDead/Advanced-PassGen"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen?tag=v2.5.2-x86_64-linux&download=advanced-passgen.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "advanced-passgen"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/CodeDead/Advanced-PassGen"
+    ],
+    "repology": [
+      "advanced-passgen"
+    ],
+    "src_url": [
+      "https://github.com/CodeDead/Advanced-PassGen"
+    ],
+    "tag": [
+      "password-manager"
+    ],
+    "version": "v2.5.2",
+    "version_upstream": "v2.5.2",
+    "bsum": "df93aeaf590294b2c29811731214b32591f307fb60ac3a6da788308241a41c13",
+    "build_date": "2025-01-11T17:49:21Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen?tag=v2.5.2-x86_64-linux&download=advanced-passgen.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/advanced-passgen/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen?tag=v2.5.2-x86_64-linux&download=advanced-passgen",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen@sha256:4e24ed5fef11b400d8da2342fc1b91e1634ad22cf4a9e636b88decf9651f8b03",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "advanced-passgen",
+      "advanced-passgen.desktop",
+      "advanced-passgen.desktop.sig",
+      "advanced-passgen.json",
+      "advanced-passgen.json.sig",
+      "advanced-passgen.log",
+      "advanced-passgen.log.sig",
+      "advanced-passgen.png",
+      "advanced-passgen.png.sig",
+      "advanced-passgen.sig",
+      "advanced-passgen.version",
+      "advanced-passgen.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen:v2.5.2-x86_64-linux",
+    "ghcr_size": "96.65 MB",
+    "ghcr_size_raw": "101341389",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen?tag=v2.5.2-x86_64-linux&manifest",
+    "shasum": "4e24ed5fef11b400d8da2342fc1b91e1634ad22cf4a9e636b88decf9651f8b03",
+    "size": "97 MB",
+    "size_raw": "101221104"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "10",
+    "pkg": "advanced-rest-client.appimage",
+    "pkg_family": "advanced-rest-client",
+    "pkg_id": "github.com.advanced-rest-client.arc-electron",
+    "pkg_name": "advanced-rest-client",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/advanced-rest-client/advanced-rest-client",
+    "category": [
+      "Utility"
+    ],
+    "description": "A developer tool to test a HTTP request",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client?tag=v17.0.9-x86_64-linux&download=advanced-rest-client.desktop",
+    "homepage": [
+      "https://github.com/advanced-rest-client/arc-electron"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client?tag=v17.0.9-x86_64-linux&download=advanced-rest-client.png",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "advanced-rest-client"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/advanced-rest-client/arc-electron"
+    ],
+    "repology": [
+      "advanced-rest-client"
+    ],
+    "src_url": [
+      "https://github.com/advanced-rest-client/arc-electron"
+    ],
+    "tag": [
+      "advanced-rest-client",
+      "electron"
+    ],
+    "version": "v17.0.9",
+    "version_upstream": "v17.0.9",
+    "bsum": "6aed314330be40f4a716938a067dc6508a6372e223bc6976d698a759e4e855a3",
+    "build_date": "2025-01-11T17:54:44Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client?tag=v17.0.9-x86_64-linux&download=advanced-rest-client.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/advanced-rest-client/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client?tag=v17.0.9-x86_64-linux&download=advanced-rest-client",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client@sha256:f3a9955fad4f015049cb5af0b35a3188819132565022a72b7c7bab3fa547c0db",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "advanced-rest-client",
+      "advanced-rest-client.desktop",
+      "advanced-rest-client.desktop.sig",
+      "advanced-rest-client.json",
+      "advanced-rest-client.json.sig",
+      "advanced-rest-client.log",
+      "advanced-rest-client.log.sig",
+      "advanced-rest-client.png",
+      "advanced-rest-client.png.sig",
+      "advanced-rest-client.sig",
+      "advanced-rest-client.version",
+      "advanced-rest-client.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client:v17.0.9-x86_64-linux",
+    "ghcr_size": "98.37 MB",
+    "ghcr_size_raw": "103152567",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client?tag=v17.0.9-x86_64-linux&manifest",
+    "shasum": "f3a9955fad4f015049cb5af0b35a3188819132565022a72b7c7bab3fa547c0db",
+    "size": "99 MB",
+    "size_raw": "103039728"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "11",
+    "pkg": "affine.appimage",
+    "pkg_family": "affine",
+    "pkg_id": "github.com.affine-mirror.affine.canary.1",
+    "pkg_name": "affine",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-com-affine-mirror-affine-canary-1/affine",
+    "category": [
+      "Database",
+      "Education"
+    ],
+    "description": "FOSS Knowledge Base with fully merged docs, whiteboards and databases [canary.1]",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-1/affine?tag=v0.20.0-canary.1-x86_64-linux&download=affine.desktop",
+    "homepage": [
+      "https://affine.pro",
+      "https://github.com/toeverything/AFFiNE"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-1/affine?tag=v0.20.0-canary.1-x86_64-linux&download=affine.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "affine"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE"
+    ],
+    "repology": [
+      "affine-whiteboard"
+    ],
+    "src_url": [
+      "https://github.com/toeverything/AFFiNE"
+    ],
+    "tag": [
+      "knowledge-base",
+      "wiki"
+    ],
+    "version": "v0.20.0-canary.1",
+    "version_upstream": "v0.20.0-canary.1",
+    "bsum": "58a3e22d548871807366da6aaff468e197259085a67ae6d9f0f3d955aa558d1f",
+    "build_date": "2025-01-11T18:01:07Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-1/affine?tag=v0.20.0-canary.1-x86_64-linux&download=affine.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/affine/appimage.official.canary-1.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-1/affine?tag=v0.20.0-canary.1-x86_64-linux&download=affine",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine@sha256:6ce8c35b7753d797eb6b5a85478fd6fbdfb9f30e699fa26db4fd95e8b35effad",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "affine",
+      "affine.desktop",
+      "affine.desktop.sig",
+      "affine.json",
+      "affine.json.sig",
+      "affine.log",
+      "affine.log.sig",
+      "affine.png",
+      "affine.png.sig",
+      "affine.sig",
+      "affine.version",
+      "affine.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine:v0.20.0-canary.1-x86_64-linux",
+    "ghcr_size": "152.87 MB",
+    "ghcr_size_raw": "160299580",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-1/affine?tag=v0.20.0-canary.1-x86_64-linux&manifest",
+    "shasum": "6ce8c35b7753d797eb6b5a85478fd6fbdfb9f30e699fa26db4fd95e8b35effad",
+    "size": "153 MB",
+    "size_raw": "160264944"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "13",
+    "pkg": "affine.appimage",
+    "pkg_family": "affine",
+    "pkg_id": "github.com.affine-mirror.affine.canary.2",
+    "pkg_name": "affine",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-com-affine-mirror-affine-canary-2/affine",
+    "category": [
+      "Database",
+      "Education"
+    ],
+    "description": "FOSS Knowledge Base with fully merged docs, whiteboards and databases [canary.2]",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-2/affine?tag=v0.20.0-canary.2-x86_64-linux&download=affine.desktop",
+    "homepage": [
+      "https://affine.pro",
+      "https://github.com/toeverything/AFFiNE"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-2/affine?tag=v0.20.0-canary.2-x86_64-linux&download=affine.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "affine"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE"
+    ],
+    "repology": [
+      "affine-whiteboard"
+    ],
+    "src_url": [
+      "https://github.com/toeverything/AFFiNE"
+    ],
+    "tag": [
+      "knowledge-base",
+      "wiki"
+    ],
+    "version": "v0.20.0-canary.2",
+    "version_upstream": "v0.20.0-canary.2",
+    "bsum": "7537a4d0420cb46917198eb6ec1e922ef2e0b8f0ded3ca46d72c907280de5d83",
+    "build_date": "2025-01-11T18:06:25Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-2/affine?tag=v0.20.0-canary.2-x86_64-linux&download=affine.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/affine/appimage.official.canary-2.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-2/affine?tag=v0.20.0-canary.2-x86_64-linux&download=affine",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine@sha256:006058318bfb3eab1ac33a51f4bcfb8b75460dd6c26d8713cc05bf14ade965db",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "affine",
+      "affine.desktop",
+      "affine.desktop.sig",
+      "affine.json",
+      "affine.json.sig",
+      "affine.log",
+      "affine.log.sig",
+      "affine.png",
+      "affine.png.sig",
+      "affine.sig",
+      "affine.version",
+      "affine.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine:v0.20.0-canary.2-x86_64-linux",
+    "ghcr_size": "152.77 MB",
+    "ghcr_size_raw": "160188988",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-2/affine?tag=v0.20.0-canary.2-x86_64-linux&manifest",
+    "shasum": "006058318bfb3eab1ac33a51f4bcfb8b75460dd6c26d8713cc05bf14ade965db",
+    "size": "153 MB",
+    "size_raw": "160154352"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "12",
+    "pkg": "affine.appimage",
+    "pkg_family": "affine",
+    "pkg_id": "github.com.affine-mirror.affine.stable",
+    "pkg_name": "affine",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-com-affine-mirror-affine-stable/affine",
+    "category": [
+      "Database",
+      "Education"
+    ],
+    "description": "FOSS Knowledge Base with fully merged docs, whiteboards and databases",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/stable/affine?tag=v0.19.5-x86_64-linux&download=affine.desktop",
+    "homepage": [
+      "https://affine.pro",
+      "https://github.com/toeverything/AFFiNE"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/stable/affine?tag=v0.19.5-x86_64-linux&download=affine.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "affine"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE"
+    ],
+    "repology": [
+      "affine-whiteboard"
+    ],
+    "src_url": [
+      "https://github.com/toeverything/AFFiNE"
+    ],
+    "tag": [
+      "knowledge-base",
+      "wiki"
+    ],
+    "version": "v0.19.5",
+    "version_upstream": "v0.19.5",
+    "bsum": "d2ea2aef2b6223ecde46690c4ad3ce37f9dc28e174ad925751f2a3f45086af92",
+    "build_date": "2025-01-11T18:11:44Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/stable/affine?tag=v0.19.5-x86_64-linux&download=affine.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/affine/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/stable/affine?tag=v0.19.5-x86_64-linux&download=affine",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine@sha256:37c37b4442df053b3a5741514db3f142f50575bebbcd6a54a8c6717db20598f4",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "affine",
+      "affine.desktop",
+      "affine.desktop.sig",
+      "affine.json",
+      "affine.json.sig",
+      "affine.log",
+      "affine.log.sig",
+      "affine.png",
+      "affine.png.sig",
+      "affine.sig",
+      "affine.version",
+      "affine.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine:v0.19.5-x86_64-linux",
+    "ghcr_size": "152.71 MB",
+    "ghcr_size_raw": "160133080",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/stable/affine?tag=v0.19.5-x86_64-linux&manifest",
+    "shasum": "37c37b4442df053b3a5741514db3f142f50575bebbcd6a54a8c6717db20598f4",
+    "size": "153 MB",
+    "size_raw": "160101104"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "14",
+    "pkg": "agregore.appimage",
+    "pkg_family": "agregore",
+    "pkg_id": "github.com.AgregoreWeb.agregore-browser",
+    "pkg_name": "agregore",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/agregore/agregore",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "A minimal browser for the distributed web",
+    "homepage": [
+      "https://github.com/AgregoreWeb/agregore-browser"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/agregore/appimage/official/stable/agregore?tag=v2.6.3-x86_64-linux&download=agregore.png",
+    "license": [
+      "AGPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "agregore"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/AgregoreWeb/agregore-browser"
+    ],
+    "repology": [
+      "agregore-browser"
+    ],
+    "src_url": [
+      "https://github.com/AgregoreWeb/agregore-browser"
+    ],
+    "tag": [
+      "browser",
+      "decentralization",
+      "dweb",
+      "hypercore-protocol",
+      "ipfs",
+      "p2p",
+      "ssb"
+    ],
+    "version": "v2.6.3",
+    "version_upstream": "v2.6.3",
+    "bsum": "f740a83f4aeda37be54cdd42cf17cf281fc5b9ee9213f69c74de680b4517df2a",
+    "build_date": "2025-01-11T18:17:48Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/agregore/appimage/official/stable/agregore?tag=v2.6.3-x86_64-linux&download=agregore.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/agregore/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/agregore/appimage/official/stable/agregore?tag=v2.6.3-x86_64-linux&download=agregore",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/agregore/appimage/official/stable/agregore@sha256:4b1699a019f08393e40e23481dff7899eec5fc70a7a7dc68e95b12bed95a518a",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "agregore",
+      "agregore.json",
+      "agregore.json.sig",
+      "agregore.log",
+      "agregore.log.sig",
+      "agregore.png",
+      "agregore.sig",
+      "agregore.version",
+      "agregore.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/agregore/appimage/official/stable/agregore:v2.6.3-x86_64-linux",
+    "ghcr_size": "165.33 MB",
+    "ghcr_size_raw": "173359017",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/agregore/appimage/official/stable/agregore",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/agregore/appimage/official/stable/agregore?tag=v2.6.3-x86_64-linux&manifest",
+    "shasum": "4b1699a019f08393e40e23481dff7899eec5fc70a7a7dc68e95b12bed95a518a",
+    "size": "166 MB",
+    "size_raw": "173245143"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "15",
+    "pkg": "air-controller-desktop.appimage",
+    "pkg_family": "air-controller-desktop",
+    "pkg_id": "github.com.air-controller.air-controller-desktop",
+    "pkg_name": "air-controller-desktop",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/air-controller-desktop/air-controller-desktop",
+    "category": [
+      "Utility"
+    ],
+    "description": "A new handy and powerful Android phone assistant",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop?tag=0.4.0-x86_64-linux&download=air-controller-desktop.desktop",
+    "homepage": [
+      "https://ac.yhdm360.cn"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop?tag=0.4.0-x86_64-linux&download=air-controller-desktop.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "air-controller-desktop"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/air-controller/air-controller-desktop"
+    ],
+    "repology": [
+      "air-controller-desktop"
+    ],
+    "src_url": [
+      "https://github.com/air-controller/air-controller-desktop"
+    ],
+    "tag": [
+      "android",
+      "assistant",
+      "desktop"
+    ],
+    "version": "0.4.0",
+    "version_upstream": "0.4.0",
+    "bsum": "e4e3b7f621cfedf4dccb7282c7c42f56f58fd80a3f78ab4921ff4649db979b1d",
+    "build_date": "2025-01-11T18:19:02Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop?tag=0.4.0-x86_64-linux&download=air-controller-desktop.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/air-controller-desktop/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop?tag=0.4.0-x86_64-linux&download=air-controller-desktop",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop@sha256:32a5556c062f2ab789c8ab6fb9aa36bdb2b879dd4676ab8d7f7d6e2833a859b9",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "air-controller-desktop",
+      "air-controller-desktop.desktop",
+      "air-controller-desktop.desktop.sig",
+      "air-controller-desktop.json",
+      "air-controller-desktop.json.sig",
+      "air-controller-desktop.log",
+      "air-controller-desktop.log.sig",
+      "air-controller-desktop.png",
+      "air-controller-desktop.png.sig",
+      "air-controller-desktop.sig",
+      "air-controller-desktop.version",
+      "air-controller-desktop.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop:0.4.0-x86_64-linux",
+    "ghcr_size": "11.32 MB",
+    "ghcr_size_raw": "11874237",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop?tag=0.4.0-x86_64-linux&manifest",
+    "shasum": "32a5556c062f2ab789c8ab6fb9aa36bdb2b879dd4676ab8d7f7d6e2833a859b9",
+    "size": "12 MB",
+    "size_raw": "11748080"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "16",
+    "pkg": "aisleriot.appimage",
+    "pkg_family": "aisleriot",
+    "pkg_id": "github.com.ivan-hc.Aisleriot-appimage",
+    "pkg_name": "aisleriot",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/aisleriot/aisleriot",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot?tag=3.22.34-1-3.4.4-2-x86_64-linux&download=aisleriot.metainfo.xml",
+    "category": [
+      "Utility"
+    ],
+    "description": "Collection of solitaire and other card games",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot?tag=3.22.34-1-3.4.4-2-x86_64-linux&download=aisleriot.desktop",
+    "homepage": [
+      "https://live.gnome.org/Aisleriot",
+      "https://wiki.gnome.org/Aisleriot",
+      "https://download.gnome.org/sources/aisleriot",
+      "https://gitlab.gnome.org/GNOME/aisleriot"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot?tag=3.22.34-1-3.4.4-2-x86_64-linux&download=aisleriot.png",
+    "license": [
+      "CC-BY-4.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "aisleriot"
+    ],
+    "note": [
+      "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Aisleriot-appimage"
+    ],
+    "repology": [
+      "aisleriot"
+    ],
+    "src_url": [
+      "https://github.com/ivan-hc/Aisleriot-appimage"
+    ],
+    "tag": [
+      "Games/Cards",
+      "games-board"
+    ],
+    "version": "3.22.34-1-3.4.4-2",
+    "version_upstream": "3.22.34-1-3.4.4-2",
+    "bsum": "25ce06af5ff84432d76541a516ae0109e530ca730404ee218f4bedac4d446a61",
+    "build_date": "2025-01-12T02:56:16Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12729802085",
+    "build_id": "12729802085",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot?tag=3.22.34-1-3.4.4-2-x86_64-linux&download=aisleriot.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/aisleriot/appimage.ivan-hc.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot?tag=3.22.34-1-3.4.4-2-x86_64-linux&download=aisleriot",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot@sha256:a797307cfb0e4ca52a7aac094b045c8067a6c7ade0aae410c208e41160370637",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "aisleriot",
+      "aisleriot.desktop",
+      "aisleriot.desktop.sig",
+      "aisleriot.json",
+      "aisleriot.json.sig",
+      "aisleriot.log",
+      "aisleriot.log.sig",
+      "aisleriot.metainfo.xml",
+      "aisleriot.metainfo.xml.sig",
+      "aisleriot.png",
+      "aisleriot.png.sig",
+      "aisleriot.sig",
+      "aisleriot.version",
+      "aisleriot.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot:3.22.34-1-3.4.4-2-x86_64-linux",
+    "ghcr_size": "50.05 MB",
+    "ghcr_size_raw": "52479994",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot?tag=3.22.34-1-3.4.4-2-x86_64-linux&manifest",
+    "shasum": "a797307cfb0e4ca52a7aac094b045c8067a6c7ade0aae410c208e41160370637",
+    "size": "50 MB",
+    "size_raw": "52187888"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "17",
+    "pkg": "akuse.appimage",
+    "pkg_family": "akuse",
+    "pkg_id": "github.com.akuse-app.akuse",
+    "pkg_name": "akuse",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/akuse/akuse",
+    "category": [
+      "Utility"
+    ],
+    "description": "Simple and easy to use anime streaming desktop app without ads",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akuse/appimage/official/stable/akuse?tag=1.9.0-x86_64-linux&download=akuse.desktop",
+    "homepage": [
+      "https://github.com/akuse-app/Akuse"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akuse/appimage/official/stable/akuse?tag=1.9.0-x86_64-linux&download=akuse.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "akuse"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/akuse-app/akuse"
+    ],
+    "repology": [
+      "akuse"
+    ],
+    "src_url": [
+      "https://github.com/akuse-app/akuse"
+    ],
+    "tag": [
+      "anilist",
+      "anime",
+      "app",
+      "desktop"
+    ],
+    "version": "1.9.0",
+    "version_upstream": "1.9.0",
+    "bsum": "3e84739482d48600eed1f926afddb063ac42cba43d315fbd44c2b6654fc9f802",
+    "build_date": "2025-01-11T18:19:53Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akuse/appimage/official/stable/akuse?tag=1.9.0-x86_64-linux&download=akuse.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/akuse/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akuse/appimage/official/stable/akuse?tag=1.9.0-x86_64-linux&download=akuse",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/akuse/appimage/official/stable/akuse@sha256:957abc8492be4f36770dd81eb009d0c70d09a4c02ab71b820d085656592f76bb",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "akuse",
+      "akuse.desktop",
+      "akuse.desktop.sig",
+      "akuse.json",
+      "akuse.json.sig",
+      "akuse.log",
+      "akuse.log.sig",
+      "akuse.png",
+      "akuse.png.sig",
+      "akuse.sig",
+      "akuse.version",
+      "akuse.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/akuse/appimage/official/stable/akuse:1.9.0-x86_64-linux",
+    "ghcr_size": "87.98 MB",
+    "ghcr_size_raw": "92253851",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/akuse/appimage/official/stable/akuse",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akuse/appimage/official/stable/akuse?tag=1.9.0-x86_64-linux&manifest",
+    "shasum": "957abc8492be4f36770dd81eb009d0c70d09a4c02ab71b820d085656592f76bb",
+    "size": "88 MB",
+    "size_raw": "91992816"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "18",
+    "pkg": "allusion.appimage",
+    "pkg_family": "allusion",
+    "pkg_id": "github.com.allusion-app.Allusion",
+    "pkg_name": "allusion",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/allusion/allusion",
+    "category": [
+      "Utility"
+    ],
+    "description": "A free and open source desktop application for managing your visual library",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/allusion/appimage/official/stable/allusion?tag=v1.0.0-rc.10-x86_64-linux&download=allusion.desktop",
+    "homepage": [
+      "https://allusion-app.github.io"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/allusion/appimage/official/stable/allusion?tag=v1.0.0-rc.10-x86_64-linux&download=allusion.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "allusion"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/allusion-app/Allusion"
+    ],
+    "repology": [
+      "allusion"
+    ],
+    "src_url": [
+      "https://github.com/allusion-app/Allusion"
+    ],
+    "tag": [
+      "art",
+      "image-organization",
+      "visual-library"
+    ],
+    "version": "v1.0.0-rc.10",
+    "version_upstream": "v1.0.0-rc.10",
+    "bsum": "a21f5f5c84370d87054ae1891063413df538de95a22b21cef61941e71779166a",
+    "build_date": "2025-01-11T18:23:21Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/allusion/appimage/official/stable/allusion?tag=v1.0.0-rc.10-x86_64-linux&download=allusion.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/allusion/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/allusion/appimage/official/stable/allusion?tag=v1.0.0-rc.10-x86_64-linux&download=allusion",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/allusion/appimage/official/stable/allusion@sha256:30fef63b68310df941069462d6ca2d49a85a4671c90e5172487e8e837a29724c",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "allusion",
+      "allusion.desktop",
+      "allusion.desktop.sig",
+      "allusion.json",
+      "allusion.json.sig",
+      "allusion.log",
+      "allusion.log.sig",
+      "allusion.png",
+      "allusion.png.sig",
+      "allusion.sig",
+      "allusion.version",
+      "allusion.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/allusion/appimage/official/stable/allusion:v1.0.0-rc.10-x86_64-linux",
+    "ghcr_size": "77 MB",
+    "ghcr_size_raw": "80745221",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/allusion/appimage/official/stable/allusion",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/allusion/appimage/official/stable/allusion?tag=v1.0.0-rc.10-x86_64-linux&manifest",
+    "shasum": "30fef63b68310df941069462d6ca2d49a85a4671c90e5172487e8e837a29724c",
+    "size": "77 MB",
+    "size_raw": "80581360"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "19",
+    "pkg": "altair.appimage",
+    "pkg_family": "altair",
+    "pkg_id": "github.com.altair-graphql.altair",
+    "pkg_name": "altair",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/altair/altair",
+    "category": [
+      "Utility"
+    ],
+    "description": "A beautiful feature-rich GraphQL Client",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altair/appimage/official/stable/altair?tag=v8.1.3-x86_64-linux&download=altair.desktop",
+    "homepage": [
+      "https://altair.sirmuel.design",
+      "https://altairgraphql.dev",
+      "https://github.com/imolorhe/altair"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altair/appimage/official/stable/altair?tag=v8.1.3-x86_64-linux&download=altair.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "altair"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/altair-graphql/altair"
+    ],
+    "repology": [
+      "altair"
+    ],
+    "src_url": [
+      "https://github.com/altair-graphql/altair"
+    ],
+    "tag": [
+      "api",
+      "graphql"
+    ],
+    "version": "v8.1.3",
+    "version_upstream": "v8.1.3",
+    "bsum": "4d97280c4ff0dada09f3e3adca3b4db6670c4709aacc0bc4f47536b57ccdf6dc",
+    "build_date": "2025-01-11T18:27:12Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altair/appimage/official/stable/altair?tag=v8.1.3-x86_64-linux&download=altair.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/altair/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altair/appimage/official/stable/altair?tag=v8.1.3-x86_64-linux&download=altair",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/altair/appimage/official/stable/altair@sha256:9b8013a30249d3b567696190e1a474464ab32798c86fc1a1c0cd780ca70f1e8d",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "altair",
+      "altair.desktop",
+      "altair.desktop.sig",
+      "altair.json",
+      "altair.json.sig",
+      "altair.log",
+      "altair.log.sig",
+      "altair.png",
+      "altair.png.sig",
+      "altair.sig",
+      "altair.version",
+      "altair.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/altair/appimage/official/stable/altair:v8.1.3-x86_64-linux",
+    "ghcr_size": "126.26 MB",
+    "ghcr_size_raw": "132392406",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/altair/appimage/official/stable/altair",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altair/appimage/official/stable/altair?tag=v8.1.3-x86_64-linux&manifest",
+    "shasum": "9b8013a30249d3b567696190e1a474464ab32798c86fc1a1c0cd780ca70f1e8d",
+    "size": "127 MB",
+    "size_raw": "132338416"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "20",
+    "pkg": "altus.appimage",
+    "pkg_family": "altus",
+    "pkg_id": "github.com.amanharwara.altus",
+    "pkg_name": "altus",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/altus/altus",
+    "category": [
+      "Utility"
+    ],
+    "description": "Desktop client for WhatsApp Web with themes, notifications and multiple account support",
+    "homepage": [
+      "https://github.com/amanharwara/altus",
+      "https://gitlab.com/amanharwara/altus"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.4.0-x86_64-linux&download=altus.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "altus"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/amanharwara/altus"
+    ],
+    "repology": [
+      "altus"
+    ],
+    "src_url": [
+      "https://github.com/amanharwara/altus"
+    ],
+    "tag": [
+      "whatsapp"
+    ],
+    "version": "5.4.0",
+    "version_upstream": "5.4.0",
+    "bsum": "0567d6371e294911f38f64f6ab3e0bba696636db9fe92a58c78311cb0cc2644e",
+    "build_date": "2025-01-11T18:30:29Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.4.0-x86_64-linux&download=altus.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/altus/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.4.0-x86_64-linux&download=altus",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus@sha256:9a78a23e5aef28c7aeaa344fcae1eb885ffb2775a1cc43f4511d6ce95bafb026",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "altus",
+      "altus.json",
+      "altus.json.sig",
+      "altus.log",
+      "altus.log.sig",
+      "altus.png",
+      "altus.sig",
+      "altus.version",
+      "altus.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus:5.4.0-x86_64-linux",
+    "ghcr_size": "103.28 MB",
+    "ghcr_size_raw": "108298405",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.4.0-x86_64-linux&manifest",
+    "shasum": "9a78a23e5aef28c7aeaa344fcae1eb885ffb2775a1cc43f4511d6ce95bafb026",
+    "size": "104 MB",
+    "size_raw": "108174764"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "21",
+    "pkg": "amdgpu_top.appimage",
+    "pkg_family": "amdgpu_top",
+    "pkg_id": "github.com.Umio-Yasuno.amdgpu_top",
+    "pkg_name": "amdgpu_top",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/amdgpu_top/amdgpu_top",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top?tag=v0.10.1-x86_64-linux&download=amdgpu_top.metainfo.xml",
+    "category": [
+      "Monitor",
+      "Utility"
+    ],
+    "description": "Tool to display AMDGPU usage",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top?tag=v0.10.1-x86_64-linux&download=amdgpu_top.desktop",
+    "homepage": [
+      "https://github.com/Umio-Yasuno/amdgpu_top"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top?tag=v0.10.1-x86_64-linux&download=amdgpu_top.png",
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "amdgpu_top"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Umio-Yasuno/amdgpu_top"
+    ],
+    "repology": [
+      "amdgpu-top"
+    ],
+    "src_url": [
+      "https://github.com/Umio-Yasuno/amdgpu_top"
+    ],
+    "tag": [
+      "monitor",
+      "top"
+    ],
+    "version": "v0.10.1",
+    "version_upstream": "v0.10.1",
+    "bsum": "949706e679b6a2a8a3b2485690c5042de20057bce07fd8a4e1c9adbdb4ebe18b",
+    "build_date": "2025-01-11T18:30:55Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top?tag=v0.10.1-x86_64-linux&download=amdgpu_top.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/amdgpu_top/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top?tag=v0.10.1-x86_64-linux&download=amdgpu_top",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top@sha256:c9a50b5b1bfda7f53e726e3cc9964723af2e6e1c5d05325bb26d0730e7049ffa",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "amdgpu_top",
+      "amdgpu_top.desktop",
+      "amdgpu_top.desktop.sig",
+      "amdgpu_top.json",
+      "amdgpu_top.json.sig",
+      "amdgpu_top.log",
+      "amdgpu_top.log.sig",
+      "amdgpu_top.metainfo.xml",
+      "amdgpu_top.metainfo.xml.sig",
+      "amdgpu_top.png",
+      "amdgpu_top.png.sig",
+      "amdgpu_top.sig",
+      "amdgpu_top.svg.sig",
+      "amdgpu_top.version",
+      "amdgpu_top.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top:v0.10.1-x86_64-linux",
+    "ghcr_size": "8.37 MB",
+    "ghcr_size_raw": "8773577",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top?tag=v0.10.1-x86_64-linux&manifest",
+    "shasum": "c9a50b5b1bfda7f53e726e3cc9964723af2e6e1c5d05325bb26d0730e7049ffa",
+    "size": "8.4 MB",
+    "size_raw": "8700656"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "22",
+    "pkg": "android-messages.appimage",
+    "pkg_family": "android-messages",
+    "pkg_id": "github.com.chrisknepper.android-messages-desktop",
+    "pkg_name": "android-messages",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/android-messages/android-messages",
+    "category": [
+      "Utility"
+    ],
+    "description": "Android Messages as a Cross-platform Desktop App",
+    "homepage": [
+      "https://github.com/OrangeDrangon/android-messages-desktop"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages?tag=v5.6.0-x86_64-linux&download=android-messages.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "android-messages==Android-Messages"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/OrangeDrangon/android-messages-desktop"
+    ],
+    "repology": [
+      "android-messages",
+      "android-messages-desktop"
+    ],
+    "src_url": [
+      "https://github.com/OrangeDrangon/android-messages-desktop"
+    ],
+    "tag": [
+      "android-messages",
+      "message"
+    ],
+    "version": "v5.6.0",
+    "version_upstream": "v5.6.0",
+    "bsum": "2d91c10441854796ae4478b6ac60379a37dc770e24b28fd5b9cf463d2b8a6ddc",
+    "build_date": "2025-01-11T18:34:51Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages?tag=v5.6.0-x86_64-linux&download=android-messages.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/android-messages/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages?tag=v5.6.0-x86_64-linux&download=android-messages",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages@sha256:a3cda982a364314716953748aaa20640cdf55bb4c5a7372ad0fcb3a49a58cc52",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "android-messages",
+      "android-messages.json",
+      "android-messages.json.sig",
+      "android-messages.log",
+      "android-messages.log.sig",
+      "android-messages.png",
+      "android-messages.sig",
+      "android-messages.version",
+      "android-messages.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages:v5.6.0-x86_64-linux",
+    "ghcr_size": "104.33 MB",
+    "ghcr_size_raw": "109396939",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages?tag=v5.6.0-x86_64-linux&manifest",
+    "shasum": "a3cda982a364314716953748aaa20640cdf55bb4c5a7372ad0fcb3a49a58cc52",
+    "size": "105 MB",
+    "size_raw": "109359964"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "27",
+    "pkg": "player432hz.appimage",
+    "pkg_family": "player432hz",
+    "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
+    "pkg_name": "converter432hz",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/converter432hz",
+    "category": [
+      "Utility"
+    ],
+    "description": "Converts and re-encodes music to 432Hz in Batch [player432hz]",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.desktop",
+    "homepage": [
+      "https://github.com/mysteryx93/HanumanInstituteApps",
+      "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.svg",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "converter432hz==Converter432Hz",
+      "player432hz==Player432Hz",
+      "powerliminalsplayer==PowerliminalsPlayer",
+      "yangdownloader==YangDownloader"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "repology": [
+      "converter432hz",
+      "player432hz",
+      "powerliminalsplayer",
+      "yangdownloader"
+    ],
+    "src_url": [
+      "https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "tag": [
+      "encoding-videos",
+      "media-encoder",
+      "video-downloader",
+      "video-player",
+      "video-processing",
+      "youtube-downloader"
+    ],
+    "version": "v3.3.2",
+    "version_upstream": "v3.3.2",
+    "bsum": "4fb6215fbacdafcb0f2e36a1d61c32b36dc6689aceb4f905cc3854b0e54f9abb",
+    "build_date": "2025-01-12T02:57:11Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12729802085",
+    "build_id": "12729802085",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz@sha256:c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "converter432hz",
+      "converter432hz.desktop",
+      "converter432hz.desktop.sig",
+      "converter432hz.json",
+      "converter432hz.json.sig",
+      "converter432hz.log",
+      "converter432hz.log.sig",
+      "converter432hz.sig",
+      "converter432hz.svg",
+      "converter432hz.svg.sig",
+      "converter432hz.version",
+      "converter432hz.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux",
+    "ghcr_size": "14.16 MB",
+    "ghcr_size_raw": "14846475",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&manifest",
+    "shasum": "c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599",
+    "size": "15 MB",
+    "size_raw": "14783216"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "23",
+    "pkg": "ghostty.appimage",
+    "pkg_family": "ghostty",
+    "pkg_id": "github.com.psadi.ghostty-appimage",
+    "pkg_name": "ghostty",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ghostty/ghostty",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.0.1_2-x86_64-linux&download=ghostty.appdata.xml",
+    "category": [
+      "TerminalEmulator"
+    ],
+    "description": "Fast, native, feature-rich terminal emulator pushing modern features",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.0.1_2-x86_64-linux&download=ghostty.desktop",
+    "homepage": [
+      "https://ghostty.org",
+      "https://github.com/ghostty-org/ghostty"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.0.1_2-x86_64-linux&download=ghostty.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "ghostty"
+    ],
+    "note": [
+      "Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage"
+    ],
+    "repology": [
+      "ghostty"
+    ],
+    "src_url": [
+      "https://github.com/psadi/ghostty-appimage"
+    ],
+    "tag": [
+      "terminal"
+    ],
+    "version": "v1.0.1+2",
+    "version_upstream": "v1.0.1+2",
+    "bsum": "707c491ecd24a2a22c65530f674e1c6c38987195358e03fda54c92236b1b5113",
+    "build_date": "2025-01-11T18:36:29Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.0.1_2-x86_64-linux&download=ghostty.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.0.1_2-x86_64-linux&download=ghostty",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:e4ec59ca80e77ec9353d515f543556c86b3a34239c8438ade67fae59f2eb98ba",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "ghostty",
+      "ghostty.appdata.xml",
+      "ghostty.appdata.xml.sig",
+      "ghostty.desktop",
+      "ghostty.desktop.sig",
+      "ghostty.json",
+      "ghostty.json.sig",
+      "ghostty.log",
+      "ghostty.log.sig",
+      "ghostty.png",
+      "ghostty.png.sig",
+      "ghostty.sig",
+      "ghostty.version",
+      "ghostty.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.0.1_2-x86_64-linux",
+    "ghcr_size": "49.01 MB",
+    "ghcr_size_raw": "51395777",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.0.1_2-x86_64-linux&manifest",
+    "shasum": "e4ec59ca80e77ec9353d515f543556c86b3a34239c8438ade67fae59f2eb98ba",
+    "size": "49 MB",
+    "size_raw": "51294960"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "25",
+    "pkg": "player432hz.appimage",
+    "pkg_family": "player432hz",
+    "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
+    "pkg_name": "player432hz",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/player432hz",
+    "category": [
+      "Utility"
+    ],
+    "description": "Plays music in 432Hz [player432hz]",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux&download=player432hz.desktop",
+    "homepage": [
+      "https://github.com/mysteryx93/HanumanInstituteApps",
+      "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux&download=player432hz.svg",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "converter432hz==Converter432Hz",
+      "player432hz==Player432Hz",
+      "powerliminalsplayer==PowerliminalsPlayer",
+      "yangdownloader==YangDownloader"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "repology": [
+      "converter432hz",
+      "player432hz",
+      "powerliminalsplayer",
+      "yangdownloader"
+    ],
+    "src_url": [
+      "https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "tag": [
+      "encoding-videos",
+      "media-encoder",
+      "video-downloader",
+      "video-player",
+      "video-processing",
+      "youtube-downloader"
+    ],
+    "version": "v3.3.2",
+    "version_upstream": "v3.3.2",
+    "bsum": "ea6fb7c680779492bc5843566955b5f0023a3bde7df144ea6fe16d4efbf51d2a",
+    "build_date": "2025-01-12T02:57:11Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12729802085",
+    "build_id": "12729802085",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux&download=player432hz.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux&download=player432hz",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz@sha256:c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "player432hz",
+      "player432hz.desktop",
+      "player432hz.desktop.sig",
+      "player432hz.json",
+      "player432hz.json.sig",
+      "player432hz.log",
+      "player432hz.log.sig",
+      "player432hz.sig",
+      "player432hz.svg",
+      "player432hz.svg.sig",
+      "player432hz.version",
+      "player432hz.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz:v3.3.2-x86_64-linux",
+    "ghcr_size": "22.2 MB",
+    "ghcr_size_raw": "23282493",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux&manifest",
+    "shasum": "c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2",
+    "size": "23 MB",
+    "size_raw": "23220976"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "26",
+    "pkg": "player432hz.appimage",
+    "pkg_family": "player432hz",
+    "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
+    "pkg_name": "powerliminalsplayer",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/powerliminalsplayer",
+    "category": [
+      "Utility"
+    ],
+    "description": "Plays multiple audios simultaneously at varying speeds [player432hz]",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.desktop",
+    "homepage": [
+      "https://github.com/mysteryx93/HanumanInstituteApps",
+      "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.svg",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "converter432hz==Converter432Hz",
+      "player432hz==Player432Hz",
+      "powerliminalsplayer==PowerliminalsPlayer",
+      "yangdownloader==YangDownloader"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "repology": [
+      "converter432hz",
+      "player432hz",
+      "powerliminalsplayer",
+      "yangdownloader"
+    ],
+    "src_url": [
+      "https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "tag": [
+      "encoding-videos",
+      "media-encoder",
+      "video-downloader",
+      "video-player",
+      "video-processing",
+      "youtube-downloader"
+    ],
+    "version": "v3.3.2",
+    "version_upstream": "v3.3.2",
+    "bsum": "fc0ff685f8ea016f38122d56798543f143b67704ae539bce081dd197e94c4884",
+    "build_date": "2025-01-12T02:57:12Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12729802085",
+    "build_id": "12729802085",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer@sha256:840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "powerliminalsplayer",
+      "powerliminalsplayer.desktop",
+      "powerliminalsplayer.desktop.sig",
+      "powerliminalsplayer.json",
+      "powerliminalsplayer.json.sig",
+      "powerliminalsplayer.log",
+      "powerliminalsplayer.log.sig",
+      "powerliminalsplayer.sig",
+      "powerliminalsplayer.svg",
+      "powerliminalsplayer.svg.sig",
+      "powerliminalsplayer.version",
+      "powerliminalsplayer.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux",
+    "ghcr_size": "30.29 MB",
+    "ghcr_size_raw": "31757160",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&manifest",
+    "shasum": "840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf",
+    "size": "31 MB",
+    "size_raw": "31695600"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "28",
+    "pkg": "telegram-desktop.dynamic",
+    "pkg_family": "telegram-desktop",
+    "pkg_id": "github.com.telegramdesktop.tdesktop",
+    "pkg_name": "telegram-desktop",
+    "pkg_type": "dynamic",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/telegram-desktop/telegram-desktop",
+    "app_id": "org.telegram.desktop",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.3-x86_64-linux&download=telegram-desktop.metainfo.xml",
+    "category": [
+      "Chat",
+      "IRCClient"
+    ],
+    "description": "Official desktop version of Telegram messaging app",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.3-x86_64-linux&download=telegram-desktop.desktop",
+    "homepage": [
+      "https://desktop.telegram.org",
+      "https://github.com/telegramdesktop/tdesktop"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.3-x86_64-linux&download=telegram-desktop.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "telegram-desktop==Telegram-Desktop"
+    ],
+    "note": [
+      "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/telegramdesktop/tdesktop"
+    ],
+    "repology": [
+      "telegram-desktop"
+    ],
+    "src_url": [
+      "https://github.com/telegramdesktop/tdesktop"
+    ],
+    "tag": [
+      "chat",
+      "messenger"
+    ],
+    "version": "v5.10.3",
+    "version_upstream": "v5.10.3",
+    "bsum": "57af0f0d8b11445ef783244a556da87a654bc0d8ec02103cee98e0ab45bfc266",
+    "build_date": "2025-01-11T18:40:38Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.3-x86_64-linux&download=telegram-desktop.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/dynamic.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.3-x86_64-linux&download=telegram-desktop",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop@sha256:e8d3ef30b05fd5ef3dcf28ce2a93fbaf66c68c254f5e5f1d9ea6cbca3f42e7d5",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "telegram-desktop",
+      "telegram-desktop.desktop",
+      "telegram-desktop.desktop.sig",
+      "telegram-desktop.json",
+      "telegram-desktop.json.sig",
+      "telegram-desktop.log",
+      "telegram-desktop.log.sig",
+      "telegram-desktop.metainfo.xml",
+      "telegram-desktop.metainfo.xml.sig",
+      "telegram-desktop.png",
+      "telegram-desktop.png.sig",
+      "telegram-desktop.sig",
+      "telegram-desktop.version",
+      "telegram-desktop.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop:v5.10.3-x86_64-linux",
+    "ghcr_size": "167.29 MB",
+    "ghcr_size_raw": "175419546",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.3-x86_64-linux&manifest",
+    "shasum": "e8d3ef30b05fd5ef3dcf28ce2a93fbaf66c68c254f5e5f1d9ea6cbca3f42e7d5",
+    "size": "168 MB",
+    "size_raw": "175221912"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "29",
+    "pkg": "vesktop.appimage",
+    "pkg_family": "vesktop",
+    "pkg_id": "github.com.Vencord.Vesktop",
+    "pkg_name": "vesktop",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/vesktop/vesktop",
+    "app_id": "dev.vencord.Vesktop",
+    "category": [
+      "Network",
+      "InstantMessaging",
+      "Chat"
+    ],
+    "description": "A custom Discord App aiming to give you better performance and improve linux support",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-x86_64-linux&download=vesktop.desktop",
+    "homepage": [
+      "https://github.com/Vencord/Vesktop"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-x86_64-linux&download=vesktop.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)",
+      "QaidVoid (https://github.com/QaidVoid)"
+    ],
+    "provides": [
+      "vesktop"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop"
+    ],
+    "src_url": [
+      "https://github.com/Vencord/Vesktop"
+    ],
+    "tag": [
+      "Communications",
+      "discord",
+      "messaging",
+      "net-im"
+    ],
+    "version": "v1.5.4",
+    "version_upstream": "v1.5.4",
+    "bsum": "5f6141a6bbb880f9ff7b5e43d30b22306d52455dc223346a8bc6de3ea7eec587",
+    "build_date": "2025-01-11T18:41:10Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12725911251",
+    "build_id": "12725911251",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-x86_64-linux&download=vesktop.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-x86_64-linux&download=vesktop",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:64ab14119ffecd2b558eef42f14c866f99bbff46ffaac68d4ab6b06f6ee32072",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "vesktop",
+      "vesktop.desktop",
+      "vesktop.desktop.sig",
+      "vesktop.json",
+      "vesktop.json.sig",
+      "vesktop.log",
+      "vesktop.log.sig",
+      "vesktop.png",
+      "vesktop.png.sig",
+      "vesktop.sig",
+      "vesktop.version",
+      "vesktop.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.4-x86_64-linux",
+    "ghcr_size": "87.75 MB",
+    "ghcr_size_raw": "92010003",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-x86_64-linux&manifest",
+    "shasum": "64ab14119ffecd2b558eef42f14c866f99bbff46ffaac68d4ab6b06f6ee32072",
+    "size": "88 MB",
+    "size_raw": "91820784"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "24",
+    "pkg": "player432hz.appimage",
+    "pkg_family": "player432hz",
+    "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
+    "pkg_name": "yangdownloader",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/yangdownloader",
+    "category": [
+      "Utility"
+    ],
+    "description": "Downloads best-quality audio and video from YouTube [player432hz]",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&download=yangdownloader.desktop",
+    "homepage": [
+      "https://github.com/mysteryx93/HanumanInstituteApps",
+      "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&download=yangdownloader.svg",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "converter432hz==Converter432Hz",
+      "player432hz==Player432Hz",
+      "powerliminalsplayer==PowerliminalsPlayer",
+      "yangdownloader==YangDownloader"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "repology": [
+      "converter432hz",
+      "player432hz",
+      "powerliminalsplayer",
+      "yangdownloader"
+    ],
+    "src_url": [
+      "https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "tag": [
+      "encoding-videos",
+      "media-encoder",
+      "video-downloader",
+      "video-player",
+      "video-processing",
+      "youtube-downloader"
+    ],
+    "version": "v3.3.2",
+    "version_upstream": "v3.3.2",
+    "bsum": "f0278c77af1ecbdbdec5080d1844abdbe8c133804987f3f860585b45a15332bf",
+    "build_date": "2025-01-12T02:57:12Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12729802085",
+    "build_id": "12729802085",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&download=yangdownloader.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&download=yangdownloader",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader@sha256:96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "yangdownloader",
+      "yangdownloader.desktop",
+      "yangdownloader.desktop.sig",
+      "yangdownloader.json",
+      "yangdownloader.json.sig",
+      "yangdownloader.log",
+      "yangdownloader.log.sig",
+      "yangdownloader.sig",
+      "yangdownloader.svg",
+      "yangdownloader.svg.sig",
+      "yangdownloader.version",
+      "yangdownloader.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux",
+    "ghcr_size": "38.98 MB",
+    "ghcr_size_raw": "40874660",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&manifest",
+    "shasum": "96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698",
+    "size": "39 MB",
+    "size_raw": "40809200",
+    "snapshots": [
+      "v3.3.2-x86_64-linux[v3.3.2]"
+    ]
+  }
+]

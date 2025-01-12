@@ -1,0 +1,170 @@
+{
+  "x86_64-linux/github-0ad-matters-0ad-appimage-prerelease": [
+    [
+      "0ad",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-0ad-matters-0ad-appimage-prerelease/0ad"
+    ]
+  ],
+  "x86_64-linux/github-0ad-matters-0ad-appimage-stable": [
+    [
+      "0ad",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-0ad-matters-0ad-appimage-stable/0ad"
+    ]
+  ],
+  "x86_64-linux/86box": [
+    [
+      "86box",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/86box/86box"
+    ]
+  ],
+  "x86_64-linux/9launcher": [
+    [
+      "9launcher",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/9launcher/9launcher"
+    ]
+  ],
+  "x86_64-linux/aaaaxy": [
+    [
+      "aaaaxy",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/aaaaxy/aaaaxy"
+    ]
+  ],
+  "x86_64-linux/abiword": [
+    [
+      "abiword",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/abiword/abiword"
+    ]
+  ],
+  "x86_64-linux/acreom": [
+    [
+      "acreom",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/acreom/acreom"
+    ]
+  ],
+  "x86_64-linux/actual": [
+    [
+      "actual",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/actual/actual"
+    ]
+  ],
+  "x86_64-linux/advanced-passgen": [
+    [
+      "advanced-passgen",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/advanced-passgen/advanced-passgen"
+    ]
+  ],
+  "x86_64-linux/advanced-rest-client": [
+    [
+      "advanced-rest-client",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/advanced-rest-client/advanced-rest-client"
+    ]
+  ],
+  "x86_64-linux/github-com-affine-mirror-affine-canary-1": [
+    [
+      "affine",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-com-affine-mirror-affine-canary-1/affine"
+    ]
+  ],
+  "x86_64-linux/github-com-affine-mirror-affine-canary-2": [
+    [
+      "affine",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-com-affine-mirror-affine-canary-2/affine"
+    ]
+  ],
+  "x86_64-linux/github-com-affine-mirror-affine-stable": [
+    [
+      "affine",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/github-com-affine-mirror-affine-stable/affine"
+    ]
+  ],
+  "x86_64-linux/agregore": [
+    [
+      "agregore",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/agregore/agregore"
+    ]
+  ],
+  "x86_64-linux/air-controller-desktop": [
+    [
+      "air-controller-desktop",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/air-controller-desktop/air-controller-desktop"
+    ]
+  ],
+  "x86_64-linux/aisleriot": [
+    [
+      "aisleriot",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/aisleriot/aisleriot"
+    ]
+  ],
+  "x86_64-linux/akuse": [
+    [
+      "akuse",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/akuse/akuse"
+    ]
+  ],
+  "x86_64-linux/allusion": [
+    [
+      "allusion",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/allusion/allusion"
+    ]
+  ],
+  "x86_64-linux/altair": [
+    [
+      "altair",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/altair/altair"
+    ]
+  ],
+  "x86_64-linux/altus": [
+    [
+      "altus",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/altus/altus"
+    ]
+  ],
+  "x86_64-linux/amdgpu_top": [
+    [
+      "amdgpu_top",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/amdgpu_top/amdgpu_top"
+    ]
+  ],
+  "x86_64-linux/android-messages": [
+    [
+      "android-messages",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/android-messages/android-messages"
+    ]
+  ],
+  "x86_64-linux/ghostty": [
+    [
+      "ghostty",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ghostty/ghostty"
+    ]
+  ],
+  "x86_64-linux/player432hz": [
+    [
+      "yangdownloader",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/yangdownloader"
+    ],
+    [
+      "converter432hz",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/converter432hz"
+    ],
+    [
+      "player432hz",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/player432hz"
+    ],
+    [
+      "powerliminalsplayer",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/powerliminalsplayer"
+    ]
+  ],
+  "x86_64-linux/telegram-desktop": [
+    [
+      "telegram-desktop",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/telegram-desktop/telegram-desktop"
+    ]
+  ],
+  "x86_64-linux/vesktop": [
+    [
+      "vesktop",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/vesktop/vesktop"
+    ]
+  ]
+}

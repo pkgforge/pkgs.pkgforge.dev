@@ -203,7 +203,6 @@ export function DataTable<TData, TValue>({
                     if (pageNumberInput.current) {
                       const val = Number(pageNumberInput.current.value);
 
-                      console.log(val);
                       if (val > 0 && val < table.getPageCount()) {
                         table.setPageIndex(val - 1);
                       }

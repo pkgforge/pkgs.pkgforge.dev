@@ -1,0 +1,14 @@
+{
+  "aarch64-linux/86box": [
+    [
+      "86box",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/86box/86box"
+    ]
+  ],
+  "aarch64-linux/vesktop": [
+    [
+      "vesktop",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/vesktop/vesktop"
+    ]
+  ]
+}

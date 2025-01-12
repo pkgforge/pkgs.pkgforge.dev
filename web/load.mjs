@@ -3,6 +3,9 @@ import { writeFileSync } from "fs";
 const binArm64 = "https://meta.pkgforge.dev/bincache/aarch64-Linux.json";
 const binX86 = "https://meta.pkgforge.dev/bincache/x86_64-Linux.json";
 
+const pkgcacheArm64 = "https://meta.pkgforge.dev/pkgcache/aarch64-Linux.json";
+const pkgcacheX86 = "https://meta.pkgforge.dev/pkgcache/x86_64-Linux.json";
+
 const soarpkgs = "https://meta.pkgforge.dev/soarpkgs/INDEX.json";
 
 const run = async (url, branch, arch) => {
@@ -89,6 +92,12 @@ const run = async (url, branch, arch) => {
 
   console.log("⏲️ Downloading soarpkgs");
   await run(soarpkgs, "soarpkgs", "[category]");
+
+  console.log("⏲️ Downloading pkgcache aarch64");
+  await run(pkgcacheArm64, "pkgcache", "aarch64-linux");
+
+  console.log("⏲️ Downloading bincache x86_64");
+  await run(pkgcacheX86, "pkgcache", "x86_64-linux");
 
   // console.log("⏲️ Downloading Community");
   // await run(community, "community", "universal-linux");

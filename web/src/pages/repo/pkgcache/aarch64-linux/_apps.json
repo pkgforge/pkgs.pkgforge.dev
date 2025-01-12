@@ -1,0 +1,175 @@
+[
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "1",
+    "pkg": "86box.appimage",
+    "pkg_family": "86box",
+    "pkg_id": "github.com.86Box.86Box.stable",
+    "pkg_name": "86box",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/86box/86box",
+    "app_id": "net._86box._86Box",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.appdata.xml",
+    "category": [
+      "Emulator"
+    ],
+    "description": "Emulator of x86-based machines",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.desktop",
+    "homepage": [
+      "https://86box.net",
+      "https://86box.readthedocs.io"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.png",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "86box"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box",
+      "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
+    ],
+    "repology": [
+      "86box"
+    ],
+    "src_url": [
+      "https://github.com/86Box/86Box"
+    ],
+    "tag": [
+      "app-emulation",
+      "emulators",
+      "game",
+      "system"
+    ],
+    "version": "v4.2.1",
+    "version_upstream": "v4.2.1",
+    "bsum": "74d358d3f38d0f2692676fca718870bee9069b3bd25c7c6eefe1c4f155607f91",
+    "build_date": "2025-01-11T13:13:14Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12724410127",
+    "build_id": "12724410127",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
+    "ghcr_files": [
+      "86box",
+      "86box.appdata.xml",
+      "86box.appdata.xml.sig",
+      "86box.desktop",
+      "86box.desktop.sig",
+      "86box.json",
+      "86box.json.sig",
+      "86box.log",
+      "86box.log.sig",
+      "86box.png",
+      "86box.png.sig",
+      "86box.sig",
+      "86box.version",
+      "86box.version.sig",
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux",
+    "ghcr_size": "51.89 MB",
+    "ghcr_size_raw": "54412139",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&manifest",
+    "shasum": "6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
+    "size": "52 MB",
+    "size_raw": "54326032"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "2",
+    "pkg": "vesktop.appimage",
+    "pkg_family": "vesktop",
+    "pkg_id": "github.com.Vencord.Vesktop",
+    "pkg_name": "vesktop",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/vesktop/vesktop",
+    "app_id": "dev.vencord.Vesktop",
+    "category": [
+      "Network",
+      "InstantMessaging",
+      "Chat"
+    ],
+    "description": "A custom Discord App aiming to give you better performance and improve linux support",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-aarch64-linux&download=vesktop.desktop",
+    "homepage": [
+      "https://github.com/Vencord/Vesktop"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-aarch64-linux&download=vesktop.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)",
+      "QaidVoid (https://github.com/QaidVoid)"
+    ],
+    "provides": [
+      "vesktop"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop"
+    ],
+    "src_url": [
+      "https://github.com/Vencord/Vesktop"
+    ],
+    "tag": [
+      "Communications",
+      "discord",
+      "messaging",
+      "net-im"
+    ],
+    "version": "v1.5.4",
+    "version_upstream": "v1.5.4",
+    "bsum": "5f6141a6bbb880f9ff7b5e43d30b22306d52455dc223346a8bc6de3ea7eec587",
+    "build_date": "2025-01-11T13:14:09Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12724410127",
+    "build_id": "12724410127",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-aarch64-linux&download=vesktop.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml",
+    "download_count": "-1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-aarch64-linux&download=vesktop",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:64ab14119ffecd2b558eef42f14c866f99bbff46ffaac68d4ab6b06f6ee32072",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "vesktop",
+      "vesktop.desktop",
+      "vesktop.desktop.sig",
+      "vesktop.json",
+      "vesktop.json.sig",
+      "vesktop.log",
+      "vesktop.log.sig",
+      "vesktop.png",
+      "vesktop.png.sig",
+      "vesktop.sig",
+      "vesktop.version",
+      "vesktop.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.4-aarch64-linux",
+    "ghcr_size": "87.75 MB",
+    "ghcr_size_raw": "92010118",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-aarch64-linux&manifest",
+    "shasum": "64ab14119ffecd2b558eef42f14c866f99bbff46ffaac68d4ab6b06f6ee32072",
+    "size": "88 MB",
+    "size_raw": "91820784"
+  }
+]
