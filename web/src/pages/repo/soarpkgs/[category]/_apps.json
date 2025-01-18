@@ -44,11 +44,12 @@
       "Azathothas (https://github.com/Azathothas)"
     ],
     "note": [
-      "Community Created AppImage. Check/Report @ https://github.com/0ad-matters/0ad-appimage",
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/0ad-matters/0ad-appimage",
       "If you have a GPU that has a chipset other than Nvidia, the Vulkan backend may be automatically disabled in some cases",
       "This version is based on the latest Ubuntu LTS, so it should not work on older distros",
       "In case of problems, install '0ad' instead"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters",
     "provides": [
       "0ad"
     ],
@@ -116,8 +117,9 @@
       "Azathothas (https://github.com/Azathothas)"
     ],
     "note": [
-      "Community Created AppImage. Check/Report @ https://github.com/0ad-matters/0ad-appimage"
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/0ad-matters/0ad-appimage"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters",
     "provides": [
       "0ad"
     ],
@@ -264,6 +266,7 @@
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box",
       "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/86box/appimage/official",
     "provides": [
       "86box"
     ],
@@ -317,6 +320,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/wearrrrr/9Launcher"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/9launcher/appimage/official",
     "repology": [
       "9launcher"
     ],
@@ -463,6 +467,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/divVerent/aaaaxy"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/aaaaxy/appimage/official",
     "provides": [
       "aaaaxy"
     ],
@@ -478,7 +483,7 @@
       "games",
       "games-puzzle"
     ],
-    "version": "v1.5.250"
+    "version": "v1.5.256"
   },
   {
     "_disabled": "false",
@@ -529,6 +534,7 @@
     "note": [
       "Community Created AppImage based on JuNest. Check/Report @ https://github.com/ivan-hc/Abiword-appimage"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/abiword/appimage/ivan-hc",
     "provides": [
       "abiword"
     ],
@@ -548,7 +554,7 @@
       "Productivity/Office/Word",
       "Text"
     ],
-    "version": "3.0.6-2-4.2"
+    "version": "3.0.6-2-4.3"
   },
   {
     "_disabled": "false",
@@ -592,6 +598,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Acreom/app"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/acreom/appimage/official",
     "provides": [
       "acreom"
     ],
@@ -763,6 +770,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/actualbudget/actual"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/actual/appimage/official",
     "provides": [
       "actual"
     ],
@@ -815,6 +823,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/CodeDead/Advanced-PassGen"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official",
     "provides": [
       "advanced-passgen"
     ],
@@ -866,6 +875,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/advanced-rest-client/arc-electron"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/advanced-rest-client/appimage/official",
     "provides": [
       "advanced-rest-client"
     ],
@@ -927,6 +937,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/affine/appimage/official",
     "provides": [
       "affine"
     ],
@@ -988,6 +999,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/affine/appimage/official",
     "provides": [
       "affine"
     ],
@@ -1049,6 +1061,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/affine/appimage/official",
     "provides": [
       "affine"
     ],
@@ -1062,7 +1075,7 @@
       "knowledge-base",
       "wiki"
     ],
-    "version": "v0.19.5"
+    "version": "v0.19.6"
   },
   {
     "_disabled": "false",
@@ -1276,6 +1289,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/AgregoreWeb/agregore-browser"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/agregore/appimage/official",
     "provides": [
       "agregore"
     ],
@@ -1294,7 +1308,7 @@
       "p2p",
       "ssb"
     ],
-    "version": "v2.6.3"
+    "version": "v2.7.0"
   },
   {
     "_disabled": "false",
@@ -1376,6 +1390,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/air-controller/air-controller-desktop"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/air-controller-desktop/appimage/official",
     "provides": [
       "air-controller-desktop"
     ],
@@ -1485,8 +1500,9 @@
       "Azathothas (https://github.com/Azathothas)"
     ],
     "note": [
-      "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Aisleriot-appimage"
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ivan-hc/Aisleriot-appimage"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/aisleriot/appimage/ivan-hc",
     "provides": [
       "aisleriot"
     ],
@@ -1583,6 +1599,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/akuse-app/akuse"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/akuse/appimage/official",
     "provides": [
       "akuse"
     ],
@@ -1646,6 +1663,58 @@
       "neofetch"
     ],
     "version": "v4.2.1"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "alexandria",
+    "pkg_family": "alexandria",
+    "pkg_id": "github.com.btpf.Alexandria",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/btpf-alexandria/alexandria/alexandria",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/alexandria/appimage.official.stable.yaml",
+    "category": [
+      "Utility"
+    ],
+    "description": "A minimalistic eBook reader",
+    "distro_pkg": {
+      "nixpkgs": [
+        "alexandria"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/alexandria/appimage.official.stable.yaml",
+    "homepage": [
+      "https://github.com/btpf/Alexandria"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/alexandria/assets/default.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/btpf/Alexandria"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/alexandria/appimage/official",
+    "provides": [
+      "alexandria"
+    ],
+    "repology": [
+      "alexandria-book-manager",
+      "alexandria-ebook-reader"
+    ],
+    "src_url": [
+      "https://github.com/btpf/Alexandria"
+    ],
+    "tag": [
+      "book",
+      "ebook",
+      "epub"
+    ],
+    "version": "v0.13.1"
   },
   {
     "_disabled": "false",
@@ -1795,6 +1864,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/allusion-app/Allusion"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/allusion/appimage/official",
     "provides": [
       "allusion"
     ],
@@ -1990,6 +2060,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/altair-graphql/altair"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/altair/appimage/official",
     "provides": [
       "altair"
     ],
@@ -2090,6 +2161,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/amanharwara/altus"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/altus/appimage/official",
     "provides": [
       "altus"
     ],
@@ -2247,6 +2319,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Umio-Yasuno/amdgpu_top"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/amdgpu_top/appimage/official",
     "provides": [
       "amdgpu_top"
     ],
@@ -2454,6 +2527,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/OrangeDrangon/android-messages-desktop"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/android-messages/appimage/official",
     "provides": [
       "android-messages==Android-Messages"
     ],
@@ -2469,6 +2543,87 @@
       "message"
     ],
     "version": "v5.6.0"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "android-tools",
+    "pkg_family": "android-tools",
+    "pkg_id": "github.com.pkgforge-dev.android-tools-AppImage.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/android-tools/android-tools",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/android-tools/appimage.pkgforge-dev.stable.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": {
+      "_default": "Android SDK Platform-Tools (adb, fastboot & more)",
+      "adb": "Android Debug Bridge (adb) to communicate with an emulator instance or connected Android-powered device [android-tools]",
+      "etc1tool": "Encode/Decode PNG images to & from the ETC1 compression standard [android-tools]",
+      "fastboot": "Android flashing and booting utility [android-tools]",
+      "hprof-conv": "HPROF Converter [android-tools]",
+      "make_f2fs": "Tool to create a flash-friendly F2FS file system [android-tools]",
+      "make_f2fs_casefold": "Version of make_f2fs with casefolding support for file systems [android-tools]",
+      "mke2fs": "Utility to create ext2, ext3, or ext4 file systems [android-tools]",
+      "sqlite3": "Command-line interface for SQLite databases [android-tools]"
+    },
+    "distro_pkg": {
+      "alpine": [
+        "android-tools"
+      ],
+      "archlinux": {
+        "extra": [
+          "android-tools"
+        ]
+      },
+      "debian": [
+        "android-tools"
+      ],
+      "nixpkgs": [
+        "android-tools"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/android-tools/appimage.pkgforge-dev.stable.yaml",
+    "homepage": [
+      "https://android.googlesource.com/platform/tools/base",
+      "https://github.com/pkgforge-dev/android-tools-AppImage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/android-tools/assets/default.png",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "Samueru-sama (https://github.com/Samueru-sama)"
+    ],
+    "note": [
+      "Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/android-tools-AppImage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/android-tools/appimage/pkgforge-dev",
+    "provides": [
+      "android-tools=>adb",
+      "android-tools=>etc1tool",
+      "android-tools=>fastboot",
+      "android-tools=>hprof-conv",
+      "android-tools=>make_f2fs",
+      "android-tools=>make_f2fs_casefold",
+      "android-tools=>mke2fs",
+      "android-tools=>sqlite3"
+    ],
+    "repology": [
+      "android-tools"
+    ],
+    "src_url": [
+      "https://github.com/pkgforge-dev/android-tools-AppImage"
+    ],
+    "tag": [
+      "adb",
+      "android-tools",
+      "utils"
+    ],
+    "version": "35.0.2"
   },
   {
     "_disabled": "false",
@@ -2743,7 +2898,7 @@
       "alpine",
       "package-manager"
     ],
-    "version": "v3.0.0_rc3"
+    "version": "v2.14.9"
   },
   {
     "_disabled": "false",
@@ -2980,7 +3135,7 @@
       "debian",
       "packaging"
     ],
-    "version": "HEAD-2eabc60-250112T000500"
+    "version": "HEAD-666b5c9-250113T123601"
   },
   {
     "_disabled": "false",
@@ -3081,7 +3236,7 @@
       "system-information",
       "sysutils"
     ],
-    "version": "HEAD-cab7704-241026T125411"
+    "version": "HEAD-a02cb0d-250114T211656"
   },
   {
     "_disabled": "false",
@@ -3124,7 +3279,7 @@
     "tag": [
       "archlinux"
     ],
-    "version": "da131d094733"
+    "version": "9d946f864864"
   },
   {
     "_disabled": "false",
@@ -3243,7 +3398,7 @@
       "modal-editing",
       "text-editor"
     ],
-    "version": "HEAD-a370545-241226T082317"
+    "version": "HEAD-0b0bda6-250113T211909"
   },
   {
     "_disabled": "false",
@@ -3386,7 +3541,7 @@
       "bittorrent",
       "downloader"
     ],
-    "version": "250111T122740"
+    "version": "250118T141142"
   },
   {
     "_disabled": "false",
@@ -3504,7 +3659,7 @@
       "recon",
       "whois"
     ],
-    "version": "HEAD-3f5b6f1-241231T132445"
+    "version": "HEAD-3a260e5-250112T234920"
   },
   {
     "_disabled": "false",
@@ -3796,7 +3951,7 @@
     "tag": [
       "string-manipulation"
     ],
-    "version": "HEAD-91f35d2-250107T135532"
+    "version": "HEAD-0eeec23-250116T142436"
   },
   {
     "_disabled": "false",
@@ -3855,7 +4010,7 @@
     "tag": [
       "aws"
     ],
-    "version": "v3.43.0"
+    "version": "v3.44.0"
   },
   {
     "_disabled": "false",
@@ -4310,7 +4465,7 @@
       "cat",
       "text-viewer"
     ],
-    "version": "HEAD-dd3d1b8-250110T193142"
+    "version": "HEAD-498df11-250118T093135"
   },
   {
     "_disabled": "false",
@@ -4476,7 +4631,7 @@
       "messaging",
       "p2p"
     ],
-    "version": "HEAD-b7d3b95-241220T105029"
+    "version": "HEAD-2deda88-250117T142731"
   },
   {
     "_disabled": "false",
@@ -4845,6 +5000,131 @@
   },
   {
     "_disabled": "false",
+    "pkg": "bita",
+    "pkg_family": "bita",
+    "pkg_id": "github.com.oll3.bita",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/oll3-bita/bita/bita",
+    "bincache": "ghcr.io/pkgforge/bincache/bita/official/bita",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/bita/static.official.source.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Differential file synchronization over http",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "bita"
+        ]
+      }
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/bita/static.official.source.yaml",
+    "homepage": [
+      "https://github.com/oll3/bita"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/oll3/bita"
+    ],
+    "provides": [
+      "bita"
+    ],
+    "repology": [
+      "bita"
+    ],
+    "src_url": [
+      "https://github.com/oll3/bita"
+    ],
+    "tag": [
+      "delta-update",
+      "synchronization",
+      "zsync"
+    ],
+    "version": "HEAD-40456e6-250106T134342"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "blender",
+    "pkg_family": "blender",
+    "pkg_id": "runimage.debian.blender",
+    "pkg_type": "runimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-blender/blender/blender",
+    "app_id": "org.blender.Blender",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml",
+    "category": [
+      "Graphics"
+    ],
+    "description": "A fully integrated 3D graphics creation suite",
+    "distro_pkg": {
+      "alpine": [
+        "blender"
+      ],
+      "archlinux": {
+        "extra": [
+          "blender"
+        ]
+      },
+      "debian": [
+        "blender"
+      ],
+      "gnuguix": [
+        "blender"
+      ],
+      "homebrew": [
+        "blender"
+      ],
+      "nixpkgs": [
+        "blender"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/blender/runimage.debian.stable.yaml",
+    "homepage": [
+      "https://blender.org"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "provides": [
+      "blender"
+    ],
+    "repology": [
+      "blender"
+    ],
+    "src_url": [
+      "https://blender.org",
+      "https://github.com/blender/blender"
+    ],
+    "tag": [
+      "graphics"
+    ],
+    "version": "4.3.2"
+  },
+  {
+    "_disabled": "false",
     "pkg": "bleve",
     "pkg_family": "bleve",
     "pkg_id": "github.com.blevesearch.bleve",
@@ -4884,7 +5164,7 @@
     "tag": [
       "Utility"
     ],
-    "version": "HEAD-bf28642-250110T102912"
+    "version": "HEAD-b7b67d3-250117T091444"
   },
   {
     "_disabled": "false",
@@ -4946,6 +5226,53 @@
       "bluetooth"
     ],
     "version": "v0.2.3"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "bombadillo",
+    "pkg_family": "bombadillo",
+    "pkg_id": "tildegit.org.sloum.bombadillo",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/sloum-bombadillo/bombadillo/bombadillo",
+    "bincache": "ghcr.io/pkgforge/bincache/bombadillo/official/bombadillo",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/bombadillo/static.official.source.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Browser for gopher/gemini/finger or local file system",
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/bombadillo/static.official.source.yaml",
+    "homepage": [
+      "https://bombadillo.colorfield.space",
+      "https://tildegit.org/sloum/bombadillo"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source (Latest Git HEAD). Check/Report @ https://tildegit.org/sloum/bombadillo"
+    ],
+    "provides": [
+      "bombadillo"
+    ],
+    "repology": [
+      "bombadillo"
+    ],
+    "src_url": [
+      "https://tildegit.org/sloum/bombadillo"
+    ],
+    "tag": [
+      "gemini"
+    ],
+    "version": "HEAD-b171dc2-221008T204711"
   },
   {
     "_disabled": "false",
@@ -5248,6 +5575,243 @@
   },
   {
     "_disabled": "false",
+    "pkg": "brave",
+    "pkg_family": "brave",
+    "pkg_id": "github.com.srevinsaju.Brave-AppImage.nightly",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-nightly/brave/brave",
+    "app_id": "com.brave.Browser",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.nightly.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Privacy-oriented browser for Desktop and Laptop computers (Nightly)",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "brave-beta-bin",
+          "brave-bin",
+          "brave-nightly-bin"
+        ]
+      },
+      "homebrew": [
+        "brave-browser",
+        "brave-browser@beta",
+        "brave-browser@dev",
+        "brave-browser@nightly"
+      ],
+      "nixpkgs": [
+        "brave"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/brave/appimage.srevinsaju.nightly.yaml",
+    "homepage": [
+      "https://brave.com",
+      "https://github.com/brave/brave-browser",
+      "https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/brave/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju",
+    "provides": [
+      "brave"
+    ],
+    "repology": [
+      "brave"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ],
+    "version": "v1.76.22"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "brave",
+    "pkg_family": "brave",
+    "pkg_id": "nixpkgs.brave",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-brave/brave/brave",
+    "app_id": "com.brave.Browser",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Privacy-oriented browser for Desktop and Laptop computers",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "brave-bin"
+        ]
+      },
+      "nixpkgs": [
+        "brave"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/brave/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://brave.com",
+      "https://github.com/brave/brave-browser",
+      "https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/brave/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs",
+    "provides": [
+      "brave"
+    ],
+    "repology": [
+      "brave"
+    ],
+    "src_url": [
+      "https://github.com/brave/brave-browser"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ],
+    "version": "1.73.104"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "brave",
+    "pkg_family": "brave",
+    "pkg_id": "github.com.srevinsaju.Brave-AppImage.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/brave/brave",
+    "app_id": "com.brave.Browser",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.stable.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Privacy-oriented browser for Desktop and Laptop computers",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "brave-bin"
+        ]
+      },
+      "nixpkgs": [
+        "brave"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/brave/appimage.srevinsaju.stable.yaml",
+    "homepage": [
+      "https://brave.com",
+      "https://github.com/brave/brave-browser",
+      "https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/brave/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "provides": [
+      "brave"
+    ],
+    "repology": [
+      "brave"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "pkg": "brave",
+    "pkg_family": "brave",
+    "pkg_id": "github.com.srevinsaju.Brave-AppImage.beta",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-beta/brave/brave",
+    "app_id": "com.brave.Browser",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.beta.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Privacy-oriented browser for Desktop and Laptop computers (Beta)",
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/brave/appimage.srevinsaju.beta.yaml",
+    "homepage": [
+      "https://brave.com",
+      "https://github.com/brave/brave-browser",
+      "https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/brave/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju",
+    "provides": [
+      "brave"
+    ],
+    "repology": [
+      "brave"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ],
+    "version": "v1.75.162"
+  },
+  {
+    "_disabled": "false",
     "pkg": "brename",
     "pkg_family": "brename",
     "pkg_id": "github.com.shenwei356.brename",
@@ -5420,7 +5984,7 @@
     "tag": [
       "tree"
     ],
-    "version": "HEAD-f423190-250112T110627"
+    "version": "HEAD-3611b0a-250112T184722"
   },
   {
     "_disabled": "false",
@@ -5736,6 +6300,77 @@
     "pkg_id": "github.com.caddyserver.caddy",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/caddyserver-caddy/caddy/caddy",
+    "bincache": "ghcr.io/pkgforge/bincache/caddy/official/beta",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/caddy/static.official.beta.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "A powerful, enterprise-ready, and extensible HTTP/2 + HTTP/3 web server with automatic HTTPS (Beta)",
+    "distro_pkg": {
+      "alpine": [
+        "caddy"
+      ],
+      "archlinux": {
+        "aur": [
+          "caddy-git"
+        ],
+        "extra": [
+          "caddy"
+        ]
+      },
+      "debian": [
+        "caddy"
+      ],
+      "homebrew": [
+        "caddy"
+      ],
+      "nixpkgs": [
+        "caddy"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/caddy/static.official.beta.yaml",
+    "homepage": [
+      "https://caddyserver.com",
+      "https://github.com/caddyserver/caddy"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/caddyserver/caddy"
+    ],
+    "provides": [
+      "caddy:caddy-beta"
+    ],
+    "repology": [
+      "caddy"
+    ],
+    "src_url": [
+      "https://github.com/caddyserver/caddy"
+    ],
+    "tag": [
+      "caddy",
+      "server",
+      "nginx"
+    ],
+    "version": "v2.9.0-beta.3"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "caddy",
+    "pkg_family": "caddy",
+    "pkg_id": "github.com.caddyserver.caddy",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/caddyserver-caddy/caddy/caddy",
     "bincache": "ghcr.io/pkgforge/bincache/caddy/official/stable",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/caddy/static.official.stable.yaml",
     "category": [
@@ -5799,76 +6434,6 @@
       "nginx"
     ],
     "version": "v2.9.1"
-  },
-  {
-    "_disabled": "false",
-    "pkg": "caddy",
-    "pkg_family": "caddy",
-    "pkg_id": "github.com.caddyserver.caddy",
-    "pkg_type": "static",
-    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/caddyserver-caddy/caddy/caddy",
-    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/caddy/static.official.beta.yaml",
-    "category": [
-      "ConsoleOnly",
-      "Utility"
-    ],
-    "description": "A powerful, enterprise-ready, and extensible HTTP/2 + HTTP/3 web server with automatic HTTPS (Beta)",
-    "distro_pkg": {
-      "alpine": [
-        "caddy"
-      ],
-      "archlinux": {
-        "aur": [
-          "caddy-git"
-        ],
-        "extra": [
-          "caddy"
-        ]
-      },
-      "debian": [
-        "caddy"
-      ],
-      "homebrew": [
-        "caddy"
-      ],
-      "nixpkgs": [
-        "caddy"
-      ]
-    },
-    "download_url": "https://soarpkgs.pkgforge.dev/binaries/caddy/static.official.beta.yaml",
-    "homepage": [
-      "https://caddyserver.com",
-      "https://github.com/caddyserver/caddy"
-    ],
-    "host": [
-      "aarch64-linux",
-      "x86_64-linux"
-    ],
-    "license": [
-      "Apache-2.0"
-    ],
-    "maintainer": [
-      "Azathothas (https://github.com/Azathothas)"
-    ],
-    "note": [
-      "[DO NOT RUN] (Meant for pkgforge CI Only)",
-      "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/caddyserver/caddy"
-    ],
-    "provides": [
-      "caddy:caddy-beta"
-    ],
-    "repology": [
-      "caddy"
-    ],
-    "src_url": [
-      "https://github.com/caddyserver/caddy"
-    ],
-    "tag": [
-      "caddy",
-      "server",
-      "nginx"
-    ],
-    "version": "v2.9.0-beta.3"
   },
   {
     "_disabled": "false",
@@ -6568,6 +7133,62 @@
   },
   {
     "_disabled": "false",
+    "pkg": "chaos-client",
+    "pkg_family": "chaos-client",
+    "pkg_id": "github.com.projectdiscovery.chaos-client",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/chaos-client/chaos-client/chaos-client",
+    "bincache": "ghcr.io/pkgforge/bincache/chaos-client/official/chaos-client",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/chaos-client/static.official.stable.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Client to interact with Project Discovery's Chaos DNS API",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "chaos-client",
+          "chaos-client-bin"
+        ]
+      }
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/chaos-client/static.official.stable.yaml",
+    "homepage": [
+      "https://chaos.projectdiscovery.io",
+      "https://github.com/projectdiscovery/chaos-client"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/projectdiscovery/chaos-client"
+    ],
+    "provides": [
+      "chaos-client"
+    ],
+    "repology": [
+      "chaos-client"
+    ],
+    "src_url": [
+      "https://github.com/projectdiscovery/chaos-client"
+    ],
+    "tag": [
+      "bug-bounty",
+      "recon"
+    ],
+    "version": "v0.5.2"
+  },
+  {
+    "_disabled": "false",
     "pkg": "cheat",
     "pkg_family": "cheat",
     "pkg_id": "github.com.cheat.cheat",
@@ -6726,6 +7347,145 @@
       "tunnel"
     ],
     "version": "HEAD-ab8f06a-240929T093505"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "chromium",
+    "pkg_family": "chromium",
+    "pkg_id": "nixpkgs.ungoogled-chromium",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/ungoogled-chromium/chromium/chromium",
+    "app_id": "io.github.ungoogled_software.ungoogled_chromium",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Open source web browser from Google, with dependencies on Google web services removed (Ungoogled)",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "ungoogled-chromium",
+          "ungoogled-chromium-bin",
+          "ungoogled-chromium-git",
+          "ungoogled-chromium-xdg",
+          "ungoogled-chromium-xdg-bin"
+        ]
+      },
+      "gnuguix": [
+        "ungoogled-chromium"
+      ],
+      "nixpkgs": [
+        "ungoogled-chromium"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml",
+    "homepage": [
+      "https://github.com/ungoogled-software/ungoogled-chromium"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/chromium/assets/default.png",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs",
+    "provides": [
+      "chromium:ungoogled-chromium",
+      "chromium==chromium-browser"
+    ],
+    "repology": [
+      "ungoogled-chromium"
+    ],
+    "src_url": [
+      "https://github.com/ungoogled-software/ungoogled-chromium"
+    ],
+    "tag": [
+      "browser"
+    ],
+    "version": "131.0.6778.264"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "chromium",
+    "pkg_family": "chromium",
+    "pkg_id": "nixpkgs.chromium",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-chromium/chromium/chromium",
+    "app_id": "org.chromium.Chromium",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Open source web browser from Google (Stable)",
+    "distro_pkg": {
+      "alpine": [
+        "chromium"
+      ],
+      "archlinux": {
+        "extra": [
+          "chromium"
+        ]
+      },
+      "debian": [
+        "chromium"
+      ],
+      "homebrew": [
+        "chromium"
+      ],
+      "nixpkgs": [
+        "chromium"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/chromium/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://www.chromium.org",
+      "https://chromium.googlesource.com/chromium/src",
+      "https://github.com/chromium/chromium"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/chromium/assets/default.png",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs",
+    "provides": [
+      "chromium==chromium-browser"
+    ],
+    "repology": [
+      "chromium"
+    ],
+    "src_url": [
+      "https://github.com/chromium/chromium"
+    ],
+    "tag": [
+      "browser"
+    ],
+    "version": "132.0.6834.83"
   },
   {
     "_disabled": "false",
@@ -7608,7 +8368,7 @@
       "container",
       "oci"
     ],
-    "version": "v1.7.25"
+    "version": "v2.0.2"
   },
   {
     "_disabled": "false",
@@ -7668,7 +8428,7 @@
       "authy",
       "totp"
     ],
-    "version": "HEAD-87808a2-250110T212106"
+    "version": "HEAD-7d9233c-250117T202037"
   },
   {
     "_disabled": "false",
@@ -7960,6 +8720,58 @@
   },
   {
     "_disabled": "false",
+    "pkg": "crlfuzz",
+    "pkg_family": "crlfuzz",
+    "pkg_id": "github.com.dwisiswant0.crlfuzz",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/dwisiswant0-crlfuzz/crlfuzz/crlfuzz",
+    "bincache": "ghcr.io/pkgforge/bincache/crlfuzz/official/crlfuzz",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/crlfuzz/static.official.source.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "A fast tool to scan CRLF vulnerability written in Go",
+    "distro_pkg": {
+      "nixpkgs": [
+        "crlfuzz"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/crlfuzz/static.official.source.yaml",
+    "homepage": [
+      "https://github.com/dwisiswant0/crlfuzz"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/dwisiswant0/crlfuzz"
+    ],
+    "provides": [
+      "crlfuzz"
+    ],
+    "repology": [
+      "crlfuzz"
+    ],
+    "src_url": [
+      "https://github.com/dwisiswant0/crlfuzz"
+    ],
+    "tag": [
+      "crlf",
+      "security"
+    ],
+    "version": "HEAD-7a442bb-220922T223319"
+  },
+  {
+    "_disabled": "false",
     "pkg": "croc",
     "pkg_family": "croc",
     "pkg_id": "github.com.schollz.croc",
@@ -8024,6 +8836,59 @@
       "transfer"
     ],
     "version": "v10.2.1"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "cromite",
+    "pkg_family": "cromite",
+    "pkg_id": "github.com.pkgforge-dev.Cromite-AppImage",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/cromite-appimage/cromite/cromite",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/cromite/appimage.pkgforge-dev.stable.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "A Bromite fork with ad blocking and privacy enhancements",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "cromite-bin"
+        ]
+      }
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/cromite/appimage.pkgforge-dev.stable.yaml",
+    "homepage": [
+      "https://cromite.org",
+      "https://github.com/uazo/cromite"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Cromite-AppImage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/cromite/appimage/pkgforge-dev",
+    "provides": [
+      "cromite==cromite-browser"
+    ],
+    "repology": [
+      "cromite"
+    ],
+    "src_url": [
+      "https://github.com/pkgforge-dev/Cromite-AppImage"
+    ],
+    "tag": [
+      "bromite",
+      "browser"
+    ],
+    "version": "v132.0.6834.83"
   },
   {
     "_disabled": "false",
@@ -8236,7 +9101,7 @@
       "bugbounty",
       "security"
     ],
-    "version": "HEAD-ae8801e-250107T091004"
+    "version": "HEAD-7aa229f-250116T160946"
   },
   {
     "_disabled": "false",
@@ -8297,7 +9162,7 @@
     "tag": [
       "csv"
     ],
-    "version": "HEAD-4a93e7f-250106T213911"
+    "version": "HEAD-8ac4de0-250114T093355"
   },
   {
     "_disabled": "false",
@@ -8748,7 +9613,7 @@
     "tag": [
       "package-manager"
     ],
-    "version": "HEAD-62419f6-250106T154815"
+    "version": "HEAD-ea58780-250117T164307"
   },
   {
     "_disabled": "false",
@@ -8954,7 +9819,47 @@
       "diff",
       "git-delta"
     ],
-    "version": "HEAD-d10095b-250109T230747"
+    "version": "HEAD-d4017ea-250114T091756"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "deoptimizer",
+    "pkg_family": "deoptimizer",
+    "pkg_id": "github.com.EgeBalci.deoptimizer",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/egebalci-deoptimizer/deoptimizer/deoptimizer",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/deoptimizer/static.official.source.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Machine code de-optimizer to bypass AV",
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/deoptimizer/static.official.source.yaml",
+    "homepage": [
+      "https://github.com/EgeBalci/deoptimizer"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/EgeBalci/deoptimizer"
+    ],
+    "src_url": [
+      "https://github.com/EgeBalci/deoptimizer"
+    ],
+    "tag": [
+      "detection",
+      "evasion",
+      "malware",
+      "security",
+      "yara"
+    ],
+    "version": "HEAD-2863cd0-240723T010441"
   },
   {
     "_disabled": "false",
@@ -9071,6 +9976,452 @@
       "diff"
     ],
     "version": "HEAD-fdc6992-241116T095240"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "discord",
+    "pkg_family": "discord",
+    "pkg_id": "nixpkgs.discord-canary",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/discord-canary/discord/discord",
+    "app_id": "com.discordapp.Discord",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/nixappimage.nixpkgs.canary.yaml",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "All-in-one cross-platform voice and text chat for gamers (Canary)",
+    "distro_pkg": {
+      "archlinux": {
+        "extra": [
+          "discord"
+        ]
+      },
+      "homebrew": [
+        "discord@canary"
+      ],
+      "nixpkgs": [
+        "discord-canary"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/discord/nixappimage.nixpkgs.canary.yaml",
+    "homepage": [
+      "https://discordapp.com"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/discord/assets/default.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs",
+    "provides": [
+      "discord=>discord-canary"
+    ],
+    "repology": [
+      "discord"
+    ],
+    "src_url": [
+      "https://discordapp.com"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "pkg": "discord",
+    "pkg_family": "discord",
+    "pkg_id": "nixpkgs.discord-development",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/discord-development/discord/discord",
+    "app_id": "com.discordapp.Discord",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/nixappimage.nixpkgs.development.yaml",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "All-in-one cross-platform voice and text chat for gamers (Development)",
+    "distro_pkg": {
+      "archlinux": {
+        "extra": [
+          "discord"
+        ]
+      },
+      "homebrew": [
+        "discord@development"
+      ],
+      "nixpkgs": [
+        "discord-development"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/discord/nixappimage.nixpkgs.development.yaml",
+    "homepage": [
+      "https://discordapp.com"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/discord/assets/default.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs",
+    "provides": [
+      "discord=>discord-development"
+    ],
+    "repology": [
+      "discord"
+    ],
+    "src_url": [
+      "https://discordapp.com"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "pkg": "discord",
+    "pkg_family": "discord",
+    "pkg_id": "nixpkgs.discord-ptb",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/discord-ptb/discord/discord",
+    "app_id": "com.discordapp.Discord",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/nixappimage.nixpkgs.ptb.yaml",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "All-in-one cross-platform voice and text chat for gamers (Public Test Beta)",
+    "distro_pkg": {
+      "archlinux": {
+        "extra": [
+          "discord"
+        ]
+      },
+      "homebrew": [
+        "discord"
+      ],
+      "nixpkgs": [
+        "discord-ptb"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/discord/nixappimage.nixpkgs.ptb.yaml",
+    "homepage": [
+      "https://discordapp.com"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/discord/assets/default.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs",
+    "provides": [
+      "discord=>discord-ptb"
+    ],
+    "repology": [
+      "discord"
+    ],
+    "src_url": [
+      "https://discordapp.com"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "pkg": "discord",
+    "pkg_family": "discord",
+    "pkg_id": "nixpkgs.discord",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-discord/discord/discord",
+    "app_id": "com.discordapp.Discord",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "All-in-one cross-platform voice and text chat for gamers",
+    "distro_pkg": {
+      "archlinux": {
+        "extra": [
+          "discord"
+        ]
+      },
+      "homebrew": [
+        "discord"
+      ],
+      "nixpkgs": [
+        "discord"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/discord/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://discordapp.com"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/discord/assets/default.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs",
+    "provides": [
+      "discord"
+    ],
+    "repology": [
+      "discord"
+    ],
+    "src_url": [
+      "https://discordapp.com"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "pkg": "discord",
+    "pkg_family": "discord",
+    "pkg_id": "github.com.srevinsaju.discord-AppImage.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/discord/discord",
+    "app_id": "com.discordapp.Discord",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.stable.yaml",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "All-in-one cross-platform voice and text chat for gamers",
+    "distro_pkg": {
+      "archlinux": {
+        "extra": [
+          "discord"
+        ]
+      },
+      "homebrew": [
+        "discord"
+      ],
+      "nixpkgs": [
+        "discord"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/discord/appimage.srevinsaju.stable.yaml",
+    "homepage": [
+      "https://discordapp.com",
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/discord/assets/default.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/srevinsaju/discord-appimage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/discord/appimage/srevinsaju",
+    "provides": [
+      "discord"
+    ],
+    "repology": [
+      "discord"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ],
+    "version": "0.0.80"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "discord-canary",
+    "pkg_family": "discord",
+    "pkg_id": "github.com.srevinsaju.discord-AppImage.canary",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-canary/discord/discord-canary",
+    "app_id": "com.discordapp.Discord",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.canary.yaml",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "All-in-one cross-platform voice and text chat for gamers (Canary)",
+    "distro_pkg": {
+      "archlinux": {
+        "extra": [
+          "discord"
+        ]
+      },
+      "homebrew": [
+        "discord@canary"
+      ],
+      "nixpkgs": [
+        "discord-canary"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/discord/appimage.srevinsaju.canary.yaml",
+    "homepage": [
+      "https://discordapp.com",
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/discord/assets/default.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/srevinsaju/discord-appimage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju",
+    "provides": [
+      "discord=>discord-canary"
+    ],
+    "repology": [
+      "discord"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ],
+    "version": "0.0.560"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "discord-ptb",
+    "pkg_family": "discord",
+    "pkg_id": "github.com.srevinsaju.discord-AppImage.ptb",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-ptb/discord/discord-ptb",
+    "app_id": "com.discordapp.Discord",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.ptb.yaml",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "All-in-one cross-platform voice and text chat for gamers (Public Test Beta)",
+    "distro_pkg": {
+      "archlinux": {
+        "extra": [
+          "discord"
+        ]
+      },
+      "homebrew": [
+        "discord"
+      ],
+      "nixpkgs": [
+        "discord-ptb"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/discord/appimage.srevinsaju.ptb.yaml",
+    "homepage": [
+      "https://discordapp.com",
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/discord/assets/default.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/srevinsaju/discord-appimage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju",
+    "provides": [
+      "discord=>discord-ptb"
+    ],
+    "repology": [
+      "discord"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ],
+    "version": "0.0.125"
   },
   {
     "_disabled": "false",
@@ -9639,6 +10990,128 @@
   },
   {
     "_disabled": "false",
+    "pkg": "e2fsprogs",
+    "pkg_family": "e2fsprogs",
+    "pkg_id": "nixpkgs.e2fsprogs",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-e2fsprogs/e2fsprogs/e2fsprogs",
+    "bincache": "ghcr.io/pkgforge/bincache/e2fsprogs/nixpkgs/badblocks",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/e2fsprogs/static.nixpkgs.stable.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": {
+      "_default": "Tools for creating and checking ext2/ext3/ext4 filesystems",
+      "badblocks": "Search a device for bad blocks [e2fsprogs]",
+      "chattr": "Change file attributes on a Linux file system [e2fsprogs]",
+      "compile_et": "Error table compiler [e2fsprogs]",
+      "debugfs": "ext2/ext3/ext4 file system debugger [e2fsprogs]",
+      "dumpe2fs": "Dump ext2/ext3/ext4 file system information [e2fsprogs]",
+      "e2freefrag": "Report free space fragmentation information [e2fsprogs]",
+      "e2fsck": "Check a Linux ext2/ext3/ext4 file system [e2fsprogs]",
+      "e2image": "Save critical ext2/ext3/ext4 file system metadata to a file [e2fsprogs]",
+      "e2label": "Change the label on an ext2/ext3/ext4 file system [e2fsprogs]",
+      "e2mmpstatus": "Check MMP status of an ext4 file system [e2fsprogs]",
+      "e2scrub": "Check the contents of a mounted ext[234] file system [e2fsprogs]",
+      "e2scrub_all": "Check all mounted ext(2,3,4) file systems for errors [e2fsprogs]",
+      "e2undo": "Replay an undo log for an ext2/ext3/ext4 file system [e2fsprogs]",
+      "e4crypt": "ext4 file system encryption utility [e2fsprogs]",
+      "e4defrag": "Defragmenter for ext4 file system [e2fsprogs]",
+      "filefrag": "Report on file fragmentation [e2fsprogs]",
+      "fsck.ext2": "Check a Linux ext2 file system [e2fsprogs]",
+      "fsck.ext3": "Check a Linux ext3 file system [e2fsprogs]",
+      "fsck.ext4": "Check a Linux ext4 file system [e2fsprogs]",
+      "logsave": "Save the output of a command in a logfile [e2fsprogs]",
+      "lsattr": "List ext2/ext3/ext4 file attributes [e2fsprogs]",
+      "mk_cmds": "Convert a table of command names and help messages into a C source file [e2fsprogs]",
+      "mke2fs": "Create an ext2/ext3/ext4 file system [e2fsprogs]",
+      "mkfs.ext2": "Create an ext2 file system [e2fsprogs]",
+      "mkfs.ext3": "Create an ext3 file system [e2fsprogs]",
+      "mkfs.ext4": "Create an ext4 file system [e2fsprogs]",
+      "mklost+found": "Create a lost+found directory on a mounted ext2/ext3/ext4 file system [e2fsprogs]",
+      "resize2fs": "ext2/ext3/ext4 file system resizer [e2fsprogs]",
+      "tune2fs": "Adjust tunable file system parameters on ext2/ext3/ext4 file systems [e2fsprogs]"
+    },
+    "distro_pkg": {
+      "alpine": [
+        "e2fsprogs"
+      ],
+      "archlinux": {
+        "aur": [
+          "e2fsprogs-git"
+        ]
+      },
+      "debian": [
+        "e2fsprogs"
+      ],
+      "nixpkgs": [
+        "e2fsprogs"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/e2fsprogs/static.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://e2fsprogs.sourceforge.net",
+      "https://github.com/tytso/e2fsprogs",
+      "https://sourceforge.net/projects/e2fsprogs",
+      "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nix. Check/Report @ https://github.com/NixOS/nixpkgs"
+    ],
+    "provides": [
+      "badblocks",
+      "chattr",
+      "compile_et",
+      "debugfs",
+      "dumpe2fs",
+      "e2freefrag",
+      "e2fsck",
+      "e2image",
+      "e2label",
+      "e2mmpstatus",
+      "e2scrub",
+      "e2scrub_all",
+      "e2undo",
+      "e4crypt",
+      "e4defrag",
+      "filefrag",
+      "fsck.ext2",
+      "fsck.ext3",
+      "fsck.ext4",
+      "logsave",
+      "lsattr",
+      "mk_cmds",
+      "mke2fs",
+      "mkfs.ext2",
+      "mkfs.ext3",
+      "mkfs.ext4",
+      "mklost+found",
+      "resize2fs",
+      "tune2fs"
+    ],
+    "repology": [
+      "e2fsprogs"
+    ],
+    "src_url": [
+      "https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git"
+    ],
+    "tag": [
+      "e2fs",
+      "ext2"
+    ],
+    "version": "1.47.1"
+  },
+  {
+    "_disabled": "false",
     "pkg": "ecoji",
     "pkg_family": "ecoji",
     "pkg_id": "github.com.keith-turner.ecoji",
@@ -10113,7 +11586,7 @@
       "time",
       "timestamp"
     ],
-    "version": "HEAD-85f6199-241004T100314"
+    "version": "HEAD-c5eb446-250117T194050"
   },
   {
     "_disabled": "false",
@@ -10224,7 +11697,7 @@
       "torrent",
       "transmission"
     ],
-    "version": "HEAD-3dd5d0d-241230T230020"
+    "version": "HEAD-7ebf2b3-250114T133305"
   },
   {
     "_disabled": "false",
@@ -10473,7 +11946,7 @@
     "tag": [
       "ls"
     ],
-    "version": "HEAD-3f72de8-250109T052420"
+    "version": "HEAD-2353c15-250116T081034"
   },
   {
     "_disabled": "false",
@@ -11023,6 +12496,477 @@
   },
   {
     "_disabled": "false",
+    "pkg": "firefox",
+    "pkg_family": "firefox",
+    "pkg_id": "github.com.srevinsaju.Firefox-Appimage.beta",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-beta/firefox/firefox",
+    "app_id": "org.mozilla.firefox",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.beta.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "A web browser built from Firefox source tree (Beta)",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "firefox-beta-bin"
+        ]
+      },
+      "homebrew": [
+        "firefox@beta"
+      ],
+      "nixpkgs": [
+        "firefox-beta",
+        "firefox-beta-bin"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/firefox/appimage.srevinsaju.beta.yaml",
+    "homepage": [
+      "http://www.mozilla.com",
+      "https://hg.mozilla.org/mozilla-central",
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/firefox/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju",
+    "provides": [
+      "firefox=>firefox-beta"
+    ],
+    "repology": [
+      "firefox"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ],
+    "version": "135.0.20250117102618"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "firefox",
+    "pkg_family": "firefox",
+    "pkg_id": "github.com.srevinsaju.Firefox-Appimage.dev",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-dev/firefox/firefox",
+    "app_id": "org.mozilla.firefox",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.dev.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "A web browser built from Firefox source tree (DEV)",
+    "distro_pkg": {
+      "alpine": [
+        "firefox-developer-edition"
+      ],
+      "archlinux": {
+        "extra": [
+          "firefox-developer-edition"
+        ]
+      },
+      "homebrew": [
+        "firefox@developer-edition"
+      ],
+      "nixpkgs": [
+        "firefox-devedition",
+        "firefox-devedition-bin"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/firefox/appimage.srevinsaju.dev.yaml",
+    "homepage": [
+      "http://www.mozilla.com",
+      "https://hg.mozilla.org/mozilla-central",
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/firefox/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju",
+    "provides": [
+      "firefox=>firefox-dev"
+    ],
+    "repology": [
+      "firefox"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ],
+    "version": "135.0.20250117102618"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "firefox",
+    "pkg_family": "firefox",
+    "pkg_id": "github.com.srevinsaju.Firefox-Appimage.esr",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-esr/firefox/firefox",
+    "app_id": "org.mozilla.firefox",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.esr.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "A web browser built from Firefox source tree (ESR)",
+    "distro_pkg": {
+      "alpine": [
+        "firefox-esr"
+      ],
+      "archlinux": {
+        "aur": [
+          "firefox-esr",
+          "firefox-esr-bin"
+        ]
+      },
+      "debian": [
+        "firefox-esr"
+      ],
+      "homebrew": [
+        "firefox@esr"
+      ],
+      "nixpkgs": [
+        "firefox-esr"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/firefox/appimage.srevinsaju.esr.yaml",
+    "homepage": [
+      "http://www.mozilla.com",
+      "https://hg.mozilla.org/mozilla-central",
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/firefox/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju",
+    "provides": [
+      "firefox=>firefox-esr"
+    ],
+    "repology": [
+      "firefox"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ],
+    "version": "128.6.20241218153108"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "firefox",
+    "pkg_family": "firefox",
+    "pkg_id": "github.com.srevinsaju.Firefox-Appimage.nightly",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-nightly/firefox/firefox",
+    "app_id": "org.mozilla.firefox",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.nightly.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "A web browser built from Firefox source tree (Nightly)",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "firefox-nightly",
+          "firefox-nightly-bin"
+        ]
+      },
+      "homebrew": [
+        "firefox@nightly"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/firefox/appimage.srevinsaju.nightly.yaml",
+    "homepage": [
+      "http://www.mozilla.com",
+      "https://hg.mozilla.org/mozilla-central",
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/firefox/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju",
+    "provides": [
+      "firefox=>firefox-nightly"
+    ],
+    "repology": [
+      "firefox"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ],
+    "version": "136.0.20250118091314"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "firefox",
+    "pkg_family": "firefox",
+    "pkg_id": "github.com.srevinsaju.Firefox-Appimage.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/firefox/firefox",
+    "app_id": "org.mozilla.firefox",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.stable.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "A web browser built from Firefox source tree",
+    "distro_pkg": {
+      "alpine": [
+        "firefox"
+      ],
+      "archlinux": {
+        "aur": [
+          "firefox-hg"
+        ],
+        "extra": [
+          "firefox"
+        ]
+      },
+      "debian": [
+        "firefox"
+      ],
+      "homebrew": [
+        "firefox"
+      ],
+      "nixpkgs": [
+        "firefox"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/firefox/appimage.srevinsaju.stable.yaml",
+    "homepage": [
+      "http://www.mozilla.com",
+      "https://hg.mozilla.org/mozilla-central",
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/firefox/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju",
+    "provides": [
+      "firefox"
+    ],
+    "repology": [
+      "firefox"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/Firefox-Appimage"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ],
+    "version": "134.0.20250113121357"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "flameshot",
+    "pkg_family": "flameshot",
+    "pkg_id": "github.com.flameshot-org.flameshot",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/org-flameshot/flameshot/flameshot",
+    "app_id": "org.flameshot.Flameshot",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/appimage.official.stable.yaml",
+    "category": [
+      "Utility"
+    ],
+    "description": "Powerful yet simple to use screenshot software",
+    "distro_pkg": {
+      "alpine": [
+        "flameshot"
+      ],
+      "archlinux": {
+        "aur": [
+          "flameshot"
+        ]
+      },
+      "homebrew": [
+        "flameshot"
+      ],
+      "nixpkgs": [
+        "flameshot"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/flameshot/appimage.official.stable.yaml",
+    "homepage": [
+      "https://flameshot.org/",
+      "https://github.com/flameshot-org/flameshot"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/flameshot/assets/default.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "harilvfs (https://github.com/harilvfs)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/flameshot-org/flameshot"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/flameshot/appimage/official",
+    "provides": [
+      "flameshot"
+    ],
+    "repology": [
+      "flameshot"
+    ],
+    "src_url": [
+      "https://github.com/flameshot-org/flameshot"
+    ],
+    "tag": [
+      "screenshot",
+      "capture",
+      "image-editing",
+      "gui",
+      "gnu-linux"
+    ],
+    "version": "v12.1.0"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "flameshot",
+    "pkg_family": "flameshot",
+    "pkg_id": "nixpkgs.flameshot",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-flameshot/flameshot/flameshot",
+    "app_id": "org.flameshot.Flameshot",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/nixappimage.nixpkgs.unstable.yaml",
+    "category": [
+      "Utility"
+    ],
+    "description": "Powerful and simple to use screenshot software",
+    "distro_pkg": {
+      "alpine": [
+        "flameshot"
+      ],
+      "archlinux": {
+        "aur": [
+          "flameshot-git"
+        ],
+        "extra": [
+          "flameshot"
+        ]
+      },
+      "debian": [
+        "flameshot"
+      ],
+      "gnuguix": [
+        "flameshot"
+      ],
+      "homebrew": [
+        "flameshot"
+      ],
+      "nixpkgs": [
+        "flameshot"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/flameshot/nixappimage.nixpkgs.unstable.yaml",
+    "homepage": [
+      "https://flameshot.org",
+      "https://github.com/flameshot-org/flameshot"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/flameshot/assets/default.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs",
+    "provides": [
+      "flameshot"
+    ],
+    "repology": [
+      "flameshot"
+    ],
+    "src_url": [
+      "https://github.com/flameshot/flameshot"
+    ],
+    "tag": [
+      "screenshot"
+    ],
+    "version": "12.1.0-unstable-2024-12-03"
+  },
+  {
+    "_disabled": "false",
     "pkg": "flawz",
     "pkg_family": "flawz",
     "pkg_id": "github.com.orhun.flawz",
@@ -11555,6 +13499,67 @@
   },
   {
     "_disabled": "false",
+    "pkg": "gearlever",
+    "pkg_family": "gearlever",
+    "pkg_id": "nixpkgs.gearlever",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-gearlever/gearlever/gearlever",
+    "app_id": "it.mijorus.gearlever",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/gearlever/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "Utility"
+    ],
+    "description": "Manage AppImages with ease",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "gearlever"
+        ]
+      },
+      "nixpkgs": [
+        "gearlever"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/gearlever/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://gearlever.mijorus.it",
+      "https://mijorus.it/projects/gearlever"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/gearlever/assets/default.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs",
+    "provides": [
+      "gearlever"
+    ],
+    "repology": [
+      "gearlever"
+    ],
+    "src_url": [
+      "https://github.com/mijorus/gearlever"
+    ],
+    "tag": [
+      "package-manager"
+    ],
+    "version": "2.3.2"
+  },
+  {
+    "_disabled": "false",
     "pkg": "geonet",
     "pkg_family": "geonet",
     "pkg_id": "gitlab.com.shodan-public.geonet-rs",
@@ -11702,13 +13707,22 @@
     "version": "0.22.5"
   },
   {
-    "_disabled": "false",
+    "_disabled": "true",
+    "_disabled_reason": {
+      "broken": [
+        {
+          "date": "2025-01-14",
+          "reason": "Fails to create EGL Display"
+        }
+      ]
+    },
     "pkg": "ghostty",
     "pkg_family": "ghostty",
-    "pkg_id": "github.com.psadi.ghostty-appimage",
-    "pkg_type": "appimage",
-    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/ghostty-appimage/ghostty/ghostty",
-    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml",
+    "pkg_id": "nixpkgs.ghostty",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-ghostty/ghostty/ghostty",
+    "app_id": "com.mitchellh.ghostty",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/nixappimage.nixpkgs.stable.yaml",
     "category": [
       "TerminalEmulator"
     ],
@@ -11729,12 +13743,13 @@
         "ghostty"
       ]
     },
-    "download_url": "https://soarpkgs.pkgforge.dev/packages/ghostty/appimage.psadi.stable.yaml",
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/ghostty/nixappimage.nixpkgs.stable.yaml",
     "homepage": [
       "https://ghostty.org",
       "https://github.com/ghostty-org/ghostty"
     ],
     "host": [
+      "aarch64-linux",
       "x86_64-linux"
     ],
     "license": [
@@ -11744,8 +13759,13 @@
       "Azathothas (https://github.com/Azathothas)"
     ],
     "note": [
-      "Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage"
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs",
     "provides": [
       "ghostty"
     ],
@@ -11758,7 +13778,70 @@
     "tag": [
       "terminal"
     ],
-    "version": "v1.0.1+2"
+    "version": "1.0.1"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "ghostty",
+    "pkg_family": "ghostty",
+    "pkg_id": "github.com.psadi.ghostty-appimage",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/ghostty-appimage/ghostty/ghostty",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.source.yaml",
+    "category": [
+      "TerminalEmulator"
+    ],
+    "description": "Fast, native, feature-rich terminal emulator pushing modern features",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "ghostty-git"
+        ],
+        "extra": [
+          "ghostty"
+        ]
+      },
+      "homebrew": [
+        "ghostty"
+      ],
+      "nixpkgs": [
+        "ghostty"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/ghostty/appimage.psadi.source.yaml",
+    "homepage": [
+      "https://ghostty.org",
+      "https://github.com/ghostty-org/ghostty"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "psadi (https://github.com/psadi)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source using a Community Provided Script. Check/Report @ https://github.com/psadi/ghostty-appimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi",
+    "provides": [
+      "ghostty"
+    ],
+    "repology": [
+      "ghostty"
+    ],
+    "src_url": [
+      "https://github.com/psadi/ghostty-appimage"
+    ],
+    "tag": [
+      "terminal"
+    ],
+    "version": "1.0.1"
   },
   {
     "_disabled": "false",
@@ -11854,7 +13937,7 @@
       "ipv4",
       "ipv6"
     ],
-    "version": "HEAD-09811e2-250110T203821"
+    "version": "HEAD-bac27cf-250114T104643"
   },
   {
     "_disabled": "false",
@@ -12219,7 +14302,7 @@
       "vcs",
       "version-control"
     ],
-    "version": "HEAD-851a7c4-250112T092004"
+    "version": "HEAD-1e37e95-250118T143643"
   },
   {
     "_disabled": "false",
@@ -12280,7 +14363,7 @@
       "git",
       "tui"
     ],
-    "version": "HEAD-e6a272b-250111T112313"
+    "version": "HEAD-8ea28a4-250116T093039"
   },
   {
     "_disabled": "false",
@@ -12397,7 +14480,7 @@
     "tag": [
       "git"
     ],
-    "version": "HEAD-45f90de-250107T181043"
+    "version": "HEAD-189e7e4-250115T201431"
   },
   {
     "_disabled": "false",
@@ -12542,7 +14625,7 @@
       "encryption",
       "filesystem"
     ],
-    "version": "HEAD-1464f9d-241230T114708"
+    "version": "HEAD-84c0580-250118T144712"
   },
   {
     "_disabled": "false",
@@ -12890,7 +14973,7 @@
     "tag": [
       "gpg"
     ],
-    "version": "HEAD-5c5bb9a-250110T113458"
+    "version": "HEAD-5deed80-250114T115111"
   },
   {
     "_disabled": "false",
@@ -13106,7 +15189,7 @@
       "curl",
       "grpc"
     ],
-    "version": "HEAD-b9a11e9-241128T111336"
+    "version": "HEAD-7e1a6c9-250113T103318"
   },
   {
     "_disabled": "false",
@@ -13168,7 +15251,7 @@
       "shell",
       "tui"
     ],
-    "version": "HEAD-da325ae-250107T112820"
+    "version": "HEAD-3dcc8b3-250115T050610"
   },
   {
     "_disabled": "false",
@@ -13514,7 +15597,7 @@
     "tag": [
       "Utility"
     ],
-    "version": "HEAD-867115d-241220T003908"
+    "version": "HEAD-f85eb0e-250117T192927"
   },
   {
     "_disabled": "false",
@@ -13873,7 +15956,7 @@
     "tag": [
       "Utility"
     ],
-    "version": "HEAD-634f2b2-241112T103550"
+    "version": "HEAD-81e9cbb-250114T163653"
   },
   {
     "_disabled": "false",
@@ -13924,6 +16007,80 @@
       "recon"
     ],
     "version": "HEAD-13c0314-240516T110236"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "helix",
+    "pkg_family": "helix",
+    "pkg_id": "nixpkgs.helix",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-helix/helix/helix",
+    "app_id": "com.helix_editor.Helix",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/helix/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "TextEditor"
+    ],
+    "description": "Fast modal terminal-based text editor",
+    "distro_pkg": {
+      "alpine": [
+        "helix"
+      ],
+      "archlinux": {
+        "aur": [
+          "helix-git"
+        ],
+        "extra": [
+          "helix"
+        ]
+      },
+      "gnuguix": [
+        "helix"
+      ],
+      "homebrew": [
+        "helix"
+      ],
+      "nixpkgs": [
+        "helix"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/helix/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://helix-editor.com",
+      "https://github.com/helix-editor/helix"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/helix/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs",
+    "provides": [
+      "helix==hx"
+    ],
+    "repology": [
+      "helix-editor"
+    ],
+    "src_url": [
+      "https://github.com/helix-editor/helix"
+    ],
+    "tag": [
+      "code",
+      "editor"
+    ],
+    "version": "25.01"
   },
   {
     "_disabled": "false",
@@ -14844,7 +17001,7 @@
       "sys-process",
       "System/Monitoring"
     ],
-    "version": "1.26"
+    "version": "1.27"
   },
   {
     "_disabled": "false",
@@ -15443,7 +17600,7 @@
       "json",
       "random"
     ],
-    "version": "HEAD-af2bd2b-241121T120432"
+    "version": "HEAD-f78ccf0-250114T164348"
   },
   {
     "_disabled": "false",
@@ -15510,7 +17667,7 @@
       "git",
       "vcs"
     ],
-    "version": "HEAD-fe86bee-250112T100158"
+    "version": "HEAD-027589d-250118T074943"
   },
   {
     "_disabled": "false",
@@ -15963,6 +18120,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ic005k/Knot"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/knot/appimage/official",
     "provides": [
       "knot"
     ],
@@ -16031,7 +18189,7 @@
     "tag": [
       "cleaner"
     ],
-    "version": "HEAD-e90808a-241226T053837"
+    "version": "HEAD-6d57877-250113T152303"
   },
   {
     "_disabled": "false",
@@ -16085,6 +18243,299 @@
       "subdomain"
     ],
     "version": "HEAD-08aed3c-240831T235756"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "kubo",
+    "pkg_family": "kubo",
+    "pkg_id": "github.com.ipfs.kubo",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/ipfs-kubo/kubo/kubo",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/kubo/static.official.source.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": {
+      "ipfswatch": "Tool to Monitor a directory and adds changes to IPFS",
+      "kubo": "Official Inter Platnetary File System (IPFS) CLI"
+    },
+    "distro_pkg": {
+      "alpine": [
+        "go-ipfs",
+        "kubo"
+      ],
+      "archlinux": {
+        "aur": [
+          "kubo-git"
+        ],
+        "extra": [
+          "kubo"
+        ]
+      },
+      "nixpkgs": [
+        "ipfs",
+        "kubo"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/kubo/static.official.source.yaml",
+    "homepage": [
+      "https://ipfs.io",
+      "https://docs.ipfs.tech"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "BSD"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/ipfs/kubo"
+    ],
+    "provides": [
+      "ipfswatch",
+      "kubo"
+    ],
+    "repology": [
+      "kubo"
+    ],
+    "src_url": [
+      "https://github.com/ipfs/kubo"
+    ],
+    "tag": [
+      "ipfs"
+    ],
+    "version": "HEAD-f41b190-250115T160445"
+  },
+  {
+    "_disabled": "true",
+    "_disabled_reason": {
+      "broken": [
+        {
+          "date": "2025-01-17",
+          "reason": "Exec Format Error"
+        }
+      ]
+    },
+    "pkg": "lazarus",
+    "pkg_family": "lazarus",
+    "pkg_id": "nixpkgs.lazarus",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-lazarus/lazarus/lazarus",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/lazarus/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "IDE"
+    ],
+    "description": "Portable Delphi-like IDE for the FreePascal compiler",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "lazarus-git"
+        ],
+        "extra": [
+          "lazarus"
+        ]
+      },
+      "debian": [
+        "lazarus"
+      ],
+      "gnuguix": [
+        "lazarus"
+      ],
+      "homebrew": [
+        "lazarus"
+      ],
+      "nixpkgs": [
+        "lazarus"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/lazarus/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://www.lazarus-ide.org",
+      "https://gitlab.com/freepascal.org/lazarus/lazarus"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/lazarus/assets/default.png",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "provides": [
+      "lazarus=>lazarus-ide",
+      "lazarus=>lazbuild",
+      "lazarus=>lazres",
+      "lazarus=>lrstolfm",
+      "lazarus=>startlazarus"
+    ],
+    "repology": [
+      "lazarus"
+    ],
+    "src_url": [
+      "https://gitlab.com/freepascal.org/lazarus/lazarus"
+    ],
+    "tag": [
+      "code",
+      "editor"
+    ],
+    "version": "3.6-0"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "lazarus",
+    "pkg_family": "lazarus",
+    "pkg_id": "runimage.cachyos.lazarus",
+    "pkg_type": "runimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-lazarus/lazarus/lazarus",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/lazarus/runimage.cachyos.stable.yaml",
+    "category": [
+      "IDE"
+    ],
+    "description": "Portable Delphi-like IDE for the FreePascal compiler",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "lazarus-git"
+        ],
+        "extra": [
+          "lazarus"
+        ]
+      },
+      "debian": [
+        "lazarus"
+      ],
+      "gnuguix": [
+        "lazarus"
+      ],
+      "homebrew": [
+        "lazarus"
+      ],
+      "nixpkgs": [
+        "lazarus"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/lazarus/runimage.cachyos.stable.yaml",
+    "homepage": [
+      "https://www.lazarus-ide.org",
+      "https://gitlab.com/freepascal.org/lazarus/lazarus"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/lazarus/assets/default.png",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "provides": [
+      "lazarus"
+    ],
+    "repology": [
+      "lazarus"
+    ],
+    "src_url": [
+      "https://gitlab.com/freepascal.org/lazarus/lazarus"
+    ],
+    "tag": [
+      "code",
+      "editor"
+    ],
+    "version": "3.6"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "lazarus",
+    "pkg_family": "lazarus",
+    "pkg_id": "runimage.debian.lazarus",
+    "pkg_type": "runimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-lazarus/lazarus/lazarus",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/lazarus/runimage.debian.stable.yaml",
+    "category": [
+      "IDE"
+    ],
+    "description": "Portable Delphi-like IDE for the FreePascal compiler",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "lazarus-git"
+        ],
+        "extra": [
+          "lazarus"
+        ]
+      },
+      "debian": [
+        "lazarus"
+      ],
+      "gnuguix": [
+        "lazarus"
+      ],
+      "homebrew": [
+        "lazarus"
+      ],
+      "nixpkgs": [
+        "lazarus"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/lazarus/runimage.debian.stable.yaml",
+    "homepage": [
+      "https://www.lazarus-ide.org",
+      "https://gitlab.com/freepascal.org/lazarus/lazarus"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/lazarus/assets/default.png",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "provides": [
+      "lazarus"
+    ],
+    "repology": [
+      "lazarus"
+    ],
+    "src_url": [
+      "https://gitlab.com/freepascal.org/lazarus/lazarus"
+    ],
+    "tag": [
+      "code",
+      "editor"
+    ],
+    "version": "3.6"
   },
   {
     "_disabled": "false",
@@ -16741,7 +19192,7 @@
       "cidr",
       "subnet"
     ],
-    "version": "HEAD-3976a49-250105T235554"
+    "version": "HEAD-b9a2178-250112T235600"
   },
   {
     "_disabled": "false",
@@ -16916,7 +19367,7 @@
       "s3",
       "storage"
     ],
-    "version": "HEAD-b1a3941-250102T051134"
+    "version": "HEAD-cc8758c-250117T152550"
   },
   {
     "_disabled": "false",
@@ -17076,7 +19527,7 @@
       "email",
       "mail"
     ],
-    "version": "HEAD-1fa33cc-250102T092740"
+    "version": "HEAD-9417f3d-250115T014121"
   },
   {
     "_disabled": "false",
@@ -17145,7 +19596,7 @@
       "Productivity/Networking/Security",
       "Security"
     ],
-    "version": "HEAD-28612a4-241231T145815"
+    "version": "HEAD-c684406-250118T144657"
   },
   {
     "_disabled": "false",
@@ -17245,6 +19696,49 @@
   },
   {
     "_disabled": "false",
+    "pkg": "moac",
+    "pkg_family": "moac",
+    "pkg_id": "github.com.Seirdy.moac",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/seirdy-moac/moac/moac",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/moac/static.official.source.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Generate passwords and analyze their strength given physical limits to computation",
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/moac/static.official.source.yaml",
+    "homepage": [
+      "https://sr.ht/~seirdy/MOAC/",
+      "https://github.com/Seirdy/moac"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/Seirdy/moac"
+    ],
+    "provides": [
+      "moac",
+      "moac-pwgen"
+    ],
+    "src_url": [
+      "https://github.com/Seirdy/moac"
+    ],
+    "tag": [
+      "entropy",
+      "password",
+      "security"
+    ],
+    "version": "HEAD-97035da-211117T205806"
+  },
+  {
+    "_disabled": "false",
     "pkg": "monolith",
     "pkg_family": "monolith",
     "pkg_id": "github.com.Y2Z.monolith",
@@ -17302,6 +19796,87 @@
       "archiving"
     ],
     "version": "HEAD-4a5f85b-241202T113444"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "mpv",
+    "pkg_family": "mpv",
+    "pkg_id": "github.com.pkgforge-dev.mpv-AppImage.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/mpv/mpv",
+    "app_id": "io.mpv.Mpv",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/mpv/appimage.pkgforge-dev.stable.yaml",
+    "category": [
+      "Music",
+      "Player",
+      "TV"
+    ],
+    "description": "General Purpose Command line video player",
+    "distro_pkg": {
+      "alpine": [
+        "mpv"
+      ],
+      "archlinux": {
+        "aur": [
+          "mpv-full",
+          "mpv-full-git",
+          "mpv-git"
+        ],
+        "extra": [
+          "mpv"
+        ]
+      },
+      "debian": [
+        "mpv"
+      ],
+      "gnuguix": [
+        "mpv"
+      ],
+      "homebrew": [
+        "mpv"
+      ],
+      "nixpkgs": [
+        "mpv"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/mpv/appimage.pkgforge-dev.stable.yaml",
+    "homepage": [
+      "https://mpv.io",
+      "https://github.com/mpv-player/mpv",
+      "https://github.com/pkgforge-dev/mpv-AppImage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/mpv/assets/default.png",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/mpv-AppImage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev",
+    "provides": [
+      "mpv"
+    ],
+    "repology": [
+      "mpv"
+    ],
+    "src_url": [
+      "https://github.com/pkgforge-dev/mpv-AppImage"
+    ],
+    "tag": [
+      "Graphical",
+      "media-video",
+      "Productivity/Multimedia/Video/Players",
+      "Video",
+      "Video/Utilities"
+    ],
+    "version": "v0.39.0-615-gca211b5b88"
   },
   {
     "_disabled": "false",
@@ -17733,7 +20308,7 @@
       "ip",
       "proxy"
     ],
-    "version": "HEAD-7da985a-250112T100208"
+    "version": "HEAD-6bb8ead-250116T150910"
   },
   {
     "_disabled": "false",
@@ -17793,7 +20368,7 @@
       "nmap",
       "security"
     ],
-    "version": "HEAD-bd7c0c0-250106T134557"
+    "version": "HEAD-7da347c-250113T134714"
   },
   {
     "_disabled": "false",
@@ -17889,7 +20464,7 @@
       "cheatsheet",
       "tldr"
     ],
-    "version": "HEAD-089be80-241120T182906"
+    "version": "HEAD-586ad7f-250118T085849"
   },
   {
     "_disabled": "false",
@@ -17944,6 +20519,156 @@
       "gopher"
     ],
     "version": "HEAD-bf6c4f4-241123T153320"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "neovim",
+    "pkg_family": "neovim",
+    "pkg_id": "github.com.neovim.neovim.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/neovim-stable/neovim/neovim",
+    "app_id": "io.neovim.nvim",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/appimage.official.stable.yaml",
+    "category": [
+      "TextEditor"
+    ],
+    "description": "Vim text editor fork focused on extensibility and agility",
+    "distro_pkg": {
+      "alpine": [
+        "neovim"
+      ],
+      "archlinux": {
+        "aur": [
+          "neovim-git"
+        ],
+        "extra": [
+          "neovim"
+        ]
+      },
+      "debian": [
+        "neovim"
+      ],
+      "gnuguix": [
+        "neovim"
+      ],
+      "homebrew": [
+        "neovim"
+      ],
+      "nixpkgs": [
+        "neovim",
+        "neovim-unwrapped"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/neovim/appimage.official.stable.yaml",
+    "homepage": [
+      "https://neovim.io",
+      "https://neovim.org"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/neovim/neovim"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/neovim/appimage/official",
+    "provides": [
+      "neovim=>nvim"
+    ],
+    "repology": [
+      "neovim"
+    ],
+    "src_url": [
+      "https://github.com/neovim/neovim"
+    ],
+    "tag": [
+      "arc",
+      "firefox",
+      "www-client"
+    ],
+    "version": "v0.10.3"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "neovim",
+    "pkg_family": "neovim",
+    "pkg_id": "nixpkgs.neovim",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-neovim/neovim/neovim",
+    "app_id": "io.neovim.nvim",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "TextEditor"
+    ],
+    "description": "Vim text editor fork focused on extensibility and agility",
+    "distro_pkg": {
+      "alpine": [
+        "neovim"
+      ],
+      "archlinux": {
+        "aur": [
+          "neovim-git"
+        ],
+        "extra": [
+          "neovim"
+        ]
+      },
+      "debian": [
+        "neovim"
+      ],
+      "gnuguix": [
+        "neovim"
+      ],
+      "homebrew": [
+        "neovim"
+      ],
+      "nixpkgs": [
+        "neovim",
+        "neovim-unwrapped"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/neovim/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://neovim.io",
+      "https://neovim.org"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs",
+    "provides": [
+      "neovim=>nvim"
+    ],
+    "repology": [
+      "neovim"
+    ],
+    "src_url": [
+      "https://github.com/neovim/neovim"
+    ],
+    "tag": [
+      "code",
+      "editor"
+    ],
+    "version": "0.10.3"
   },
   {
     "_disabled": "false",
@@ -18198,7 +20923,7 @@
       "security",
       "wireguard"
     ],
-    "version": "HEAD-81f8f3e-250110T165600"
+    "version": "HEAD-77d5705-250116T210921"
   },
   {
     "_disabled": "false",
@@ -18668,7 +21393,7 @@
       "secret-detection",
       "security"
     ],
-    "version": "HEAD-e80b7c0-250106T120007"
+    "version": "HEAD-0092c80-250117T125303"
   },
   {
     "_disabled": "false",
@@ -18812,7 +21537,86 @@
     "tag": [
       "shell"
     ],
-    "version": "HEAD-23dc1b6-250111T221519"
+    "version": "HEAD-3f5ebd7-250117T095735"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "obs-studio",
+    "pkg_family": "obs-studio",
+    "pkg_id": "github.com.pkgforge-dev.OBS-Studio-AppImage.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/obs-studio/obs-studio",
+    "app_id": "com.obsproject.Studio",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/obs-studio/appimage.pkgforge-dev.stable.yaml",
+    "category": [
+      "AudioVideoEditing",
+      "Recorder"
+    ],
+    "description": "FOSS cross-platform screencasting and streaming app",
+    "distro_pkg": {
+      "alpine": [
+        "obs-studio"
+      ],
+      "archlinux": {
+        "aur": [
+          "obs-studio-git"
+        ],
+        "extra": [
+          "obs-studio"
+        ]
+      },
+      "debian": [
+        "obs-studio"
+      ],
+      "gnuguix": [
+        "obs"
+      ],
+      "homebrew": [
+        "obs",
+        "obs@beta"
+      ],
+      "nixpkgs": [
+        "obs-studio"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/obs-studio/appimage.pkgforge-dev.stable.yaml",
+    "homepage": [
+      "https://obsproject.com",
+      "https://github.com/obsproject/obs-studio",
+      "https://github.com/pkgforge-dev/OBS-Studio-AppImage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/obs-studio/assets/default.png",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/OBS-Studio-AppImage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/obs-studio/appimage/pkgforge-dev",
+    "provides": [
+      "obs-studio"
+    ],
+    "repology": [
+      "obs-studio"
+    ],
+    "src_url": [
+      "https://github.com/pkgforge-dev/OBS-Studio-AppImage"
+    ],
+    "tag": [
+      "Graphical",
+      "media-video",
+      "Productivity/Multimedia/Video/Editors",
+      "Video",
+      "Video/Utilities"
+    ],
+    "version": "31.0.0-4"
   },
   {
     "_disabled": "false",
@@ -19556,6 +22360,69 @@
   },
   {
     "_disabled": "false",
+    "pkg": "patchelf",
+    "pkg_family": "patchelf",
+    "pkg_id": "nixpkgs.patchelf",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-patchelf/patchelf/patchelf",
+    "bincache": "ghcr.io/pkgforge/bincache/patchelf/nixpkgs/patchelf",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/patchelf/static.nixpkgs.stable.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "A small utility to modify the dynamic linker and RPATH of ELF executables",
+    "distro_pkg": {
+      "alpine": [
+        "patchelf"
+      ],
+      "archlinux": {
+        "aur": [
+          "patchelf-git"
+        ],
+        "extra": [
+          "patchelf"
+        ]
+      },
+      "debian": [
+        "patchelf"
+      ],
+      "nixpkgs": [
+        "patchelf"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/patchelf/static.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://nixos.org/patchelf.html",
+      "https://github.com/NixOS/patchelf"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nix. Check/Report @ https://github.com/NixOS/nixpkgs"
+    ],
+    "repology": [
+      "patchelf"
+    ],
+    "src_url": [
+      "https://github.com/NixOS/patchelf"
+    ],
+    "tag": [
+      "patchelf"
+    ],
+    "version": "0.15.0"
+  },
+  {
+    "_disabled": "false",
     "pkg": "pax-utils",
     "pkg_family": "pax-utils",
     "pkg_id": "nixpkgs.pax-utils",
@@ -20031,6 +22898,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official",
     "provides": [
       "converter432hz==Converter432Hz",
       "player432hz==Player432Hz",
@@ -20110,7 +22978,7 @@
     "tag": [
       "ls"
     ],
-    "version": "HEAD-f6517cd-241107T005600"
+    "version": "HEAD-8c5a5ba-250113T212951"
   },
   {
     "_disabled": "false",
@@ -20245,6 +23113,78 @@
       "security"
     ],
     "version": "HEAD-80982ec-221202T040459"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "ppsspp",
+    "pkg_family": "ppsspp",
+    "pkg_id": "github.com.pkgforge-dev.PPSSPP-AppImage.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/ppsspp/ppsspp",
+    "app_id": "org.ppsspp.PPSSPP",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ppsspp/appimage.pkgforge-dev.stable.yaml",
+    "category": [
+      "Emulator",
+      "Game"
+    ],
+    "description": "A Fast and Portable PSP emulator",
+    "distro_pkg": {
+      "alpine": [
+        "ppsspp"
+      ],
+      "archlinux": {
+        "aur": [
+          "ppsspp-git"
+        ],
+        "extra": [
+          "ppsspp"
+        ]
+      },
+      "gnuguix": [
+        "ppsspp"
+      ],
+      "homebrew": [
+        "ppsspp"
+      ],
+      "nixpkgs": [
+        "ppsspp"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/ppsspp/appimage.pkgforge-dev.stable.yaml",
+    "homepage": [
+      "https://www.ppsspp.org",
+      "https://github.com/hrydgard/ppsspp",
+      "https://github.com/pkgforge-dev/PPSSPP-AppImage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/ppsspp/assets/default.png",
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/PPSSPP-AppImage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/ppsspp/appimage/pkgforge-dev",
+    "provides": [
+      "ppsspp"
+    ],
+    "repology": [
+      "ppsspp"
+    ],
+    "src_url": [
+      "https://github.com/pkgforge-dev/PPSSPP-AppImage"
+    ],
+    "tag": [
+      "Emulators",
+      "games-emulation"
+    ],
+    "version": "1.18.1-2"
   },
   {
     "_disabled": "false",
@@ -20389,7 +23329,7 @@
     "tag": [
       "Monitoring"
     ],
-    "version": "HEAD-42584b4-250108T205702"
+    "version": "HEAD-2a0ba5c-250117T141915"
   },
   {
     "_disabled": "false",
@@ -20708,6 +23648,71 @@
   },
   {
     "_disabled": "false",
+    "pkg": "puddletag",
+    "pkg_family": "puddletag",
+    "pkg_id": "github.com.pkgforge-dev.puddletag-AppImage.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/puddletag/puddletag",
+    "app_id": "net.puddletag.puddletag",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/puddletag/appimage.pkgforge-dev.stable.yaml",
+    "category": [
+      "AudioVideoEditing",
+      "Music"
+    ],
+    "description": "Powerful, simple, audio tag editor for GNU/Linux",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "puddletag",
+          "puddletag-git"
+        ]
+      },
+      "debian": [
+        "puddletag"
+      ],
+      "nixpkgs": [
+        "puddletag"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/puddletag/appimage.pkgforge-dev.stable.yaml",
+    "homepage": [
+      "https://docs.puddletag.net",
+      "https://github.com/puddletag/puddletag",
+      "https://github.com/pkgforge-dev/puddletag-AppImage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/puddletag/assets/default.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/puddletag-AppImage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/puddletag/appimage/pkgforge-dev",
+    "provides": [
+      "puddletag"
+    ],
+    "repology": [
+      "puddletag"
+    ],
+    "src_url": [
+      "https://github.com/pkgforge-dev/puddletag-AppImage"
+    ],
+    "tag": [
+      "Applications/Multimedia",
+      "Productivity/Multimedia/Sound/Utilities",
+      "Sound/Utilities"
+    ],
+    "version": "2.4.0"
+  },
+  {
+    "_disabled": "false",
     "pkg": "pwninit",
     "pkg_family": "pwninit",
     "pkg_id": "github.com.io12.pwninit",
@@ -20931,7 +23936,7 @@
       "csv",
       "textproc"
     ],
-    "version": "HEAD-58efe9e-250111T224242"
+    "version": "HEAD-c08b367-250118T090616"
   },
   {
     "_disabled": "false",
@@ -21045,6 +24050,7 @@
     "pkg_id": "github.com.rclone.rclone",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/rclone-rclone/rclone/rclone",
+    "bincache": "ghcr.io/pkgforge/bincache/rclone/official/rclone",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/rclone/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -21108,7 +24114,7 @@
       "s3",
       "sync"
     ],
-    "version": "HEAD-4b6c7c6-250112T134947"
+    "version": "HEAD-87eaf37-250117T193756"
   },
   {
     "_disabled": "false",
@@ -21148,7 +24154,7 @@
       "cybersecurity",
       "redteam"
     ],
-    "version": "HEAD-1375eab-250109T192902"
+    "version": "HEAD-1cfc2eb-250112T224015"
   },
   {
     "_disabled": "false",
@@ -21319,7 +24325,7 @@
     "tag": [
       "Utility"
     ],
-    "version": "HEAD-9b4549b-241030T184950"
+    "version": "HEAD-bdddf9d-250117T154456"
   },
   {
     "_disabled": "false",
@@ -21501,8 +24507,7 @@
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/BurntSushi/ripgrep"
     ],
     "provides": [
-      "rg",
-      "ripgrep"
+      "ripgrep==rg"
     ],
     "repology": [
       "ripgrep"
@@ -21514,7 +24519,7 @@
       "grep",
       "regex"
     ],
-    "version": "HEAD-9430512-241231T082313"
+    "version": "HEAD-d6b59fe-250113T101609"
   },
   {
     "_disabled": "false",
@@ -21568,7 +24573,7 @@
     "tag": [
       "rename"
     ],
-    "version": "HEAD-487f051-250112T024751"
+    "version": "HEAD-efa3798-250112T180541"
   },
   {
     "_disabled": "false",
@@ -21705,7 +24710,7 @@
       "bittorrent",
       "torrent"
     ],
-    "version": "HEAD-bc5e23b-250106T173836"
+    "version": "HEAD-b34c246-250114T115058"
   },
   {
     "_disabled": "false",
@@ -22039,7 +25044,7 @@
       "scanning",
       "security"
     ],
-    "version": "HEAD-4f19e42-250103T102703"
+    "version": "HEAD-cbf0f94-250113T101831"
   },
   {
     "_disabled": "false",
@@ -22095,7 +25100,7 @@
     "tag": [
       "pastebin"
     ],
-    "version": "HEAD-def3805-250110T140637"
+    "version": "HEAD-37f31fa-250115T165101"
   },
   {
     "_disabled": "false",
@@ -22884,7 +25889,7 @@
       "pkgforge",
       "sbuild"
     ],
-    "version": "HEAD-c9321cd-250111T124136"
+    "version": "HEAD-ecb051c-250116T172320"
   },
   {
     "_disabled": "false",
@@ -23314,7 +26319,7 @@
     "tag": [
       "image"
     ],
-    "version": "HEAD-833519a-250111T094736"
+    "version": "HEAD-cb40560-250118T004816"
   },
   {
     "_disabled": "false",
@@ -23362,7 +26367,187 @@
     "tag": [
       "file"
     ],
-    "version": "HEAD-5e86c03-240707T125731"
+    "version": "HEAD-063951c-250118T112626"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "simplex-chat",
+    "pkg_family": "simplex-chat",
+    "pkg_id": "ppkg.simplex-chat",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/simplex-chat/simplex-chat/simplex-chat",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/simplex-chat/static.ppkg.stable.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "A 100% private-by-design chat platform for the command-line",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "simplex-chat-bin",
+          "simplex-chat-git"
+        ]
+      }
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/simplex-chat/static.ppkg.stable.yaml",
+    "homepage": [
+      "https://simplex.chat",
+      "https://github.com/simplex-chat/simplex-chat"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "AGPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core"
+    ],
+    "provides": [
+      "simplex-chat==simplex-chat-cli"
+    ],
+    "repology": [
+      "simplex-chat"
+    ],
+    "src_url": [
+      "https://github.com/simplex-chat/simplex-chat"
+    ],
+    "tag": [
+      "chat",
+      "privacy"
+    ],
+    "version": "6.2.4"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "simplex-desktop",
+    "pkg_family": "simplex-desktop",
+    "pkg_id": "github.com.simplex-chat.simplex-chat",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/simplex-chat/simplex-desktop/simplex-desktop",
+    "app_id": "chat.simplex.simplex",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/appimage.official.stable.yaml",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "Desktop application for SimpleX Chat, A 100% private-by-design chat platform",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "simplex-chat"
+        ]
+      },
+      "nixpkgs": [
+        "simplex-chat-desktop"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/simplex-desktop/appimage.official.stable.yaml",
+    "homepage": [
+      "https://simplex.chat",
+      "https://github.com/simplex-chat/simplex-chat"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/simplex-desktop/assets/default.png",
+    "license": [
+      "AGPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/simplex-chat/simplex-chat"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/simplex-desktop/appimage/official",
+    "provides": [
+      "simplex-desktop==simplex-chat-desktop"
+    ],
+    "repology": [
+      "simplex-chat",
+      "simplex-chat-desktop"
+    ],
+    "src_url": [
+      "https://github.com/simplex-chat/simplex-chat"
+    ],
+    "tag": [
+      "chat",
+      "messenger",
+      "privacy"
+    ],
+    "version": "v6.2.4"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "simplex-desktop",
+    "pkg_family": "simplex-desktop",
+    "pkg_id": "nixpkgs.simplex-chat-desktop",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/chat-desktop/simplex-desktop/simplex-desktop",
+    "app_id": "chat.simplex.simplex",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "Desktop application for SimpleX Chat, A 100% private-by-design chat platform",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "simplex-chat"
+        ]
+      },
+      "nixpkgs": [
+        "simplex-chat-desktop"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/simplex-desktop/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://simplex.chat",
+      "https://github.com/simplex-chat/simplex-chat"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/simplex-desktop/assets/default.png",
+    "license": [
+      "AGPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs",
+    "provides": [
+      "simplex-desktop==simplex-chat-desktop"
+    ],
+    "repology": [
+      "simplex-chat",
+      "simplex-chat-desktop"
+    ],
+    "src_url": [
+      "https://github.com/simplex-chat/simplex-chat"
+    ],
+    "tag": [
+      "chat",
+      "messenger",
+      "privacy"
+    ],
+    "version": "6.2.4"
   },
   {
     "_disabled": "false",
@@ -23467,7 +26652,7 @@
     "tag": [
       "fuzzyfinder"
     ],
-    "version": "HEAD-a4f0651-250107T163131"
+    "version": "HEAD-44bc796-250115T190038"
   },
   {
     "_disabled": "false",
@@ -23673,7 +26858,7 @@
     "tag": [
       "package-manager"
     ],
-    "version": "HEAD-6c3d5f5-241228T213931"
+    "version": "HEAD-45c6c97-250117T213755"
   },
   {
     "_disabled": "false",
@@ -23913,7 +27098,7 @@
       "database",
       "sql"
     ],
-    "version": "HEAD-bcd3096-250109T110626"
+    "version": "HEAD-da09201-250113T114355"
   },
   {
     "_disabled": "false",
@@ -24370,7 +27555,7 @@
       "ssh",
       "terminal"
     ],
-    "version": "HEAD-9bab7ea-250110T133608"
+    "version": "HEAD-cb84548-250115T125107"
   },
   {
     "_disabled": "false",
@@ -24409,6 +27594,122 @@
       "ssl"
     ],
     "version": "HEAD-1bc62b1-241213T130142"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "steam",
+    "pkg_family": "steam",
+    "pkg_id": "runimage.archlinux.steam",
+    "pkg_type": "runimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/archlinux-steam/steam/steam",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/steam/runimage.archlinux.stable.yaml",
+    "category": [
+      "Game"
+    ],
+    "description": "A video game digital distribution service and storefront from Valve",
+    "distro_pkg": {
+      "archlinux": {
+        "multilib": [
+          "steam"
+        ]
+      },
+      "nixpkgs": [
+        "steam-unwrapped"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/steam/runimage.archlinux.stable.yaml",
+    "homepage": [
+      "https://steamcommunity.com/linux",
+      "https://store.steampowered.com",
+      "https://github.com/ValveSoftware/steam-for-linux"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/steam/assets/default.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using RunImage [archlinux]. Check/Report @ https://github.com/VHSgunzo/runimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "provides": [
+      "steam"
+    ],
+    "repology": [
+      "steam"
+    ],
+    "src_url": [
+      "https://store.steampowered.com"
+    ],
+    "tag": [
+      "Games"
+    ],
+    "version": "1.0.0.81"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "steam",
+    "pkg_family": "steam",
+    "pkg_id": "runimage.cachyos.steam",
+    "pkg_type": "runimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-steam/steam/steam",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/steam/runimage.cachyos.stable.yaml",
+    "category": [
+      "Game"
+    ],
+    "description": "A video game digital distribution service and storefront from Valve",
+    "distro_pkg": {
+      "archlinux": {
+        "multilib": [
+          "steam"
+        ]
+      },
+      "nixpkgs": [
+        "steam-unwrapped"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/steam/runimage.cachyos.stable.yaml",
+    "homepage": [
+      "https://steamcommunity.com/linux",
+      "https://store.steampowered.com",
+      "https://github.com/ValveSoftware/steam-for-linux"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/steam/assets/default.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "provides": [
+      "steam"
+    ],
+    "repology": [
+      "steam"
+    ],
+    "src_url": [
+      "https://store.steampowered.com"
+    ],
+    "tag": [
+      "Games"
+    ],
+    "version": "1.0.0.81"
   },
   {
     "_disabled": "false",
@@ -24528,6 +27829,78 @@
       "debugger"
     ],
     "version": "6.12"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "strawberry",
+    "pkg_family": "strawberry",
+    "pkg_id": "github.com.pkgforge-dev.strawberry-AppImage.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/strawberry/strawberry",
+    "app_id": "org.strawberrymusicplayer.strawberry",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/strawberry/appimage.pkgforge-dev.stable.yaml",
+    "category": [
+      "Music",
+      "Player"
+    ],
+    "description": "A Audio Player and Music Collection Organizer",
+    "distro_pkg": {
+      "alpine": [
+        "strawberry"
+      ],
+      "archlinux": {
+        "aur": [
+          "strawberry-git"
+        ],
+        "extra": [
+          "strawberry"
+        ]
+      },
+      "debian": [
+        "strawberry"
+      ],
+      "gnuguix": [
+        "strawberry"
+      ],
+      "nixpkgs": [
+        "strawberry"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/strawberry/appimage.pkgforge-dev.stable.yaml",
+    "homepage": [
+      "https://strawberrymusicplayer.org",
+      "https://github.com/jonaski/strawberry",
+      "https://github.com/pkgforge-dev/strawberry-AppImage"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/strawberry/assets/default.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/strawberry-AppImage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/strawberry/appimage/pkgforge-dev",
+    "provides": [
+      "strawberry"
+    ],
+    "repology": [
+      "strawberry"
+    ],
+    "src_url": [
+      "https://github.com/pkgforge-dev/strawberry-AppImage"
+    ],
+    "tag": [
+      "Music",
+      "Sound/Players"
+    ],
+    "version": "1.2.4-1"
   },
   {
     "_disabled": "false",
@@ -25063,7 +28436,7 @@
     "pkg_id": "github.com.qarmin.system-info-collector",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/info-collector/system-info-collector/system-info-collector",
-    "bincache": "ghcr.io/pkgforge/bincache/system-info-collector/official/system_info_collector",
+    "bincache": "ghcr.io/pkgforge/bincache/system-info-collector/official/sysinfo-collector",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/system-info-collector/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -25150,7 +28523,7 @@
     "tag": [
       "systemctl"
     ],
-    "version": "HEAD-1e5fcb9-240915T183752"
+    "version": "HEAD-82f2de2-250114T172543"
   },
   {
     "_disabled": "false",
@@ -25159,6 +28532,7 @@
     "pkg_id": "github.com.tailscale.tailscale",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/tailscale-tailscale/tailscale/tailscale",
+    "bincache": "ghcr.io/pkgforge/bincache/tailscale/official/tailscale",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tailscale/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -25229,7 +28603,7 @@
       "wireguard",
       "zerotier"
     ],
-    "version": "HEAD-5fdb4f8-250110T172139"
+    "version": "HEAD-c79b736-250117T145247"
   },
   {
     "_disabled": "false",
@@ -25238,6 +28612,7 @@
     "pkg_id": "github.com.bensadeh.tailspin",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/bensadeh-tailspin/tailspin/tailspin",
+    "bincache": "ghcr.io/pkgforge/bincache/tailspin/official/tailspin",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tailspin/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -25293,7 +28668,7 @@
       "logfile",
       "tail"
     ],
-    "version": "HEAD-f30e2ab-241230T083240"
+    "version": "HEAD-ad8bcff-250113T065516"
   },
   {
     "_disabled": "false",
@@ -25541,6 +28916,7 @@
     "note": [
       "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/telegramdesktop/tdesktop"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/telegram-desktop/dynamic/official",
     "provides": [
       "telegram-desktop==Telegram-Desktop"
     ],
@@ -25558,11 +28934,95 @@
   },
   {
     "_disabled": "false",
+    "pkg": "telegram-desktop",
+    "pkg_family": "telegram-desktop",
+    "pkg_id": "nixpkgs.telegram-desktop",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/telegram-desktop/telegram-desktop/telegram-desktop",
+    "app_id": "org.telegram.desktop",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "Chat",
+      "IRCClient"
+    ],
+    "description": "Official desktop version of Telegram messaging app",
+    "distro_pkg": {
+      "alpine": [
+        "telegram-desktop"
+      ],
+      "archlinux": {
+        "aur": [
+          "telegram-desktop-bin",
+          "telegram-desktop-dev",
+          "telegram-desktop-dev-bin",
+          "telegram-desktop-git"
+        ],
+        "extra": [
+          "telegram-desktop"
+        ]
+      },
+      "debian": [
+        "telegram-desktop"
+      ],
+      "gnuguix": [
+        "telegram-desktop"
+      ],
+      "homebrew": [
+        "telegram-desktop",
+        "telegram-desktop@beta"
+      ],
+      "nixpkgs": [
+        "tdesktop",
+        "telegram-desktop"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/telegram-desktop/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://desktop.telegram.org",
+      "https://github.com/telegramdesktop/tdesktop"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs",
+    "provides": [
+      "telegram-desktop==Telegram-Desktop"
+    ],
+    "repology": [
+      "telegram-desktop"
+    ],
+    "src_url": [
+      "https://github.com/telegramdesktop/tdesktop"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ],
+    "version": "5.10.2"
+  },
+  {
+    "_disabled": "false",
     "pkg": "tere",
     "pkg_family": "tere",
     "pkg_id": "github.com.mgunyho.tere",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/mgunyho-tere/tere/tere",
+    "bincache": "ghcr.io/pkgforge/bincache/tere/official/tere",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tere/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -25615,6 +29075,7 @@
     "pkg_id": "github.com.gcla.termshark",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/gcla-termshark/termshark/termshark",
+    "bincache": "ghcr.io/pkgforge/bincache/termshark/official/termshark",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/termshark/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -25731,6 +29192,7 @@
     "pkg_id": "github.com.aandrew-me.tgpt",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/me-tgpt/tgpt/tgpt",
+    "bincache": "ghcr.io/pkgforge/bincache/tgpt/official/tgpt",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tgpt/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -25788,6 +29250,7 @@
     "pkg_id": "github.com.alexhallam.tv",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/alexhallam-tv/tidy-viewer/tidy-viewer",
+    "bincache": "ghcr.io/pkgforge/bincache/tidy-viewer/official/tidy-viewer",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tidy-viewer/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -25840,6 +29303,7 @@
     "pkg_id": "github.com.Hackmanit.TInjA",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/hackmanit-tinja/tinja/tinja",
+    "bincache": "ghcr.io/pkgforge/bincache/tinja/official/tinja",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tinja/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -25945,6 +29409,7 @@
     "pkg_id": "github.com.tldr-pages.tlrc",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/pages-tlrc/tlrc/tlrc",
+    "bincache": "ghcr.io/pkgforge/bincache/tlrc/official/tldr",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tlrc/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26070,6 +29535,7 @@
     "pkg_id": "github.com.XAMPPRocky.tokei",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/xampprocky-tokei/tokei/tokei",
+    "bincache": "ghcr.io/pkgforge/bincache/tokei/official/tokei",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tokei/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26126,7 +29592,7 @@
       "file",
       "stats"
     ],
-    "version": "HEAD-029045a-241120T111250"
+    "version": "HEAD-9b0f179-250114T180346"
   },
   {
     "_disabled": "false",
@@ -26231,6 +29697,7 @@
     "pkg_id": "github.com.fujiapple852.trippy",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/fujiapple852-trippy/trippy/trippy",
+    "bincache": "ghcr.io/pkgforge/bincache/trippy/official/trip",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/trippy/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26266,7 +29733,7 @@
       "network",
       "traceroute"
     ],
-    "version": "HEAD-0779b8f-250103T215728"
+    "version": "HEAD-8e25ecc-250117T200334"
   },
   {
     "_disabled": "false",
@@ -26275,6 +29742,7 @@
     "pkg_id": "github.com.kost.tty2web",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/kost-tty2web/tty2web/tty2web",
+    "bincache": "ghcr.io/pkgforge/bincache/tty2web/official/tty2web",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tty2web/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26318,6 +29786,7 @@
     "pkg_id": "codeberg.org.dnalor.tuiarchiver",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/dnalor-tuiarchiver/tuiarchiver/tuiarchiver",
+    "bincache": "ghcr.io/pkgforge/bincache/tuiarchiver/official/tuiarchiver",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/tuiarchiver/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26423,6 +29892,7 @@
     "pkg_id": "github.com.u-root.u-root",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/u-root/u-root/u-root",
+    "bincache": "ghcr.io/pkgforge/bincache/u-root/official/u-root",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/u-root/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26463,7 +29933,7 @@
       "busybox",
       "coreboot"
     ],
-    "version": "HEAD-691449c-250111T202114"
+    "version": "HEAD-3c75ea5-250116T222343"
   },
   {
     "_disabled": "false",
@@ -26472,6 +29942,7 @@
     "pkg_id": "github.com.nullt3r.udpx",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nullt3r-udpx/udpx/udpx",
+    "bincache": "ghcr.io/pkgforge/bincache/udpx/official/udpx",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/udpx/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26522,6 +29993,7 @@
     "pkg_id": "github.com.io12.unf",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/io12-unf/unf/unf",
+    "bincache": "ghcr.io/pkgforge/bincache/unf/official/unf",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/unf/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26571,6 +30043,7 @@
     "pkg_id": "github.com.tomnomnom.unfurl",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/tomnomnom-unfurl/unfurl/unfurl",
+    "bincache": "ghcr.io/pkgforge/bincache/unfurl/official/unfurl",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/unfurl/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26628,6 +30101,7 @@
     "pkg_id": "github.com.rsc.unix",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/rsc-unix/unix/unix",
+    "bincache": "ghcr.io/pkgforge/bincache/unix/rsc-v6unix/v6disk",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/unix/static.rsc-v6unix.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -26978,6 +30452,7 @@
     "pkg_id": "github.com.martinlindhe.validtoml",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/martinlindhe-validtoml/validtoml/validtoml",
+    "bincache": "ghcr.io/pkgforge/bincache/validtoml/official/validtoml",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/validtoml/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27062,6 +30537,7 @@
     "note": [
       "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop"
     ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/vesktop/appimage/official",
     "src_url": [
       "https://github.com/Vencord/Vesktop"
     ],
@@ -27166,6 +30642,7 @@
     "pkg_id": "github.com.volta-cli.volta",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-volta/volta/volta",
+    "bincache": "ghcr.io/pkgforge/bincache/volta/official/volta",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/volta/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27196,7 +30673,7 @@
     "tag": [
       "node"
     ],
-    "version": "HEAD-20c1491-250108T121659"
+    "version": "HEAD-40a6b89-250112T102421"
   },
   {
     "_disabled": "false",
@@ -27205,6 +30682,7 @@
     "pkg_id": "github.com.dwisiswant0.wadl-dumper",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/wadl-dumper/wadl-dumper/wadl-dumper",
+    "bincache": "ghcr.io/pkgforge/bincache/wadl-dumper/official/wadl-dumper",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/wadl-dumper/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27299,6 +30777,7 @@
     "pkg_id": "github.com.mhmdiaa.waybackrobots",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/mhmdiaa-waybackrobots/waybackrobots/waybackrobots",
+    "bincache": "ghcr.io/pkgforge/bincache/waybackrobots/official/waybackrobots",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/waybackrobots/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27339,6 +30818,7 @@
     "pkg_id": "github.com.tomnomnom.waybackurls",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/tomnomnom-waybackurls/waybackurls/waybackurls",
+    "bincache": "ghcr.io/pkgforge/bincache/waybackurls/official/waybackurls",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/waybackurls/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27390,6 +30870,7 @@
     "pkg_id": "github.com.Hackmanit.Web-Cache-Vulnerability-Scanner",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/vulnerability-scanner/web-cache-vulnerability-scanner/web-cache-vulnerability-scanner",
+    "bincache": "ghcr.io/pkgforge/bincache/web-cache-vulnerability-scanner/official/web-cache-vulnerability-scanner",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/web-cache-vulnerability-scanner/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27430,6 +30911,7 @@
     "pkg_id": "github.com.schachmat.wego",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/schachmat-wego/wego/wego",
+    "bincache": "ghcr.io/pkgforge/bincache/wego/official/wego",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/wego/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27485,6 +30967,222 @@
       "weather"
     ],
     "version": "HEAD-6578d5e-241006T184746"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "wget",
+    "pkg_family": "wget",
+    "pkg_id": "ppkg.wget",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-wget/wget/wget",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/wget/static.ppkg.stable.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Tool for retrieving files using HTTP, HTTPS, and FTP",
+    "distro_pkg": {
+      "alpine": [
+        "wget"
+      ],
+      "archlinux": {
+        "extra": [
+          "wget"
+        ]
+      },
+      "debian": [
+        "wget"
+      ],
+      "gnuguix": [
+        "wget"
+      ],
+      "homebrew": [
+        "wget"
+      ],
+      "nixpkgs": [
+        "wget"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/wget/static.ppkg.stable.yaml",
+    "homepage": [
+      "https://www.gnu.org/software/wget/"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core"
+    ],
+    "provides": [
+      "wget"
+    ],
+    "repology": [
+      "wget"
+    ],
+    "src_url": [
+      "https://www.gnu.org/software/wget/"
+    ],
+    "tag": [
+      "downloader"
+    ],
+    "version": "1.24.5"
+  },
+  {
+    "_disabled": "true",
+    "_disabled_reason": {
+      "broken": [
+        {
+          "date": "2025-01-14",
+          "reason": "Doesn't do anything"
+        }
+      ]
+    },
+    "pkg": "wget2",
+    "pkg_family": "wget2",
+    "pkg_id": "nixpkgs.wget2",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-wget2/wget2/wget2",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/wget2/nixappimage.nixpkgs.stable.yaml",
+    "category": [
+      "Utility"
+    ],
+    "description": "The successor of GNU Wget, a file and recursive website downloader",
+    "distro_pkg": {
+      "alpine": [
+        "wget2"
+      ],
+      "archlinux": {
+        "aur": [
+          "wget2",
+          "wget2-git"
+        ]
+      },
+      "debian": [
+        "wget2"
+      ],
+      "gnuguix": [
+        "wget2"
+      ],
+      "homebrew": [
+        "wget2"
+      ],
+      "nixpkgs": [
+        "wget2"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/wget2/nixappimage.nixpkgs.stable.yaml",
+    "homepage": [
+      "https://github.com/rockdaboot/wget2",
+      "https://gitlab.com/gnuwget/wget2"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/wget2/assets/default.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "provides": [
+      "wget2"
+    ],
+    "repology": [
+      "wget2"
+    ],
+    "src_url": [
+      "https://gitlab.com/gnuwget/wget2"
+    ],
+    "tag": [
+      "downloader"
+    ],
+    "version": "2.1.0"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "wget2",
+    "pkg_family": "wget2",
+    "pkg_id": "ppkg.wget2",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-wget2/wget2/wget2",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/wget2/static.ppkg.stable.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "The successor of GNU Wget, a file and recursive website downloader",
+    "distro_pkg": {
+      "alpine": [
+        "wget2"
+      ],
+      "archlinux": {
+        "aur": [
+          "wget2",
+          "wget2-git"
+        ]
+      },
+      "debian": [
+        "wget2"
+      ],
+      "gnuguix": [
+        "wget2"
+      ],
+      "homebrew": [
+        "wget2"
+      ],
+      "nixpkgs": [
+        "wget2"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/wget2/static.ppkg.stable.yaml",
+    "homepage": [
+      "https://github.com/rockdaboot/wget2",
+      "https://gitlab.com/gnuwget/wget2"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core"
+    ],
+    "provides": [
+      "wget2"
+    ],
+    "repology": [
+      "wget2"
+    ],
+    "src_url": [
+      "https://gitlab.com/gnuwget/wget2"
+    ],
+    "tag": [
+      "downloader"
+    ],
+    "version": "2.2.0"
   },
   {
     "_disabled": "false",
@@ -27609,6 +31307,7 @@
     "pkg_id": "git.zx2c4.com.wireguard-go",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/wireguard-go/wireguard/wireguard",
+    "bincache": "ghcr.io/pkgforge/bincache/wireguard-go/official/wireguard",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/wireguard/static.go.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27805,6 +31504,7 @@
     "pkg_id": "github.com.magic-wormhole.magic-wormhole.rs",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/wormhole-rs/wormhole-rs/wormhole-rs",
+    "bincache": "ghcr.io/pkgforge/bincache/wormhole-rs/official/wormhole-rs",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/wormhole-rs/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27860,7 +31560,7 @@
       "magic-wormhole",
       "wormhole"
     ],
-    "version": "HEAD-0cfd894-250112T131218"
+    "version": "HEAD-378c605-250118T093107"
   },
   {
     "_disabled": "false",
@@ -27869,6 +31569,7 @@
     "pkg_id": "github.com.Systemcluster.wrappe",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/systemcluster-wrappe/wrappe/wrappe",
+    "bincache": "ghcr.io/pkgforge/bincache/wrappe/official/wrappe",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/wrappe/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27908,6 +31609,7 @@
     "pkg_id": "github.com.coder.wush",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/coder-wush/wush/wush",
+    "bincache": "ghcr.io/pkgforge/bincache/wush/official/wush",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/wush/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -27965,6 +31667,7 @@
     "pkg_id": "github.com.Sh1Yo.x8",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/sh1yo-x8/x8/x8",
+    "bincache": "ghcr.io/pkgforge/bincache/x8/official/x8",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/x8/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28009,6 +31712,7 @@
     "pkg_id": "github.com.medialab.xan",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/medialab-xan/xan/xan",
+    "bincache": "ghcr.io/pkgforge/bincache/xan/official/xan",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/xan/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28037,7 +31741,7 @@
       "csv",
       "tsv"
     ],
-    "version": "HEAD-55f2409-250112T133312"
+    "version": "HEAD-e5a3334-250116T153836"
   },
   {
     "_disabled": "false",
@@ -28087,7 +31791,7 @@
     "tag": [
       "cp"
     ],
-    "version": "HEAD-34ade20-241223T144020"
+    "version": "HEAD-80ae5bc-250115T150641"
   },
   {
     "_disabled": "false",
@@ -28096,6 +31800,7 @@
     "pkg_id": "github.com.sayanarijit.xplr",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/sayanarijit-xplr/xplr/xplr",
+    "bincache": "ghcr.io/pkgforge/bincache/xplr/official/xplr",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/xplr/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28156,6 +31861,7 @@
     "pkg_id": "github.com.mvdan.xurls",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/mvdan-xurls/xurls/xurls",
+    "bincache": "ghcr.io/pkgforge/bincache/xurls/official/xurls",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/xurls/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28298,6 +32004,7 @@
     "pkg_id": "github.com.EatonChips.yalis",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/eatonchips-yalis/yalis/yalis",
+    "bincache": "ghcr.io/pkgforge/bincache/yalis/official/yalis",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/yalis/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28337,6 +32044,7 @@
     "pkg_id": "github.com.sxyazi.yazi",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/sxyazi-yazi/yazi/yazi",
+    "bincache": "ghcr.io/pkgforge/bincache/yazi/official/ya",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/yazi/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28400,7 +32108,7 @@
       "explorer",
       "manager"
     ],
-    "version": "HEAD-5c88f26-250111T120813"
+    "version": "HEAD-ef48b7f-250118T224347"
   },
   {
     "_disabled": "false",
@@ -28409,6 +32117,7 @@
     "pkg_id": "github.com.yggdrasil-network.yggdrasil-go",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/yggdrasil-go/yggdrasil/yggdrasil",
+    "bincache": "ghcr.io/pkgforge/bincache/yggdrasil/official/yggdrasil",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/yggdrasil/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28481,6 +32190,7 @@
     "pkg_id": "github.com.mudler.yip",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/mudler-yip/yip/yip",
+    "bincache": "ghcr.io/pkgforge/bincache/yip/official/yip",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/yip/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28512,7 +32222,7 @@
       "cloud-init",
       "init"
     ],
-    "version": "HEAD-4fd77a2-241208T101801"
+    "version": "HEAD-3a35c6d-250117T135915"
   },
   {
     "_disabled": "false",
@@ -28521,6 +32231,7 @@
     "pkg_id": "github.com.sclevine.yj",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/sclevine-yj/yj/yj",
+    "bincache": "ghcr.io/pkgforge/bincache/yj/official/yj",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/yj/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28565,6 +32276,7 @@
     "pkg_id": "github.com.mikefarah.yq",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/mikefarah-yq/yq/yq",
+    "bincache": "ghcr.io/pkgforge/bincache/yq/official/yq",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/yq/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28674,6 +32386,7 @@
     "pkg_id": "github.com.zmap.zdns",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/zmap-zdns/zdns/zdns",
+    "bincache": "ghcr.io/pkgforge/bincache/zdns/official/zdns",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/zdns/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28719,6 +32432,186 @@
       "dns"
     ],
     "version": "HEAD-7f4fb49-250110T122533"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "zen-browser",
+    "pkg_family": "zen-browser",
+    "pkg_id": "github.com.zen-browser.desktop.beta",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/desktop-beta/zen-browser/zen-browser",
+    "app_id": "app.zen_browser.zen",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Performance oriented Firefox-based web browser (Beta)",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "zen-browser",
+          "zen-browser-bin"
+        ]
+      },
+      "homebrew": [
+        "zen-browser"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/zen-browser/appimage.official.beta.yaml",
+    "homepage": [
+      "https://zen-browser.app",
+      "https://github.com/zen-browser/desktop"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/zen-browser/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official",
+    "provides": [
+      "zen-browser==zen"
+    ],
+    "repology": [
+      "zen-browser"
+    ],
+    "src_url": [
+      "https://github.com/zen-browser/desktop"
+    ],
+    "tag": [
+      "arc",
+      "firefox",
+      "www-client"
+    ],
+    "version": "1.0.2-b.5"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "zen-browser",
+    "pkg_family": "zen-browser",
+    "pkg_id": "github.com.zen-browser.desktop.stable",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/desktop-stable/zen-browser/zen-browser",
+    "app_id": "app.zen_browser.zen",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Performance oriented Firefox-based web browser",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "zen-browser",
+          "zen-browser-bin"
+        ]
+      },
+      "homebrew": [
+        "zen-browser"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/zen-browser/appimage.official.stable.yaml",
+    "homepage": [
+      "https://zen-browser.app",
+      "https://github.com/zen-browser/desktop"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/zen-browser/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official",
+    "provides": [
+      "zen-browser==zen"
+    ],
+    "repology": [
+      "zen-browser"
+    ],
+    "src_url": [
+      "https://github.com/zen-browser/desktop"
+    ],
+    "tag": [
+      "arc",
+      "firefox",
+      "www-client"
+    ],
+    "version": "1.7b"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "zen-browser",
+    "pkg_family": "zen-browser",
+    "pkg_id": "github.com.zen-browser.desktop.twilight",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/desktop-twilight/zen-browser/zen-browser",
+    "app_id": "app.zen_browser.zen",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Performance oriented Firefox-based web browser (Twilight)",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "zen-browser",
+          "zen-browser-bin"
+        ]
+      },
+      "homebrew": [
+        "zen-browser"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/zen-browser/appimage.official.twilight.yaml",
+    "homepage": [
+      "https://zen-browser.app",
+      "https://github.com/zen-browser/desktop"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/zen-browser/assets/default.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official",
+    "provides": [
+      "zen-browser==zen"
+    ],
+    "repology": [
+      "zen-browser"
+    ],
+    "src_url": [
+      "https://github.com/zen-browser/desktop"
+    ],
+    "tag": [
+      "arc",
+      "firefox",
+      "www-client"
+    ],
+    "version": "1.7t_2025-01-18"
   },
   {
     "_disabled": "false",
@@ -28788,6 +32681,7 @@
     "pkg_id": "github.com.ssleert.zfxtop",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/ssleert-zfxtop/zfxtop/zfxtop",
+    "bincache": "ghcr.io/pkgforge/bincache/zfxtop/official/zfxtop",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/zfxtop/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28842,6 +32736,7 @@
     "pkg_id": "github.com.zmap.zgrab2",
     "pkg_type": "static",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/zmap-zgrab2/zgrab2/zgrab2",
+    "bincache": "ghcr.io/pkgforge/bincache/zgrab2/official/zgrab2",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/zgrab2/static.official.source.yaml",
     "category": [
       "ConsoleOnly",
@@ -28881,7 +32776,7 @@
     "tag": [
       "security"
     ],
-    "version": "HEAD-1aec142-250110T151900"
+    "version": "HEAD-0f39281-250116T153029"
   },
   {
     "_disabled": "false",

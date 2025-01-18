@@ -54,7 +54,9 @@
     "build_id": "12724410127",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml",
-    "download_count": "-1",
+    "download_count": "98",
+    "download_count_month": "50",
+    "download_count_week": "49",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
     "ghcr_files": [
@@ -87,6 +89,907 @@
     "shasum": "6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
     "size": "52 MB",
     "size_raw": "54326032"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "14",
+    "pkg": "brave.nixappimage",
+    "pkg_family": "brave",
+    "pkg_id": "nixpkgs.brave",
+    "pkg_name": "brave",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/brave/brave",
+    "app_id": "com.brave.Browser",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.73.104-aarch64-linux&download=brave.appdata.xml",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Privacy-oriented browser for Desktop and Laptop computers",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.73.104-aarch64-linux&download=brave.desktop",
+    "homepage": [
+      "https://brave.com",
+      "https://github.com/brave/brave-browser",
+      "https://github.com/srevinsaju/Brave-AppImage"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.73.104-aarch64-linux&download=brave.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "brave"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "brave"
+    ],
+    "src_url": [
+      "https://github.com/brave/brave-browser"
+    ],
+    "tag": [
+      "browser",
+      "Networking/WWW",
+      "network.web.browser"
+    ],
+    "version": "1.73.104",
+    "version_upstream": "1.73.104",
+    "bsum": "15f43fab75517b112587067c58385bd22418bf4376f1e2a59deb6cadcf763d3a",
+    "build_date": "2025-01-17T09:19:48Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12825848157",
+    "build_id": "12825848157",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.73.104-aarch64-linux&download=brave.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/nixappimage.nixpkgs.stable.yaml",
+    "download_count": "12",
+    "download_count_month": "1",
+    "download_count_week": "1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.73.104-aarch64-linux&download=brave",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:e83c492e326f06b3f1e3d8e64301d697206d43ac9b11b1f56307d9ec1ecb3c8a",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "brave",
+      "brave.appdata.xml",
+      "brave.appdata.xml.sig",
+      "brave.desktop",
+      "brave.desktop.sig",
+      "brave.json",
+      "brave.json.sig",
+      "brave.log",
+      "brave.log.sig",
+      "brave.png",
+      "brave.png.sig",
+      "brave.sig",
+      "brave.version",
+      "brave.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.73.104-aarch64-linux",
+    "ghcr_size": "376.13 MB",
+    "ghcr_size_raw": "394401947",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.73.104-aarch64-linux&manifest",
+    "shasum": "e83c492e326f06b3f1e3d8e64301d697206d43ac9b11b1f56307d9ec1ecb3c8a",
+    "size": "375 MB",
+    "size_raw": "392590096"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "3",
+    "pkg": "chromium.nixappimage",
+    "pkg_family": "chromium",
+    "pkg_id": "nixpkgs.chromium",
+    "pkg_name": "chromium",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nixpkgs-chromium/chromium",
+    "app_id": "org.chromium.Chromium",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Open source web browser from Google (Stable)",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=132.0.6834.83-aarch64-linux&download=chromium.desktop",
+    "homepage": [
+      "https://www.chromium.org",
+      "https://chromium.googlesource.com/chromium/src",
+      "https://github.com/chromium/chromium"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=132.0.6834.83-aarch64-linux&download=chromium.png",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "chromium==chromium-browser"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "chromium"
+    ],
+    "src_url": [
+      "https://github.com/chromium/chromium"
+    ],
+    "tag": [
+      "browser"
+    ],
+    "version": "132.0.6834.83",
+    "version_upstream": "132.0.6834.83",
+    "bsum": "cd93b0644747980a97ba1b0c3aead81e4c6fd11c9b692933496c5592ec0a81e1",
+    "build_date": "2025-01-17T09:30:43Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12825848157",
+    "build_id": "12825848157",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=132.0.6834.83-aarch64-linux&download=chromium.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml",
+    "download_count": "66",
+    "download_count_month": "4",
+    "download_count_week": "4",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=132.0.6834.83-aarch64-linux&download=chromium",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:a3fc49ddd21eea1d947afffc5a13de3e4e3f0c8da57e0a55c1784e4ef7b314e4",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "chromium",
+      "chromium.desktop",
+      "chromium.desktop.sig",
+      "chromium.json",
+      "chromium.json.sig",
+      "chromium.log",
+      "chromium.log.sig",
+      "chromium.png",
+      "chromium.png.sig",
+      "chromium.sig",
+      "chromium.version",
+      "chromium.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:132.0.6834.83-aarch64-linux",
+    "ghcr_size": "352.63 MB",
+    "ghcr_size_raw": "369759791",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=132.0.6834.83-aarch64-linux&manifest",
+    "shasum": "a3fc49ddd21eea1d947afffc5a13de3e4e3f0c8da57e0a55c1784e4ef7b314e4",
+    "size": "352 MB",
+    "size_raw": "368550672",
+    "snapshots": [
+      "131.0.6778.264-aarch64-linux[131.0.6778.264]"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "4",
+    "pkg": "chromium.nixappimage",
+    "pkg_family": "chromium",
+    "pkg_id": "nixpkgs.ungoogled-chromium",
+    "pkg_name": "chromium",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nixpkgs-ungoogled-chromium/chromium",
+    "app_id": "io.github.ungoogled_software.ungoogled_chromium",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Open source web browser from Google, with dependencies on Google web services removed (Ungoogled)",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=131.0.6778.264-aarch64-linux&download=chromium.desktop",
+    "homepage": [
+      "https://github.com/ungoogled-software/ungoogled-chromium"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=131.0.6778.264-aarch64-linux&download=chromium.png",
+    "license": [
+      "BSD-3-Clause"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "chromium:ungoogled-chromium",
+      "chromium==chromium-browser"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "ungoogled-chromium"
+    ],
+    "src_url": [
+      "https://github.com/ungoogled-software/ungoogled-chromium"
+    ],
+    "tag": [
+      "browser"
+    ],
+    "version": "131.0.6778.264",
+    "version_upstream": "131.0.6778.264",
+    "bsum": "fa513e36be20b8449c11a5b545f259e0f0cec5f00676fa85ea23c1d10ed724d4",
+    "build_date": "2025-01-14T12:31:21Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12766855991",
+    "build_id": "12766855991",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=131.0.6778.264-aarch64-linux&download=chromium.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml",
+    "download_count": "61",
+    "download_count_month": "12",
+    "download_count_week": "12",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=131.0.6778.264-aarch64-linux&download=chromium",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:7529bac5802b35233705cb56a115fe9d4445783da6da7e556d619886e215b803",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "chromium",
+      "chromium.desktop",
+      "chromium.desktop.sig",
+      "chromium.json",
+      "chromium.json.sig",
+      "chromium.log",
+      "chromium.log.sig",
+      "chromium.png",
+      "chromium.png.sig",
+      "chromium.sig",
+      "chromium.version",
+      "chromium.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:131.0.6778.264-aarch64-linux",
+    "ghcr_size": "358.72 MB",
+    "ghcr_size_raw": "376149788",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=131.0.6778.264-aarch64-linux&manifest",
+    "shasum": "7529bac5802b35233705cb56a115fe9d4445783da6da7e556d619886e215b803",
+    "size": "358 MB",
+    "size_raw": "374940432"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "8",
+    "pkg": "flameshot.nixappimage",
+    "pkg_family": "flameshot",
+    "pkg_id": "nixpkgs.flameshot",
+    "pkg_name": "flameshot",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/flameshot/flameshot",
+    "app_id": "org.flameshot.Flameshot",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2024-12-03-aarch64-linux&download=flameshot.metainfo.xml",
+    "category": [
+      "Utility"
+    ],
+    "description": "Powerful and simple to use screenshot software",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2024-12-03-aarch64-linux&download=flameshot.desktop",
+    "homepage": [
+      "https://flameshot.org",
+      "https://github.com/flameshot-org/flameshot"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2024-12-03-aarch64-linux&download=flameshot.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "flameshot"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "flameshot"
+    ],
+    "src_url": [
+      "https://github.com/flameshot/flameshot"
+    ],
+    "tag": [
+      "screenshot"
+    ],
+    "version": "12.1.0-unstable-2024-12-03",
+    "version_upstream": "12.1.0-unstable-2024-12-03",
+    "bsum": "f661eaea7d0dee35e52bd61839bc9489751880fdec76923eed4eac85d6fb6134",
+    "build_date": "2025-01-16T16:12:25Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12812691028",
+    "build_id": "12812691028",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2024-12-03-aarch64-linux&download=flameshot.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/nixappimage.nixpkgs.unstable.yaml",
+    "download_count": "26",
+    "download_count_month": "7",
+    "download_count_week": "7",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2024-12-03-aarch64-linux&download=flameshot",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot@sha256:84fbc1a33a5ff10ac0134bd1665a471340312221b974f4261ef978f1ca8bbcdb",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "flameshot",
+      "flameshot.desktop",
+      "flameshot.desktop.sig",
+      "flameshot.json",
+      "flameshot.json.sig",
+      "flameshot.log",
+      "flameshot.log.sig",
+      "flameshot.metainfo.xml",
+      "flameshot.metainfo.xml.sig",
+      "flameshot.png",
+      "flameshot.png.sig",
+      "flameshot.sig",
+      "flameshot.version",
+      "flameshot.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2024-12-03-aarch64-linux",
+    "ghcr_size": "98.07 MB",
+    "ghcr_size_raw": "102831163",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2024-12-03-aarch64-linux&manifest",
+    "shasum": "84fbc1a33a5ff10ac0134bd1665a471340312221b974f4261ef978f1ca8bbcdb",
+    "size": "97 MB",
+    "size_raw": "101393168"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "13",
+    "pkg": "gearlever.nixappimage",
+    "pkg_family": "gearlever",
+    "pkg_id": "nixpkgs.gearlever",
+    "pkg_name": "gearlever",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/gearlever/gearlever",
+    "app_id": "it.mijorus.gearlever",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever.appdata.xml",
+    "category": [
+      "Utility"
+    ],
+    "description": "Manage AppImages with ease",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever.desktop",
+    "homepage": [
+      "https://gearlever.mijorus.it",
+      "https://mijorus.it/projects/gearlever"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever.svg",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "gearlever"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "gearlever"
+    ],
+    "src_url": [
+      "https://github.com/mijorus/gearlever"
+    ],
+    "tag": [
+      "package-manager"
+    ],
+    "version": "2.3.2",
+    "version_upstream": "2.3.2",
+    "bsum": "21d7690b49c158790949b9100b5ae7fb7dd09cb3b90abdb0206bc5f63a1b3f87",
+    "build_date": "2025-01-17T10:31:34Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12825848157",
+    "build_id": "12825848157",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/gearlever/nixappimage.nixpkgs.stable.yaml",
+    "download_count": "13",
+    "download_count_month": "1",
+    "download_count_week": "1",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever@sha256:aa390c7471a26487ee3dd3049a8bd0608f1a31e0657f8358c428abd6f9907461",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "gearlever",
+      "gearlever.appdata.xml",
+      "gearlever.appdata.xml.sig",
+      "gearlever.desktop",
+      "gearlever.desktop.sig",
+      "gearlever.json",
+      "gearlever.json.sig",
+      "gearlever.log",
+      "gearlever.log.sig",
+      "gearlever.sig",
+      "gearlever.svg",
+      "gearlever.svg.sig",
+      "gearlever.version",
+      "gearlever.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-aarch64-linux",
+    "ghcr_size": "308.22 MB",
+    "ghcr_size_raw": "323196264",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&manifest",
+    "shasum": "aa390c7471a26487ee3dd3049a8bd0608f1a31e0657f8358c428abd6f9907461",
+    "size": "304 MB",
+    "size_raw": "317842192"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "12",
+    "pkg": "ghostty.nixappimage",
+    "pkg_family": "ghostty",
+    "pkg_id": "nixpkgs.ghostty",
+    "pkg_name": "ghostty",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghostty/ghostty",
+    "app_id": "com.mitchellh.ghostty",
+    "category": [
+      "TerminalEmulator"
+    ],
+    "description": "Fast, native, feature-rich terminal emulator pushing modern features",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&download=ghostty.desktop",
+    "homepage": [
+      "https://ghostty.org",
+      "https://github.com/ghostty-org/ghostty"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&download=ghostty.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "ghostty"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "ghostty"
+    ],
+    "src_url": [
+      "https://github.com/psadi/ghostty-appimage"
+    ],
+    "tag": [
+      "terminal"
+    ],
+    "version": "1.0.1",
+    "version_upstream": "1.0.1",
+    "bsum": "b194122afe941e2005cc9b179aae5d41d973933fc12a0542cc80d4e2318d6185",
+    "build_date": "2025-01-14T13:52:45Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12766855991",
+    "build_id": "12766855991",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&download=ghostty.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/nixappimage.nixpkgs.stable.yaml",
+    "download_count": "23",
+    "download_count_month": "23",
+    "download_count_week": "23",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&download=ghostty",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty@sha256:e81ed5d832f775ef2d2b7ba5be55abe3ae86635b6b463bd8672a132729d70c30",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "ghostty",
+      "ghostty.desktop",
+      "ghostty.desktop.sig",
+      "ghostty.json",
+      "ghostty.json.sig",
+      "ghostty.log",
+      "ghostty.log.sig",
+      "ghostty.png",
+      "ghostty.png.sig",
+      "ghostty.sig",
+      "ghostty.version",
+      "ghostty.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty:1.0.1-aarch64-linux",
+    "ghcr_size": "227.12 MB",
+    "ghcr_size_raw": "238153145",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&manifest",
+    "shasum": "e81ed5d832f775ef2d2b7ba5be55abe3ae86635b6b463bd8672a132729d70c30",
+    "size": "226 MB",
+    "size_raw": "236888848"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "6",
+    "pkg": "helix.nixappimage",
+    "pkg_family": "helix",
+    "pkg_id": "nixpkgs.helix",
+    "pkg_name": "helix",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/helix/helix",
+    "app_id": "com.helix_editor.Helix",
+    "category": [
+      "TextEditor"
+    ],
+    "description": "Fast modal terminal-based text editor",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01-aarch64-linux&download=helix.desktop",
+    "homepage": [
+      "https://helix-editor.com",
+      "https://github.com/helix-editor/helix"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01-aarch64-linux&download=helix.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "helix==hx"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "helix-editor"
+    ],
+    "src_url": [
+      "https://github.com/helix-editor/helix"
+    ],
+    "tag": [
+      "code",
+      "editor"
+    ],
+    "version": "25.01",
+    "version_upstream": "25.01",
+    "bsum": "a75633b51768e738ce934a71b93fc6710788860315a1ea6f79d850a52b4efcff",
+    "build_date": "2025-01-14T13:59:45Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12766855991",
+    "build_id": "12766855991",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01-aarch64-linux&download=helix.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/helix/nixappimage.nixpkgs.stable.yaml",
+    "download_count": "54",
+    "download_count_month": "27",
+    "download_count_week": "27",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01-aarch64-linux&download=helix",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix@sha256:d328b9e22848278eef0da498ae61bbc30b42f4241c2324e10bc000fe88a62cd7",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "helix",
+      "helix.desktop",
+      "helix.desktop.sig",
+      "helix.json",
+      "helix.json.sig",
+      "helix.log",
+      "helix.log.sig",
+      "helix.png",
+      "helix.png.sig",
+      "helix.sig",
+      "helix.version",
+      "helix.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01-aarch64-linux",
+    "ghcr_size": "27.1 MB",
+    "ghcr_size_raw": "28416808",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01-aarch64-linux&manifest",
+    "shasum": "d328b9e22848278eef0da498ae61bbc30b42f4241c2324e10bc000fe88a62cd7",
+    "size": "28 MB",
+    "size_raw": "28365584"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "5",
+    "pkg": "neovim.nixappimage",
+    "pkg_family": "neovim",
+    "pkg_id": "nixpkgs.neovim",
+    "pkg_name": "neovim",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/neovim/neovim",
+    "app_id": "io.neovim.nvim",
+    "category": [
+      "TextEditor"
+    ],
+    "description": "Vim text editor fork focused on extensibility and agility",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.3-aarch64-linux&download=neovim.desktop",
+    "homepage": [
+      "https://neovim.io",
+      "https://neovim.org"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.3-aarch64-linux&download=neovim.png",
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "neovim=>nvim"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "neovim"
+    ],
+    "src_url": [
+      "https://github.com/neovim/neovim"
+    ],
+    "tag": [
+      "code",
+      "editor"
+    ],
+    "version": "0.10.3",
+    "version_upstream": "0.10.3",
+    "bsum": "83d081f8225e554d854bda7efa131cfc040169311c104dc8a24da3e82659544b",
+    "build_date": "2025-01-14T14:18:06Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12766855991",
+    "build_id": "12766855991",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.3-aarch64-linux&download=neovim.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/nixappimage.nixpkgs.stable.yaml",
+    "download_count": "55",
+    "download_count_month": "27",
+    "download_count_week": "27",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.3-aarch64-linux&download=neovim",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim@sha256:a4b9348c9000b9b5c9897f32899847b7acf897cb003cd165281678b6e0132c9c",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "neovim",
+      "neovim.desktop",
+      "neovim.desktop.sig",
+      "neovim.json",
+      "neovim.json.sig",
+      "neovim.log",
+      "neovim.log.sig",
+      "neovim.png",
+      "neovim.png.sig",
+      "neovim.sig",
+      "neovim.version",
+      "neovim.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.3-aarch64-linux",
+    "ghcr_size": "30.94 MB",
+    "ghcr_size_raw": "32440859",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.3-aarch64-linux&manifest",
+    "shasum": "a4b9348c9000b9b5c9897f32899847b7acf897cb003cd165281678b6e0132c9c",
+    "size": "31 MB",
+    "size_raw": "32301840"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "7",
+    "pkg": "simplex-desktop.nixappimage",
+    "pkg_family": "simplex-desktop",
+    "pkg_id": "nixpkgs.simplex-chat-desktop",
+    "pkg_name": "simplex-desktop",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/simplex-desktop/simplex-desktop",
+    "app_id": "chat.simplex.simplex",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "Desktop application for SimpleX Chat, A 100% private-by-design chat platform",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux&download=simplex-desktop.desktop",
+    "homepage": [
+      "https://simplex.chat",
+      "https://github.com/simplex-chat/simplex-chat"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux&download=simplex-desktop.png",
+    "license": [
+      "AGPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "simplex-desktop==simplex-chat-desktop"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "simplex-chat",
+      "simplex-chat-desktop"
+    ],
+    "src_url": [
+      "https://github.com/simplex-chat/simplex-chat"
+    ],
+    "tag": [
+      "chat",
+      "messenger",
+      "privacy"
+    ],
+    "version": "6.2.4",
+    "version_upstream": "6.2.4",
+    "bsum": "4f96dc96148194382f4ba680a409924eb179121388e1fe91aa0a7f8db3d2383b",
+    "build_date": "2025-01-17T12:37:36Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12825848157",
+    "build_id": "12825848157",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux&download=simplex-desktop.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/nixappimage.nixpkgs.stable.yaml",
+    "download_count": "34",
+    "download_count_month": "6",
+    "download_count_week": "6",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux&download=simplex-desktop",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop@sha256:a383c53e2edadcd606e1442e42b16a89ccf6c2fe1399d03445fb6e6378d07af7",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "simplex-desktop",
+      "simplex-desktop.desktop",
+      "simplex-desktop.desktop.sig",
+      "simplex-desktop.json",
+      "simplex-desktop.json.sig",
+      "simplex-desktop.log",
+      "simplex-desktop.log.sig",
+      "simplex-desktop.png",
+      "simplex-desktop.png.sig",
+      "simplex-desktop.sig",
+      "simplex-desktop.version",
+      "simplex-desktop.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.4-aarch64-linux",
+    "ghcr_size": "524.34 MB",
+    "ghcr_size_raw": "549805443",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux&manifest",
+    "shasum": "a383c53e2edadcd606e1442e42b16a89ccf6c2fe1399d03445fb6e6378d07af7",
+    "size": "520 MB",
+    "size_raw": "544424720",
+    "snapshots": [
+      "6.2.3-aarch64-linux[6.2.3]"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "15",
+    "pkg": "telegram-desktop.nixappimage",
+    "pkg_family": "telegram-desktop",
+    "pkg_id": "nixpkgs.telegram-desktop",
+    "pkg_name": "telegram-desktop",
+    "pkg_type": "nixappimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/telegram-desktop/telegram-desktop",
+    "app_id": "org.telegram.desktop",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.2-aarch64-linux&download=telegram-desktop.metainfo.xml",
+    "category": [
+      "Chat",
+      "IRCClient"
+    ],
+    "description": "Official desktop version of Telegram messaging app",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.2-aarch64-linux&download=telegram-desktop.desktop",
+    "homepage": [
+      "https://desktop.telegram.org",
+      "https://github.com/telegramdesktop/tdesktop"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.2-aarch64-linux&download=telegram-desktop.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "telegram-desktop==Telegram-Desktop"
+    ],
+    "note": [
+      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "telegram-desktop"
+    ],
+    "src_url": [
+      "https://github.com/telegramdesktop/tdesktop"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ],
+    "version": "5.10.2",
+    "version_upstream": "5.10.2",
+    "bsum": "40ee9bbf6c378d579342b8a5427748dd1018ea61ed685edba5c702d544128f3a",
+    "build_date": "2025-01-17T12:49:17Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12825848157",
+    "build_id": "12825848157",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.2-aarch64-linux&download=telegram-desktop.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/nixappimage.nixpkgs.stable.yaml",
+    "download_count": "12",
+    "download_count_month": "6",
+    "download_count_week": "6",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.2-aarch64-linux&download=telegram-desktop",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop@sha256:b3bb91df7af44826607ab61ba2a6f798fe60165e8c38b64371cdc5de8c477ee0",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "telegram-desktop",
+      "telegram-desktop.desktop",
+      "telegram-desktop.desktop.sig",
+      "telegram-desktop.json",
+      "telegram-desktop.json.sig",
+      "telegram-desktop.log",
+      "telegram-desktop.log.sig",
+      "telegram-desktop.metainfo.xml",
+      "telegram-desktop.metainfo.xml.sig",
+      "telegram-desktop.png",
+      "telegram-desktop.png.sig",
+      "telegram-desktop.sig",
+      "telegram-desktop.version",
+      "telegram-desktop.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.10.2-aarch64-linux",
+    "ghcr_size": "353.78 MB",
+    "ghcr_size_raw": "370968562",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.2-aarch64-linux&manifest",
+    "shasum": "b3bb91df7af44826607ab61ba2a6f798fe60165e8c38b64371cdc5de8c477ee0",
+    "size": "354 MB",
+    "size_raw": "370836240"
   },
   {
     "_disabled": "false",
@@ -140,7 +1043,9 @@
     "build_id": "12724410127",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-aarch64-linux&download=vesktop.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml",
-    "download_count": "-1",
+    "download_count": "94",
+    "download_count_month": "47",
+    "download_count_week": "46",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-aarch64-linux&download=vesktop",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:64ab14119ffecd2b558eef42f14c866f99bbff46ffaac68d4ab6b06f6ee32072",
     "ghcr_files": [
@@ -171,5 +1076,266 @@
     "shasum": "64ab14119ffecd2b558eef42f14c866f99bbff46ffaac68d4ab6b06f6ee32072",
     "size": "88 MB",
     "size_raw": "91820784"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "9",
+    "pkg": "zen-browser.appimage",
+    "pkg_family": "zen-browser",
+    "pkg_id": "github.com.zen-browser.desktop.twilight",
+    "pkg_name": "zen-browser",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/github-com-zen-browser-desktop-twilight/zen-browser",
+    "app_id": "app.zen_browser.zen",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Performance oriented Firefox-based web browser (Twilight)",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.7t_2025-01-16-aarch64-linux&download=zen-browser.desktop",
+    "homepage": [
+      "https://zen-browser.app",
+      "https://github.com/zen-browser/desktop"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.7t_2025-01-16-aarch64-linux&download=zen-browser.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "zen-browser==zen"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
+    ],
+    "repology": [
+      "zen-browser"
+    ],
+    "src_url": [
+      "https://github.com/zen-browser/desktop"
+    ],
+    "tag": [
+      "arc",
+      "firefox",
+      "www-client"
+    ],
+    "version": "1.7t_2025-01-16",
+    "version_upstream": "1.7t_2025-01-16",
+    "bsum": "094cdb08c9bf0db6bed46f1ce956a1c9f0cab74954f873d26f0e85ec52aacc86",
+    "build_date": "2025-01-17T12:49:57Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12825848157",
+    "build_id": "12825848157",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.7t_2025-01-16-aarch64-linux&download=zen-browser.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
+    "download_count": "29",
+    "download_count_month": "5",
+    "download_count_week": "5",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.7t_2025-01-16-aarch64-linux&download=zen-browser",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:edd1e13fdaac91d9100a9d8563664068b9baafb64f3ac93f5146c7668b637aa0",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "zen-browser",
+      "zen-browser.desktop",
+      "zen-browser.desktop.sig",
+      "zen-browser.json",
+      "zen-browser.json.sig",
+      "zen-browser.log",
+      "zen-browser.log.sig",
+      "zen-browser.png",
+      "zen-browser.png.sig",
+      "zen-browser.sig",
+      "zen-browser.version",
+      "zen-browser.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.7t_2025-01-16-aarch64-linux",
+    "ghcr_size": "95.52 MB",
+    "ghcr_size_raw": "100157265",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.7t_2025-01-16-aarch64-linux&manifest",
+    "shasum": "edd1e13fdaac91d9100a9d8563664068b9baafb64f3ac93f5146c7668b637aa0",
+    "size": "96 MB",
+    "size_raw": "100086544",
+    "snapshots": [
+      "1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "10",
+    "pkg": "zen-browser.appimage",
+    "pkg_family": "zen-browser",
+    "pkg_id": "github.com.zen-browser.desktop.beta",
+    "pkg_name": "zen-browser",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/github-com-zen-browser-desktop-beta/zen-browser",
+    "app_id": "app.zen_browser.zen",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Performance oriented Firefox-based web browser (Beta)",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.desktop",
+    "homepage": [
+      "https://zen-browser.app",
+      "https://github.com/zen-browser/desktop"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "zen-browser==zen"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
+    ],
+    "repology": [
+      "zen-browser"
+    ],
+    "src_url": [
+      "https://github.com/zen-browser/desktop"
+    ],
+    "tag": [
+      "arc",
+      "firefox",
+      "www-client"
+    ],
+    "version": "1.0.2-b.5",
+    "version_upstream": "1.0.2-b.5",
+    "bsum": "38a2beaf8a46cc005ea54619c93bf718a50b059ff884587e15dff38ffeab322e",
+    "build_date": "2025-01-16T18:18:20Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12812691028",
+    "build_id": "12812691028",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml",
+    "download_count": "25",
+    "download_count_month": "12",
+    "download_count_week": "12",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "zen-browser",
+      "zen-browser.desktop",
+      "zen-browser.desktop.sig",
+      "zen-browser.json",
+      "zen-browser.json.sig",
+      "zen-browser.log",
+      "zen-browser.log.sig",
+      "zen-browser.png",
+      "zen-browser.png.sig",
+      "zen-browser.sig",
+      "zen-browser.version",
+      "zen-browser.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
+    "ghcr_size": "94.95 MB",
+    "ghcr_size_raw": "99562606",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&manifest",
+    "shasum": "98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
+    "size": "95 MB",
+    "size_raw": "99492624"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "11",
+    "pkg": "zen-browser.appimage",
+    "pkg_family": "zen-browser",
+    "pkg_id": "github.com.zen-browser.desktop.stable",
+    "pkg_name": "zen-browser",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/github-com-zen-browser-desktop-stable/zen-browser",
+    "app_id": "app.zen_browser.zen",
+    "category": [
+      "WebBrowser"
+    ],
+    "description": "Performance oriented Firefox-based web browser",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7b-aarch64-linux&download=zen-browser.desktop",
+    "homepage": [
+      "https://zen-browser.app",
+      "https://github.com/zen-browser/desktop"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7b-aarch64-linux&download=zen-browser.png",
+    "license": [
+      "MPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "zen-browser==zen"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
+    ],
+    "repology": [
+      "zen-browser"
+    ],
+    "src_url": [
+      "https://github.com/zen-browser/desktop"
+    ],
+    "tag": [
+      "arc",
+      "firefox",
+      "www-client"
+    ],
+    "version": "1.7b",
+    "version_upstream": "1.7b",
+    "bsum": "f829b2dc24bc81216d033716c30ba3bebfab76e38b9791982e9c54622f2bd89b",
+    "build_date": "2025-01-16T18:18:44Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12812691028",
+    "build_id": "12812691028",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7b-aarch64-linux&download=zen-browser.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml",
+    "download_count": "24",
+    "download_count_month": "12",
+    "download_count_week": "12",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7b-aarch64-linux&download=zen-browser",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:05e69cdacaa50fa324f0b02d30b93e7185df33b54b4d4464df5a07e42a1b6af0",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "zen-browser",
+      "zen-browser.desktop",
+      "zen-browser.desktop.sig",
+      "zen-browser.json",
+      "zen-browser.json.sig",
+      "zen-browser.log",
+      "zen-browser.log.sig",
+      "zen-browser.png",
+      "zen-browser.png.sig",
+      "zen-browser.sig",
+      "zen-browser.version",
+      "zen-browser.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7b-aarch64-linux",
+    "ghcr_size": "95.51 MB",
+    "ghcr_size_raw": "100144912",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7b-aarch64-linux&manifest",
+    "shasum": "05e69cdacaa50fa324f0b02d30b93e7185df33b54b4d4464df5a07e42a1b6af0",
+    "size": "96 MB",
+    "size_raw": "100074256"
   }
 ]

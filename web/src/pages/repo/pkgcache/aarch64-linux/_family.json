@@ -5,10 +5,88 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/86box/86box"
     ]
   ],
+  "aarch64-linux/brave": [
+    [
+      "brave",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/brave/brave"
+    ]
+  ],
+  "aarch64-linux/nixpkgs-chromium": [
+    [
+      "chromium",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nixpkgs-chromium/chromium"
+    ]
+  ],
+  "aarch64-linux/nixpkgs-ungoogled-chromium": [
+    [
+      "chromium",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nixpkgs-ungoogled-chromium/chromium"
+    ]
+  ],
+  "aarch64-linux/flameshot": [
+    [
+      "flameshot",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/flameshot/flameshot"
+    ]
+  ],
+  "aarch64-linux/gearlever": [
+    [
+      "gearlever",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/gearlever/gearlever"
+    ]
+  ],
+  "aarch64-linux/ghostty": [
+    [
+      "ghostty",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghostty/ghostty"
+    ]
+  ],
+  "aarch64-linux/helix": [
+    [
+      "helix",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/helix/helix"
+    ]
+  ],
+  "aarch64-linux/neovim": [
+    [
+      "neovim",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/neovim/neovim"
+    ]
+  ],
+  "aarch64-linux/simplex-desktop": [
+    [
+      "simplex-desktop",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/simplex-desktop/simplex-desktop"
+    ]
+  ],
+  "aarch64-linux/telegram-desktop": [
+    [
+      "telegram-desktop",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/telegram-desktop/telegram-desktop"
+    ]
+  ],
   "aarch64-linux/vesktop": [
     [
       "vesktop",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/vesktop/vesktop"
+    ]
+  ],
+  "aarch64-linux/github-com-zen-browser-desktop-twilight": [
+    [
+      "zen-browser",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/github-com-zen-browser-desktop-twilight/zen-browser"
+    ]
+  ],
+  "aarch64-linux/github-com-zen-browser-desktop-beta": [
+    [
+      "zen-browser",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/github-com-zen-browser-desktop-beta/zen-browser"
+    ]
+  ],
+  "aarch64-linux/github-com-zen-browser-desktop-stable": [
+    [
+      "zen-browser",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/github-com-zen-browser-desktop-stable/zen-browser"
     ]
   ]
 }

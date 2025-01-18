@@ -167,6 +167,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/alba4k-albafetch/albafetch/albafetch"
     ]
   ],
+  "btpf-alexandria/alexandria": [
+    [
+      "alexandria",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/btpf-alexandria/alexandria/alexandria"
+    ]
+  ],
   "xyproto-algernon/algernon": [
     [
       "algernon",
@@ -261,6 +267,12 @@
     [
       "android-messages",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/messages-desktop/android-messages/android-messages"
+    ]
+  ],
+  "appimage-stable/android-tools": [
+    [
+      "android-tools",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/android-tools/android-tools"
     ]
   ],
   "tomnomnom-anew/anew": [
@@ -501,6 +513,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-binutils/binutils/binutils"
     ]
   ],
+  "oll3-bita/bita": [
+    [
+      "bita",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/oll3-bita/bita/bita"
+    ]
+  ],
+  "debian-blender/blender": [
+    [
+      "blender",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-blender/blender/blender"
+    ]
+  ],
   "blevesearch-bleve/bleve": [
     [
       "bleve",
@@ -511,6 +535,12 @@
     [
       "bluetuith",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/darkhz-bluetuith/bluetuith/bluetuith"
+    ]
+  ],
+  "sloum-bombadillo/bombadillo": [
+    [
+      "bombadillo",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sloum-bombadillo/bombadillo/bombadillo"
     ]
   ],
   "ekzhang-bore/bore": [
@@ -541,6 +571,30 @@
     [
       "boxxy",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/queer-boxxy/boxxy/boxxy"
+    ]
+  ],
+  "appimage-nightly/brave": [
+    [
+      "brave",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-nightly/brave/brave"
+    ]
+  ],
+  "nixpkgs-brave/brave": [
+    [
+      "brave",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-brave/brave/brave"
+    ]
+  ],
+  "appimage-stable/brave": [
+    [
+      "brave",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/brave/brave"
+    ]
+  ],
+  "appimage-beta/brave": [
+    [
+      "brave",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-beta/brave/brave"
     ]
   ],
   "shenwei356-brename/brename": [
@@ -679,6 +733,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cloudflare-cfssl/cfssl/cfssl"
     ]
   ],
+  "chaos-client/chaos-client": [
+    [
+      "chaos-client",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/chaos-client/chaos-client/chaos-client"
+    ]
+  ],
   "cheat-cheat/cheat": [
     [
       "cheat",
@@ -695,6 +755,18 @@
     [
       "chisel",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/jpillora-chisel/chisel/chisel"
+    ]
+  ],
+  "ungoogled-chromium/chromium": [
+    [
+      "chromium",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ungoogled-chromium/chromium/chromium"
+    ]
+  ],
+  "nixpkgs-chromium/chromium": [
+    [
+      "chromium",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-chromium/chromium/chromium"
     ]
   ],
   "bschaatsbergen-cidr/cidr": [
@@ -823,10 +895,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cri-tools/cri-tools/cri-tools"
     ]
   ],
+  "dwisiswant0-crlfuzz/crlfuzz": [
+    [
+      "crlfuzz",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dwisiswant0-crlfuzz/crlfuzz/crlfuzz"
+    ]
+  ],
   "schollz-croc/croc": [
     [
       "croc",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/schollz-croc/croc/croc"
+    ]
+  ],
+  "cromite-appimage/cromite": [
+    [
+      "cromite",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cromite-appimage/cromite/cromite"
     ]
   ],
   "nixpkgs-cron/crontab": [
@@ -925,6 +1009,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dandavison-delta/delta/delta"
     ]
   ],
+  "egebalci-deoptimizer/deoptimizer": [
+    [
+      "deoptimizer",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/egebalci-deoptimizer/deoptimizer/deoptimizer"
+    ]
+  ],
   "file-utils/desktop-file-utils": [
     [
       "desktop-file-utils",
@@ -935,6 +1025,48 @@
     [
       "diffutils-rs",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/uutils-diffutils/diffutils-rs/diffutils-rs"
+    ]
+  ],
+  "discord-canary/discord": [
+    [
+      "discord",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/discord-canary/discord/discord"
+    ]
+  ],
+  "discord-development/discord": [
+    [
+      "discord",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/discord-development/discord/discord"
+    ]
+  ],
+  "discord-ptb/discord": [
+    [
+      "discord",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/discord-ptb/discord/discord"
+    ]
+  ],
+  "nixpkgs-discord/discord": [
+    [
+      "discord",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-discord/discord/discord"
+    ]
+  ],
+  "appimage-stable/discord": [
+    [
+      "discord",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/discord/discord"
+    ]
+  ],
+  "appimage-canary/discord": [
+    [
+      "discord-canary",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-canary/discord/discord-canary"
+    ]
+  ],
+  "appimage-ptb/discord": [
+    [
+      "discord-ptb",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-ptb/discord/discord-ptb"
     ]
   ],
   "wagoodman-dive/dive": [
@@ -995,6 +1127,12 @@
     [
       "dura",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/tkellogg-dura/dura/dura"
+    ]
+  ],
+  "nixpkgs-e2fsprogs/e2fsprogs": [
+    [
+      "e2fsprogs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-e2fsprogs/e2fsprogs/e2fsprogs"
     ]
   ],
   "turner-ecoji/ecoji": [
@@ -1153,6 +1291,48 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/uutils-findutils/findutils/findutils"
     ]
   ],
+  "appimage-beta/firefox": [
+    [
+      "firefox",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-beta/firefox/firefox"
+    ]
+  ],
+  "appimage-dev/firefox": [
+    [
+      "firefox",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-dev/firefox/firefox"
+    ]
+  ],
+  "appimage-esr/firefox": [
+    [
+      "firefox",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-esr/firefox/firefox"
+    ]
+  ],
+  "appimage-nightly/firefox": [
+    [
+      "firefox",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-nightly/firefox/firefox"
+    ]
+  ],
+  "appimage-stable/firefox": [
+    [
+      "firefox",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/firefox/firefox"
+    ]
+  ],
+  "org-flameshot/flameshot": [
+    [
+      "flameshot",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/org-flameshot/flameshot/flameshot"
+    ]
+  ],
+  "nixpkgs-flameshot/flameshot": [
+    [
+      "flameshot",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-flameshot/flameshot/flameshot"
+    ]
+  ],
   "orhun-flawz/flawz": [
     [
       "flawz",
@@ -1207,6 +1387,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-gdb/gdb/gdb"
     ]
   ],
+  "nixpkgs-gearlever/gearlever": [
+    [
+      "gearlever",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-gearlever/gearlever/gearlever"
+    ]
+  ],
   "geonet-rs/geonet": [
     [
       "geonet",
@@ -1217,6 +1403,12 @@
     [
       "gettext",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-gettext/gettext/gettext"
+    ]
+  ],
+  "nixpkgs-ghostty/ghostty": [
+    [
+      "ghostty",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-ghostty/ghostty/ghostty"
     ]
   ],
   "ghostty-appimage/ghostty": [
@@ -1483,6 +1675,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/huntdownproject-hednsextractor/hednsextractor/hednsextractor"
     ]
   ],
+  "nixpkgs-helix/helix": [
+    [
+      "helix",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-helix/helix/helix"
+    ]
+  ],
   "sitkevij-hex/hex": [
     [
       "hex",
@@ -1711,6 +1909,30 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/hack-ksubdomain/ksubdomain/ksubdomain"
     ]
   ],
+  "ipfs-kubo/kubo": [
+    [
+      "kubo",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ipfs-kubo/kubo/kubo"
+    ]
+  ],
+  "nixpkgs-lazarus/lazarus": [
+    [
+      "lazarus",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-lazarus/lazarus/lazarus"
+    ]
+  ],
+  "cachyos-lazarus/lazarus": [
+    [
+      "lazarus",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-lazarus/lazarus/lazarus"
+    ]
+  ],
+  "debian-lazarus/lazarus": [
+    [
+      "lazarus",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-lazarus/lazarus/lazarus"
+    ]
+  ],
   "nixpkgs-less/less": [
     [
       "less",
@@ -1837,10 +2059,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-mkpasswd/mkpasswd/mkpasswd"
     ]
   ],
+  "seirdy-moac/moac": [
+    [
+      "moac",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/seirdy-moac/moac/moac"
+    ]
+  ],
   "y2z-monolith/monolith": [
     [
       "monolith",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/y2z-monolith/monolith/monolith"
+    ]
+  ],
+  "appimage-stable/mpv": [
+    [
+      "mpv",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/mpv/mpv"
     ]
   ],
   "edjopato-mqttui/mqttui": [
@@ -1889,6 +2123,18 @@
     [
       "ncgopher",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/jansc-ncgopher/ncgopher/ncgopher"
+    ]
+  ],
+  "neovim-stable/neovim": [
+    [
+      "neovim",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/neovim-stable/neovim/neovim"
+    ]
+  ],
+  "nixpkgs-neovim/neovim": [
+    [
+      "neovim",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-neovim/neovim/neovim"
     ]
   ],
   "net-tools/net-tools": [
@@ -1975,6 +2221,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nushell-nushell/nushell/nushell"
     ]
   ],
+  "appimage-stable/obs-studio": [
+    [
+      "obs-studio",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/obs-studio/obs-studio"
+    ]
+  ],
   "nixpkgs-oksh/oksh": [
     [
       "oksh",
@@ -2051,6 +2303,12 @@
     [
       "passdetective",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/aydinnyunus-passdetective/passdetective/passdetective"
+    ]
+  ],
+  "nixpkgs-patchelf/patchelf": [
+    [
+      "patchelf",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-patchelf/patchelf/patchelf"
     ]
   ],
   "pax-utils/pax-utils": [
@@ -2131,6 +2389,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dwisiswant0-ppfuzz/ppfuzz/ppfuzz"
     ]
   ],
+  "appimage-stable/ppsspp": [
+    [
+      "ppsspp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/ppsspp/ppsspp"
+    ]
+  ],
   "nixpkgs-procps/procps": [
     [
       "procps",
@@ -2171,6 +2435,12 @@
     [
       "pspy",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dominicbreuker-pspy/pspy/pspy"
+    ]
+  ],
+  "appimage-stable/puddletag": [
+    [
+      "puddletag",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/puddletag/puddletag"
     ]
   ],
   "io12-pwninit/pwninit": [
@@ -2437,6 +2707,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/richardlehane-siegfried/siegfried/siegfried"
     ]
   ],
+  "simplex-chat/simplex-chat": [
+    [
+      "simplex-chat",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/simplex-chat/simplex-chat/simplex-chat"
+    ]
+  ],
+  "simplex-chat/simplex-desktop": [
+    [
+      "simplex-desktop",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/simplex-chat/simplex-desktop/simplex-desktop"
+    ]
+  ],
+  "chat-desktop/simplex-desktop": [
+    [
+      "simplex-desktop",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/chat-desktop/simplex-desktop/simplex-desktop"
+    ]
+  ],
   "bishopfox-sj/sj": [
     [
       "sj",
@@ -2545,6 +2833,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/harshvaragiya-sslsearch/sslsearch/sslsearch"
     ]
   ],
+  "archlinux-steam/steam": [
+    [
+      "steam",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/archlinux-steam/steam/steam"
+    ]
+  ],
+  "cachyos-steam/steam": [
+    [
+      "steam",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-steam/steam/steam"
+    ]
+  ],
   "marwanhawari-stew/stew": [
     [
       "stew",
@@ -2555,6 +2855,12 @@
     [
       "strace",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-strace/strace/strace"
+    ]
+  ],
+  "appimage-stable/strawberry": [
+    [
+      "strawberry",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/strawberry/strawberry"
     ]
   ],
   "stress-ng/stress-ng": [
@@ -2663,6 +2969,12 @@
     [
       "telegram-desktop",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/telegramdesktop-tdesktop/telegram-desktop/telegram-desktop"
+    ]
+  ],
+  "telegram-desktop/telegram-desktop": [
+    [
+      "telegram-desktop",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/telegram-desktop/telegram-desktop/telegram-desktop"
     ]
   ],
   "mgunyho-tere/tere": [
@@ -2857,6 +3169,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/schachmat-wego/wego/wego"
     ]
   ],
+  "ppkg-wget/wget": [
+    [
+      "wget",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-wget/wget/wget"
+    ]
+  ],
+  "nixpkgs-wget2/wget2": [
+    [
+      "wget2",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-wget2/wget2/wget2"
+    ]
+  ],
+  "ppkg-wget2/wget2": [
+    [
+      "wget2",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-wget2/wget2/wget2"
+    ]
+  ],
   "nixpkgs-which/which": [
     [
       "which",
@@ -2987,6 +3317,24 @@
     [
       "zdns",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/zmap-zdns/zdns/zdns"
+    ]
+  ],
+  "desktop-beta/zen-browser": [
+    [
+      "zen-browser",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/desktop-beta/zen-browser/zen-browser"
+    ]
+  ],
+  "desktop-stable/zen-browser": [
+    [
+      "zen-browser",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/desktop-stable/zen-browser/zen-browser"
+    ]
+  ],
+  "desktop-twilight/zen-browser": [
+    [
+      "zen-browser",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/desktop-twilight/zen-browser/zen-browser"
     ]
   ],
   "bvaisvil-zenith/zenith": [

@@ -1,7 +1,7 @@
 import { Table, TableBody, TableCell, TableRow } from "./ui/table";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 import { Badge } from "./ui/badge";
-import { ExternalLink, LucideTerminalSquare, Package, ScrollText, Download, Bug } from "lucide-react";
+import { ExternalLink, LucideTerminalSquare, Package, ScrollText, Download, Bug, Image as ImageIcon } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import { useClipboard } from "../hooks/use-clipboard";
 import FormulaLinks from "./formula-links";
@@ -13,12 +13,17 @@ interface AppProps {
   downloadable?: boolean;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license" | "note" | "package_id";
+type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license" | "note" | "package_id" | "description";
 
 interface ResolverField {
   label: string;
   type: FieldType;
   joinWith?: string;
+}
+
+interface PackageDescription {
+  _default: string;
+  [key: string]: string;
 }
 
 const resolver: { [key: string]: ResolverField } = {
@@ -44,12 +49,14 @@ const resolver: { [key: string]: ResolverField } = {
   src_url: { label: "Source URL", type: "link" },
   homepage: { label: "Homepage", type: "links" },
   build_script: { label: "Build Script", type: "link" },
+  pkgcache: { label: "Package Cache", type: "link" },
+  bincache: { label: "Binary Cache", type: "link" },
   build_log: { label: "Build Log", type: "link" },
   build_gha: { label: "Build CI", type: "link" },
   category: { label: "Category", type: "category" },
   icon: { label: "Icon", type: "link" },
   provides: { label: "Provides", type: "provides" },
-  description: { label: "Description", type: "default" },
+  description: { label: "Description", type: "description" },
   pkg_type: { label: "Package Type", type: "default" },
   pkg_webpage: { label: "Package Webpage", type: "link" },
   maintainer: { label: "Maintainer", type: "string[]", joinWith: "\n" },
@@ -85,6 +92,14 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
       );
 
     case "link":
+      if (typeof value === "string" && !value.startsWith("http")) {
+        return (
+          <a href={`http://${value}`} target="_blank" rel="noreferrer"
+            className="underline underline-offset-4">
+            http://{value}
+          </a>
+        );
+      }
       return (
         <a href={value} target="_blank" rel="noreferrer"
           className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-4">
@@ -281,6 +296,28 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
           <span className="font-mono text-gray-600 dark:text-gray-400">{value}</span>
       );
 
+    case "description":
+      if (typeof value === 'object') {
+        const descriptions = value as PackageDescription;
+        return (
+          <div className="flex flex-col space-y-2">
+            {Object.entries(descriptions).map(([key, desc]: [string, string]) => (
+              <div key={key} className="flex flex-col">
+                {key === "_default" ? (
+                  <span className="font-medium">{desc}</span>
+                ) : (
+                  <>
+                    <span className="font-medium text-blue-600 dark:text-blue-400">{key}</span>
+                    <span className="text-sm text-muted-foreground">{desc}</span>
+                  </>
+                )}
+              </div>
+            ))}
+          </div>
+        );
+      }
+      return <span>{value}</span>;
+
     default:
       if (typeof value === "string" && value.startsWith("http")) {
         return (
@@ -432,6 +469,24 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
               <ExternalLink className="h-4 w-4" />
             </a>
           </div>
+
+          {data.icon && (
+            <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
+              <h2 className="text-lg font-semibold flex items-center space-x-2">
+                <ImageIcon className="text-amber-600 dark:text-amber-400" />
+                <span>Package Icon</span>
+              </h2>
+              <img src={data.icon} alt="Package Icon" className="w-16 h-16 rounded-lg" />
+              <a href={data.icon} target="_blank" rel="noreferrer"
+                className={buttonVariants({
+                  variant: "outline",
+                  className: "w-full flex items-center justify-center space-x-2"
+                })}>
+                <span>View Raw</span>
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </TooltipProvider>
