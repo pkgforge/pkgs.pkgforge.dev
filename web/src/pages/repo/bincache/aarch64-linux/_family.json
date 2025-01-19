@@ -1185,6 +1185,12 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/delta/delta"
     ]
   ],
+  "aarch64-linux/deoptimizer": [
+    [
+      "deoptimizer",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/deoptimizer/deoptimizer"
+    ]
+  ],
   "aarch64-linux/desktop-file-utils": [
     [
       "desktop-file-validate",
@@ -1667,12 +1673,12 @@
   ],
   "aarch64-linux/geonet": [
     [
-      "geoping",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/geonet/geoping"
-    ],
-    [
       "geodns",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/geonet/geodns"
+    ],
+    [
+      "geoping",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/geonet/geoping"
     ]
   ],
   "aarch64-linux/gettext": [
@@ -3101,8 +3107,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/procps/tload"
     ],
     [
+      "ps",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/procps/ps"
+    ],
+    [
       "free",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/procps/free"
+    ],
+    [
+      "pwdx",
+      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/procps/pwdx"
     ],
     [
       "pmap",
@@ -3111,14 +3125,6 @@
     [
       "kill",
       "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/procps/kill"
-    ],
-    [
-      "ps",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/procps/ps"
-    ],
-    [
-      "pwdx",
-      "https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/procps/pwdx"
     ]
   ],
   "aarch64-linux/proot": [

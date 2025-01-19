@@ -13,7 +13,7 @@ interface AppProps {
   downloadable?: boolean;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license" | "note" | "package_id" | "description";
+type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license" | "note" | "package_id" | "description" | "snapshots";
 
 interface ResolverField {
   label: string;
@@ -36,7 +36,7 @@ const resolver: { [key: string]: ResolverField } = {
   repology: { label: "Repology", type: "repology" },
   appstream: { label: "AppStream", type: "link" },
   license: { label: "License", type: "license" },
-  snapshots: { label: "Snapshots", type: "version" },
+  snapshots: { label: "Snapshots", type: "snapshots" },
   tag: { label: "Tags", type: "tags" },
   app_id: { label: "Application ID", type: "default" },
   version: { label: "Version", type: "version" },
@@ -94,9 +94,9 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
     case "link":
       if (typeof value === "string" && !value.startsWith("http")) {
         return (
-          <a href={`http://${value}`} target="_blank" rel="noreferrer"
+          <a href={`https://${value}`} target="_blank" rel="noreferrer"
             className="underline underline-offset-4">
-            http://{value}
+            https://{value}
           </a>
         );
       }
@@ -293,7 +293,7 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
 
     case "package_id":
       return (
-          <span className="font-mono text-gray-600 dark:text-gray-400">{value}</span>
+        <span className="font-mono text-gray-600 dark:text-gray-400">{value}</span>
       );
 
     case "description":
@@ -317,6 +317,18 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
         );
       }
       return <span>{value}</span>;
+
+    case "snapshots":
+      const snapshots = Array.isArray(value) ? value : [value];
+      return (
+        <div className="flex flex-wrap gap-1">
+          {snapshots.map((snap) => (
+            <Badge key={snap} className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-100">
+              {snap}
+            </Badge>
+          ))}
+        </div>
+      );
 
     default:
       if (typeof value === "string" && value.startsWith("http")) {

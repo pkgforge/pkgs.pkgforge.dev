@@ -1277,10 +1277,6 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2scrub"
     ],
     [
-      "dumpe2fs",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/dumpe2fs"
-    ],
-    [
       "e2mmpstatus",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2mmpstatus"
     ],
@@ -1345,10 +1341,6 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2freefrag"
     ],
     [
-      "e2label",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2label"
-    ],
-    [
       "tune2fs",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/tune2fs"
     ],
@@ -1357,12 +1349,20 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/debugfs"
     ],
     [
-      "compile_et",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/compile_et"
-    ],
-    [
       "logsave",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/logsave"
+    ],
+    [
+      "dumpe2fs",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/dumpe2fs"
+    ],
+    [
+      "e2label",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2label"
+    ],
+    [
+      "compile_et",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/compile_et"
     ]
   ],
   "x86_64-linux/ecoji": [
@@ -4121,16 +4121,16 @@
   ],
   "x86_64-linux/skim": [
     [
-      "skim",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/skim/skim"
-    ],
-    [
       "skim-tmux",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/skim/skim-tmux"
     ],
     [
       "sk-tmux",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/skim/sk-tmux"
+    ],
+    [
+      "skim",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/skim/skim"
     ],
     [
       "sk",
@@ -4249,12 +4249,12 @@
   ],
   "x86_64-linux/sshx": [
     [
-      "sshx-server",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sshx/sshx-server"
-    ],
-    [
       "sshx",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sshx/sshx"
+    ],
+    [
+      "sshx-server",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sshx/sshx-server"
     ]
   ],
   "x86_64-linux/sslsearch": [
@@ -4513,12 +4513,12 @@
   ],
   "x86_64-linux/unix": [
     [
-      "v6run",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/unix/v6run"
-    ],
-    [
       "v6disk",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/unix/v6disk"
+    ],
+    [
+      "v6run",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/unix/v6run"
     ]
   ],
   "x86_64-linux/util-linux": [
@@ -4759,6 +4759,10 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/ipcmk"
     ],
     [
+      "setarch",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/setarch"
+    ],
+    [
       "i386",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/i386"
     ],
@@ -4769,10 +4773,6 @@
     [
       "linux64",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/linux64"
-    ],
-    [
-      "setarch",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/util-linux/setarch"
     ],
     [
       "uname26",
@@ -5031,10 +5031,6 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/vim/rvim"
     ],
     [
-      "vi",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/vim/vi"
-    ],
-    [
       "view",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/vim/view"
     ],
@@ -5045,6 +5041,10 @@
     [
       "vimdiff",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/vim/vimdiff"
+    ],
+    [
+      "vi",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/vim/vi"
     ]
   ],
   "x86_64-linux/volta": [
@@ -5241,16 +5241,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/zstd/unzstd"
     ],
     [
-      "zstd",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/zstd/zstd"
-    ],
-    [
       "zstdcat",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/zstd/zstdcat"
     ],
     [
       "zstdmt",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/zstd/zstdmt"
+    ],
+    [
+      "zstd",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/zstd/zstd"
     ]
   ]
 }
