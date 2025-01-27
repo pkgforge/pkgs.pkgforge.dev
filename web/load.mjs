@@ -96,7 +96,7 @@ const run = async (url, branch, arch) => {
   console.log("⏲️ Downloading pkgcache aarch64");
   await run(pkgcacheArm64, "pkgcache", "aarch64-linux");
 
-  console.log("⏲️ Downloading bincache x86_64");
+  console.log("⏲️ Downloading pkgcache x86_64");
   await run(pkgcacheX86, "pkgcache", "x86_64-linux");
 
   // console.log("⏲️ Downloading Community");
