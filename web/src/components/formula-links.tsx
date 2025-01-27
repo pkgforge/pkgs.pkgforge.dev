@@ -1,6 +1,4 @@
 import { FileJson, DownloadCloud } from 'lucide-react';
-import { useClipboard } from "../hooks/use-clipboard";
-import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
 interface Props {
   webpage_url: string;
@@ -11,10 +9,10 @@ interface Props {
   arch: string;
 }
 
-const FormulaLinks = ({ webpage_url, family, name, arch, repo, download_url }: Props) => {
+const FormulaLinks = ({ webpage_url, repo }: Props) => {
   const jsonApiUrl = `${webpage_url}/raw.json`;
 
-  const [, , , , , ...dataf] = webpage_url.split("/");
+  const [, , , , ...dataf] = webpage_url.split("/");
 
   const downloadUrl = new URL(`/dl/${dataf.join("/")}/raw.dl`, window.location.origin);
 
@@ -33,12 +31,12 @@ const FormulaLinks = ({ webpage_url, family, name, arch, repo, download_url }: P
             <div className="flex flex-col items-start">
               <span className="text-sm font-medium text-gray-700 dark:text-gray-300">JSON API</span>
               <code className="text-xs text-gray-500 dark:text-gray-400 font-mono">
-                /{family}/{name}/raw.json
+                {`${webpage_url}/raw.json`}
               </code>
             </div>
           </a>
 
-          {download_url != "none" && <a
+          {repo != "soarpkgs" && <a
             href={downloadUrl.toString()}
             target="_blank"
             rel="noreferrer"
@@ -48,7 +46,7 @@ const FormulaLinks = ({ webpage_url, family, name, arch, repo, download_url }: P
             <div className="flex flex-col items-start">
               <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Download</span>
               <code className="text-xs text-gray-500 dark:text-gray-400 font-mono">
-                /{family}/{name}/raw.dl
+                https://pkgs.pkgforge.dev/dl/{`${dataf.join("/")}/raw.dl`}
               </code>
             </div>
           </a>}
