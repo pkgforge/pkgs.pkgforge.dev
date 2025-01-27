@@ -1,0 +1,32 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import App from "../../../../components/app.tsx";
+
+export async function getStaticPaths() {
+  const { default: apps } = await import("./_apps.json");
+
+  return apps.map((app) => {
+    // Thanks @Azathothas for forcing us to write this hellifying script
+    const [, , , , , category, ...pkg] = app.pkg_webpage.split("/");
+
+    const slug = pkg.join("/");
+
+    return {
+      params: {
+        slug,
+        category,
+      },
+      props: {
+        data: app,
+        logs: "",
+      },
+    };
+  });
+}
+
+const { data, logs } = Astro.props;
+---
+
+<Layout>
+  <App data={data} logs={logs} repo="pkgcache" client:only />
+</Layout>

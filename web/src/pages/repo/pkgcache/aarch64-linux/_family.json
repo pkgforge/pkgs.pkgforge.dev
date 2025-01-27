@@ -1,26 +1,42 @@
 {
   "aarch64-linux/86box": [
     [
-      "86box",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/86box/86box"
+      "appimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/86box/appimage/official/stable/86box"
+    ]
+  ],
+  "aarch64-linux/akregator": [
+    [
+      "runimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/akregator/runimage/alpine/stable/akregator"
+    ]
+  ],
+  "aarch64-linux/blender": [
+    [
+      "runimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/blender/runimage/debian/stable/blender"
     ]
   ],
   "aarch64-linux/brave": [
     [
-      "brave",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/brave/brave"
+      "nixappimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/brave/nixappimage/nixpkgs/stable/brave"
     ]
   ],
-  "aarch64-linux/nixpkgs-chromium": [
+  "aarch64-linux/chromium": [
     [
-      "chromium",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nixpkgs-chromium/chromium"
+      "nixappimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/chromium/nixappimage/nixpkgs/stable/chromium"
+    ],
+    [
+      "nixappimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/chromium/nixappimage/nixpkgs/ungoogled/chromium"
     ]
   ],
-  "aarch64-linux/nixpkgs-ungoogled-chromium": [
+  "aarch64-linux/clamtk": [
     [
-      "chromium",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nixpkgs-ungoogled-chromium/chromium"
+      "runimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/clamtk/runimage/debian/stable/clamtk"
     ]
   ],
   "aarch64-linux/flameshot": [
@@ -31,8 +47,8 @@
   ],
   "aarch64-linux/gearlever": [
     [
-      "gearlever",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/gearlever/gearlever"
+      "nixappimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/gearlever/nixappimage/nixpkgs/stable/gearlever"
     ]
   ],
   "aarch64-linux/ghostty": [
@@ -43,50 +59,56 @@
   ],
   "aarch64-linux/helix": [
     [
-      "helix",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/helix/helix"
+      "nixappimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/helix/nixappimage/nixpkgs/stable/helix"
     ]
   ],
   "aarch64-linux/neovim": [
     [
-      "neovim",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/neovim/neovim"
+      "nixappimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/neovim/nixappimage/nixpkgs/stable/neovim"
     ]
   ],
   "aarch64-linux/simplex-desktop": [
     [
-      "simplex-desktop",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/simplex-desktop/simplex-desktop"
+      "nixappimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop"
+    ]
+  ],
+  "aarch64-linux/tangent": [
+    [
+      "appimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/tangent/appimage/official/alpha/tangent"
+    ],
+    [
+      "appimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/tangent/appimage/official/stable/tangent"
     ]
   ],
   "aarch64-linux/telegram-desktop": [
     [
-      "telegram-desktop",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/telegram-desktop/telegram-desktop"
+      "nixappimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop"
     ]
   ],
   "aarch64-linux/vesktop": [
     [
-      "vesktop",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/vesktop/vesktop"
+      "appimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/vesktop/appimage/official/stable/vesktop"
     ]
   ],
-  "aarch64-linux/github-com-zen-browser-desktop-twilight": [
+  "aarch64-linux/zen-browser": [
     [
-      "zen-browser",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/github-com-zen-browser-desktop-twilight/zen-browser"
-    ]
-  ],
-  "aarch64-linux/github-com-zen-browser-desktop-beta": [
+      "appimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zen-browser/appimage/official/beta/zen-browser"
+    ],
     [
-      "zen-browser",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/github-com-zen-browser-desktop-beta/zen-browser"
-    ]
-  ],
-  "aarch64-linux/github-com-zen-browser-desktop-stable": [
+      "appimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zen-browser/appimage/official/stable/zen-browser"
+    ],
     [
-      "zen-browser",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/github-com-zen-browser-desktop-stable/zen-browser"
+      "appimage",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zen-browser/appimage/official/twilight/zen-browser"
     ]
   ]
 }
