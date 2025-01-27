@@ -14,8 +14,9 @@ interface Props {
 const FormulaLinks = ({ webpage_url, family, name, arch, repo, download_url }: Props) => {
   const jsonApiUrl = `${webpage_url}/raw.json`;
 
-  const ar = !Array.isArray(arch) ? arch : "linux";
-  const downloadUrl = new URL(`/dl/${repo}/${ar.toLowerCase()}/${family}/${name}/raw.dl`, window.location.origin);
+  const [, , , , , ...dataf] = webpage_url.split("/");
+
+  const downloadUrl = new URL(`/dl/${dataf.join("/")}/raw.dl`, window.location.origin);
 
   return (
     <div className="grid gap-3 p-4 bg-blue-50/30 dark:bg-blue-950/30 rounded-lg border border-blue-100 dark:border-blue-900">
