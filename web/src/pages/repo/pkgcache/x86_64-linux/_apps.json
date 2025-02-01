@@ -2897,6 +2897,100 @@
   {
     "_disabled": "false",
     "host": "x86_64-Linux",
+    "rank": "40",
+    "pkg": "player432hz.appimage",
+    "pkg_family": "player432hz",
+    "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
+    "pkg_name": "converter432hz",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/converter432hz",
+    "category": [
+      "Utility"
+    ],
+    "description": "Converts and re-encodes music to 432Hz in Batch [player432hz]",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.desktop",
+    "homepage": [
+      "https://github.com/mysteryx93/HanumanInstituteApps",
+      "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.svg",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "converter432hz==Converter432Hz",
+      "player432hz==Player432Hz",
+      "powerliminalsplayer==PowerliminalsPlayer",
+      "yangdownloader==YangDownloader"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "repology": [
+      "converter432hz",
+      "player432hz",
+      "powerliminalsplayer",
+      "yangdownloader"
+    ],
+    "src_url": [
+      "https://github.com/mysteryx93/HanumanInstituteApps"
+    ],
+    "tag": [
+      "encoding-videos",
+      "media-encoder",
+      "video-downloader",
+      "video-player",
+      "video-processing",
+      "youtube-downloader"
+    ],
+    "version": "v3.3.2",
+    "version_upstream": "v3.3.2",
+    "bsum": "4fb6215fbacdafcb0f2e36a1d61c32b36dc6689aceb4f905cc3854b0e54f9abb",
+    "build_date": "2025-01-12T02:57:11Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12729802085",
+    "build_id": "12729802085",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
+    "download_count": "300",
+    "download_count_month": "300",
+    "download_count_week": "142",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz@sha256:c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "converter432hz",
+      "converter432hz.desktop",
+      "converter432hz.desktop.sig",
+      "converter432hz.json",
+      "converter432hz.json.sig",
+      "converter432hz.log",
+      "converter432hz.log.sig",
+      "converter432hz.sig",
+      "converter432hz.svg",
+      "converter432hz.svg.sig",
+      "converter432hz.version",
+      "converter432hz.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux",
+    "ghcr_size": "14.16 MB",
+    "ghcr_size_raw": "14846475",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&manifest",
+    "shasum": "c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599",
+    "size": "15 MB",
+    "size_raw": "14783216"
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
     "rank": "42",
     "pkg": "cromite.appimage",
     "pkg_family": "cromite",
@@ -3072,176 +3166,6 @@
     "size_raw": "312718664",
     "snapshots": [
       "18.9.1-x86_64-linux[18.9.1]"
-    ]
-  },
-  {
-    "_disabled": "false",
-    "host": "x86_64-Linux",
-    "rank": "61",
-    "pkg": "discord-canary.appimage",
-    "pkg_family": "discord",
-    "pkg_id": "github.com.srevinsaju.discord-AppImage.canary",
-    "pkg_name": "discord-canary",
-    "pkg_type": "appimage",
-    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord-canary/appimage/srevinsaju/canary/discord-canary",
-    "app_id": "com.discordapp.Discord",
-    "category": [
-      "Chat",
-      "InstantMessaging"
-    ],
-    "description": "All-in-one cross-platform voice and text chat for gamers (Canary)",
-    "homepage": [
-      "https://discordapp.com",
-      "https://github.com/srevinsaju/discord-appimage"
-    ],
-    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.580-x86_64-linux&download=discord-canary.png",
-    "license": [
-      "Unfree"
-    ],
-    "maintainer": [
-      "Azathothas (https://github.com/Azathothas)"
-    ],
-    "provides": [
-      "discord=>discord-canary"
-    ],
-    "note": [
-      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage"
-    ],
-    "repology": [
-      "discord"
-    ],
-    "src_url": [
-      "https://github.com/srevinsaju/discord-appimage"
-    ],
-    "tag": [
-      "chat",
-      "Communications",
-      "Networking/Chat"
-    ],
-    "version": "0.0.580",
-    "version_upstream": "0.0.580",
-    "bsum": "a64a1ba251d32b42b07637be6ef67d8a203b45f3749538acf39ad23fa33d69f7",
-    "build_date": "2025-01-31T09:02:40Z",
-    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13069472727",
-    "build_id": "13069472727",
-    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.580-x86_64-linux&download=discord-canary.log",
-    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.canary.yaml",
-    "download_count": "264",
-    "download_count_month": "2",
-    "download_count_week": "2",
-    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.580-x86_64-linux&download=discord-canary",
-    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary@sha256:e254329ec4f62f41059e0b855e5357f07dc65ce7d8dcbdcc2065222d5f0d60b4",
-    "ghcr_files": [
-      "CHECKSUM",
-      "CHECKSUM.sig",
-      "SBUILD",
-      "SBUILD.sig",
-      "discord-canary",
-      "discord-canary.json",
-      "discord-canary.json.sig",
-      "discord-canary.log",
-      "discord-canary.log.sig",
-      "discord-canary.png",
-      "discord-canary.sig",
-      "discord-canary.version",
-      "discord-canary.version.sig"
-    ],
-    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary:0.0.580-x86_64-linux",
-    "ghcr_size": "98.77 MB",
-    "ghcr_size_raw": "103572284",
-    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary",
-    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.580-x86_64-linux&manifest",
-    "shasum": "e254329ec4f62f41059e0b855e5357f07dc65ce7d8dcbdcc2065222d5f0d60b4",
-    "size": "99 MB",
-    "size_raw": "103539904",
-    "snapshots": [
-      "0.0.560-x86_64-linux[0.0.560]",
-      "0.0.574-x86_64-linux[0.0.574]"
-    ]
-  },
-  {
-    "_disabled": "false",
-    "host": "x86_64-Linux",
-    "rank": "57",
-    "pkg": "discord-ptb.appimage",
-    "pkg_family": "discord",
-    "pkg_id": "github.com.srevinsaju.discord-AppImage.ptb",
-    "pkg_name": "discord-ptb",
-    "pkg_type": "appimage",
-    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord-ptb/appimage/srevinsaju/ptb/discord-ptb",
-    "app_id": "com.discordapp.Discord",
-    "category": [
-      "Chat",
-      "InstantMessaging"
-    ],
-    "description": "All-in-one cross-platform voice and text chat for gamers (Public Test Beta)",
-    "homepage": [
-      "https://discordapp.com",
-      "https://github.com/srevinsaju/discord-appimage"
-    ],
-    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.128-x86_64-linux&download=discord-ptb.png",
-    "license": [
-      "Unfree"
-    ],
-    "maintainer": [
-      "Azathothas (https://github.com/Azathothas)"
-    ],
-    "provides": [
-      "discord=>discord-ptb"
-    ],
-    "note": [
-      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage"
-    ],
-    "repology": [
-      "discord"
-    ],
-    "src_url": [
-      "https://github.com/srevinsaju/discord-appimage"
-    ],
-    "tag": [
-      "chat",
-      "Communications",
-      "Networking/Chat"
-    ],
-    "version": "0.0.128",
-    "version_upstream": "0.0.128",
-    "bsum": "fb6e2f99486b363837e267deeb4f221c13e1c04fd80a653f649b80ebc4704ff8",
-    "build_date": "2025-01-31T09:14:44Z",
-    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13069473556",
-    "build_id": "13069473556",
-    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.128-x86_64-linux&download=discord-ptb.log",
-    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.ptb.yaml",
-    "download_count": "268",
-    "download_count_month": "24",
-    "download_count_week": "24",
-    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.128-x86_64-linux&download=discord-ptb",
-    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb@sha256:8496e841014c94a6a27114f36c822b5838122bed24db34cd910476c1adb74263",
-    "ghcr_files": [
-      "CHECKSUM",
-      "CHECKSUM.sig",
-      "SBUILD",
-      "SBUILD.sig",
-      "discord-ptb",
-      "discord-ptb.json",
-      "discord-ptb.json.sig",
-      "discord-ptb.log",
-      "discord-ptb.log.sig",
-      "discord-ptb.png",
-      "discord-ptb.sig",
-      "discord-ptb.version",
-      "discord-ptb.version.sig"
-    ],
-    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb:0.0.128-x86_64-linux",
-    "ghcr_size": "98.2 MB",
-    "ghcr_size_raw": "102965846",
-    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb",
-    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.128-x86_64-linux&manifest",
-    "shasum": "8496e841014c94a6a27114f36c822b5838122bed24db34cd910476c1adb74263",
-    "size": "99 MB",
-    "size_raw": "102933696",
-    "snapshots": [
-      "0.0.125-x86_64-linux[0.0.125]",
-      "0.0.127-x86_64-linux[0.0.127]"
     ]
   },
   {
@@ -3703,6 +3627,176 @@
     "snapshots": [
       "0.0.79-x86_64-linux[0.0.79]",
       "0.0.80-x86_64-linux[0.0.80]"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "61",
+    "pkg": "discord-canary.appimage",
+    "pkg_family": "discord",
+    "pkg_id": "github.com.srevinsaju.discord-AppImage.canary",
+    "pkg_name": "discord-canary",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord-canary/appimage/srevinsaju/canary/discord-canary",
+    "app_id": "com.discordapp.Discord",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "All-in-one cross-platform voice and text chat for gamers (Canary)",
+    "homepage": [
+      "https://discordapp.com",
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.580-x86_64-linux&download=discord-canary.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "discord=>discord-canary"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage"
+    ],
+    "repology": [
+      "discord"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ],
+    "version": "0.0.580",
+    "version_upstream": "0.0.580",
+    "bsum": "a64a1ba251d32b42b07637be6ef67d8a203b45f3749538acf39ad23fa33d69f7",
+    "build_date": "2025-01-31T09:02:40Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13069472727",
+    "build_id": "13069472727",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.580-x86_64-linux&download=discord-canary.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.canary.yaml",
+    "download_count": "264",
+    "download_count_month": "2",
+    "download_count_week": "2",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.580-x86_64-linux&download=discord-canary",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary@sha256:e254329ec4f62f41059e0b855e5357f07dc65ce7d8dcbdcc2065222d5f0d60b4",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "discord-canary",
+      "discord-canary.json",
+      "discord-canary.json.sig",
+      "discord-canary.log",
+      "discord-canary.log.sig",
+      "discord-canary.png",
+      "discord-canary.sig",
+      "discord-canary.version",
+      "discord-canary.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary:0.0.580-x86_64-linux",
+    "ghcr_size": "98.77 MB",
+    "ghcr_size_raw": "103572284",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.580-x86_64-linux&manifest",
+    "shasum": "e254329ec4f62f41059e0b855e5357f07dc65ce7d8dcbdcc2065222d5f0d60b4",
+    "size": "99 MB",
+    "size_raw": "103539904",
+    "snapshots": [
+      "0.0.560-x86_64-linux[0.0.560]",
+      "0.0.574-x86_64-linux[0.0.574]"
+    ]
+  },
+  {
+    "_disabled": "false",
+    "host": "x86_64-Linux",
+    "rank": "57",
+    "pkg": "discord-ptb.appimage",
+    "pkg_family": "discord",
+    "pkg_id": "github.com.srevinsaju.discord-AppImage.ptb",
+    "pkg_name": "discord-ptb",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord-ptb/appimage/srevinsaju/ptb/discord-ptb",
+    "app_id": "com.discordapp.Discord",
+    "category": [
+      "Chat",
+      "InstantMessaging"
+    ],
+    "description": "All-in-one cross-platform voice and text chat for gamers (Public Test Beta)",
+    "homepage": [
+      "https://discordapp.com",
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.128-x86_64-linux&download=discord-ptb.png",
+    "license": [
+      "Unfree"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "discord=>discord-ptb"
+    ],
+    "note": [
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage"
+    ],
+    "repology": [
+      "discord"
+    ],
+    "src_url": [
+      "https://github.com/srevinsaju/discord-appimage"
+    ],
+    "tag": [
+      "chat",
+      "Communications",
+      "Networking/Chat"
+    ],
+    "version": "0.0.128",
+    "version_upstream": "0.0.128",
+    "bsum": "fb6e2f99486b363837e267deeb4f221c13e1c04fd80a653f649b80ebc4704ff8",
+    "build_date": "2025-01-31T09:14:44Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13069473556",
+    "build_id": "13069473556",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.128-x86_64-linux&download=discord-ptb.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.ptb.yaml",
+    "download_count": "268",
+    "download_count_month": "24",
+    "download_count_week": "24",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.128-x86_64-linux&download=discord-ptb",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb@sha256:8496e841014c94a6a27114f36c822b5838122bed24db34cd910476c1adb74263",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "discord-ptb",
+      "discord-ptb.json",
+      "discord-ptb.json.sig",
+      "discord-ptb.log",
+      "discord-ptb.log.sig",
+      "discord-ptb.png",
+      "discord-ptb.sig",
+      "discord-ptb.version",
+      "discord-ptb.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb:0.0.128-x86_64-linux",
+    "ghcr_size": "98.2 MB",
+    "ghcr_size_raw": "102965846",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.128-x86_64-linux&manifest",
+    "shasum": "8496e841014c94a6a27114f36c822b5838122bed24db34cd910476c1adb74263",
+    "size": "99 MB",
+    "size_raw": "102933696",
+    "snapshots": [
+      "0.0.125-x86_64-linux[0.0.125]",
+      "0.0.127-x86_64-linux[0.0.127]"
     ]
   },
   {
@@ -6005,100 +6099,6 @@
     "snapshots": [
       "31.0.0-4-x86_64-linux[31.0.0-4]"
     ]
-  },
-  {
-    "_disabled": "false",
-    "host": "x86_64-Linux",
-    "rank": "40",
-    "pkg": "player432hz.appimage",
-    "pkg_family": "player432hz",
-    "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
-    "pkg_name": "converter432hz",
-    "pkg_type": "appimage",
-    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/converter432hz",
-    "category": [
-      "Utility"
-    ],
-    "description": "Converts and re-encodes music to 432Hz in Batch [player432hz]",
-    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.desktop",
-    "homepage": [
-      "https://github.com/mysteryx93/HanumanInstituteApps",
-      "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
-    ],
-    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.svg",
-    "license": [
-      "MIT"
-    ],
-    "maintainer": [
-      "Azathothas (https://github.com/Azathothas)"
-    ],
-    "provides": [
-      "converter432hz==Converter432Hz",
-      "player432hz==Player432Hz",
-      "powerliminalsplayer==PowerliminalsPlayer",
-      "yangdownloader==YangDownloader"
-    ],
-    "note": [
-      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
-    ],
-    "repology": [
-      "converter432hz",
-      "player432hz",
-      "powerliminalsplayer",
-      "yangdownloader"
-    ],
-    "src_url": [
-      "https://github.com/mysteryx93/HanumanInstituteApps"
-    ],
-    "tag": [
-      "encoding-videos",
-      "media-encoder",
-      "video-downloader",
-      "video-player",
-      "video-processing",
-      "youtube-downloader"
-    ],
-    "version": "v3.3.2",
-    "version_upstream": "v3.3.2",
-    "bsum": "4fb6215fbacdafcb0f2e36a1d61c32b36dc6689aceb4f905cc3854b0e54f9abb",
-    "build_date": "2025-01-12T02:57:11Z",
-    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12729802085",
-    "build_id": "12729802085",
-    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.log",
-    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
-    "download_count": "300",
-    "download_count_month": "300",
-    "download_count_week": "142",
-    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz",
-    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz@sha256:c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599",
-    "ghcr_files": [
-      "CHECKSUM",
-      "CHECKSUM.sig",
-      "LICENSE",
-      "LICENSE.sig",
-      "SBUILD",
-      "SBUILD.sig",
-      "converter432hz",
-      "converter432hz.desktop",
-      "converter432hz.desktop.sig",
-      "converter432hz.json",
-      "converter432hz.json.sig",
-      "converter432hz.log",
-      "converter432hz.log.sig",
-      "converter432hz.sig",
-      "converter432hz.svg",
-      "converter432hz.svg.sig",
-      "converter432hz.version",
-      "converter432hz.version.sig"
-    ],
-    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux",
-    "ghcr_size": "14.16 MB",
-    "ghcr_size_raw": "14846475",
-    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz",
-    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&manifest",
-    "shasum": "c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599",
-    "size": "15 MB",
-    "size_raw": "14783216"
   },
   {
     "_disabled": "false",
