@@ -26,23 +26,17 @@ const run = async (url, branch, arch) => {
 
     if (!data.pkg_webpage) {
       console.log(
-        `⚠️ Auto guessed pkg_webpage for ${branch}-${arch}/${data.pkg_family}/${
-          data.pkg_name || data.pkg
-        }`
+        `⚠️ Auto guessed pkg_webpage for ${branch}-${arch}/${data.pkg_id}/${data.pkg_name || data.pkg}`
       );
-      data.pkg_webpage = `https://pkgs.pkgforge.dev/repo/${branch}/${arch}/${
-        data.pkg_family
-      }/${data.pkg_name || data.pkg}`;
+      data.pkg_webpage = `https://pkgs.pkgforge.dev/repo/${branch}/${arch}/${data.pkg_id}/${data.pkg_name || data.pkg}`;
     }
 
-    const [, , , , , category, pkg_family, pkg] = data.pkg_webpage.split("/");
-
-    const key = `${category}/${pkg_family || data.pkg_family}`;
+    const key = `${data.category}/${data.pkg_id}`;
 
     if (familyMap[key]) {
-      familyMap[key].push([pkg, data.pkg_webpage]);
+      familyMap[key].push([data.pkg_name || data.pkg, data.pkg_webpage]);
     } else {
-      familyMap[key] = [[pkg, data.pkg_webpage]];
+      familyMap[key] = [[data.pkg_name || data.pkg, data.pkg_webpage]];
     }
   });
 
@@ -62,11 +56,11 @@ const run = async (url, branch, arch) => {
     `./src/metadata_${branch}_${arch}.json`,
     JSON.stringify(
       response.map((data) => {
-        const [, , , , , category, pkg_family] = data.pkg_webpage.split("/");
+        const [, , , , , category] = data.pkg_webpage.split("/");
         return {
           "name": data.pkg_name || data.pkg,
           "pkg": data.pkg,
-          "family": pkg_family || data.pkg_id,
+          "family": data.pkg_id,
           "version": data.version,
           "sha": data.shasum,
           "type": data.pkg_type || "none",
@@ -76,7 +70,7 @@ const run = async (url, branch, arch) => {
           "id": "N/A",
           "Build Date": data.build_date,
           "url": data.pkg_webpage,
-          "familyUrl": `/${branch}/${category}/${pkg_family}`,
+          "familyUrl": `/${branch}/${category}/${data.pkg_id}`,
         };
       })
     )

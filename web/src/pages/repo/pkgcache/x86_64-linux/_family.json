@@ -1,331 +1,389 @@
 {
-  "x86_64-linux/0ad": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/0ad/appimage/0ad-matters/prerelease/0ad"
-    ],
+  "Game/github.0ad-matters.0ad-appimage.prerelease": [
     [
       "0ad",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/0ad/0ad"
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/0ad/appimage/0ad-matters/prerelease/0ad"
     ]
   ],
-  "x86_64-linux/86box": [
+  "Game/github.0ad-matters.0ad-appimage.stable": [
     [
-      "appimage",
+      "0ad",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/0ad/appimage/0ad-matters/stable/0ad"
+    ]
+  ],
+  "Emulator/github.com.86Box.86Box.stable": [
+    [
+      "86box",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/86box/appimage/official/stable/86box"
     ]
   ],
-  "x86_64-linux/9launcher": [
+  "Utility/github.com.wearrrrr.9Launcher": [
     [
-      "appimage",
+      "9launcher",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/9launcher/appimage/official/stable/9launcher"
     ]
   ],
-  "x86_64-linux/aaaaxy": [
+  "Game/github.com.divVerent.aaaaxy": [
     [
-      "appimage",
+      "aaaaxy",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/aaaaxy/appimage/official/stable/aaaaxy"
     ]
   ],
-  "x86_64-linux/abiword": [
+  "Office/github.com.ivan-hc.Abiword-appimage": [
     [
       "abiword",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/abiword/abiword"
     ]
   ],
-  "x86_64-linux/acreom": [
+  "Database,Education,IDE/github.com.Acreom.releases.stable": [
     [
-      "appimage",
+      "acreom",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/acreom/appimage/official/stable/acreom"
     ]
   ],
-  "x86_64-linux/actual": [
+  "Finance/github.com.actualbudget.actual.stable": [
     [
-      "appimage",
+      "actual",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/actual/appimage/official/stable/actual"
     ]
   ],
-  "x86_64-linux/advanced-passgen": [
+  "Security,Utility/github.com.CodeDead.Advanced-PassGen": [
     [
-      "appimage",
+      "advanced-passgen",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/advanced-passgen/appimage/official/stable/advanced-passgen"
     ]
   ],
-  "x86_64-linux/advanced-rest-client": [
+  "Utility/github.com.advanced-rest-client.arc-electron": [
     [
-      "appimage",
+      "advanced-rest-client",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/advanced-rest-client/appimage/official/stable/advanced-rest-client"
     ]
   ],
-  "x86_64-linux/affine": [
+  "Database,Education/github.com.affine-mirror.affine.canary.1": [
     [
-      "appimage",
+      "affine",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/affine/appimage/official/canary-1/affine"
-    ],
+    ]
+  ],
+  "Database,Education/github.com.affine-mirror.affine.canary.2": [
     [
-      "appimage",
+      "affine",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/affine/appimage/official/canary-2/affine"
-    ],
+    ]
+  ],
+  "Database,Education/github.com.affine-mirror.affine.stable": [
     [
-      "appimage",
+      "affine",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/affine/appimage/official/stable/affine"
     ]
   ],
-  "x86_64-linux/agregore": [
+  "WebBrowser/github.com.AgregoreWeb.agregore-browser": [
     [
-      "appimage",
+      "agregore",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/agregore/appimage/official/stable/agregore"
     ]
   ],
-  "x86_64-linux/air-controller-desktop": [
+  "Utility/github.com.air-controller.air-controller-desktop": [
     [
-      "appimage",
+      "air-controller-desktop",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/air-controller-desktop/appimage/official/stable/air-controller-desktop"
     ]
   ],
-  "x86_64-linux/aisleriot": [
+  "Utility/github.com.ivan-hc.Aisleriot-appimage": [
     [
       "aisleriot",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/aisleriot/aisleriot"
     ]
   ],
-  "x86_64-linux/akregator": [
+  "Utility/runimage.alpine.akregator": [
     [
-      "runimage",
+      "akregator",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/akregator/runimage/alpine/stable/akregator"
     ]
   ],
-  "x86_64-linux/akuse": [
+  "Utility/github.com.akuse-app.akuse": [
     [
-      "appimage",
+      "akuse",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/akuse/appimage/official/stable/akuse"
     ]
   ],
-  "x86_64-linux/alexandria": [
+  "Utility/github.com.btpf.Alexandria": [
     [
-      "appimage",
+      "alexandria",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/alexandria/appimage/official/stable/alexandria"
     ]
   ],
-  "x86_64-linux/allusion": [
+  "Utility/github.com.allusion-app.Allusion": [
     [
-      "appimage",
+      "allusion",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/allusion/appimage/official/stable/allusion"
     ]
   ],
-  "x86_64-linux/altair": [
+  "Utility/github.com.altair-graphql.altair": [
     [
-      "appimage",
+      "altair",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/altair/appimage/official/stable/altair"
     ]
   ],
-  "x86_64-linux/altus": [
+  "Utility/github.com.amanharwara.altus": [
     [
-      "appimage",
+      "altus",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/altus/appimage/official/stable/altus"
     ]
   ],
-  "x86_64-linux/amdgpu_top": [
+  "Monitor,Utility/github.com.Umio-Yasuno.amdgpu_top": [
     [
-      "appimage",
+      "amdgpu_top",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/amdgpu_top/appimage/official/stable/amdgpu_top"
     ]
   ],
-  "x86_64-linux/android-messages": [
+  "Utility/github.com.chrisknepper.android-messages-desktop": [
     [
-      "appimage",
+      "android-messages",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/android-messages/appimage/official/stable/android-messages"
     ]
   ],
-  "x86_64-linux/android-tools": [
+  "ConsoleOnly,Utility/github.com.pkgforge-dev.android-tools-AppImage.stable": [
     [
-      "appimage",
+      "android-tools",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/android-tools/appimage/pkgforge-dev/stable/android-tools"
     ]
   ],
-  "x86_64-linux/blender": [
+  "Graphics/runimage.debian.blender": [
     [
-      "runimage",
+      "blender",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/blender/runimage/debian/stable/blender"
     ]
   ],
-  "x86_64-linux/brave": [
+  "WebBrowser/github.com.srevinsaju.Brave-AppImage.beta": [
     [
-      "appimage",
+      "brave",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/brave/appimage/srevinsaju/beta/brave"
-    ],
+    ]
+  ],
+  "WebBrowser/github.com.srevinsaju.Brave-AppImage.nightly": [
     [
-      "appimage",
+      "brave",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/brave/appimage/srevinsaju/nightly/brave"
-    ],
+    ]
+  ],
+  "WebBrowser/nixpkgs.brave": [
     [
-      "nixappimage",
+      "brave",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/brave/nixappimage/nixpkgs/stable/brave"
     ]
   ],
-  "x86_64-linux/chromium": [
+  "WebBrowser/nixpkgs.chromium": [
     [
-      "nixappimage",
+      "chromium",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/chromium/nixappimage/nixpkgs/stable/chromium"
-    ],
+    ]
+  ],
+  "WebBrowser/nixpkgs.ungoogled-chromium": [
     [
-      "nixappimage",
+      "chromium",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/chromium/nixappimage/nixpkgs/ungoogled/chromium"
     ]
   ],
-  "x86_64-linux/clamtk": [
+  "Utility/runimage.debian.clamtk": [
     [
-      "runimage",
+      "clamtk",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/clamtk/runimage/debian/stable/clamtk"
     ]
   ],
-  "x86_64-linux/cromite": [
+  "WebBrowser/github.com.pkgforge-dev.Cromite-AppImage": [
     [
-      "appimage",
+      "cromite",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/cromite/appimage/pkgforge-dev/stable/cromite"
     ]
   ],
-  "x86_64-linux/ddnet": [
+  "Game/runimage.cachyos.ddnet": [
     [
-      "runimage",
+      "ddnet",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ddnet/runimage/cachyos/stable/ddnet"
     ]
   ],
-  "x86_64-linux/discord-canary": [
+  "Chat,InstantMessaging/github.com.srevinsaju.discord-AppImage.canary": [
     [
-      "appimage",
+      "discord-canary",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord-canary/appimage/srevinsaju/canary/discord-canary"
     ]
   ],
-  "x86_64-linux/discord-ptb": [
+  "Chat,InstantMessaging/github.com.srevinsaju.discord-AppImage.ptb": [
     [
-      "appimage",
+      "discord-ptb",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord-ptb/appimage/srevinsaju/ptb/discord-ptb"
     ]
   ],
-  "x86_64-linux/discord": [
+  "Chat,InstantMessaging/github.com.srevinsaju.discord-AppImage.stable": [
     [
-      "appimage",
+      "discord",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord/appimage/srevinsaju/stable/discord"
-    ],
+    ]
+  ],
+  "Chat,InstantMessaging/nixpkgs.discord-canary": [
     [
-      "nixappimage",
+      "discord",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord/nixappimage/nixpkgs/canary/discord"
-    ],
+    ]
+  ],
+  "Chat,InstantMessaging/nixpkgs.discord-development": [
     [
-      "nixappimage",
+      "discord",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord/nixappimage/nixpkgs/development/discord"
-    ],
+    ]
+  ],
+  "Chat,InstantMessaging/nixpkgs.discord-ptb": [
     [
-      "nixappimage",
+      "discord",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord/nixappimage/nixpkgs/ptb/discord"
-    ],
+    ]
+  ],
+  "Chat,InstantMessaging/nixpkgs.discord": [
     [
-      "nixappimage",
+      "discord",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord/nixappimage/nixpkgs/stable/discord"
     ]
   ],
-  "x86_64-linux/firefox": [
+  "Utility/runimage.cachyos.ffdec": [
     [
-      "appimage",
+      "ffdec",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ffdec/runimage/cachyos/stable/ffdec"
+    ]
+  ],
+  "WebBrowser/github.com.srevinsaju.Firefox-Appimage.beta": [
+    [
+      "firefox",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/firefox/appimage/srevinsaju/beta/firefox"
-    ],
+    ]
+  ],
+  "WebBrowser/github.com.srevinsaju.Firefox-Appimage.dev": [
     [
-      "appimage",
+      "firefox",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/firefox/appimage/srevinsaju/dev/firefox"
-    ],
+    ]
+  ],
+  "WebBrowser/github.com.srevinsaju.Firefox-Appimage.esr": [
     [
-      "appimage",
+      "firefox",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/firefox/appimage/srevinsaju/esr/firefox"
-    ],
+    ]
+  ],
+  "WebBrowser/github.com.srevinsaju.Firefox-Appimage.nightly": [
     [
-      "appimage",
+      "firefox",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/firefox/appimage/srevinsaju/nightly/firefox"
-    ],
+    ]
+  ],
+  "WebBrowser/github.com.srevinsaju.Firefox-Appimage.stable": [
     [
-      "appimage",
+      "firefox",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/firefox/appimage/srevinsaju/stable/firefox"
     ]
   ],
-  "x86_64-linux/flameshot": [
+  "Utility/github.com.flameshot-org.flameshot": [
     [
-      "appimage",
+      "flameshot",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/flameshot/appimage/official/stable/flameshot"
-    ],
+    ]
+  ],
+  "Utility/nixpkgs.flameshot": [
     [
-      "nixappimage",
+      "flameshot",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/flameshot/nixappimage/nixpkgs/unstable/flameshot"
     ]
   ],
-  "x86_64-linux/gearlever": [
+  "Game/runimage.debian.funkin": [
     [
-      "nixappimage",
+      "funkin",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/funkin/runimage/debian/stable/funkin"
+    ]
+  ],
+  "Utility/nixpkgs.gearlever": [
+    [
+      "gearlever",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/gearlever/nixappimage/nixpkgs/stable/gearlever"
     ]
   ],
-  "x86_64-linux/ghostty": [
+  "Utility/runimage.alpine.ghex": [
     [
-      "ghostty",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ghostty/ghostty"
+      "ghex",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ghex/runimage/alpine/stable/ghex"
     ]
   ],
-  "x86_64-linux/helix": [
+  "TerminalEmulator/github.com.psadi.ghostty-appimage.stable": [
     [
-      "nixappimage",
+      "ghostty",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ghostty/appimage/psadi/stable/ghostty"
+    ]
+  ],
+  "Utility/runimage.alpine.git": [
+    [
+      "git",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/git/runimage/alpine/stable/git"
+    ]
+  ],
+  "TextEditor/nixpkgs.helix": [
+    [
+      "helix",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/helix/nixappimage/nixpkgs/stable/helix"
     ]
   ],
-  "x86_64-linux/kdeutils": [
+  "Utility/github.com.ivan-hc.kdeutils-appimage": [
     [
-      "appimage",
+      "kdeutils",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/kdeutils/appimage/ivan-hc/stable/kdeutils"
-    ],
+    ]
+  ],
+  "IDE/runimage.cachyos.kdeutils": [
     [
-      "runimage",
+      "kdeutils",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/kdeutils/runimage/cachyos/stable/kdeutils"
     ]
   ],
-  "x86_64-linux/knot": [
+  "Utility/github.com.ic005k.Knot": [
     [
-      "appimage",
+      "knot",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/knot/appimage/official/stable/knot"
     ]
   ],
-  "x86_64-linux/lazarus": [
+  "IDE/runimage.cachyos.lazarus": [
     [
-      "runimage",
+      "lazarus",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/lazarus/runimage/cachyos/stable/lazarus"
     ]
   ],
-  "x86_64-linux/librewolf": [
+  "WebBrowser/runimage.cachyos.librewolf": [
     [
-      "runimage",
+      "librewolf",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/librewolf/runimage/cachyos/stable/librewolf"
     ]
   ],
-  "x86_64-linux/mpv": [
+  "Music,Player,TV/github.com.pkgforge-dev.mpv-AppImage.stable": [
     [
-      "appimage",
+      "mpv",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/mpv/appimage/pkgforge-dev/stable/mpv"
     ]
   ],
-  "x86_64-linux/neovim": [
+  "TextEditor/github.com.neovim.neovim.stable": [
     [
-      "appimage",
+      "neovim",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/neovim/appimage/official/stable/neovim"
-    ],
+    ]
+  ],
+  "TextEditor/nixpkgs.neovim": [
     [
-      "nixappimage",
+      "neovim",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/neovim/nixappimage/nixpkgs/stable/neovim"
     ]
   ],
-  "x86_64-linux/obs-studio": [
+  "AudioVideoEditing,Recorder/github.com.pkgforge-dev.OBS-Studio-AppImage.stable": [
     [
-      "appimage",
+      "obs-studio",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/obs-studio/appimage/pkgforge-dev/stable/obs-studio"
     ]
   ],
-  "x86_64-linux/player432hz": [
+  "Utility/github.com.mysteryx93.HanumanInstituteApps": [
     [
       "converter432hz",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/converter432hz"
@@ -335,95 +393,131 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/player432hz"
     ],
     [
-      "appimage",
+      "powerliminalsplayer",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/appimage/official/stable/powerliminalsplayer"
     ],
     [
-      "appimage",
+      "yangdownloader",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/player432hz/appimage/official/stable/yangdownloader"
     ]
   ],
-  "x86_64-linux/ppsspp": [
+  "Emulator,Game/github.com.pkgforge-dev.PPSSPP-AppImage.stable": [
     [
-      "appimage",
+      "ppsspp",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ppsspp/appimage/pkgforge-dev/stable/ppsspp"
     ]
   ],
-  "x86_64-linux/puddletag": [
+  "AudioVideoEditing,Music/github.com.pkgforge-dev.puddletag-AppImage.stable": [
     [
-      "appimage",
+      "puddletag",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/puddletag/appimage/pkgforge-dev/stable/puddletag"
     ]
   ],
-  "x86_64-linux/simplex-desktop": [
+  "Chat,InstantMessaging/github.com.simplex-chat.simplex-chat": [
     [
-      "appimage",
+      "simplex-desktop",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/simplex-desktop/appimage/official/stable/simplex-desktop"
-    ],
+    ]
+  ],
+  "Chat,InstantMessaging/nixpkgs.simplex-chat-desktop": [
     [
-      "nixappimage",
+      "simplex-desktop",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop"
     ]
   ],
-  "x86_64-linux/steam": [
+  "Game/runimage.archlinux.steam": [
     [
-      "runimage",
+      "steam",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/steam/runimage/archlinux/stable/steam"
-    ],
+    ]
+  ],
+  "Game/runimage.cachyos.steam": [
     [
-      "runimage",
+      "steam",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/steam/runimage/cachyos/stable/steam"
     ]
   ],
-  "x86_64-linux/strawberry": [
+  "Music,Player/github.com.pkgforge-dev.strawberry-AppImage.stable": [
     [
       "strawberry",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/strawberry/strawberry"
     ]
   ],
-  "x86_64-linux/tangent": [
+  "TextEditor/github.com.suchnsuch.Tangent.alpha": [
     [
-      "appimage",
+      "tangent",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/tangent/appimage/official/alpha/tangent"
-    ],
+    ]
+  ],
+  "TextEditor/github.com.suchnsuch.Tangent": [
     [
-      "appimage",
+      "tangent",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/tangent/appimage/official/stable/tangent"
     ]
   ],
-  "x86_64-linux/telegram-desktop": [
+  "Chat,IRCClient/github.com.telegramdesktop.tdesktop": [
     [
-      "dynamic",
+      "telegram-desktop",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/telegram-desktop/dynamic/official/stable/telegram-desktop"
-    ],
+    ]
+  ],
+  "Chat,IRCClient/nixpkgs.telegram-desktop": [
     [
-      "nixappimage",
+      "telegram-desktop",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop"
     ]
   ],
-  "x86_64-linux/vesktop": [
+  "Network,InstantMessaging,Chat/github.com.Vencord.Vesktop": [
     [
-      "appimage",
+      "vesktop",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/vesktop/appimage/official/stable/vesktop"
     ]
   ],
-  "x86_64-linux/vscodium": [
+  "IDE/github.com.VSCodium.vscodium": [
     [
-      "runimage",
+      "vscodium",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/vscodium/appimage/official/stable/vscodium"
+    ]
+  ],
+  "IDE/runimage.cachyos.steam": [
+    [
+      "vscodium",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/vscodium/runimage/cachyos/stable/vscodium"
     ]
   ],
-  "x86_64-linux/zen-browser": [
+  "Utility/github.com.wez.wezterm.stable": [
     [
-      "appimage",
+      "wezterm",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/wezterm/appimage/official/stable/wezterm"
+    ]
+  ],
+  "Utility/runimage.alpine.wezterm": [
+    [
+      "wezterm",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/wezterm/runimage/alpine/stable/wezterm"
+    ]
+  ],
+  "Utility/runimage.cachyos.wezterm": [
+    [
+      "wezterm",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/wezterm/runimage/cachyos/stable/wezterm"
+    ]
+  ],
+  "WebBrowser/github.com.zen-browser.desktop.beta": [
+    [
+      "zen-browser",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/zen-browser/appimage/official/beta/zen-browser"
-    ],
+    ]
+  ],
+  "WebBrowser/github.com.zen-browser.desktop.stable": [
     [
-      "appimage",
+      "zen-browser",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/zen-browser/appimage/official/stable/zen-browser"
-    ],
+    ]
+  ],
+  "WebBrowser/github.com.zen-browser.desktop.twilight": [
     [
-      "appimage",
+      "zen-browser",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/zen-browser/appimage/official/twilight/zen-browser"
     ]
   ]

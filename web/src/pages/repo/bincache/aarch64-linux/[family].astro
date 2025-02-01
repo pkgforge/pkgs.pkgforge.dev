@@ -7,7 +7,7 @@ export async function getStaticPaths() {
 
   return Object.entries(family).map(([fam, apps]) => {
     const [, family] = fam.split("/");
-
+    
     return {
       params: { family },
       props: {

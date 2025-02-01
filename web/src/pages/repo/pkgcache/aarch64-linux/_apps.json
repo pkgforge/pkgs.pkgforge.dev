@@ -54,9 +54,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml",
-    "download_count": "414",
-    "download_count_month": "221",
-    "download_count_week": "141",
+    "download_count": "620",
+    "download_count_month": "91",
+    "download_count_week": "91",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
     "ghcr_files": [
@@ -96,7 +96,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "19",
+    "rank": "18",
     "pkg": "akregator.runimage",
     "pkg_family": "akregator",
     "pkg_id": "runimage.alpine.akregator",
@@ -104,16 +104,16 @@
     "pkg_type": "runimage",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/akregator/runimage/alpine/stable/akregator",
     "app_id": "org.kde.akregator",
-    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.0-aarch64-linux&download=akregator.metainfo.xml",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.1-aarch64-linux&download=akregator.appdata.xml",
     "category": [
       "Utility"
     ],
     "description": "KDE RSS feed reader",
-    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.0-aarch64-linux&download=akregator.desktop",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.1-aarch64-linux&download=akregator.desktop",
     "homepage": [
       "https://apps.kde.org/akregator"
     ],
-    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.0-aarch64-linux&download=akregator.png",
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.1-aarch64-linux&download=akregator.png",
     "license": [
       "BSD-3-Clause"
     ],
@@ -137,19 +137,19 @@
     "tag": [
       "rss"
     ],
-    "version": "24.12.0",
-    "version_upstream": "24.12.0",
-    "bsum": "5f5fc0cba8674fa2865e594c1dd62c791db1573178517be49f39736ef5b7a118",
-    "build_date": "2025-01-26T16:50:54Z",
-    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12976489101",
-    "build_id": "12976489101",
-    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.0-aarch64-linux&download=akregator.log",
+    "version": "24.12.1",
+    "version_upstream": "24.12.1",
+    "bsum": "370455ff8601b226456644b6852eec2cd779212b511cb5f567ae269e5807a0d0",
+    "build_date": "2025-01-31T09:05:22Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13069472931",
+    "build_id": "13069472931",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.1-aarch64-linux&download=akregator.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/akregator/runimage.alpine.stable.yaml",
-    "download_count": "32",
-    "download_count_month": "16",
-    "download_count_week": "16",
-    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.0-aarch64-linux&download=akregator",
-    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator@sha256:08313c60fdbbdcc25d99594ddeacefcded54c531caa9b5047cfb86667d408ed6",
+    "download_count": "245",
+    "download_count_month": "3",
+    "download_count_week": "3",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.1-aarch64-linux&download=akregator",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator@sha256:a8035774c958dd948245491bf9d79152bc7a6480c08cd0f99842087161f9d6c2",
     "ghcr_files": [
       "CHECKSUM",
       "CHECKSUM.sig",
@@ -158,28 +158,28 @@
       "SBUILD",
       "SBUILD.sig",
       "akregator",
+      "akregator.appdata.xml",
+      "akregator.appdata.xml.sig",
       "akregator.desktop",
       "akregator.desktop.sig",
       "akregator.json",
       "akregator.json.sig",
       "akregator.log",
       "akregator.log.sig",
-      "akregator.metainfo.xml",
-      "akregator.metainfo.xml.sig",
       "akregator.png",
       "akregator.png.sig",
       "akregator.sig",
       "akregator.version",
       "akregator.version.sig"
     ],
-    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.0-aarch64-linux",
-    "ghcr_size": "305.7 MB",
-    "ghcr_size_raw": "320549328",
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.1-aarch64-linux",
+    "ghcr_size": "306.4 MB",
+    "ghcr_size_raw": "321282999",
     "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator",
-    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.0-aarch64-linux&manifest",
-    "shasum": "08313c60fdbbdcc25d99594ddeacefcded54c531caa9b5047cfb86667d408ed6",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.1-aarch64-linux&manifest",
+    "shasum": "a8035774c958dd948245491bf9d79152bc7a6480c08cd0f99842087161f9d6c2",
     "size": "306 MB",
-    "size_raw": "319975721",
+    "size_raw": "320682281",
     "snapshots": [
       "24.12.0-aarch64-linux[24.12.0]"
     ]
@@ -187,7 +187,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "16",
+    "rank": "15",
     "pkg": "blender.runimage",
     "pkg_family": "blender",
     "pkg_id": "runimage.debian.blender",
@@ -237,9 +237,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux&download=blender.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml",
-    "download_count": "142",
-    "download_count_month": "140",
-    "download_count_week": "140",
+    "download_count": "345",
+    "download_count_month": "93",
+    "download_count_week": "93",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux&download=blender",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender@sha256:ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214",
     "ghcr_files": [
@@ -276,7 +276,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "14",
+    "rank": "13",
     "pkg": "brave.nixappimage",
     "pkg_family": "brave",
     "pkg_id": "nixpkgs.brave",
@@ -330,9 +330,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.74.48-aarch64-linux&download=brave.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/nixappimage.nixpkgs.stable.yaml",
-    "download_count": "308",
-    "download_count_month": "141",
-    "download_count_week": "130",
+    "download_count": "523",
+    "download_count_month": "93",
+    "download_count_week": "93",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.74.48-aarch64-linux&download=brave",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:5e143508d9195c5d630f3dc45d519f2ef2f34eb4b453d0e5677a9fb7c3e0ba6c",
     "ghcr_files": [
@@ -372,7 +372,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "4",
+    "rank": "3",
     "pkg": "chromium.nixappimage",
     "pkg_family": "chromium",
     "pkg_id": "nixpkgs.chromium",
@@ -423,9 +423,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=132.0.6834.110-aarch64-linux&download=chromium.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml",
-    "download_count": "368",
-    "download_count_month": "157",
-    "download_count_week": "141",
+    "download_count": "584",
+    "download_count_month": "90",
+    "download_count_week": "90",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=132.0.6834.110-aarch64-linux&download=chromium",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:29e40f7a36e6cfbb8510b59b18efc61f2691d3a4683a53838895d7b3a49bfa93",
     "ghcr_files": [
@@ -464,7 +464,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "3",
+    "rank": "4",
     "pkg": "chromium.nixappimage",
     "pkg_family": "chromium",
     "pkg_id": "nixpkgs.ungoogled-chromium",
@@ -514,9 +514,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=132.0.6834.110-aarch64-linux&download=chromium.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml",
-    "download_count": "367",
-    "download_count_month": "86",
-    "download_count_week": "86",
+    "download_count": "580",
+    "download_count_month": "1",
+    "download_count_week": "1",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=132.0.6834.110-aarch64-linux&download=chromium",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:d4023ed8f1dd423a1f0f1fd3540aa0fec2546adfd6fba2fa399d91c4e5895a00",
     "ghcr_files": [
@@ -601,17 +601,17 @@
     ],
     "version": "6.07",
     "version_upstream": "6.07",
-    "bsum": "cab6ab20216e8cbec26f56cff38b21cae78779c2b20d45a68220ec032f7aac31",
-    "build_date": "2025-01-27T04:25:21Z",
-    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12981948164",
-    "build_id": "12981948164",
+    "bsum": "f1d1b35229378662518e80c87839cffc426b9a155dd5e32636678684965128cf",
+    "build_date": "2025-01-31T18:52:45Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13078849853",
+    "build_id": "13078849853",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux&download=clamtk.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/clamtk/runimage.debian.stable.yaml",
-    "download_count": "2",
-    "download_count_month": "1",
-    "download_count_week": "1",
+    "download_count": "188",
+    "download_count_month": "3",
+    "download_count_week": "3",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux&download=clamtk",
-    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:da0715b6911867b0cc92b83fba3ceb1165d1a5b83df29ac3af88e1f0ac99e8f7",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:d67b4bf17f0249fa68fa5a09e22e17bd9fba048ebd58a3adf7cfb676a48aa424",
     "ghcr_files": [
       "CHECKSUM",
       "CHECKSUM.sig",
@@ -635,18 +635,21 @@
       "clamtk.version.sig"
     ],
     "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
-    "ghcr_size": "86.56 MB",
-    "ghcr_size_raw": "90760090",
+    "ghcr_size": "86.23 MB",
+    "ghcr_size_raw": "90414572",
     "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk",
     "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux&manifest",
-    "shasum": "da0715b6911867b0cc92b83fba3ceb1165d1a5b83df29ac3af88e1f0ac99e8f7",
-    "size": "87 MB",
-    "size_raw": "90320526"
+    "shasum": "d67b4bf17f0249fa68fa5a09e22e17bd9fba048ebd58a3adf7cfb676a48aa424",
+    "size": "86 MB",
+    "size_raw": "89975038",
+    "snapshots": [
+      "6.07-aarch64-linux[6.07]"
+    ]
   },
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "8",
+    "rank": "12",
     "pkg": "flameshot.nixappimage",
     "pkg_family": "flameshot",
     "pkg_id": "nixpkgs.flameshot",
@@ -697,9 +700,9 @@
     "build_id": "12812691028",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2024-12-03-aarch64-linux&download=flameshot.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/nixappimage.nixpkgs.unstable.yaml",
-    "download_count": "328",
-    "download_count_month": "164",
-    "download_count_week": "140",
+    "download_count": "541",
+    "download_count_month": "92",
+    "download_count_week": "92",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2024-12-03-aarch64-linux&download=flameshot",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot@sha256:84fbc1a33a5ff10ac0134bd1665a471340312221b974f4261ef978f1ca8bbcdb",
     "ghcr_files": [
@@ -736,7 +739,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "12",
+    "rank": "14",
     "pkg": "gearlever.nixappimage",
     "pkg_family": "gearlever",
     "pkg_id": "nixpkgs.gearlever",
@@ -787,9 +790,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/gearlever/nixappimage.nixpkgs.stable.yaml",
-    "download_count": "311",
-    "download_count_month": "158",
-    "download_count_week": "141",
+    "download_count": "522",
+    "download_count_month": "89",
+    "download_count_week": "89",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever@sha256:26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f",
     "ghcr_files": [
@@ -829,38 +832,35 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "15",
-    "pkg": "ghostty.nixappimage",
+    "rank": "19",
+    "pkg": "ghostty.appimage",
     "pkg_family": "ghostty",
-    "pkg_id": "nixpkgs.ghostty",
+    "pkg_id": "github.com.psadi.ghostty-appimage.stable",
     "pkg_name": "ghostty",
-    "pkg_type": "nixappimage",
-    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghostty/ghostty",
-    "app_id": "com.mitchellh.ghostty",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghostty/appimage/psadi/stable/ghostty",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.0-aarch64-linux&download=ghostty.appdata.xml",
     "category": [
       "TerminalEmulator"
     ],
     "description": "Fast, native, feature-rich terminal emulator pushing modern features",
-    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&download=ghostty.desktop",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.0-aarch64-linux&download=ghostty.desktop",
     "homepage": [
       "https://ghostty.org",
       "https://github.com/ghostty-org/ghostty"
     ],
-    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&download=ghostty.png",
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.0-aarch64-linux&download=ghostty.png",
     "license": [
       "MIT"
     ],
     "maintainer": [
-      "Azathothas (https://github.com/Azathothas)"
+      "psadi (https://github.com/psadi)"
     ],
     "provides": [
       "ghostty"
     ],
     "note": [
-      "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
-      "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
-      "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
-      "[PORTABLE] (Works on AnyLinux)"
+      "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage"
     ],
     "repology": [
       "ghostty"
@@ -871,19 +871,19 @@
     "tag": [
       "terminal"
     ],
-    "version": "1.0.1",
-    "version_upstream": "1.0.1",
-    "bsum": "b194122afe941e2005cc9b179aae5d41d973933fc12a0542cc80d4e2318d6185",
-    "build_date": "2025-01-14T13:52:45Z",
-    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12766855991",
-    "build_id": "12766855991",
-    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&download=ghostty.log",
-    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/nixappimage.nixpkgs.stable.yaml",
-    "download_count": "177",
-    "download_count_month": "177",
-    "download_count_week": "143",
-    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&download=ghostty",
-    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty@sha256:e81ed5d832f775ef2d2b7ba5be55abe3ae86635b6b463bd8672a132729d70c30",
+    "version": "v1.1.0",
+    "version_upstream": "v1.1.0",
+    "bsum": "776a3a1d6fdcf103a934b353671679db665a590951446d41d8bd20fd73eeba9a",
+    "build_date": "2025-01-31T18:56:54Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13078850207",
+    "build_id": "13078850207",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.0-aarch64-linux&download=ghostty.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml",
+    "download_count": "200",
+    "download_count_month": "2",
+    "download_count_week": "2",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.0-aarch64-linux&download=ghostty",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:c51b7fee9163cf68841c97385f73250d0a5a2c67236aa15a0055588fa7e0f45c",
     "ghcr_files": [
       "CHECKSUM",
       "CHECKSUM.sig",
@@ -892,6 +892,8 @@
       "SBUILD",
       "SBUILD.sig",
       "ghostty",
+      "ghostty.appdata.xml",
+      "ghostty.appdata.xml.sig",
       "ghostty.desktop",
       "ghostty.desktop.sig",
       "ghostty.json",
@@ -904,14 +906,17 @@
       "ghostty.version",
       "ghostty.version.sig"
     ],
-    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty:1.0.1-aarch64-linux",
-    "ghcr_size": "227.12 MB",
-    "ghcr_size_raw": "238153145",
-    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty",
-    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/nixappimage/nixpkgs/stable/ghostty?tag=1.0.1-aarch64-linux&manifest",
-    "shasum": "e81ed5d832f775ef2d2b7ba5be55abe3ae86635b6b463bd8672a132729d70c30",
-    "size": "226 MB",
-    "size_raw": "236888848"
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.0-aarch64-linux",
+    "ghcr_size": "50.99 MB",
+    "ghcr_size_raw": "53466870",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.0-aarch64-linux&manifest",
+    "shasum": "c51b7fee9163cf68841c97385f73250d0a5a2c67236aa15a0055588fa7e0f45c",
+    "size": "51 MB",
+    "size_raw": "53363472",
+    "snapshots": [
+      "v1.0.1_4-aarch64-linux[v1.0.1+4]"
+    ]
   },
   {
     "_disabled": "false",
@@ -967,9 +972,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-aarch64-linux&download=helix.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/helix/nixappimage.nixpkgs.stable.yaml",
-    "download_count": "365",
-    "download_count_month": "87",
-    "download_count_week": "87",
+    "download_count": "578",
+    "download_count_month": "67",
+    "download_count_week": "67",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-aarch64-linux&download=helix",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix@sha256:582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918",
     "ghcr_files": [
@@ -1008,7 +1013,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "6",
+    "rank": "10",
     "pkg": "neovim.nixappimage",
     "pkg_family": "neovim",
     "pkg_id": "nixpkgs.neovim",
@@ -1059,9 +1064,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.3-aarch64-linux&download=neovim.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/nixappimage.nixpkgs.stable.yaml",
-    "download_count": "353",
-    "download_count_month": "153",
-    "download_count_week": "121",
+    "download_count": "565",
+    "download_count_month": "87",
+    "download_count_week": "87",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.3-aarch64-linux&download=neovim",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim@sha256:e14afdb0dc18085ce0153a6d734d43b2e13ad191986a834ab3f70d288eea79b4",
     "ghcr_files": [
@@ -1099,7 +1104,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "7",
+    "rank": "6",
     "pkg": "simplex-desktop.nixappimage",
     "pkg_family": "simplex-desktop",
     "pkg_id": "nixpkgs.simplex-chat-desktop",
@@ -1153,9 +1158,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux&download=simplex-desktop.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/nixappimage.nixpkgs.stable.yaml",
-    "download_count": "330",
-    "download_count_month": "152",
-    "download_count_week": "137",
+    "download_count": "577",
+    "download_count_month": "88",
+    "download_count_week": "88",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux&download=simplex-desktop",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop@sha256:702309f406e4d91d12044e67c3f0335c9642f20e1c81aca65974a88c41460a34",
     "ghcr_files": [
@@ -1194,7 +1199,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "18",
+    "rank": "16",
     "pkg": "tangent.appimage",
     "pkg_family": "tangent",
     "pkg_id": "github.com.suchnsuch.Tangent.alpha",
@@ -1202,16 +1207,16 @@
     "pkg_type": "appimage",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/tangent/appimage/official/alpha/tangent",
     "app_id": "io.github.suchnsuch.Tangent",
-    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.6-aarch64-linux&download=tangent.metainfo.xml",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux&download=tangent.metainfo.xml",
     "category": [
       "TextEditor"
     ],
     "description": "A clean and powerful open source notes app (alpha)",
-    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.6-aarch64-linux&download=tangent.desktop",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux&download=tangent.desktop",
     "homepage": [
       "https://www.tangentnotes.com"
     ],
-    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.6-aarch64-linux&download=tangent.png",
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux&download=tangent.png",
     "license": [
       "Apache-2.0"
     ],
@@ -1235,19 +1240,19 @@
       "editor",
       "note"
     ],
-    "version": "0.9.0-alpha.6",
-    "version_upstream": "0.9.0-alpha.6",
-    "bsum": "ea774dbe7c776426ea70760819a3ae756bfda0bb2000cce58b77cb0c8ce467ec",
-    "build_date": "2025-01-26T18:23:28Z",
-    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12976489101",
-    "build_id": "12976489101",
-    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.6-aarch64-linux&download=tangent.log",
+    "version": "0.9.0-alpha.7",
+    "version_upstream": "0.9.0-alpha.7",
+    "bsum": "b7188757bfc5f4ee93235cac80b22267f8d640dd4eabb606f8b81e46405ae914",
+    "build_date": "2025-01-31T09:15:33Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13069499071",
+    "build_id": "13069499071",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux&download=tangent.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.alpha.yaml",
-    "download_count": "37",
-    "download_count_month": "3",
-    "download_count_week": "3",
-    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.6-aarch64-linux&download=tangent",
-    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:11d7cc56f9089a20a62819955a65b7a93b3fffbcc08bc4e80fa3af3f7650cc30",
+    "download_count": "271",
+    "download_count_month": "2",
+    "download_count_week": "2",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux&download=tangent",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4",
     "ghcr_files": [
       "CHECKSUM",
       "CHECKSUM.sig",
@@ -1270,14 +1275,14 @@
       "tangent.version",
       "tangent.version.sig"
     ],
-    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.6-aarch64-linux",
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.7-aarch64-linux",
     "ghcr_size": "91.38 MB",
-    "ghcr_size_raw": "95821578",
+    "ghcr_size_raw": "95819929",
     "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent",
-    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.6-aarch64-linux&manifest",
-    "shasum": "11d7cc56f9089a20a62819955a65b7a93b3fffbcc08bc4e80fa3af3f7650cc30",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux&manifest",
+    "shasum": "be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4",
     "size": "92 MB",
-    "size_raw": "95699728",
+    "size_raw": "95695632",
     "snapshots": [
       "0.9.0-alpha.6-aarch64-linux[0.9.0-alpha.6]"
     ]
@@ -1334,9 +1339,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-aarch64-linux&download=tangent.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.stable.yaml",
-    "download_count": "40",
-    "download_count_month": "4",
-    "download_count_week": "4",
+    "download_count": "246",
+    "download_count_month": "88",
+    "download_count_week": "88",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-aarch64-linux&download=tangent",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28",
     "ghcr_files": [
@@ -1376,7 +1381,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "13",
+    "rank": "11",
     "pkg": "telegram-desktop.nixappimage",
     "pkg_family": "telegram-desktop",
     "pkg_id": "nixpkgs.telegram-desktop",
@@ -1430,9 +1435,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.5-aarch64-linux&download=telegram-desktop.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/nixappimage.nixpkgs.stable.yaml",
-    "download_count": "311",
-    "download_count_month": "85",
-    "download_count_week": "85",
+    "download_count": "561",
+    "download_count_month": "88",
+    "download_count_week": "88",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.5-aarch64-linux&download=telegram-desktop",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop@sha256:fa8e13ab0e279ec53778f0d44bb640f82276cf28fa055517aa267598d824ea47",
     "ghcr_files": [
@@ -1522,9 +1527,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-aarch64-linux&download=vesktop.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml",
-    "download_count": "387",
-    "download_count_month": "192",
-    "download_count_week": "136",
+    "download_count": "594",
+    "download_count_month": "84",
+    "download_count_week": "84",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.4-aarch64-linux&download=vesktop",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:64ab14119ffecd2b558eef42f14c866f99bbff46ffaac68d4ab6b06f6ee32072",
     "ghcr_files": [
@@ -1562,7 +1567,99 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "11",
+    "rank": "21",
+    "pkg": "wezterm.runimage",
+    "pkg_family": "wezterm",
+    "pkg_id": "runimage.alpine.wezterm",
+    "pkg_name": "wezterm",
+    "pkg_type": "runimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/wezterm/runimage/alpine/stable/wezterm",
+    "app_id": "org.wezfurlong.wezterm",
+    "appstream": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm.appdata.xml",
+    "category": [
+      "Utility"
+    ],
+    "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm.desktop",
+    "homepage": [
+      "https://wezfurlong.org/wezterm/"
+    ],
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "provides": [
+      "wezterm==open-wezterm-here",
+      "wezterm==strip-ansi-escapes",
+      "wezterm==wezterm-gui",
+      "wezterm==wezterm-mux-server"
+    ],
+    "note": [
+      "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+      "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "repology": [
+      "wezterm"
+    ],
+    "src_url": [
+      "https://github.com/wez/wezterm"
+    ],
+    "tag": [
+      "Terminal"
+    ],
+    "version": "20240203.110809",
+    "version_upstream": "20240203.110809",
+    "bsum": "0fd934ea58d3b26f10f7cec2d928af04113f75230ef4213489350bbea23da8e7",
+    "build_date": "2025-01-27T18:42:11Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12995880157",
+    "build_id": "12995880157",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm.log",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml",
+    "download_count": "155",
+    "download_count_month": "76",
+    "download_count_week": "76",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm@sha256:164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf",
+    "ghcr_files": [
+      "CHECKSUM",
+      "CHECKSUM.sig",
+      "LICENSE",
+      "LICENSE.sig",
+      "SBUILD",
+      "SBUILD.sig",
+      "wezterm",
+      "wezterm.appdata.xml",
+      "wezterm.appdata.xml.sig",
+      "wezterm.desktop",
+      "wezterm.desktop.sig",
+      "wezterm.json",
+      "wezterm.json.sig",
+      "wezterm.log",
+      "wezterm.log.sig",
+      "wezterm.png",
+      "wezterm.png.sig",
+      "wezterm.sig",
+      "wezterm.version",
+      "wezterm.version.sig"
+    ],
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-aarch64-linux",
+    "ghcr_size": "104.79 MB",
+    "ghcr_size_raw": "109883224",
+    "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&manifest",
+    "shasum": "164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf",
+    "size": "105 MB",
+    "size_raw": "109672301"
+  },
+  {
+    "_disabled": "false",
+    "host": "aarch64-Linux",
+    "rank": "9",
     "pkg": "zen-browser.appimage",
     "pkg_family": "zen-browser",
     "pkg_id": "github.com.zen-browser.desktop.beta",
@@ -1611,9 +1708,9 @@
     "build_id": "12976489101",
     "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml",
-    "download_count": "326",
-    "download_count_month": "166",
-    "download_count_week": "143",
+    "download_count": "572",
+    "download_count_month": "88",
+    "download_count_week": "88",
     "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser",
     "ghcr_blob": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
     "ghcr_files": [
@@ -1651,7 +1748,7 @@
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "9",
+    "rank": "7",
     "pkg": "zen-browser.appimage",
     "pkg_family": "zen-browser",
     "pkg_id": "github.com.zen-browser.desktop.stable",
@@ -1663,12 +1760,12 @@
       "WebBrowser"
     ],
     "description": "Performance oriented Firefox-based web browser",
-    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.2b-aarch64-linux&download=zen-browser.desktop",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.4b-aarch64-linux&download=zen-browser.desktop",
     "homepage": [
       "https://zen-browser.app",
       "https://github.com/zen-browser/desktop"
     ],
-    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.2b-aarch64-linux&download=zen-browser.png",
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.4b-aarch64-linux&download=zen-browser.png",
     "license": [
       "MPL-2.0"
     ],
@@ -1692,19 +1789,19 @@
       "firefox",
       "www-client"
     ],
-    "version": "1.7.2b",
-    "version_upstream": "1.7.2b",
-    "bsum": "fd90cde21e0ae93a1815ccfe9ab8addffe77c1a342c299ff3c4df21af8a1a568",
-    "build_date": "2025-01-26T18:34:13Z",
-    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12976489101",
-    "build_id": "12976489101",
-    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.2b-aarch64-linux&download=zen-browser.log",
+    "version": "1.7.4b",
+    "version_upstream": "1.7.4b",
+    "bsum": "4991d6775c3db58bf9719bb4c21e36ee59d3e5038c7719abcb98f3a3fd12ce1c",
+    "build_date": "2025-01-31T09:16:53Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13069581322",
+    "build_id": "13069581322",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.4b-aarch64-linux&download=zen-browser.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml",
-    "download_count": "325",
-    "download_count_month": "85",
-    "download_count_week": "85",
-    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.2b-aarch64-linux&download=zen-browser",
-    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:b740f19945ea88f44e6b01af1cb302eaffc3a6e97baef2f32d5f630a9ce80943",
+    "download_count": "575",
+    "download_count_month": "88",
+    "download_count_week": "88",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.4b-aarch64-linux&download=zen-browser",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:180acfd26e071aec70b8bbe043a5f9cd274a120dfe52f70423135c848c45f0e6",
     "ghcr_files": [
       "CHECKSUM",
       "CHECKSUM.sig",
@@ -1725,23 +1822,24 @@
       "zen-browser.version",
       "zen-browser.version.sig"
     ],
-    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.2b-aarch64-linux",
-    "ghcr_size": "95.53 MB",
-    "ghcr_size_raw": "100173776",
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.4b-aarch64-linux",
+    "ghcr_size": "95.59 MB",
+    "ghcr_size_raw": "100231178",
     "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser",
-    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.2b-aarch64-linux&manifest",
-    "shasum": "b740f19945ea88f44e6b01af1cb302eaffc3a6e97baef2f32d5f630a9ce80943",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.4b-aarch64-linux&manifest",
+    "shasum": "180acfd26e071aec70b8bbe043a5f9cd274a120dfe52f70423135c848c45f0e6",
     "size": "96 MB",
-    "size_raw": "100098832",
+    "size_raw": "100156176",
     "snapshots": [
       "1.7b-aarch64-linux[1.7b]",
-      "1.7.1b-aarch64-linux[1.7.1b]"
+      "1.7.1b-aarch64-linux[1.7.1b]",
+      "1.7.2b-aarch64-linux[1.7.2b]"
     ]
   },
   {
     "_disabled": "false",
     "host": "aarch64-Linux",
-    "rank": "10",
+    "rank": "8",
     "pkg": "zen-browser.appimage",
     "pkg_family": "zen-browser",
     "pkg_id": "github.com.zen-browser.desktop.twilight",
@@ -1753,12 +1851,12 @@
       "WebBrowser"
     ],
     "description": "Performance oriented Firefox-based web browser (Twilight)",
-    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux&download=zen-browser.desktop",
+    "desktop": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.4t_2025-01-30at23_03_43_-aarch64-linux&download=zen-browser.desktop",
     "homepage": [
       "https://zen-browser.app",
       "https://github.com/zen-browser/desktop"
     ],
-    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux&download=zen-browser.png",
+    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.4t_2025-01-30at23_03_43_-aarch64-linux&download=zen-browser.png",
     "license": [
       "MPL-2.0"
     ],
@@ -1782,19 +1880,19 @@
       "firefox",
       "www-client"
     ],
-    "version": "Twilightbuild-1.7.2t(2025-01-25at23:03:24)",
-    "version_upstream": "Twilightbuild-1.7.2t(2025-01-25at23:03:24)",
-    "bsum": "6148baa626c2c426d0b59c4ad9dfba5a6007d4b110856e6979383dcb24bf1c6b",
-    "build_date": "2025-01-26T18:34:40Z",
-    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/12976489101",
-    "build_id": "12976489101",
-    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux&download=zen-browser.log",
+    "version": "Twilightbuild-1.7.4t(2025-01-30at23:03:43)",
+    "version_upstream": "Twilightbuild-1.7.4t(2025-01-30at23:03:43)",
+    "bsum": "27a3ddf9ec7cfb35e19882a70f14343464d5b20eb9901eabf043de365c2fa39f",
+    "build_date": "2025-01-31T09:17:48Z",
+    "build_gha": "https://github.com/pkgforge/pkgcache/actions/runs/13069663159",
+    "build_id": "13069663159",
+    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.4t_2025-01-30at23_03_43_-aarch64-linux&download=zen-browser.log",
     "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-    "download_count": "336",
-    "download_count_month": "112",
-    "download_count_week": "112",
-    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux&download=zen-browser",
-    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:da88d7ebaa062be7c0634b2dc3e4e7e27f6ab9d873761c8036d8649abda5f06c",
+    "download_count": "587",
+    "download_count_month": "99",
+    "download_count_week": "99",
+    "download_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.4t_2025-01-30at23_03_43_-aarch64-linux&download=zen-browser",
+    "ghcr_blob": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:90ed5f854ad9ff59de2a9a4ea7ded40439df3a5e355c46401648cea8ecbd61ea",
     "ghcr_files": [
       "CHECKSUM",
       "CHECKSUM.sig",
@@ -1815,18 +1913,19 @@
       "zen-browser.version",
       "zen-browser.version.sig"
     ],
-    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux",
-    "ghcr_size": "95.56 MB",
-    "ghcr_size_raw": "100203320",
+    "ghcr_pkg": "ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.7.4t_2025-01-30at23_03_43_-aarch64-linux",
+    "ghcr_size": "95.58 MB",
+    "ghcr_size_raw": "100223996",
     "ghcr_url": "https://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser",
-    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux&manifest",
-    "shasum": "da88d7ebaa062be7c0634b2dc3e4e7e27f6ab9d873761c8036d8649abda5f06c",
+    "manifest_url": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.4t_2025-01-30at23_03_43_-aarch64-linux&manifest",
+    "shasum": "90ed5f854ad9ff59de2a9a4ea7ded40439df3a5e355c46401648cea8ecbd61ea",
     "size": "96 MB",
-    "size_raw": "100127504",
+    "size_raw": "100147984",
     "snapshots": [
       "1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]",
       "1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]",
-      "Twilightbuild-1.7.2t_2025-01-21at22_18_15_-aarch64-linux[Twilightbuild-1.7.2t(2025-01-21at22:18:15)]"
+      "Twilightbuild-1.7.2t_2025-01-21at22_18_15_-aarch64-linux[Twilightbuild-1.7.2t(2025-01-21at22:18:15)]",
+      "Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux[Twilightbuild-1.7.2t(2025-01-25at23:03:24)]"
     ]
   }
 ]

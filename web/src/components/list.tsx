@@ -60,7 +60,7 @@ const columns: (page: string) => ColumnDef<ListItem>[] = (page) => ([
         <div
           className="flex"
         >
-          Package Family
+          Package ID
           <Button
             variant="ghost"
             size="sm"
@@ -147,13 +147,6 @@ const columns: (page: string) => ColumnDef<ListItem>[] = (page) => ([
         </Tooltip>
       </>;
     },
-  },
-  {
-    accessorKey: "id",
-    header: "ID",
-    cell: ({ row }) => {
-      return <span className="text-gray-500 dark:text-gray-400 font-mono text-sm">{row.getValue("id")}</span>
-    }
   },
   {
     accessorKey: page != "soarpkgs" ? "Build Date" : "Package Type",

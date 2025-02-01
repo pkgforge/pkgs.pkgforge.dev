@@ -77,8 +77,6 @@ const getColumnVis = () => {
   } catch (e) {
     return {
       sha: false,
-      id: false,
-      size: false,
     };
   }
 };
@@ -267,7 +265,7 @@ export function DataTable<TData>({
               <SelectGroup>
                 <SelectLabel>Filter among</SelectLabel>
                 <SelectItem value="name">Name</SelectItem>
-                <SelectItem value="family">Package Family</SelectItem>
+                <SelectItem value="family">Package ID</SelectItem>
                 <SelectItem value="category">Category</SelectItem>
               </SelectGroup>
             </SelectContent>

@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import type { ColumnDef, VisibilityState, SortingState, ColumnFiltersState } from "@tanstack/react-table";
+import type { ColumnDef, SortingState, ColumnFiltersState } from "@tanstack/react-table";
 import {
   flexRender,
   getCoreRowModel,
@@ -21,18 +21,11 @@ import {
 
 import { Input } from "@/components/ui/input"
 
-import {
-  DropdownMenu,
-  DropdownMenuCheckboxItem,
-  DropdownMenuContent,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
 import { Button, buttonVariants } from "./ui/button";
 import { Label } from "./ui/label";
-import { CheckIcon, ChevronLeft, ChevronRight, ListTree, Search, SkipBack, SkipForward } from "lucide-react";
+import { CheckIcon, ChevronLeft, ChevronRight, Search, SkipBack, SkipForward } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { cn } from "@/lib/utils";
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "./ui/select";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
 interface DataTableProps<TData, TValue> {

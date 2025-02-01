@@ -2,11 +2,7 @@ import { FileJson, DownloadCloud } from 'lucide-react';
 
 interface Props {
   webpage_url: string;
-  download_url: string;
-  family: string;
-  name: string;
   repo: string;
-  arch: string;
 }
 
 const FormulaLinks = ({ webpage_url, repo }: Props) => {
