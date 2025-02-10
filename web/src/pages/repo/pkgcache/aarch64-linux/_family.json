@@ -41,10 +41,22 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/clamtk/runimage/debian/stable/clamtk"
     ]
   ],
+  "Utility/runimage.alpine.element-desktop": [
+    [
+      "element-desktop",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/element-desktop/runimage/alpine/stable/element-desktop"
+    ]
+  ],
+  "Utility/github.com.viarotel-org.escrcpy": [
+    [
+      "escrcpy",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/escrcpy/appimage/official/stable/escrcpy"
+    ]
+  ],
   "Utility/nixpkgs.flameshot": [
     [
       "flameshot",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/flameshot/flameshot"
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/flameshot/nixappimage/nixpkgs/unstable/flameshot"
     ]
   ],
   "Utility/nixpkgs.gearlever": [
@@ -53,10 +65,28 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/gearlever/nixappimage/nixpkgs/stable/gearlever"
     ]
   ],
+  "Utility/runimage.alpine.ghex": [
+    [
+      "ghex",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghex/runimage/alpine/stable/ghex"
+    ]
+  ],
   "TerminalEmulator/github.com.psadi.ghostty-appimage.stable": [
     [
       "ghostty",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghostty/appimage/psadi/stable/ghostty"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.bundle.git.stable": [
+    [
+      "git",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/git/appimage/ppkg/stable/git"
+    ]
+  ],
+  "Utility/runimage.alpine.git": [
+    [
+      "git",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/git/runimage/alpine/stable/git"
     ]
   ],
   "TextEditor/nixpkgs.helix": [
@@ -65,10 +95,52 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/helix/nixappimage/nixpkgs/stable/helix"
     ]
   ],
+  "Graphics,Office/runimage.alpine.inkscape": [
+    [
+      "inkscape",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/inkscape/runimage/alpine/stable/inkscape"
+    ]
+  ],
+  "AudioVideoEditing/runimage.alpine.kdenlive": [
+    [
+      "kdenlive",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/kdenlive/runimage/alpine/stable/kdenlive"
+    ]
+  ],
+  "Graphics,ImageProcessing/runimage.alpine.krita": [
+    [
+      "krita",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/krita/runimage/alpine/stable/krita"
+    ]
+  ],
   "TextEditor/nixpkgs.neovim": [
     [
       "neovim",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/neovim/nixappimage/nixpkgs/stable/neovim"
+    ]
+  ],
+  "Utility/github.com.rustdesk.rustdesk.nightly": [
+    [
+      "rustdesk",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/rustdesk/appimage/official/nightly/rustdesk"
+    ]
+  ],
+  "Utility/github.com.rustdesk.rustdesk.stable": [
+    [
+      "rustdesk",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/rustdesk/appimage/official/stable/rustdesk"
+    ]
+  ],
+  "Game/github.com.Ryubing.Ryujinx.canary": [
+    [
+      "ryujinx",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ryujinx/appimage/official/canary/ryujinx"
+    ]
+  ],
+  "Game/github.com.Ryubing.Ryujinx.stable": [
+    [
+      "ryujinx",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ryujinx/appimage/official/stable/ryujinx"
     ]
   ],
   "Chat,InstantMessaging/nixpkgs.simplex-chat-desktop": [

@@ -124,6 +124,7 @@ export function DataTable<TData>({
   const [data, setData] = React.useState<TData[] | "loading">(
     binX86 as unknown as TData[],
   );
+  const [searchValue, setSearchValue] = React.useState("");
 
   const columns = React.useMemo(() => {
     return col(page);
@@ -183,11 +184,21 @@ export function DataTable<TData>({
     getFilteredRowModel: getFilteredRowModel(),
     onColumnVisibilityChange: setColumnVisibility,
     getPaginationRowModel: getPaginationRowModel(),
+    filterFns: {
+      nameOrFamily: (row, columnId, filterValue) => {
+        if (column === "category") return true;
+        const searchLower = filterValue.toLowerCase();
+        const name = (row.getValue("name") as string)?.toLowerCase() || "";
+        const family = (row.getValue("family") as string)?.toLowerCase() || "";
+        return name.includes(searchLower) || family.includes(searchLower);
+      },
+    },
     state: {
       sorting,
       columnFilters,
       columnVisibility,
-    },
+      globalFilter: column !== "category" ? searchValue : undefined,
+    }
   });
 
   React.useEffect(() => {
@@ -205,6 +216,13 @@ export function DataTable<TData>({
   const pageNumberInput: React.RefObject<HTMLInputElement | null> =
     React.useRef(null);
 
+  const handleSearch = (value: string) => {
+    setSearchValue(value);
+    if (column === "category") {
+      table.getColumn("category")?.setFilterValue(value);
+    }
+  };
+
   return (
     <div className="rounded-md border">
       <div className="flex flex-col md:flex-row justify-center md:justify-normal items-center py-4 md:px-3">
@@ -214,22 +232,23 @@ export function DataTable<TData>({
             e.preventDefault();
             if (input.current) {
               const val = input.current.value.trim();
-              if (val) {
-                table.getColumn(column)?.setFilterValue(val);
-              }
+              handleSearch(val);
             }
           }}
         >
           <Input
-            placeholder="Filter using name..."
+            placeholder={`Filter using ${column === "category" ? "category" : "name or package ID"}...`}
             ref={input}
             maxLength={64}
-            // value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
             onChange={(event) => {
-              if (!event.target.value.trim()) {
+              const value = event.target.value.trim();
+              if (!value) {
+                handleSearch("");
                 for (const col of table.getAllColumns()) {
                   col.setFilterValue("");
                 }
+              } else {
+                handleSearch(value);
               }
             }}
             className="max-w-sm rounded-r-none"
@@ -264,8 +283,7 @@ export function DataTable<TData>({
             <SelectContent>
               <SelectGroup>
                 <SelectLabel>Filter among</SelectLabel>
-                <SelectItem value="name">Name</SelectItem>
-                <SelectItem value="family">Package ID</SelectItem>
+                <SelectItem value="name">Name OR Package ID</SelectItem>
                 <SelectItem value="category">Category</SelectItem>
               </SelectGroup>
             </SelectContent>
@@ -329,9 +347,9 @@ export function DataTable<TData>({
                     {header.isPlaceholder
                       ? null
                       : flexRender(
-                          header.column.columnDef.header,
-                          header.getContext(),
-                        )}
+                        header.column.columnDef.header,
+                        header.getContext(),
+                      )}
                   </TableHead>
                 );
               })}

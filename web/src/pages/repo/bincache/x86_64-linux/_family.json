@@ -86,7 +86,7 @@
   "ConsoleOnly,Utility/github.com.nektos.act": [
     [
       "act",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/act/act"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/act/official/act"
     ]
   ],
   "ConsoleOnly,Utility/github.com.rhysd.actionlint": [
@@ -98,11 +98,11 @@
   "ConsoleOnly,Utility/github.com.FiloSottile.age": [
     [
       "age-keygen",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/age/age-keygen"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/age/official/age-keygen"
     ],
     [
       "age",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/age/age"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/age/official/age"
     ]
   ],
   "ConsoleOnly,Utility/github.com.asciinema.agg": [
@@ -137,6 +137,12 @@
     [
       "aix",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/aix/aix"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.alacritty": [
+    [
+      "alacritty",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/alacritty/ppkg/alacritty"
     ]
   ],
   "ConsoleOnly,Utility/github.com.alba4k.albafetch": [
@@ -194,7 +200,7 @@
   "ConsoleOnly,Utility/github.com.aws.amazon-linux-docker-images": [
     [
       "amazonlinux",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/amazonlinux/amazonlinux"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/amazonlinux/official/amazonlinux"
     ]
   ],
   "ConsoleOnly,Utility/github.com.jmacdonald.amp": [
@@ -236,13 +242,13 @@
   "ConsoleOnly,Utility/github.com.pystardust.ani-cli": [
     [
       "ani-cli",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/ani-cli/ani-cli"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/ani-cli/official/ani-cli"
     ]
   ],
   "ConsoleOnly,Utility/gitlab.alpinelinux.org.alpine.apk-tools": [
     [
       "apk-static",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sbuilder/apk-static"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/apk-static/official/apk-static"
     ]
   ],
   "ConsoleOnly,Utility/github.com.ax.apk.sh": [
@@ -254,7 +260,7 @@
   "ConsoleOnly,Utility/github.com.EFForg.apkeep": [
     [
       "apkeep",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/apkeep/apkeep"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/apkeep/official/apkeep"
     ]
   ],
   "ConsoleOnly,Utility/github.com.probonopd.static-tools": [
@@ -374,19 +380,19 @@
   "ConsoleOnly,Utility/github.com.axel-download-accelerator.axel": [
     [
       "axel",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/axel/axel"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/axel/official/axel"
     ]
   ],
   "ConsoleOnly,Utility/github.com.BLAKE3-team.BLAKE3": [
     [
       "b3sum",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/b3sum/b3sum"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/b3sum/official/b3sum"
     ]
   ],
   "ConsoleOnly,Utility/github.com.imsnif.bandwhich": [
     [
       "bandwhich",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bandwhich/bandwhich"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bandwhich/official/bandwhich"
     ]
   ],
   "ConsoleOnly,Utility/gnuguix.bash": [
@@ -607,10 +613,32 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bita/bita"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.bitcoin": [
+    [
+      "bench_bitcoin",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bitcoin/ppkg/bench_bitcoin"
+    ],
+    [
+      "bitcoin-cli",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bitcoin/ppkg/bitcoin-cli"
+    ],
+    [
+      "bitcoin-tx",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bitcoin/ppkg/bitcoin-tx"
+    ],
+    [
+      "bitcoin-wallet",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bitcoin/ppkg/bitcoin-wallet"
+    ],
+    [
+      "bitcoind",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bitcoin/ppkg/bitcoind"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.blevesearch.bleve": [
     [
       "bleve",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bleve/bleve"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/bleve/official/bleve"
     ]
   ],
   "ConsoleOnly,Utility/github.com.darkhz.bluetuith": [
@@ -964,7 +992,7 @@
     ],
     [
       "chpst",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/chpst"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/chpst"
     ],
     [
       "chroot",
@@ -972,27 +1000,27 @@
     ],
     [
       "chrt",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/chrt"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/chrt"
     ],
     [
       "chvt",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/chvt"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/chvt"
     ],
     [
       "cksum",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/cksum"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/cksum"
     ],
     [
       "clear",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/clear"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/clear"
     ],
     [
       "cmp",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/cmp"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/cmp"
     ],
     [
       "comm",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/comm"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/comm"
     ],
     [
       "conspy",
@@ -1000,7 +1028,7 @@
     ],
     [
       "cp",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/cp"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/cp"
     ],
     [
       "cpio",
@@ -1008,15 +1036,15 @@
     ],
     [
       "crc32",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/crc32"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/crc32"
     ],
     [
       "crond",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/crond"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/crond"
     ],
     [
       "crontab",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/crontab"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/crontab"
     ],
     [
       "cryptpw",
@@ -1032,7 +1060,7 @@
     ],
     [
       "date",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/date"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/date"
     ],
     [
       "dc",
@@ -1040,7 +1068,7 @@
     ],
     [
       "dd",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/dd"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/dd"
     ],
     [
       "deallocvt",
@@ -1048,7 +1076,7 @@
     ],
     [
       "delgroup",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/delgroup"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/delgroup"
     ],
     [
       "deluser",
@@ -1056,11 +1084,11 @@
     ],
     [
       "depmod",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/depmod"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/depmod"
     ],
     [
       "devmem",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/devmem"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/devmem"
     ],
     [
       "df",
@@ -1068,19 +1096,19 @@
     ],
     [
       "dhcprelay",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/dhcprelay"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/dhcprelay"
     ],
     [
       "diff",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/diff"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/diff"
     ],
     [
       "dirname",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/dirname"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/dirname"
     ],
     [
       "dmesg",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/dmesg"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/dmesg"
     ],
     [
       "dnsd",
@@ -1088,7 +1116,7 @@
     ],
     [
       "dnsdomainname",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/dnsdomainname"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/dnsdomainname"
     ],
     [
       "dos2unix",
@@ -1100,7 +1128,7 @@
     ],
     [
       "dpkg",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/dpkg"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/dpkg"
     ],
     [
       "du",
@@ -1108,7 +1136,7 @@
     ],
     [
       "dumpkmap",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/dumpkmap"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/dumpkmap"
     ],
     [
       "dumpleases",
@@ -1116,7 +1144,7 @@
     ],
     [
       "echo",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/echo"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/echo"
     ],
     [
       "ed",
@@ -1124,7 +1152,7 @@
     ],
     [
       "egrep",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/egrep"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/egrep"
     ],
     [
       "eject",
@@ -1132,7 +1160,7 @@
     ],
     [
       "env",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/env"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/env"
     ],
     [
       "envdir",
@@ -1140,7 +1168,7 @@
     ],
     [
       "envuidgid",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/envuidgid"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/envuidgid"
     ],
     [
       "ether-wake",
@@ -1159,12 +1187,28 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/factor"
     ],
     [
+      "fakeidentd",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fakeidentd"
+    ],
+    [
       "fallocate",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fallocate"
     ],
     [
+      "false",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/false"
+    ],
+    [
+      "fatattr",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fatattr"
+    ],
+    [
       "fbset",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fbset"
+    ],
+    [
+      "fbsplash",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fbsplash"
     ],
     [
       "fdflush",
@@ -1179,12 +1223,24 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fdisk"
     ],
     [
+      "fgconsole",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fgconsole"
+    ],
+    [
       "fgrep",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fgrep"
     ],
     [
+      "find",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/find"
+    ],
+    [
       "findfs",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/findfs"
+    ],
+    [
+      "flock",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/flock"
     ],
     [
       "fold",
@@ -1195,28 +1251,92 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/free"
     ],
     [
+      "freeramdisk",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/freeramdisk"
+    ],
+    [
       "fsck-minix",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fsck-minix"
     ],
     [
+      "fsck",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fsck"
+    ],
+    [
+      "fsfreeze",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fsfreeze"
+    ],
+    [
+      "fstrim",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fstrim"
+    ],
+    [
       "fsync",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/fsync"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fsync"
     ],
     [
       "ftpd",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/ftpd"
     ],
     [
+      "ftpget",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/ftpget"
+    ],
+    [
+      "ftpput",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/ftpput"
+    ],
+    [
       "fuser",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/fuser"
+    ],
+    [
+      "getfattr",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/getfattr"
+    ],
+    [
+      "getopt",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/getopt"
+    ],
+    [
+      "getty",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/getty"
+    ],
+    [
+      "grep",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/grep"
     ],
     [
       "groups",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/groups"
     ],
     [
+      "gunzip",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/gunzip"
+    ],
+    [
+      "gzip",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/gzip"
+    ],
+    [
+      "halt",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/halt"
+    ],
+    [
+      "hd",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/hd"
+    ],
+    [
       "hdparm",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/hdparm"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/hdparm"
+    ],
+    [
+      "head",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/head"
+    ],
+    [
+      "hexdump",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/hexdump"
     ],
     [
       "hexedit",
@@ -1227,20 +1347,44 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/hostid"
     ],
     [
+      "hostname",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/hostname"
+    ],
+    [
       "httpd",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/httpd"
     ],
     [
       "hush",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/hush"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/hush"
     ],
     [
       "hwclock",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/hwclock"
     ],
     [
+      "i2cdetect",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/i2cdetect"
+    ],
+    [
+      "i2cdump",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/i2cdump"
+    ],
+    [
       "i2cget",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/i2cget"
+    ],
+    [
+      "i2cset",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/i2cset"
+    ],
+    [
+      "i2ctransfer",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/i2ctransfer"
+    ],
+    [
+      "id",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/id"
     ],
     [
       "ifconfig",
@@ -1263,8 +1407,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/ifup"
     ],
     [
+      "inetd",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/inetd"
+    ],
+    [
       "init",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/init"
+    ],
+    [
+      "insmod",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/insmod"
     ],
     [
       "install",
@@ -1279,12 +1431,20 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/iostat"
     ],
     [
+      "ip",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/ip"
+    ],
+    [
       "ipaddr",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/ipaddr"
     ],
     [
       "ipcalc",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/ipcalc"
+    ],
+    [
+      "ipcrm",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/ipcrm"
     ],
     [
       "ipcs",
@@ -4008,7 +4168,7 @@
   "ConsoleOnly,Utility/github.com.code-inflation.cfspeedtest": [
     [
       "cfspeedtest",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cfspeedtest/cfspeedtest"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cfspeedtest/official/cfspeedtest"
     ]
   ],
   "ConsoleOnly,Utility/github.com.cloudflare.cfssl": [
@@ -4156,19 +4316,19 @@
   "ConsoleOnly,Utility/github.com.xrelkd.clipcat": [
     [
       "clipcat-menu",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/clipcat-menu"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/official/clipcat-menu"
     ],
     [
       "clipcat-notify",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/clipcat-notify"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/official/clipcat-notify"
     ],
     [
       "clipcatctl",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/clipcatctl"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/official/clipcatctl"
     ],
     [
       "clipcatd",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/clipcatd"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/clipcat/official/clipcatd"
     ]
   ],
   "ConsoleOnly,Utility/github.com.cbeuw.Cloak": [
@@ -4232,7 +4392,7 @@
   "ConsoleOnly,Utility/github.com.cocogitto.cocogitto": [
     [
       "cocogitto",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cocogitto/cocogitto"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/cocogitto/official/cocogitto"
     ],
     [
       "cog",
@@ -5862,7 +6022,7 @@
   "ConsoleOnly,Utility/github.com.shenwei356.csvtk": [
     [
       "csvtk",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/csvtk/csvtk"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/csvtk/official/csvtk"
     ]
   ],
   "ConsoleOnly,Utility/github.com.crtsh.ct.monitor": [
@@ -5888,11 +6048,11 @@
   "ConsoleOnly,Utility/github.com.stunnel.static-curl": [
     [
       "curl",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/curl/curl"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/curl/stunnel/curl"
     ],
     [
       "trurl",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/curl/trurl"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/curl/stunnel/trurl"
     ]
   ],
   "ConsoleOnly,Utility/github.com.rs.curlie": [
@@ -5938,7 +6098,7 @@
   "ConsoleOnly,Utility/github.com.hahwul.dalfox": [
     [
       "dalfox",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dalfox/dalfox"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dalfox/official/dalfox"
     ]
   ],
   "ConsoleOnly,Utility/github.com.TomWright.dasel": [
@@ -6092,7 +6252,7 @@
   "ConsoleOnly,Utility/github.com.dandavison.delta": [
     [
       "delta",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/delta/delta"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/delta/official/delta"
     ]
   ],
   "ConsoleOnly,Utility/github.com.EgeBalci.deoptimizer": [
@@ -6117,6 +6277,16 @@
     [
       "update-desktop-database",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/desktop-file-utils/update-desktop-database"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.desktop-file-utils": [
+    [
+      "desktop-file-edit",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/desktop-file-utils/ppkg/desktop-file-edit"
+    ],
+    [
+      "desktop-file-validate",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/desktop-file-utils/ppkg/desktop-file-validate"
     ]
   ],
   "ConsoleOnly,Utility/github.com.jetpack-io.devbox": [
@@ -6218,13 +6388,139 @@
   "ConsoleOnly,Utility/github.com.dotenv-linter.dotenv-linter": [
     [
       "dotenv-linter",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dotenv-linter/dotenv-linter"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dotenv-linter/official/dotenv-linter"
     ]
   ],
   "ConsoleOnly,Utility/github.com.minio.dperf": [
     [
       "dperf",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dperf/dperf"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.dpkg": [
+    [
+      "dpkg-buildapi",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-buildapi"
+    ],
+    [
+      "dpkg-buildflags",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-buildflags"
+    ],
+    [
+      "dpkg-buildpackage",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-buildpackage"
+    ],
+    [
+      "dpkg-buildtree",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-buildtree"
+    ],
+    [
+      "dpkg-checkbuilddeps",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-checkbuilddeps"
+    ],
+    [
+      "dpkg-deb",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-deb"
+    ],
+    [
+      "dpkg-distaddfile",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-distaddfile"
+    ],
+    [
+      "dpkg-divert",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-divert"
+    ],
+    [
+      "dpkg-fsys-usrunmess",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-fsys-usrunmess"
+    ],
+    [
+      "dpkg-genbuildinfo",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-genbuildinfo"
+    ],
+    [
+      "dpkg-genchanges",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-genchanges"
+    ],
+    [
+      "dpkg-gencontrol",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-gencontrol"
+    ],
+    [
+      "dpkg-gensymbols",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-gensymbols"
+    ],
+    [
+      "dpkg-maintscript-helper",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-maintscript-helper"
+    ],
+    [
+      "dpkg-mergechangelogs",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-mergechangelogs"
+    ],
+    [
+      "dpkg-name",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-name"
+    ],
+    [
+      "dpkg-parsechangelog",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-parsechangelog"
+    ],
+    [
+      "dpkg-query",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-query"
+    ],
+    [
+      "dpkg-realpath",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-realpath"
+    ],
+    [
+      "dpkg-scanpackages",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-scanpackages"
+    ],
+    [
+      "dpkg-scansources",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-scansources"
+    ],
+    [
+      "dpkg-shlibdeps",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-shlibdeps"
+    ],
+    [
+      "dpkg-source",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-source"
+    ],
+    [
+      "dpkg-split",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-split"
+    ],
+    [
+      "dpkg-statoverride",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-statoverride"
+    ],
+    [
+      "dpkg-trigger",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-trigger"
+    ],
+    [
+      "dpkg-vendor",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg-vendor"
+    ],
+    [
+      "dpkg",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dpkg"
+    ],
+    [
+      "dselect",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/dselect"
+    ],
+    [
+      "start-stop-daemon",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/start-stop-daemon"
+    ],
+    [
+      "update-alternatives",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/dpkg/ppkg/update-alternatives"
     ]
   ],
   "ConsoleOnly,Utility/github.com.mkj.dropbear.multicall": [
@@ -6310,7 +6606,7 @@
   "ConsoleOnly,Utility/nixpkgs.e2fsprogs": [
     [
       "badblocks",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/badblocks"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/badblocks"
     ],
     [
       "chattr",
@@ -6322,7 +6618,7 @@
     ],
     [
       "debugfs",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/debugfs"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/debugfs"
     ],
     [
       "dumpe2fs",
@@ -6330,95 +6626,95 @@
     ],
     [
       "e2freefrag",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2freefrag"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e2freefrag"
     ],
     [
       "e2fsck",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2fsck"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e2fsck"
     ],
     [
       "e2image",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2image"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e2image"
     ],
     [
       "e2label",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2label"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e2label"
     ],
     [
       "e2mmpstatus",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2mmpstatus"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e2mmpstatus"
     ],
     [
       "e2scrub",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2scrub"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e2scrub"
     ],
     [
       "e2scrub_all",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2scrub_all"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e2scrub_all"
     ],
     [
       "e2undo",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e2undo"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e2undo"
     ],
     [
       "e4crypt",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e4crypt"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e4crypt"
     ],
     [
       "e4defrag",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/e4defrag"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/e4defrag"
     ],
     [
       "filefrag",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/filefrag"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/filefrag"
     ],
     [
       "fsck.ext2",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/fsck.ext2"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/fsck.ext2"
     ],
     [
       "fsck.ext3",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/fsck.ext3"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/fsck.ext3"
     ],
     [
       "fsck.ext4",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/fsck.ext4"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/fsck.ext4"
     ],
     [
       "logsave",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/logsave"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/logsave"
     ],
     [
       "lsattr",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/lsattr"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/lsattr"
     ],
     [
       "mk_cmds",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/mk_cmds"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/mk_cmds"
     ],
     [
       "mke2fs",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/mke2fs"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/mke2fs"
     ],
     [
       "mkfs.ext2",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/mkfs.ext2"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/mkfs.ext2"
     ],
     [
       "mkfs.ext3",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/mkfs.ext3"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/mkfs.ext3"
     ],
     [
       "mkfs.ext4",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/mkfs.ext4"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/mkfs.ext4"
     ],
     [
       "resize2fs",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/resize2fs"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/resize2fs"
     ],
     [
       "tune2fs",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/tune2fs"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/e2fsprogs/nixpkgs/tune2fs"
     ]
   ],
   "ConsoleOnly,Utility/github.com.keith-turner.ecoji": [
@@ -6494,13 +6790,13 @@
   "ConsoleOnly,Utility/github.com.sj14.epoch": [
     [
       "epoch",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/epoch/epoch"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/epoch/official/epoch"
     ]
   ],
   "ConsoleOnly,Utility/github.com.evanw.esbuild": [
     [
       "esbuild",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/esbuild/esbuild"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/esbuild/official/esbuild"
     ]
   ],
   "ConsoleOnly,Utility/github.com.etcd-io.etcd": [
@@ -6581,6 +6877,12 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/exfatprogs/tune.exfat"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.exif": [
+    [
+      "exif",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/exif/ppkg/exif"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.aydinnyunus.exifLooter": [
     [
       "exiflooter",
@@ -6612,7 +6914,7 @@
   "ConsoleOnly,Utility/github.com.brocode.fblog": [
     [
       "fblog",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fblog/fblog"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fblog/official/fblog"
     ]
   ],
   "ConsoleOnly,Utility/github.com.pkolaczk.fclones": [
@@ -6713,10 +7015,36 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/flawz/flawz"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.fontconfig": [
+    [
+      "fc-cache",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fontconfig/ppkg/fc-cache"
+    ],
+    [
+      "fc-list",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fontconfig/ppkg/fc-list"
+    ],
+    [
+      "fc-pattern",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fontconfig/ppkg/fc-pattern"
+    ],
+    [
+      "fc-query",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fontconfig/ppkg/fc-query"
+    ],
+    [
+      "fc-scan",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fontconfig/ppkg/fc-scan"
+    ],
+    [
+      "fc-validate",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fontconfig/ppkg/fc-validate"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.wader.fq": [
     [
       "fq",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fq/fq"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fq/official/fq"
     ]
   ],
   "ConsoleOnly,Utility/github.com.charmbracelet.freeze": [
@@ -6782,13 +7110,13 @@
   "ConsoleOnly,Utility/github.com.fyne-io.fyne": [
     [
       "fyne",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fyne/fyne"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fyne/official/fyne"
     ]
   ],
   "ConsoleOnly,Utility/github.com.junegunn.fzf": [
     [
       "fzf",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fzf/fzf"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/fzf/official/fzf"
     ]
   ],
   "ConsoleOnly,Utility/github.com.lc.gau": [
@@ -6806,25 +7134,25 @@
   "ConsoleOnly,Utility/nixpkgs.gdb": [
     [
       "gcore",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdb/gcore"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdb/nixpkgs/gcore"
     ],
     [
       "gdb-add-index",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdb/gdb-add-index"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdb/nixpkgs/gdb-add-index"
     ],
     [
       "gdb",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdb/gdb"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdb/nixpkgs/gdb"
     ],
     [
       "gdbserver",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdb/gdbserver"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdb/nixpkgs/gdbserver"
     ]
   ],
   "ConsoleOnly,Utility/github.com.dundee.gdu": [
     [
       "gdu",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdu/gdu"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gdu/official/gdu"
     ]
   ],
   "ConsoleOnly,Utility/gitlab.com.shodan-public.geonet-rs": [
@@ -6996,7 +7324,7 @@
   "ConsoleOnly,Utility/github.com.go-gitea.gitea": [
     [
       "gitea",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gitea/gitea"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gitea/official/gitea"
     ]
   ],
   "ConsoleOnly,Utility/github.com.gwen001.github-endpoints": [
@@ -7041,10 +7369,64 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gitui/gitui"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.glib-tools": [
+    [
+      "gapplication",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gapplication"
+    ],
+    [
+      "gi-compile-repository",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gi-compile-repository"
+    ],
+    [
+      "gi-decompile-typelib",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gi-decompile-typelib"
+    ],
+    [
+      "gi-inspect-typelib",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gi-inspect-typelib"
+    ],
+    [
+      "gio-launch-desktop",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gio-launch-desktop"
+    ],
+    [
+      "gio-querymodules",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gio-querymodules"
+    ],
+    [
+      "gio",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gio"
+    ],
+    [
+      "glib-compile-resources",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/glib-compile-resources"
+    ],
+    [
+      "glib-compile-schemas",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/glib-compile-schemas"
+    ],
+    [
+      "gobject-query",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gobject-query"
+    ],
+    [
+      "gresource",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gresource"
+    ],
+    [
+      "gsettings",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gsettings"
+    ],
+    [
+      "gtester",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glib/ppkg/gtester"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.charmbracelet.glow": [
     [
       "glow",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glow/glow"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/glow/official/glow"
     ]
   ],
   "ConsoleOnly,Utility/github.com.slackhq.go-audit": [
@@ -7104,11 +7486,11 @@
   "ConsoleOnly,Utility/github.com.rfjakob.gocryptfs": [
     [
       "gocryptfs-xray",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gocryptfs/gocryptfs-xray"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gocryptfs/official/gocryptfs-xray"
     ],
     [
       "gocryptfs",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gocryptfs/gocryptfs"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gocryptfs/official/gocryptfs"
     ]
   ],
   "ConsoleOnly,Utility/github.com.ameshkov.gocurl": [
@@ -7156,7 +7538,7 @@
   "ConsoleOnly,Utility/github.com.gopasspw.gopass": [
     [
       "gopass",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gopass/gopass"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gopass/official/gopass"
     ]
   ],
   "ConsoleOnly,Utility/github.com.d4rckh.gorilla": [
@@ -7201,6 +7583,12 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gowitness/gowitness"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.gperftools": [
+    [
+      "pprof",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gperftools/ppkg/pprof"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.pemistahl.grex": [
     [
       "grex",
@@ -7239,6 +7627,20 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gsocket/gsocket"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.guile": [
+    [
+      "guild",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/guile/ppkg/guild"
+    ],
+    [
+      "guile-snarf",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/guile/ppkg/guile-snarf"
+    ],
+    [
+      "guile",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/guile/ppkg/guile"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.charmbracelet.gum": [
     [
       "gum",
@@ -7248,7 +7650,7 @@
   "ConsoleOnly,Utility/github.com.nao1215.gup": [
     [
       "gup",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gup/gup"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/gup/official/gup"
     ]
   ],
   "ConsoleOnly,Utility/nixpkgs.gzip": [
@@ -7641,6 +8043,12 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/hyperfine/hyperfine"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.i2pd": [
+    [
+      "i2pd",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/i2pd/ppkg/i2pd"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.ulyssa.iamb": [
     [
       "iamb",
@@ -7665,6 +8073,24 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/indextree/indextree"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.inotify-tools": [
+    [
+      "fsnotifywait",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/inotify-tools/ppkg/fsnotifywait"
+    ],
+    [
+      "fsnotifywatch",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/inotify-tools/ppkg/fsnotifywatch"
+    ],
+    [
+      "inotifywait",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/inotify-tools/ppkg/inotifywait"
+    ],
+    [
+      "inotifywatch",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/inotify-tools/ppkg/inotifywatch"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.projectdiscovery.interactsh": [
     [
       "interactsh-client",
@@ -7673,6 +8099,20 @@
     [
       "interactsh-server",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/interactsh/interactsh-server"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.intltool": [
+    [
+      "intltool-merge",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/intltool/ppkg/intltool-merge"
+    ],
+    [
+      "intltool-prepare",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/intltool/ppkg/intltool-prepare"
+    ],
+    [
+      "intltoolize",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/intltool/ppkg/intltoolize"
     ]
   ],
   "ConsoleOnly,Utility/github.com.darkhz.invidtui": [
@@ -7699,6 +8139,12 @@
     [
       "ipasd",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/ipa-server/ipasd"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.iperf": [
+    [
+      "iperf",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/iperf/ppkg/iperf"
     ]
   ],
   "ConsoleOnly,Utility/nixpkgs.iperf3": [
@@ -7825,6 +8271,12 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/jira-cli/official/jira-cli"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.jless": [
+    [
+      "jless",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/jless/ppkg/jless"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.ynqa.jnv": [
     [
       "jnv",
@@ -7934,7 +8386,7 @@
   "ConsoleOnly,Utility/github.com.orhun.kmon": [
     [
       "kmon",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/kmon/kmon"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/kmon/official/kmon"
     ]
   ],
   "ConsoleOnly,Utility/github.com.tbillington.kondo": [
@@ -7975,6 +8427,58 @@
     [
       "lazygit",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lazygit/official/lazygit"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.lcdf-typetools": [
+    [
+      "mmpfb",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcdf-typetools/ppkg/mmpfb"
+    ],
+    [
+      "otftotfm",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcdf-typetools/ppkg/otftotfm"
+    ],
+    [
+      "t1dotlessj",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcdf-typetools/ppkg/t1dotlessj"
+    ],
+    [
+      "t1lint",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcdf-typetools/ppkg/t1lint"
+    ],
+    [
+      "t1rawafm",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcdf-typetools/ppkg/t1rawafm"
+    ],
+    [
+      "t1reencode",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcdf-typetools/ppkg/t1reencode"
+    ],
+    [
+      "t1testpage",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcdf-typetools/ppkg/t1testpage"
+    ],
+    [
+      "ttftotype42",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcdf-typetools/ppkg/ttftotype42"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.lcov": [
+    [
+      "gendesc",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcov/ppkg/gendesc"
+    ],
+    [
+      "genhtml",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcov/ppkg/genhtml"
+    ],
+    [
+      "geninfo",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcov/ppkg/geninfo"
+    ],
+    [
+      "lcov",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lcov/ppkg/lcov"
     ]
   ],
   "ConsoleOnly,Utility/github.com.messense.lddtree-rs": [
@@ -8197,6 +8701,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lsof/lsof"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.lua": [
+    [
+      "lua",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lua/ppkg/lua"
+    ],
+    [
+      "luac",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/lua/ppkg/luac"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.mudler.luet": [
     [
       "luet",
@@ -8266,13 +8780,19 @@
   "ConsoleOnly,Utility/github.com.minio.mc": [
     [
       "mc",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/mc/mc"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/mc/official/mc"
     ]
   ],
   "ConsoleOnly,Utility/github.com.zimbatm.mdsh": [
     [
       "mdsh",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/mdsh/mdsh"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.mediainfo": [
+    [
+      "mediainfo",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/mediainfo/ppkg/mediainfo"
     ]
   ],
   "ConsoleOnly,Utility/github.com.chainguard-dev.melange": [
@@ -8369,10 +8889,68 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/monolith/monolith"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.moreutils": [
+    [
+      "chronic",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/chronic"
+    ],
+    [
+      "errno",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/errno"
+    ],
+    [
+      "ifdata",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/ifdata"
+    ],
+    [
+      "ifne",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/ifne"
+    ],
+    [
+      "isutf8",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/isutf8"
+    ],
+    [
+      "lckdo",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/lckdo"
+    ],
+    [
+      "mispipe",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/mispipe"
+    ],
+    [
+      "parallel",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/parallel"
+    ],
+    [
+      "pee",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/pee"
+    ],
+    [
+      "sponge",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/sponge"
+    ],
+    [
+      "ts",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/ts"
+    ],
+    [
+      "vidir",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/vidir"
+    ],
+    [
+      "vipe",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/vipe"
+    ],
+    [
+      "zrun",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/moreutils/ppkg/zrun"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.EdJoPaTo.mqttui": [
     [
       "mqttui",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/mqttui/mqttui"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/mqttui/official/mqttui"
     ]
   ],
   "ConsoleOnly,Utility/nixpkgs.mtr": [
@@ -8401,6 +8979,12 @@
     [
       "navi",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/navi/official/navi"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.ncdu": [
+    [
+      "ncdu",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/ncdu/ppkg/ncdu"
     ]
   ],
   "ConsoleOnly,Utility/github.com.jansc.ncgopher": [
@@ -8520,11 +9104,11 @@
   "ConsoleOnly,Utility/github.com.gravitl.netmaker": [
     [
       "netmaker",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/netmaker/netmaker"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/netmaker/official/netmaker"
     ],
     [
       "nmctl",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/netmaker/nmctl"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/netmaker/official/nmctl"
     ]
   ],
   "ConsoleOnly,Utility/github.com.Chleba.netscanner": [
@@ -8545,10 +9129,16 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/ngocok/ngocok"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.ngspice": [
+    [
+      "ngspice",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/ngspice/ppkg/ngspice"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.vdjagilev.nmap-formatter": [
     [
       "nmap-formatter",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/nmap-formatter/nmap-formatter"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/nmap-formatter/official/nmap-formatter"
     ]
   ],
   "ConsoleOnly,Utility/github.com.sdcampbell.nmapurls": [
@@ -8654,7 +9244,7 @@
   "ConsoleOnly,Utility/github.com.thomiceli.opengist": [
     [
       "opengist",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/opengist/opengist"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/opengist/official/opengist"
     ]
   ],
   "ConsoleOnly,Utility/github.com.projectdiscovery.openrisk": [
@@ -8790,7 +9380,7 @@
   "ConsoleOnly,Utility/github.com.oras-project.oras": [
     [
       "oras",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/oras/oras"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/oras/official/oras"
     ]
   ],
   "ConsoleOnly,Utility/github.com.xyproto.orbiton": [
@@ -8802,7 +9392,7 @@
   "ConsoleOnly,Utility/github.com.j3ssie.osmedeus": [
     [
       "osmedeus",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/osmedeus/osmedeus"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/osmedeus/official/osmedeus"
     ]
   ],
   "ConsoleOnly,Utility/github.com.fioncat.otree": [
@@ -8933,6 +9523,28 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pax-utils/symtree"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.pax-utils": [
+    [
+      "lddtree",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pax-utils/ppkg/lddtree"
+    ],
+    [
+      "pspax",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pax-utils/ppkg/pspax"
+    ],
+    [
+      "scanelf",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pax-utils/ppkg/scanelf"
+    ],
+    [
+      "scanmacho",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pax-utils/ppkg/scanmacho"
+    ],
+    [
+      "symtree",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pax-utils/ppkg/symtree"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.pdfcpu.pdfcpu": [
     [
       "pdfcpu",
@@ -8988,7 +9600,7 @@
   "ConsoleOnly,Utility/github.com.prefix-dev.pixi": [
     [
       "pixi",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pixi/pixi"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pixi/official/pixi"
     ]
   ],
   "ConsoleOnly,Utility/github.com.dkorunic.pktstat": [
@@ -9006,7 +9618,7 @@
   "ConsoleOnly,Utility/github.com.pls-rs.pls": [
     [
       "pls",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pls/pls"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/pls/official/pls"
     ]
   ],
   "ConsoleOnly,Utility/github.com.mxpv.podsync": [
@@ -9634,7 +10246,7 @@
   "ConsoleOnly,Utility/github.com.rclone.rclone": [
     [
       "rclone",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/rclone/rclone"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/rclone/official/rclone"
     ]
   ],
   "ConsoleOnly,Utility/github.com.mrusme.reader": [
@@ -9680,13 +10292,13 @@
     ],
     [
       "regsync",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/regclient/regsync"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/regclient/official/regsync"
     ]
   ],
   "ConsoleOnly,Utility/github.com.lmc999.RegionRestrictionCheck": [
     [
       "region-restriction-check",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/region-restriction-check/region-restriction-check"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/region-restriction-check/official/region-restriction-check"
     ]
   ],
   "ConsoleOnly,Utility/github.com.sigstore.rekor": [
@@ -9743,6 +10355,12 @@
     [
       "rldd",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/rldd/official/rldd"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.rlwrap": [
+    [
+      "rlwrap",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/rlwrap/ppkg/rlwrap"
     ]
   ],
   "ConsoleOnly,Utility/github.com.ismaelgv.rnr": [
@@ -9818,13 +10436,13 @@
   "ConsoleOnly,Utility/github.com.shenwei356.rush": [
     [
       "rush",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/rush/rush"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/rush/official/rush"
     ]
   ],
   "ConsoleOnly,Utility/github.com.aaronriekenberg.rust-parallel": [
     [
       "rust-parallel",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/rust-parallel/rust-parallel"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/rust-parallel/official/rust-parallel"
     ]
   ],
   "ConsoleOnly,Utility/github.com.robiot.rustcat": [
@@ -10598,7 +11216,7 @@
   "ConsoleOnly,Utility/github.com.Foxboron.sbctl": [
     [
       "sbctl",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sbctl/sbctl"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sbctl/official/sbctl"
     ]
   ],
   "ConsoleOnly,Utility/github.com.pkgforge.sbuilder": [
@@ -10732,7 +11350,7 @@
   "ConsoleOnly,Utility/github.com.lotabout.skim": [
     [
       "sk-tmux",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/skim/sk-tmux"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/skim/official/sk-tmux"
     ],
     [
       "sk",
@@ -10766,7 +11384,7 @@
   "ConsoleOnly,Utility/github.com.BishopFox.sliver": [
     [
       "sliver-client",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sliver/sliver-client"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sliver/official/sliver-client"
     ]
   ],
   "ConsoleOnly,Utility/github.com.sw33tLie.sns": [
@@ -10775,10 +11393,40 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sns/sns"
     ]
   ],
-  "ConsoleOnly,Utility/github.com.pkgforge.soar": [
+  "ConsoleOnly,Utility/github.com.pkgforge.soar.glibc-v3": [
     [
       "soar",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/soar/soar"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/soar/glibc-v3/soar"
+    ]
+  ],
+  "ConsoleOnly,Utility/github.com.pkgforge.soar.glibc-v4": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/soar/glibc-v4/soar"
+    ]
+  ],
+  "ConsoleOnly,Utility/github.com.pkgforge.soar.glibc": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/soar/glibc/soar"
+    ]
+  ],
+  "ConsoleOnly,Utility/github.com.pkgforge.soar.musl-v3": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/soar/musl-v3/soar"
+    ]
+  ],
+  "ConsoleOnly,Utility/github.com.pkgforge.soar.musl-v4": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/soar/musl-v4/soar"
+    ]
+  ],
+  "ConsoleOnly,Utility/github.com.pkgforge.soar.musl": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/soar/musl/soar"
     ]
   ],
   "ConsoleOnly,Utility/nixpkgs.socat": [
@@ -10798,7 +11446,7 @@
   "ConsoleOnly,Utility/github.com.charmbracelet.soft-serve": [
     [
       "soft-serve",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/soft-serve/soft-serve"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/soft-serve/official/soft-serve"
     ]
   ],
   "ConsoleOnly,Utility/github.com.denandz.sourcemapper": [
@@ -10811,6 +11459,40 @@
     [
       "speedtest-go",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/speedtest-go/speedtest-go"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.spirv-tools": [
+    [
+      "spirv-as",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/spirv-tools/ppkg/spirv-as"
+    ],
+    [
+      "spirv-dis",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/spirv-tools/ppkg/spirv-dis"
+    ],
+    [
+      "spirv-link",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/spirv-tools/ppkg/spirv-link"
+    ],
+    [
+      "spirv-lint",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/spirv-tools/ppkg/spirv-lint"
+    ],
+    [
+      "spirv-objdump",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/spirv-tools/ppkg/spirv-objdump"
+    ],
+    [
+      "spirv-opt",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/spirv-tools/ppkg/spirv-opt"
+    ],
+    [
+      "spirv-reduce",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/spirv-tools/ppkg/spirv-reduce"
+    ],
+    [
+      "spirv-val",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/spirv-tools/ppkg/spirv-val"
     ]
   ],
   "ConsoleOnly,Utility/github.com.dhn.spk": [
@@ -10900,7 +11582,7 @@
   "ConsoleOnly,Utility/github.com.Eun.sshkeys": [
     [
       "sshkeys",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sshkeys/sshkeys"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sshkeys/official/sshkeys"
     ]
   ],
   "ConsoleOnly,Utility/github.com.ekzhang.sshx": [
@@ -10910,7 +11592,7 @@
     ],
     [
       "sshx",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sshx/sshx"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/sshx/official/sshx"
     ]
   ],
   "ConsoleOnly,Utility/github.com.HarshVaragiya.sslsearch": [
@@ -10928,7 +11610,7 @@
   "ConsoleOnly,Utility/github.com.turbot.steampipe": [
     [
       "steampipe",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/steampipe/steampipe"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/steampipe/official/steampipe"
     ]
   ],
   "ConsoleOnly,Utility/github.com.smallstep.cli": [
@@ -10950,7 +11632,7 @@
     ],
     [
       "strace",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/strace/strace"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/strace/nixpkgs/strace"
     ]
   ],
   "ConsoleOnly,Utility/github.com.orangekame3.stree": [
@@ -11141,6 +11823,28 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tidy-viewer/tidy-viewer"
     ]
   ],
+  "ConsoleOnly,Utility/ppkg.tiff": [
+    [
+      "tiffcp",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tiff/ppkg/tiffcp"
+    ],
+    [
+      "tiffdump",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tiff/ppkg/tiffdump"
+    ],
+    [
+      "tiffinfo",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tiff/ppkg/tiffinfo"
+    ],
+    [
+      "tiffset",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tiff/ppkg/tiffset"
+    ],
+    [
+      "tiffsplit",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tiff/ppkg/tiffsplit"
+    ]
+  ],
   "ConsoleOnly,Utility/github.com.Hackmanit.TInjA": [
     [
       "tinja",
@@ -11156,11 +11860,11 @@
   "ConsoleOnly,Utility/github.com.tldr-pages.tlrc": [
     [
       "tldr",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tlrc/tldr"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tlrc/official/tldr"
     ],
     [
       "tlrc",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tlrc/tlrc"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tlrc/official/tlrc"
     ]
   ],
   "ConsoleOnly,Utility/github.com.projectdiscovery.tlsx": [
@@ -11185,6 +11889,12 @@
     [
       "traefik",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/traefik/official/traefik"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.tree": [
+    [
+      "tree",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/tree/ppkg/tree"
     ]
   ],
   "ConsoleOnly,Utility/github.com.fujiapple852.trippy": [
@@ -11266,7 +11976,7 @@
   "ConsoleOnly,Utility/github.com.projectdiscovery.uncover": [
     [
       "uncover",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/uncover/uncover"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/uncover/official/uncover"
     ]
   ],
   "ConsoleOnly,Utility/github.com.io12.unf": [
@@ -11301,6 +12011,16 @@
     [
       "upx",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/upx/upx"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.usbutils": [
+    [
+      "lsusb",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/usbutils/ppkg/lsusb"
+    ],
+    [
+      "usbhid-dump",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/usbutils/ppkg/usbhid-dump"
     ]
   ],
   "ConsoleOnly,Utility/nixpkgs.util-linux": [
@@ -11855,11 +12575,19 @@
   ],
   "ConsoleOnly,Utility/github.com.vergoh.vnstat.glibc": [
     [
+      "vnstat",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/vnstat/official/glibc/vnstat"
+    ],
+    [
       "vnstatd",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/vnstat/official/glibc/vnstatd"
     ]
   ],
   "ConsoleOnly,Utility/github.com.vergoh.vnstat.musl": [
+    [
+      "vnstat",
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/vnstat/official/vnstat"
+    ],
     [
       "vnstatd",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/vnstat/official/vnstatd"
@@ -11892,7 +12620,7 @@
   "ConsoleOnly,Utility/github.com.antonmedv.walk": [
     [
       "walk",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/walk/walk"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/walk/official/walk"
     ]
   ],
   "ConsoleOnly,Utility/github.com.minio.warp": [
@@ -11925,13 +12653,11 @@
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/wego/wego"
     ]
   ],
-  "ConsoleOnly,Utility/github.com.wez.wezterm": [
+  "ConsoleOnly,Utility/github.com.wez.wezterm.source": [
     [
       "generate-bidi",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/wezterm/official/generate-bidi"
-    ]
-  ],
-  "ConsoleOnly,Utility/github.com.wez.wezterm.source": [
+    ],
     [
       "strip-ansi-escapes",
       "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/wezterm/official/strip-ansi-escapes"
@@ -12082,7 +12808,7 @@
   "ConsoleOnly,Utility/github.com.sibprogrammer.xq": [
     [
       "xq",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/xq/xq"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/xq/official/xq"
     ]
   ],
   "ConsoleOnly,Utility/ppkg.xsel": [
@@ -12138,7 +12864,7 @@
   "ConsoleOnly,Utility/github.com.mudler.yip": [
     [
       "yip",
-      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/yip/yip"
+      "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/yip/official/yip"
     ]
   ],
   "ConsoleOnly,Utility/github.com.sclevine.yj": [

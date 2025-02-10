@@ -32,7 +32,7 @@
   "Office/github.com.ivan-hc.Abiword-appimage": [
     [
       "abiword",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/abiword/abiword"
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/abiword/appimage/ivan-hc/stable/abiword"
     ]
   ],
   "Database,Education,IDE/github.com.Acreom.releases.stable": [
@@ -185,6 +185,18 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/chromium/nixappimage/nixpkgs/ungoogled/chromium"
     ]
   ],
+  "Game/github.com.pkgforge-dev.Citron-AppImage.stable": [
+    [
+      "citron",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/citron/appimage/pkgforge-dev/stable/citron"
+    ]
+  ],
+  "Game/github.com.pkgforge-dev.Citron-AppImage.v3": [
+    [
+      "citron",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/citron/appimage/pkgforge-dev/v3/citron"
+    ]
+  ],
   "Utility/runimage.debian.clamtk": [
     [
       "clamtk",
@@ -201,6 +213,12 @@
     [
       "ddnet",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ddnet/runimage/cachyos/stable/ddnet"
+    ]
+  ],
+  "Game/runimage.debian.deltapatcher": [
+    [
+      "deltapatcher",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/deltapatcher/runimage/debian/stable/deltapatcher"
     ]
   ],
   "Chat,InstantMessaging/github.com.srevinsaju.discord-AppImage.canary": [
@@ -243,6 +261,30 @@
     [
       "discord",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord/nixappimage/nixpkgs/stable/discord"
+    ]
+  ],
+  "Utility/runimage.alpine.element-desktop": [
+    [
+      "element-desktop",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/element-desktop/runimage/alpine/stable/element-desktop"
+    ]
+  ],
+  "Utility/github.com.viarotel-org.escrcpy": [
+    [
+      "escrcpy",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/escrcpy/appimage/official/stable/escrcpy"
+    ]
+  ],
+  "Utility/runimage.cachyos.fdm": [
+    [
+      "fdm",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/fdm/runimage/cachyos/stable/fdm"
+    ]
+  ],
+  "Utility/runimage.debian.fdm": [
+    [
+      "fdm",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/fdm/runimage/debian/stable/fdm"
     ]
   ],
   "Utility/runimage.cachyos.ffdec": [
@@ -317,16 +359,112 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ghostty/appimage/psadi/stable/ghostty"
     ]
   ],
+  "Graphics,ImageProcessing/github.com.pkgforge-dev.GIMP-AppImage": [
+    [
+      "gimp",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/gimp/appimage/pkgforge-dev/stable/gimp"
+    ]
+  ],
+  "Graphics,ImageProcessing/runimage.cachyos.gimp.git": [
+    [
+      "gimp",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/gimp/runimage/cachyos/git/gimp"
+    ]
+  ],
+  "Graphics,ImageProcessing/runimage.cachyos.gimp.stable": [
+    [
+      "gimp",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/gimp/runimage/cachyos/stable/gimp"
+    ]
+  ],
+  "ConsoleOnly,Utility/ppkg.bundle.git.stable": [
+    [
+      "git",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/git/appimage/ppkg/stable/git"
+    ]
+  ],
   "Utility/runimage.alpine.git": [
     [
       "git",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/git/runimage/alpine/stable/git"
     ]
   ],
+  "Emulator,Monitor/runimage.cachyos.gnome-boxes.stable": [
+    [
+      "gnome-boxes",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/gnome-boxes/runimage/cachyos/stable/gnome-boxes"
+    ]
+  ],
+  "Utility/github.com.benjamimgois.goverlay.beta": [
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/goverlay/appimage/official/beta/goverlay"
+    ]
+  ],
+  "Utility/github.com.benjamimgois.goverlay.beta2": [
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/goverlay/appimage/official/beta2/goverlay"
+    ]
+  ],
+  "Utility/runimage.cachyos.goverlay.git": [
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/goverlay/runimage/cachyos/git/goverlay"
+    ]
+  ],
+  "Utility/runimage.cachyos.goverlay.stable": [
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/goverlay/runimage/cachyos/stable/goverlay"
+    ]
+  ],
+  "Utility/runimage.cachyos.gpt4all.git": [
+    [
+      "gpt4all",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/gpt4all/runimage/cachyos/git/gpt4all"
+    ]
+  ],
+  "Utility/runimage.cachyos.gzdoom": [
+    [
+      "gzdoom",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/gzdoom/runimage/cachyos/stable/gzdoom"
+    ]
+  ],
+  "Utility/runimage.cachyos.haguichi": [
+    [
+      "haguichi",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/haguichi/runimage/cachyos/stable/haguichi"
+    ]
+  ],
   "TextEditor/nixpkgs.helix": [
     [
       "helix",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/helix/nixappimage/nixpkgs/stable/helix"
+    ]
+  ],
+  "Graphics,Office/gitlab.com.inkscape.inkscape": [
+    [
+      "inkscape",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/inkscape/appimage/official/stable/inkscape"
+    ]
+  ],
+  "Graphics,Office/runimage.alpine.inkscape": [
+    [
+      "inkscape",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/inkscape/runimage/alpine/stable/inkscape"
+    ]
+  ],
+  "AudioVideoEditing/gitlab.com.kdenlive.kdenlive.nightly": [
+    [
+      "kdenlive",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/kdenlive/appimage/official/nightly/kdenlive"
+    ]
+  ],
+  "AudioVideoEditing/runimage.alpine.kdenlive": [
+    [
+      "kdenlive",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/kdenlive/runimage/alpine/stable/kdenlive"
     ]
   ],
   "Utility/github.com.ivan-hc.kdeutils-appimage": [
@@ -347,16 +485,94 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/knot/appimage/official/stable/knot"
     ]
   ],
+  "Graphics,ImageProcessing/gitlab.com.krita.krita.next": [
+    [
+      "krita",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/krita/appimage/official/next/krita"
+    ]
+  ],
+  "Graphics,ImageProcessing/gitlab.com.krita.krita.stable": [
+    [
+      "krita",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/krita/appimage/official/stable/krita"
+    ]
+  ],
+  "Graphics,ImageProcessing/runimage.alpine.krita": [
+    [
+      "krita",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/krita/runimage/alpine/stable/krita"
+    ]
+  ],
+  "Utility/runimage.cachyos.lact": [
+    [
+      "lact",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/lact/runimage/cachyos/stable/lact"
+    ]
+  ],
   "IDE/runimage.cachyos.lazarus": [
     [
       "lazarus",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/lazarus/runimage/cachyos/stable/lazarus"
     ]
   ],
+  "Office/gitlab.com.libreoffice.libreoffice.fresh-basic": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/libreoffice/appimage/official/fresh-basic/libreoffice"
+    ]
+  ],
+  "Office/gitlab.com.libreoffice.libreoffice.fresh-full": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/libreoffice/appimage/official/fresh-full/libreoffice"
+    ]
+  ],
+  "Office/gitlab.com.libreoffice.libreoffice.fresh-standard": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/libreoffice/appimage/official/fresh-standard/libreoffice"
+    ]
+  ],
+  "Office/gitlab.com.libreoffice.libreoffice.still-basic": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/libreoffice/appimage/official/still-basic/libreoffice"
+    ]
+  ],
+  "Office/gitlab.com.libreoffice.libreoffice.still-full": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/libreoffice/appimage/official/still-full/libreoffice"
+    ]
+  ],
+  "Office/gitlab.com.libreoffice.libreoffice.still-standard": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/libreoffice/appimage/official/still-standard/libreoffice"
+    ]
+  ],
+  "Utility/runimage.cachyos.libresprite": [
+    [
+      "libresprite",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/libresprite/runimage/cachyos/stable/libresprite"
+    ]
+  ],
   "WebBrowser/runimage.cachyos.librewolf": [
     [
       "librewolf",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/librewolf/runimage/cachyos/stable/librewolf"
+    ]
+  ],
+  "Utility/runimage.cachyos.mcpelauncher": [
+    [
+      "mcpelauncher",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/mcpelauncher/runimage/cachyos/stable/mcpelauncher"
+    ]
+  ],
+  "Utility/github.com.melonDS-emu.melonDS": [
+    [
+      "melonds",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/melonds/appimage/official/stable/melonds"
     ]
   ],
   "Music,Player,TV/github.com.pkgforge-dev.mpv-AppImage.stable": [
@@ -377,10 +593,28 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/neovim/nixappimage/nixpkgs/stable/neovim"
     ]
   ],
+  "Utility/runimage.cachyos.nheko": [
+    [
+      "nheko",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/nheko/runimage/cachyos/stable/nheko"
+    ]
+  ],
   "AudioVideoEditing,Recorder/github.com.pkgforge-dev.OBS-Studio-AppImage.stable": [
     [
       "obs-studio",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/obs-studio/appimage/pkgforge-dev/stable/obs-studio"
+    ]
+  ],
+  "Utility/runimage.cachyos.openboard": [
+    [
+      "openboard",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/openboard/runimage/cachyos/stable/openboard"
+    ]
+  ],
+  "Utility/github.com.ferion11.peazip-AppImage": [
+    [
+      "peazip",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/peazip/appimage/ferion11/stable/peazip"
     ]
   ],
   "Utility/github.com.mysteryx93.HanumanInstituteApps": [
@@ -413,6 +647,60 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/puddletag/appimage/pkgforge-dev/stable/puddletag"
     ]
   ],
+  "Utility/github.com.c0re100.qBittorrent-Enhanced-Edition.stable": [
+    [
+      "qbittorrent-enhanced",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced"
+    ]
+  ],
+  "Utility/gitlab.com.qbittorrent.qbittorrent.beta": [
+    [
+      "qbittorrent",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/qbittorrent/appimage/official/beta/qbittorrent"
+    ]
+  ],
+  "Utility/gitlab.com.qbittorrent.qbittorrent.stable": [
+    [
+      "qbittorrent",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/qbittorrent/appimage/official/stable/qbittorrent"
+    ]
+  ],
+  "Utility/runimage.cachyos.ruffle.nightly": [
+    [
+      "ruffle",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ruffle/runimage/cachyos/nightly/ruffle"
+    ]
+  ],
+  "Utility/github.com.rustdesk.rustdesk.nightly": [
+    [
+      "rustdesk",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/rustdesk/appimage/official/nightly/rustdesk"
+    ]
+  ],
+  "Utility/github.com.rustdesk.rustdesk.stable": [
+    [
+      "rustdesk",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/rustdesk/appimage/official/stable/rustdesk"
+    ]
+  ],
+  "Game/github.com.Ryubing.Ryujinx.canary": [
+    [
+      "ryujinx",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ryujinx/appimage/official/canary/ryujinx"
+    ]
+  ],
+  "Game/github.com.Ryubing.Ryujinx.stable": [
+    [
+      "ryujinx",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ryujinx/appimage/official/stable/ryujinx"
+    ]
+  ],
+  "Utility/github.com.karo-solutions.Signal-Desktop-AppImage.stable": [
+    [
+      "signal-desktop",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/signal-desktop/appimage/karo-solutions/stable/signal-desktop"
+    ]
+  ],
   "Chat,InstantMessaging/github.com.simplex-chat.simplex-chat": [
     [
       "simplex-desktop",
@@ -423,6 +711,18 @@
     [
       "simplex-desktop",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop"
+    ]
+  ],
+  "Utility/github.com.ivan-hc.Spotify-appimage": [
+    [
+      "spotify",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/spotify/appimage/ivan-hc/stable/spotify"
+    ]
+  ],
+  "Utility/runimage.cachyos.spotube": [
+    [
+      "spotube",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/spotube/runimage/cachyos/stable/spotube"
     ]
   ],
   "Game/runimage.archlinux.steam": [
@@ -440,7 +740,25 @@
   "Music,Player/github.com.pkgforge-dev.strawberry-AppImage.stable": [
     [
       "strawberry",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/strawberry/strawberry"
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/strawberry/appimage/pkgforge-dev/stable/strawberry"
+    ]
+  ],
+  "Utility/wrappe.sudachi": [
+    [
+      "sudachi",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/sudachi/archive/wrappe/stable/sudachi"
+    ]
+  ],
+  "Utility/git.suyu.dev.suyu.suyu.stable": [
+    [
+      "suyu",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/suyu/appimage/official/stable/suyu"
+    ]
+  ],
+  "Utility/github.com.synfig.synfig.stable": [
+    [
+      "synfigstudio",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/synfigstudio/appimage/official/stable/synfigstudio"
     ]
   ],
   "TextEditor/github.com.suchnsuch.Tangent.alpha": [
@@ -467,6 +785,24 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop"
     ]
   ],
+  "Game/github.com.pkgforge-dev.Torzu-AppImage.stable": [
+    [
+      "torzu",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/torzu/appimage/pkgforge-dev/stable/torzu"
+    ]
+  ],
+  "Game/github.com.pkgforge-dev.Torzu-AppImage.v3": [
+    [
+      "torzu",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/torzu/appimage/pkgforge-dev/v3/torzu"
+    ]
+  ],
+  "Game/runimage.debian.ultimmc": [
+    [
+      "ultimmc",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/ultimmc/runimage/debian/stable/ultimmc"
+    ]
+  ],
   "Network,InstantMessaging,Chat/github.com.Vencord.Vesktop": [
     [
       "vesktop",
@@ -483,6 +819,12 @@
     [
       "vscodium",
       "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/vscodium/runimage/cachyos/stable/vscodium"
+    ]
+  ],
+  "Utility/github.com.ayasa520.waydroid-helper.stable": [
+    [
+      "waydroid-helper",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/waydroid-helper/appimage/official/stable/waydroid-helper"
     ]
   ],
   "Utility/github.com.wez.wezterm.stable": [
