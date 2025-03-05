@@ -93,6 +93,10 @@ const columns: (page: string) => ColumnDef<ListItem>[] = (page) => ([
     cell: ({ row }) => {
       const sha = row.getValue("sha") as string;
 
+      if (!sha) {
+        return <p className="font-mono text-center"> - </p>
+      }
+
       return <Tooltip>
         <TooltipTrigger className="font-mono text-gray-600 dark:text-gray-400">{sha.length > 10 ? `${sha.substring(0, 10)}...` : sha}</TooltipTrigger>
         <TooltipContent className="text-wrap">

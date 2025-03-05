@@ -82,7 +82,6 @@ const getColumnVis = () => {
 };
 
 const initialFilters = {
-  column: "name",
   columnVisibility: getColumnVis(),
   page: "bincache_amd64",
   search: "",
@@ -91,7 +90,6 @@ const initialFilters = {
 const getUrlParams = () => {
   const params = new URLSearchParams(window.location.search);
   return {
-    column: params.get("searchBy") || initialFilters.column,
     page: params.get("repo") || initialFilters.page,
     search: params.get("search") || initialFilters.search,
   };
@@ -99,8 +97,6 @@ const getUrlParams = () => {
 
 const updateUrlParams = (params: typeof initialFilters) => {
   const urlParams = new URLSearchParams();
-  if (params.column !== initialFilters.column)
-    urlParams.set("searchBy", params.column);
   if (params.page !== initialFilters.page) urlParams.set("repo", params.page);
   if (params.search) urlParams.set("search", params.search);
 
@@ -117,7 +113,6 @@ export function DataTable<TData>({
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
     [],
   );
-  const [column, setColumn] = React.useState(urlParams.column);
   const [columnVisibility, setColumnVisibility] =
     React.useState<VisibilityState>(getColumnVis());
   const [page, setPage] = React.useState(urlParams.page);
@@ -132,16 +127,15 @@ export function DataTable<TData>({
 
   React.useEffect(() => {
     updateUrlParams({
-      column,
       page,
-      search: (table?.getColumn(column)?.getFilterValue() as string) || "",
+      search: searchValue,
       columnVisibility,
     });
-  }, [column, page, columnFilters, columnVisibility]);
+  }, [page, columnFilters, columnVisibility, searchValue]);
 
   React.useEffect(() => {
     if (urlParams.search) {
-      table?.getColumn(urlParams.column)?.setFilterValue(urlParams.search);
+      table?.getColumn('name')?.setFilterValue(urlParams.search);
       if (input.current) {
         input.current.value = urlParams.search;
       }
@@ -186,7 +180,6 @@ export function DataTable<TData>({
     getPaginationRowModel: getPaginationRowModel(),
     filterFns: {
       nameOrFamily: (row, columnId, filterValue) => {
-        if (column === "category") return true;
         const searchLower = filterValue.toLowerCase();
         const name = (row.getValue("name") as string)?.toLowerCase() || "";
         const family = (row.getValue("family") as string)?.toLowerCase() || "";
@@ -197,7 +190,7 @@ export function DataTable<TData>({
       sorting,
       columnFilters,
       columnVisibility,
-      globalFilter: column !== "category" ? searchValue : undefined,
+      globalFilter: searchValue,
     }
   });
 
@@ -218,9 +211,6 @@ export function DataTable<TData>({
 
   const handleSearch = (value: string) => {
     setSearchValue(value);
-    if (column === "category") {
-      table.getColumn("category")?.setFilterValue(value);
-    }
   };
 
   return (
@@ -237,7 +227,7 @@ export function DataTable<TData>({
           }}
         >
           <Input
-            placeholder={`Filter using ${column === "category" ? "category" : "name or package ID"}...`}
+            placeholder='Filter using name or package ID...'
             ref={input}
             maxLength={64}
             onChange={(event) => {
@@ -273,18 +263,6 @@ export function DataTable<TData>({
                   pkgcache (aarch64)
                 </SelectItem>
                 <SelectItem value="soarpkgs">soarpkgs</SelectItem>
-              </SelectGroup>
-            </SelectContent>
-          </Select>
-          <Select value={column} onValueChange={setColumn}>
-            <SelectTrigger className="w-[180px] rounded-none">
-              <SelectValue placeholder="Theme" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectGroup>
-                <SelectLabel>Filter among</SelectLabel>
-                <SelectItem value="name">Name OR Package ID</SelectItem>
-                <SelectItem value="category">Category</SelectItem>
               </SelectGroup>
             </SelectContent>
           </Select>
