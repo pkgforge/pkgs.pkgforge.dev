@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { Separator } from "@/components/ui/separator.tsx";
 import { ModeToggle } from "@/components/mode-toggle";
 import { SocialLink } from "@/components/social-link";
+import { GlobalSearch } from "@/components/global-search";
 ---
 
 <!doctype html>
@@ -28,6 +29,7 @@ import { SocialLink } from "@/components/social-link";
         >
       </div>
       <div class="flex flex-row items-center gap-2">
+        <GlobalSearch client:load />
         <SocialLink client:load />
         <ModeToggle client:load />
       </div>
@@ -38,7 +40,6 @@ import { SocialLink } from "@/components/social-link";
     <div class="md:container">
       <slot />
     </div>
-    
   </body>
 
   <script is:inline>
