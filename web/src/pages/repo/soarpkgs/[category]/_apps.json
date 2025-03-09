@@ -1122,6 +1122,7 @@
       "wiki"
     ],
     "version": "v0.20.4"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -1168,6 +1169,8 @@
       "Utility"
     ],
     "version": "HEAD-2c37987-250225T172605"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -1343,7 +1346,11 @@
       "utility",
       "bluetooth"
     ],
+<<<<<<< HEAD
     "version": "HEAD-6c8cfe0-250308T094811"
+=======
+    "version": "HEAD-6ecfddb-250220T112628"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -2122,7 +2129,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-7363a38-250307T104133"
+=======
+    "version": "HEAD-b348290-250305T082211"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -2368,7 +2379,11 @@
       "api",
       "graphql"
     ],
+<<<<<<< HEAD
     "version": "v8.2.1"
+=======
+    "version": "v8.2.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -2414,7 +2429,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "v0.0.6"
+=======
+    "version": "0.0.5"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -2468,6 +2487,7 @@
     "tag": [
       "whatsapp"
     ],
+<<<<<<< HEAD
     "version": "5.6.0"
   },
   {
@@ -2512,6 +2532,9 @@
       "Utility"
     ],
     "version": "HEAD-c919073-250304T124832"
+=======
+    "version": "5.5.3"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -3791,6 +3814,7 @@
       "package-manager"
     ],
     "version": "HEAD-cc9eabc-250225T201019"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -3833,6 +3857,8 @@
       "Utility"
     ],
     "version": "HEAD-2d98452-250306T231141"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -4059,7 +4085,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-3560c06-250306T101636"
+=======
+    "version": "HEAD-97daccc-250305T091257"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -4164,6 +4194,7 @@
       "dev-embedded"
     ],
     "version": "v1.2.0"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -4210,6 +4241,8 @@
       "Utility"
     ],
     "version": "HEAD-48b93ca-250307T233543"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -4338,7 +4371,11 @@
       "bittorrent",
       "downloader"
     ],
+<<<<<<< HEAD
     "version": "250308T012115"
+=======
+    "version": "250301T014954"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -5142,7 +5179,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "1.38.9"
+=======
+    "version": "1.38.6"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -5258,7 +5299,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-609f210-250306T140145"
+=======
+    "version": "HEAD-a0edcac-250305T080209"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -5376,7 +5421,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "1.8.108"
+=======
+    "version": "1.7.86"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -6067,7 +6116,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "v0.10.1"
+=======
+    "version": "v0.9.1"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -6853,7 +6906,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-1dc7f86-250306T131332"
+=======
+    "version": "HEAD-166dadb-250228T083102"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -7396,7 +7453,11 @@
       "Networking/WWW",
       "network.web.browser"
     ],
+<<<<<<< HEAD
     "version": "v1.78.27"
+=======
+    "version": "v1.78.17"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -7455,7 +7516,11 @@
       "Networking/WWW",
       "network.web.browser"
     ],
+<<<<<<< HEAD
     "version": "v1.76.73"
+=======
+    "version": "v1.74.51"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -7568,7 +7633,11 @@
       "Networking/WWW",
       "network.web.browser"
     ],
+<<<<<<< HEAD
     "version": "v1.77.76"
+=======
+    "version": "v1.77.73"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -11825,7 +11894,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-ed23038-250308T021801"
+=======
+    "version": "HEAD-a8daf8e-250304T132035"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -11868,7 +11941,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-77a6197-250308T001508"
+=======
+    "version": "HEAD-7dcced0-250305T002010"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -12170,7 +12247,11 @@
       "bugbounty",
       "cdn"
     ],
+<<<<<<< HEAD
     "version": "v1.1.9"
+=======
+    "version": "v1.1.8"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -12272,6 +12353,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "cert-cli",
     "pkg_family": "cert-cli",
     "pkg_id": "github.com.mihneamanolache.cert-cli.source",
@@ -12315,6 +12397,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "certbot",
     "pkg_family": "certbot",
     "pkg_id": "sharun.wrappe.pypi.certbot",
@@ -12723,7 +12807,11 @@
       "speedtest",
       "speedtest-cli"
     ],
+<<<<<<< HEAD
     "version": "HEAD-b5aa863-250307T195300"
+=======
+    "version": "HEAD-26719d4-250303T181801"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -13700,7 +13788,11 @@
     "tag": [
       "browser"
     ],
+<<<<<<< HEAD
     "version": "134.0.6998.35"
+=======
+    "version": "133.0.6943.141"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -14032,7 +14124,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "v0.138.3"
+=======
+    "version": "v0.138.2"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -14816,6 +14912,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "cloudsword",
     "pkg_family": "cloudsword",
     "pkg_id": "github.com.wgpsec.cloudsword.source",
@@ -14859,6 +14956,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "cmake",
     "pkg_family": "cmake",
     "pkg_id": "ppkg.bundle.cmake.stable",
@@ -15348,6 +15447,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "comb",
     "pkg_family": "comb",
     "pkg_id": "github.com.pkgforge-security.comb",
@@ -15391,6 +15491,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "commix",
     "pkg_family": "commix",
     "pkg_id": "sharun.wrappe.pypi.commix",
@@ -15446,7 +15548,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-73ae56c-250307T094151"
+=======
+    "version": "HEAD-d7394fb-250305T074628"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -15513,6 +15619,7 @@
       "oci"
     ],
     "version": "v2.0.3"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -15556,6 +15663,8 @@
       "Utility"
     ],
     "version": "HEAD-074e770-250109T203013"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -17655,7 +17764,11 @@
       "busybox",
       "coreutils"
     ],
+<<<<<<< HEAD
     "version": "HEAD-0379304-250308T155040"
+=======
+    "version": "HEAD-d31a19f-250305T113509"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -17972,7 +18085,11 @@
       "busybox",
       "coreutils"
     ],
+<<<<<<< HEAD
     "version": "HEAD-0379304-250308T155040"
+=======
+    "version": "HEAD-d31a19f-250305T113509"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -19555,6 +19672,7 @@
       "bugbounty"
     ],
     "version": "HEAD-c3a6a63-250215T132509"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -19598,6 +19716,8 @@
       "Utility"
     ],
     "version": "HEAD-ba1d4ab-250306T075051"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -19943,7 +20063,11 @@
       "bugbounty",
       "xss"
     ],
+<<<<<<< HEAD
     "version": "HEAD-c7d36aa-250308T170806"
+=======
+    "version": "HEAD-4704609-250304T231052"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -20409,7 +20533,11 @@
       "benchmark",
       "database"
     ],
+<<<<<<< HEAD
     "version": "HEAD-2abc8c7-250307T185047"
+=======
+    "version": "HEAD-59025e2-250226T084442"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -20446,7 +20574,11 @@
     "tag": [
       "package-manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-8b8f324-250309T010929"
+=======
+    "version": "HEAD-e1731b7-250302T234823"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -20785,7 +20917,11 @@
     "tag": [
       "ddns"
     ],
+<<<<<<< HEAD
     "version": "HEAD-053053b-250307T221040"
+=======
+    "version": "HEAD-a34d0b2-250210T164411"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -21190,7 +21326,11 @@
       "dev",
       "venv"
     ],
+<<<<<<< HEAD
     "version": "0.0.0-edge.2025-03-06"
+=======
+    "version": "0.14.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -21346,7 +21486,11 @@
     "tag": [
       "diff"
     ],
+<<<<<<< HEAD
     "version": "HEAD-009d64a-250307T064232"
+=======
+    "version": "HEAD-8448fd8-250304T120810"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -21798,7 +21942,11 @@
       "Communications",
       "Networking/Chat"
     ],
+<<<<<<< HEAD
     "version": "0.0.606"
+=======
+    "version": "0.0.605"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -21860,7 +22008,11 @@
       "Communications",
       "Networking/Chat"
     ],
+<<<<<<< HEAD
     "version": "0.0.133"
+=======
+    "version": "0.0.132"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -21924,6 +22076,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "dlevel",
     "pkg_family": "dlevel",
     "pkg_id": "github.com.rix4uni.dlevel.source",
@@ -21967,6 +22120,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "dns-bench",
     "pkg_family": "dns-bench",
     "pkg_id": "github.com.qwerty541.dns-bench.source",
@@ -22006,7 +22161,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-0a95399-250308T215540"
+=======
+    "version": "HEAD-dda3699-250304T230041"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -22440,6 +22599,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "docker-bench",
     "pkg_family": "docker-bench",
     "pkg_id": "github.com.aquasecurity.docker-bench.source",
@@ -22483,6 +22643,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "docker-repack",
     "pkg_family": "docker-repack",
     "pkg_id": "github.com.orf.docker-repack.source",
@@ -23022,7 +23184,11 @@
       "openssh",
       "ssh"
     ],
+<<<<<<< HEAD
     "version": "HEAD-e2f854c-250305T234342"
+=======
+    "version": "HEAD-bfeb8f3-250304T233614"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -23107,7 +23273,11 @@
       "openssh",
       "ssh"
     ],
+<<<<<<< HEAD
     "version": "HEAD-e2f854c-250305T234342"
+=======
+    "version": "HEAD-bfeb8f3-250304T233614"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -23191,7 +23361,11 @@
       "openssh",
       "ssh"
     ],
+<<<<<<< HEAD
     "version": "HEAD-e2f854c-250305T234342"
+=======
+    "version": "HEAD-bfeb8f3-250304T233614"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -23276,7 +23450,11 @@
       "openssh",
       "ssh"
     ],
+<<<<<<< HEAD
     "version": "HEAD-e2f854c-250305T234342"
+=======
+    "version": "HEAD-bfeb8f3-250304T233614"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -23565,6 +23743,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "durl",
     "pkg_family": "durl",
     "pkg_id": "github.com.j3ssie.durl.source",
@@ -23605,6 +23784,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "dust",
     "pkg_family": "dust",
     "pkg_id": "github.com.bootandy.dust",
@@ -23795,7 +23976,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-28b7c8b-250306T182114"
+=======
+    "version": "HEAD-1d6ea68-250209T121653"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -24020,7 +24205,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-aa39ba8-250307T142150"
+=======
+    "version": "HEAD-3b10db1-250224T202650"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -24308,7 +24497,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "v0.9.5"
+=======
+    "version": "v0.9.4"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -24850,6 +25043,7 @@
     "tag": [
       "shell"
     ],
+<<<<<<< HEAD
     "version": "HEAD-49937be-250308T121232"
   },
   {
@@ -24896,6 +25090,9 @@
       "Utility"
     ],
     "version": "HEAD-0676bc0-210907T170325"
+=======
+    "version": "HEAD-54ab2ee-250215T174003"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -25078,6 +25275,7 @@
       "sherlock"
     ],
     "version": "HEAD-1627149-250216T060545"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -25121,6 +25319,8 @@
       "Utility"
     ],
     "version": "HEAD-d91bdd8-250215T145452"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -25224,6 +25424,49 @@
       "Utility"
     ],
     "version": "HEAD-b133835-250306T151710"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "enumeraga",
+    "pkg_family": "enumeraga",
+    "pkg_id": "github.com.0x5ubt13.enumeraga.source",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/enumeraga-source/enumeraga/enumeraga",
+    "bincache": "ghcr.io/pkgforge/bincache/enumeraga/official/enumeraga",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/enumeraga/static.official.source.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Automatic multiprocess tool for a quick enumeration wrapping pentesting tools",
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/enumeraga/static.official.source.yaml",
+    "homepage": [
+      "https://github.com/0x5ubt13/enumeraga"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/0x5ubt13/enumeraga"
+    ],
+    "provides": [
+      "enumeraga"
+    ],
+    "src_url": [
+      "https://github.com/0x5ubt13/enumeraga"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "version": "HEAD-52f8727-250228T084229"
   },
   {
     "_disabled": "false",
@@ -25503,7 +25746,11 @@
     "tag": [
       "distributed"
     ],
+<<<<<<< HEAD
     "version": "v3.6.0-rc.2"
+=======
+    "version": "v3.6.0-rc.1"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -25686,7 +25933,11 @@
     "tag": [
       "exfat"
     ],
+<<<<<<< HEAD
     "version": "1.2.8"
+=======
+    "version": "1.2.7"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -26240,7 +26491,11 @@
       "fetch",
       "neofetch"
     ],
+<<<<<<< HEAD
     "version": "HEAD-6ef4f62-250306T221136"
+=======
+    "version": "HEAD-924c670-250305T145916"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -26321,6 +26576,7 @@
       "neofetch"
     ],
     "version": "2.38.0"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -26364,6 +26620,8 @@
       "Utility"
     ],
     "version": "HEAD-3f2555b-250307T215715"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -26607,7 +26865,11 @@
       "downloader",
       "download-manager"
     ],
+<<<<<<< HEAD
     "version": "6.26"
+=======
+    "version": "6.25.2"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -26727,7 +26989,11 @@
       "downloader",
       "download-manager"
     ],
+<<<<<<< HEAD
     "version": "6.26"
+=======
+    "version": "6.25.2"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -27229,6 +27495,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "fget",
     "pkg_family": "fget",
     "pkg_id": "github.com.pkgforge-security.fget",
@@ -27272,6 +27539,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "fico",
     "pkg_family": "fico",
     "pkg_id": "github.com.orcastor.fico.source",
@@ -27652,7 +27921,11 @@
     "tag": [
       "findutils"
     ],
+<<<<<<< HEAD
     "version": "HEAD-b263b20-250307T070556"
+=======
+    "version": "HEAD-8745929-250302T165508"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -27766,7 +28039,11 @@
       "Networking/WWW",
       "network.web.browser"
     ],
+<<<<<<< HEAD
     "version": "137.0.20250307103915"
+=======
+    "version": "137.0.20250303103151"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -27832,7 +28109,11 @@
       "Networking/WWW",
       "network.web.browser"
     ],
+<<<<<<< HEAD
     "version": "137.0.20250307103915"
+=======
+    "version": "137.0.20250303103151"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -27961,7 +28242,11 @@
       "Networking/WWW",
       "network.web.browser"
     ],
+<<<<<<< HEAD
     "version": "138.0.20250308211707"
+=======
+    "version": "138.0.20250304213504"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -28435,11 +28720,15 @@
       "ConsoleOnly",
       "Utility"
     ],
+<<<<<<< HEAD
     "description": {
       "_default": "Sort and pack files into partitions",
       "fpart": "Sort and pack files into partitions",
       "fpsync": "Sync directories in parallel using fpart"
     },
+=======
+    "description": "Sort and pack files into partitions",
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "distro_pkg": {
       "archlinux": {
         "aur": [
@@ -28476,8 +28765,12 @@
       "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/martymac/fpart"
     ],
     "provides": [
+<<<<<<< HEAD
       "fpart",
       "fpsync"
+=======
+      "fpart"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     ],
     "repology": [
       "fpart"
@@ -28559,7 +28852,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-a237394-250308T161607"
+=======
+    "version": "HEAD-57d91b1-250215T200258"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -28606,7 +28903,11 @@
       "binary",
       "hexdump"
     ],
+<<<<<<< HEAD
     "version": "HEAD-00b4990-250307T131142"
+=======
+    "version": "HEAD-eba7609-250303T174301"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -28744,6 +29045,7 @@
       "screenshot"
     ],
     "version": "HEAD-a3b06d6-250217T112006"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -28845,6 +29147,8 @@
       "Utility"
     ],
     "version": "HEAD-773169e-250307T172251"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -28945,7 +29249,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-657a03e-250307T151251"
+=======
+    "version": "HEAD-247fd88-250301T150140"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -29463,6 +29771,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "galer",
     "pkg_family": "galer",
     "pkg_id": "github.com.dwisiswant0.galer.source",
@@ -29560,6 +29869,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "gateau",
     "pkg_family": "gateau",
     "pkg_id": "github.com.saidsay-so.gateau.source",
@@ -30483,7 +30794,11 @@
     "tag": [
       "git"
     ],
+<<<<<<< HEAD
     "version": "v2.68.1"
+=======
+    "version": "v2.67.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -30539,7 +30854,11 @@
     "tag": [
       "github"
     ],
+<<<<<<< HEAD
     "version": "v4.13.0"
+=======
+    "version": "v4.12.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -30586,6 +30905,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "ghauri",
     "pkg_family": "ghauri",
     "pkg_id": "sharun.wrappe.source.ghauri",
@@ -30634,6 +30954,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "ghcp",
     "pkg_family": "ghcp",
     "pkg_id": "github.com.suzuki-shunsuke.ghcp.stable",
@@ -30804,7 +31126,11 @@
     "tag": [
       "github"
     ],
+<<<<<<< HEAD
     "version": "HEAD-251cfc0-250309T060313"
+=======
+    "version": "HEAD-fd5efe0-250305T120323"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -30931,7 +31257,11 @@
     "tag": [
       "git"
     ],
+<<<<<<< HEAD
     "version": "HEAD-2747f5c-250307T181551"
+=======
+    "version": "HEAD-b04873e-250301T080726"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "true",
@@ -31137,6 +31467,7 @@
       "terminal"
     ],
     "version": "v1.1.2+3"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -31191,6 +31522,8 @@
       "Utility"
     ],
     "version": "HEAD-3026324-250228T203019"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -31592,7 +31925,11 @@
       "editor",
       "graphics"
     ],
+<<<<<<< HEAD
     "version": "54267.f63dfe8ec00"
+=======
+    "version": "54251.15be0327861"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -31699,7 +32036,11 @@
       "ipv4",
       "ipv6"
     ],
+<<<<<<< HEAD
     "version": "HEAD-74cf93b-250307T170900"
+=======
+    "version": "HEAD-ce549f7-250303T204618"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -32747,7 +33088,11 @@
     "tag": [
       "gitlab"
     ],
+<<<<<<< HEAD
     "version": "HEAD-f6098f2-250307T095208"
+=======
+    "version": "HEAD-080d5e3-250305T125019"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -32849,7 +33194,11 @@
       "secret",
       "security"
     ],
+<<<<<<< HEAD
     "version": "HEAD-ade376a-250306T193236"
+=======
+    "version": "HEAD-1c81ae0-250302T210013"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -33076,7 +33425,11 @@
       "git",
       "tui"
     ],
+<<<<<<< HEAD
     "version": "HEAD-d7e9ffd-250306T085747"
+=======
+    "version": "HEAD-687d429-250226T104515"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -33185,6 +33538,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "glider",
     "pkg_family": "glider",
     "pkg_id": "github.com.nadoo.glider.source",
@@ -33244,6 +33598,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "globalping-cli",
     "pkg_family": "globalping-cli",
     "pkg_id": "github.com.jsdelivr.globalping-cli.source",
@@ -33362,7 +33718,11 @@
     "tag": [
       "markdown"
     ],
+<<<<<<< HEAD
     "version": "HEAD-f88a901-250307T151054"
+=======
+    "version": "HEAD-7dc4b9c-250303T103624"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -33580,7 +33940,11 @@
       "public-suffix",
       "tld"
     ],
+<<<<<<< HEAD
     "version": "HEAD-8ab4a50-250306T024816"
+=======
+    "version": "HEAD-7eb2db5-250305T054954"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -33616,7 +33980,11 @@
     "tag": [
       "git"
     ],
+<<<<<<< HEAD
     "version": "HEAD-f7eb53c-250306T131248"
+=======
+    "version": "HEAD-2c6d60e-250227T134858"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -34320,6 +34688,7 @@
       "Utility"
     ],
     "version": "HEAD-faa8dc1-250303T220333"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -34363,6 +34732,8 @@
       "Utility"
     ],
     "version": "HEAD-6ba7d43-250217T160803"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -34463,7 +34834,11 @@
     "tag": [
       "matrix"
     ],
+<<<<<<< HEAD
     "version": "HEAD-6789406-250308T184319"
+=======
+    "version": "HEAD-9a88df0-250305T021029"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -34609,7 +34984,11 @@
       "password",
       "security"
     ],
+<<<<<<< HEAD
     "version": "HEAD-21687ee-250305T165417"
+=======
+    "version": "HEAD-72c5f94-250304T151434"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -34810,6 +35189,7 @@
     "tag": [
       "webhook"
     ],
+<<<<<<< HEAD
     "version": "HEAD-1ff46cc-250307T162910"
   },
   {
@@ -34916,6 +35296,9 @@
       "tunnel"
     ],
     "version": "HEAD-f61bb2f-250218T214303"
+=======
+    "version": "HEAD-2448c93-250218T091503"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -35190,7 +35573,11 @@
       "replay-sorcery",
       "vkbasalt"
     ],
+<<<<<<< HEAD
     "version": "1.3-2"
+=======
+    "version": "1.3"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "true",
@@ -35266,7 +35653,11 @@
       "replay-sorcery",
       "vkbasalt"
     ],
+<<<<<<< HEAD
     "version": "1.3-2"
+=======
+    "version": "1.3"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -35407,7 +35798,11 @@
       "replay-sorcery",
       "vkbasalt"
     ],
+<<<<<<< HEAD
     "version": "1.3_2"
+=======
+    "version": "1.3"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -35475,7 +35870,11 @@
       "replay-sorcery",
       "vkbasalt"
     ],
+<<<<<<< HEAD
     "version": "250307T002559"
+=======
+    "version": "250303T014304"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -35543,7 +35942,11 @@
       "replay-sorcery",
       "vkbasalt"
     ],
+<<<<<<< HEAD
     "version": "1.3-2"
+=======
+    "version": "1.3"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -36540,7 +36943,11 @@
       "shell",
       "tui"
     ],
+<<<<<<< HEAD
     "version": "HEAD-204d219-250305T235708"
+=======
+    "version": "HEAD-dbac6a8-250303T102958"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -36641,6 +37048,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "gxss",
     "pkg_family": "gxss",
     "pkg_id": "github.com.KathanP19.Gxss.source",
@@ -36684,6 +37092,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "gzdoom",
     "pkg_family": "gzdoom",
     "pkg_id": "runimage.cachyos.gzdoom",
@@ -37496,7 +37906,11 @@
     "tag": [
       "hetzner"
     ],
+<<<<<<< HEAD
     "version": "HEAD-944953f-250307T141231"
+=======
+    "version": "HEAD-b390b59-250305T030626"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -37990,7 +38404,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "v0.44.1"
+=======
+    "version": "v0.44.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -38155,7 +38573,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-5634cf6-250307T092125"
+=======
+    "version": "HEAD-f09ef1d-250304T083741"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -38204,7 +38626,11 @@
       "init",
       "supervisor"
     ],
+<<<<<<< HEAD
     "version": "HEAD-e3f7ee0-250306T081219"
+=======
+    "version": "HEAD-ea16bc6-250227T230259"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -38593,7 +39019,11 @@
     "tag": [
       "monitor"
     ],
+<<<<<<< HEAD
     "version": "HEAD-325e6a4-250305T192421"
+=======
+    "version": "HEAD-c3ea274-250305T083052"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -38770,6 +39200,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "httpstat",
     "pkg_family": "httpstat",
     "pkg_id": "github.com.davecheney.httpstat.source",
@@ -38824,6 +39255,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "httptap",
     "pkg_family": "httptap",
     "pkg_id": "github.com.monasticacademy.httptap.source",
@@ -39053,7 +39486,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-06c4fba-250306T161034"
+=======
+    "version": "HEAD-12f81c1-250305T104843"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -39122,6 +39559,7 @@
       "blog",
       "cms"
     ],
+<<<<<<< HEAD
     "version": "HEAD-eebea9e-250305T150250"
   },
   {
@@ -39163,6 +39601,9 @@
       "Utility"
     ],
     "version": "HEAD-1078e77-240126T094119"
+=======
+    "version": "HEAD-3f2e1c0-250303T125033"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -39976,6 +40417,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "inscope",
     "pkg_family": "inscope",
     "pkg_id": "github.com.pkgforge-security.inscope",
@@ -40019,6 +40461,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "interactsh",
     "pkg_family": "interactsh",
     "pkg_id": "github.com.projectdiscovery.interactsh",
@@ -40073,6 +40517,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "interlace",
     "pkg_family": "interlace",
     "pkg_id": "sharun.wrappe.source.Interlace",
@@ -40121,6 +40566,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "intltool",
     "pkg_family": "intltool",
     "pkg_id": "ppkg.intltool",
@@ -41215,7 +41662,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-b5646a4-250306T200145"
+=======
+    "version": "HEAD-42dca0c-250301T125559"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -41662,7 +42113,11 @@
     "tag": [
       "json"
     ],
+<<<<<<< HEAD
     "version": "HEAD-668871b-250306T170754"
+=======
+    "version": "HEAD-f65d088-250305T172105"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -41901,6 +42356,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "jsdif",
     "pkg_family": "jsdif",
     "pkg_id": "github.com.mirzaaghazadeh.jsdif.source",
@@ -42027,6 +42483,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "jujutsu",
     "pkg_family": "jujutsu",
     "pkg_id": "github.com.martinvonz.jj",
@@ -42090,7 +42548,11 @@
       "git",
       "vcs"
     ],
+<<<<<<< HEAD
     "version": "HEAD-0055cd4-250309T004425"
+=======
+    "version": "HEAD-b0e9bdf-250305T100242"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -42250,7 +42712,11 @@
     "tag": [
       "kubernetes"
     ],
+<<<<<<< HEAD
     "version": "HEAD-582cca3-250307T094222"
+=======
+    "version": "HEAD-1e9f85d-250228T175059"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -42421,6 +42887,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "kcptun",
     "pkg_family": "kcptun",
     "pkg_id": "github.com.xtaci.kcptun.source",
@@ -42481,6 +42948,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "kdenlive",
     "pkg_family": "kdenlive",
     "pkg_id": "gitlab.com.kdenlive.kdenlive.nightly",
@@ -42549,7 +43018,11 @@
     "tag": [
       "editor"
     ],
+<<<<<<< HEAD
     "version": "2025-03-08"
+=======
+    "version": "2025-03-04"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -43403,7 +43876,11 @@
     "tag": [
       "editor"
     ],
+<<<<<<< HEAD
     "version": "2025-03-08"
+=======
+    "version": "2025-03-04"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -43676,7 +44153,11 @@
     "tag": [
       "ipfs"
     ],
+<<<<<<< HEAD
     "version": "HEAD-3e1fb7e-250306T000111"
+=======
+    "version": "HEAD-86aee74-250304T221553"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -44245,6 +44726,7 @@
     "tag": [
       "git"
     ],
+<<<<<<< HEAD
     "version": "HEAD-19ac926-250306T150959"
   },
   {
@@ -44289,6 +44771,9 @@
       "Utility"
     ],
     "version": "HEAD-6b0eafd-241006T222908"
+=======
+    "version": "HEAD-1b571f9-250228T104759"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -44625,7 +45110,11 @@
     "tag": [
       "file-manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-9dc4e6b-250306T095025"
+=======
+    "version": "HEAD-0e66d02-250223T195650"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -45320,7 +45809,11 @@
     "tag": [
       "Browser"
     ],
+<<<<<<< HEAD
     "version": "v136.0-2"
+=======
+    "version": "v135.0-1"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -45395,7 +45888,11 @@
       "Networking/WWW",
       "www-client"
     ],
+<<<<<<< HEAD
     "version": "136.0.0_2"
+=======
+    "version": "136.0_1"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -45527,6 +46024,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "ligolo-ng",
     "pkg_family": "ligolo-ng",
     "pkg_id": "github.com.nicocha30.ligolo-ng.source",
@@ -45585,6 +46083,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "lilipod",
     "pkg_family": "lilipod",
     "pkg_id": "github.com.89luca89.lilipod.source",
@@ -46206,7 +46706,11 @@
     "tag": [
       "log"
     ],
+<<<<<<< HEAD
     "version": "HEAD-933aa68-250306T084834"
+=======
+    "version": "HEAD-4041a02-250304T191846"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -47070,7 +47574,11 @@
       "email",
       "mail"
     ],
+<<<<<<< HEAD
     "version": "v1.23.1"
+=======
+    "version": "v1.23.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -47782,7 +48290,11 @@
       "s3",
       "storage"
     ],
+<<<<<<< HEAD
     "version": "HEAD-ce874fd-250307T154622"
+=======
+    "version": "HEAD-9eb205c-250221T080046"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -48147,7 +48659,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-3e03580-250306T201051"
+=======
+    "version": "HEAD-c63ecae-250305T102405"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -48367,6 +48883,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "metabigor",
     "pkg_family": "metabigor",
     "pkg_id": "github.com.j3ssie.metabigor.source",
@@ -48455,6 +48972,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "mgwls",
     "pkg_family": "mgwls",
     "pkg_id": "github.com.trickest.mgwls",
@@ -48564,7 +49083,11 @@
     "tag": [
       "text-editor"
     ],
+<<<<<<< HEAD
     "version": "HEAD-9835676-250308T140441"
+=======
+    "version": "HEAD-2ae9812-250304T201523"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -48626,6 +49149,7 @@
       "mamba"
     ],
     "version": "2.0.5-0"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -48677,6 +49201,8 @@
       "Utility"
     ],
     "version": "HEAD-1b09548-250303T220152"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -48747,7 +49273,11 @@
     "tag": [
       "utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-d08ee47-250306T083203"
+=======
+    "version": "HEAD-7d51030-250228T091559"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -48815,7 +49345,11 @@
     "tag": [
       "rss"
     ],
+<<<<<<< HEAD
     "version": "HEAD-05f7a34-250307T113625"
+=======
+    "version": "HEAD-12ca7aa-250304T212233"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -48912,7 +49446,11 @@
     "tag": [
       "utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-e26a0bc-250307T232815"
+=======
+    "version": "HEAD-124aaae-250303T045635"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -49099,7 +49637,11 @@
       "asdf",
       "dev-env"
     ],
+<<<<<<< HEAD
     "version": "v2025.3.2"
+=======
+    "version": "v2025.3.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -49644,6 +50186,224 @@
   },
   {
     "_disabled": "false",
+    "pkg": "moreutils",
+    "pkg_family": "moreutils",
+    "pkg_id": "ppkg.moreutils",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-moreutils/moreutils/moreutils",
+    "bincache": "ghcr.io/pkgforge/bincache/moreutils/ppkg/chronic",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/moreutils/static.ppkg.stable.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": {
+      "_default": "Miscellaneous general-purpose command-line unix Tools",
+      "chronic": "Run a command quietly unless it fails [moreutils]",
+      "combine": "Combine sets of lines from two files using boolean operations [moreutils]",
+      "errno": "Look up errno names and descriptions [moreutils]",
+      "ifdata": "Get network interface info without parsing ifconfig output [moreutils]",
+      "ifne": "Run command if the standard input is not empty [moreutils]",
+      "isutf8": "Check whether files are valid UTF-8 [moreutils]",
+      "lckdo": "Run a program with a lock held [moreutils]",
+      "mispipe": "Pipe two commands, returning the exit status of the first [moreutils]",
+      "parallel": "Run programs in parallel [moreutils]",
+      "pee": "Tee standard input to pipes [moreutils]",
+      "sponge": "Soak up standard input and write to a file [moreutils]",
+      "ts": "Timestamp input [moreutils]",
+      "vidir": "Edit directories and filenames [moreutils]",
+      "vipe": "Edit pipe [moreutils]",
+      "zrun": "Automatically uncompress arguments to command [moreutils]"
+    },
+    "distro_pkg": {
+      "alpine": [
+        "moreutils"
+      ],
+      "archlinux": {
+        "extra": [
+          "moreutils"
+        ]
+      },
+      "debian": [
+        "moreutils"
+      ],
+      "gnuguix": [
+        "moreutils"
+      ],
+      "homebrew": [
+        "moreutils"
+      ],
+      "nixpkgs": [
+        "moreutils"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/moreutils/static.ppkg.stable.yaml",
+    "homepage": [
+      "https://joeyh.name/code/moreutils",
+      "https://git.joeyh.name/index.cgi/moreutils.git"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core"
+    ],
+    "provides": [
+      "chronic",
+      "combine",
+      "errno",
+      "ifdata",
+      "ifne",
+      "isutf8",
+      "lckdo",
+      "mispipe",
+      "parallel",
+      "pee",
+      "sponge",
+      "ts",
+      "vidir",
+      "vipe",
+      "zrun"
+    ],
+    "repology": [
+      "moreutils"
+    ],
+    "src_url": [
+      "https://git.joeyh.name/index.cgi/moreutils.git"
+    ],
+    "tag": [
+      "buysbox",
+      "coreutils",
+      "toybox"
+    ],
+    "version": "0.69"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "morrigan",
+    "pkg_family": "morrigan",
+    "pkg_id": "github.com.nao1215.morrigan.source",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/morrigan-source/morrigan/morrigan",
+    "bincache": "ghcr.io/pkgforge/bincache/morrigan/official/morrigan",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/morrigan/static.official.source.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Busybox like Penetration Tool Set",
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/morrigan/static.official.source.yaml",
+    "homepage": [
+      "https://github.com/nao1215/morrigan"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/nao1215/morrigan"
+    ],
+    "provides": [
+      "morrigan"
+    ],
+    "src_url": [
+      "https://github.com/nao1215/morrigan"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "version": "HEAD-4d64db5-250302T210449"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "mosh",
+    "pkg_family": "mosh",
+    "pkg_id": "github.com.blinksh.mosh-static-multiarch.stable",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/multiarch-stable/mosh/mosh",
+    "bincache": "ghcr.io/pkgforge/bincache/mosh/blinksh/stable",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/mosh/static.blinksh.stable.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Mobile shell that supports roaming and intelligent local echo",
+    "distro_pkg": {
+      "alpine": [
+        "mosh"
+      ],
+      "archlinux": {
+        "aur": [
+          "mosh-git"
+        ],
+        "extra": [
+          "mosh"
+        ]
+      },
+      "debian": [
+        "mosh"
+      ],
+      "gnuguix": [
+        "mosh"
+      ],
+      "homebrew": [
+        "mosh"
+      ],
+      "nixpkgs": [
+        "mosh"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/mosh/static.blinksh.stable.yaml",
+    "homepage": [
+      "https://mosh.org",
+      "https://github.com/mobile-shell/mosh"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Community Created Binary. Check/Report @ https://github.com/blinksh/mosh-static-multiarch"
+    ],
+    "provides": [
+      "mosh-client",
+      "mosh-server"
+    ],
+    "repology": [
+      "mosh"
+    ],
+    "src_url": [
+      "https://github.com/blinksh/mosh-static-multiarch"
+    ],
+    "tag": [
+      "ssh"
+    ],
+    "version": "1.4.0+blink-17.3.0"
+  },
+  {
+    "_disabled": "false",
     "pkg": "mpv",
     "pkg_family": "mpv",
     "pkg_id": "github.com.pkgforge-dev.mpv-AppImage.stable",
@@ -49721,7 +50481,11 @@
       "Video",
       "Video/Utilities"
     ],
+<<<<<<< HEAD
     "version": "v0.39.0-992-g561156217"
+=======
+    "version": "v0.39.0-933-g630a036f6"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -50157,6 +50921,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "muffet",
     "pkg_family": "muffet",
     "pkg_id": "github.com.raviqqe.muffet.source",
@@ -50218,6 +50983,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "mult",
     "pkg_family": "mult",
     "pkg_id": "github.com.dhth.mult.source",
@@ -50258,6 +51025,7 @@
       "Utility"
     ],
     "version": "HEAD-33a52d0-250131T173404"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -50301,6 +51069,8 @@
       "Utility"
     ],
     "version": "HEAD-a50aa11-250119T210013"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -50361,6 +51131,7 @@
       "security"
     ],
     "version": "HEAD-bfba18d-250303T141523"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -50422,6 +51193,8 @@
       "Utility"
     ],
     "version": "HEAD-ba595d3-250303T210850"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -50997,7 +51770,11 @@
     "tag": [
       "container"
     ],
+<<<<<<< HEAD
     "version": "HEAD-e450a1c-250308T191242"
+=======
+    "version": "HEAD-e79def4-250305T015138"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -51157,7 +51934,11 @@
       "mesh",
       "wireguard"
     ],
+<<<<<<< HEAD
     "version": "HEAD-ae6b613-250307T161311"
+=======
+    "version": "HEAD-60ffe0d-250304T182929"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -51325,7 +52106,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-0063ec0-250308T173639"
+=======
+    "version": "HEAD-9161b29-250304T065940"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -52470,7 +53255,11 @@
       "secret-detection",
       "security"
     ],
+<<<<<<< HEAD
     "version": "HEAD-6dd8a6b-250307T151529"
+=======
+    "version": "HEAD-c5b0500-250304T150836"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -52745,7 +53534,11 @@
       "recon",
       "security"
     ],
+<<<<<<< HEAD
     "version": "HEAD-0d6d50d-250307T230642"
+=======
+    "version": "HEAD-3a3f5e2-250303T161916"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -52889,7 +53682,11 @@
     "tag": [
       "shell"
     ],
+<<<<<<< HEAD
     "version": "HEAD-4fe7865-250307T124335"
+=======
+    "version": "HEAD-49f92e9-250305T054527"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -52956,7 +53753,11 @@
     "tag": [
       "nvme"
     ],
+<<<<<<< HEAD
     "version": "HEAD-48ff213-250306T132356"
+=======
+    "version": "HEAD-1cd893d-250304T103439"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -53365,6 +54166,7 @@
       "Utility"
     ],
     "version": "HEAD-d6055a0-250227T094329"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -53405,6 +54207,8 @@
       "Utility"
     ],
     "version": "HEAD-ad4bc80-241104T191142"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -53461,6 +54265,75 @@
       "openapi"
     ],
     "version": "HEAD-0128f31-250307T135354"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "openboard",
+    "pkg_family": "openboard",
+    "pkg_id": "runimage.cachyos.openboard",
+    "pkg_type": "runimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-openboard/openboard/openboard",
+    "app_id": "ch.openboard.OpenBoard",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/openboard/runimage.cachyos.stable.yaml",
+    "category": [
+      "Utility"
+    ],
+    "description": "Interactive whiteboard software for schools and universities",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "openboard"
+        ]
+      },
+      "debian": [
+        "openboard"
+      ],
+      "gnuguix": [
+        "openboard"
+      ],
+      "homebrew": [
+        "openboard"
+      ],
+      "nixpkgs": [
+        "openboard"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/openboard/runimage.cachyos.stable.yaml",
+    "homepage": [
+      "https://openboard.ch/",
+      "https://github.com/OpenBoard-org/OpenBoard"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/openboard/assets/default.png",
+    "license": [
+      "GPL-3.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+      "[PORTABLE] (Works on AnyLinux)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/openboard/runimage/cachyos",
+    "provides": [
+      "openboard"
+    ],
+    "repology": [
+      "openboard"
+    ],
+    "src_url": [
+      "https://aur.archlinux.org/packages/openboard"
+    ],
+    "tag": [
+      "editor",
+      "graphics"
+    ],
+    "version": "1.7.3"
   },
   {
     "_disabled": "false",
@@ -54132,7 +55005,11 @@
       "oci",
       "registry"
     ],
+<<<<<<< HEAD
     "version": "HEAD-d971ec5-250306T071918"
+=======
+    "version": "HEAD-c24a11e-250305T132422"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -54255,6 +55132,7 @@
     "tag": [
       "editor"
     ],
+<<<<<<< HEAD
     "version": "v2.68.9"
   },
   {
@@ -54299,6 +55177,9 @@
       "Utility"
     ],
     "version": "HEAD-b00ba52-250103T114708"
+=======
+    "version": "v2.68.8"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -54668,7 +55549,11 @@
     "tag": [
       "pager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-a3a1c06-250306T123739"
+=======
+    "version": "HEAD-0b5bb94-250304T144836"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -54788,6 +55673,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "p1radup",
     "pkg_family": "p1radup",
     "pkg_id": "sharun.wrappe.source.p1radup",
@@ -54833,6 +55719,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "pacaptr",
     "pkg_family": "pacaptr",
     "pkg_id": "github.com.rami3l.pacaptr.source",
@@ -55205,7 +56093,11 @@
     "tag": [
       "pdf"
     ],
+<<<<<<< HEAD
     "version": "HEAD-ce09a83-250308T195400"
+=======
+    "version": "HEAD-4b9cd31-250303T202255"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -55263,6 +56155,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "pdtm",
     "pkg_family": "pdtm",
     "pkg_id": "github.com.projectdiscovery.pdtm.source",
@@ -55317,6 +56210,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "peazip",
     "pkg_family": "peazip",
     "pkg_id": "github.com.ferion11.peazip-AppImage",
@@ -55824,7 +56719,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-53eb964-250307T192726"
+=======
+    "version": "HEAD-9d46894-250301T133551"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -56034,7 +56933,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-b8a1d71-250307T185655"
+=======
+    "version": "HEAD-3e0490a-250212T120848"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -56245,7 +57148,11 @@
       "mamba",
       "package-manager"
     ],
+<<<<<<< HEAD
     "version": "v0.42.1"
+=======
+    "version": "v0.42.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -56408,7 +57315,11 @@
       "Monitoring",
       "packet"
     ],
+<<<<<<< HEAD
     "version": "HEAD-1186301-250306T140006"
+=======
+    "version": "HEAD-7bcea17-250305T081236"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -56637,6 +57548,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "porch-pirate",
     "pkg_family": "porch-pirate",
     "pkg_id": "sharun.wrappe.source.porch-pirate",
@@ -56682,6 +57594,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "port-for",
     "pkg_family": "port-for",
     "pkg_id": "sharun.wrappe.pypi.port-for",
@@ -56779,6 +57693,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "portmap",
     "pkg_family": "portmap",
     "pkg_id": "github.com.rix4uni.portmap.source",
@@ -56819,6 +57734,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "ppath",
     "pkg_family": "ppath",
     "pkg_id": "github.com.marwanhawari.ppath",
@@ -58106,6 +59023,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "pv",
     "pkg_family": "pv",
     "pkg_id": "codeberg.org.ivarch.pv",
@@ -58179,6 +59097,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "pwait",
     "pkg_family": "pwait",
     "pkg_id": "github.com.diazona.pwait.source",
@@ -58225,6 +59145,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "pwdsafety",
     "pkg_family": "pwdsafety",
     "pkg_id": "github.com.edoardottt.pwdsafety.source",
@@ -58268,6 +59189,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "pwninit",
     "pkg_family": "pwninit",
     "pkg_id": "github.com.io12.pwninit",
@@ -58370,7 +59293,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "9.1.1"
+=======
+    "version": "9.1.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -59299,7 +60226,11 @@
       "csv",
       "textproc"
     ],
+<<<<<<< HEAD
     "version": "HEAD-b60eeef-250308T234457"
+=======
+    "version": "HEAD-50b98d9-250305T063451"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -59730,7 +60661,11 @@
       "cybersecurity",
       "redteam"
     ],
+<<<<<<< HEAD
     "version": "HEAD-0359bff-250305T165357"
+=======
+    "version": "HEAD-9e7899f-250212T040844"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -59993,7 +60928,11 @@
       "oci",
       "registry"
     ],
+<<<<<<< HEAD
     "version": "HEAD-c16c13e-250308T102636"
+=======
+    "version": "HEAD-6a08516-250301T145006"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -60100,7 +61039,11 @@
       "provenance",
       "security"
     ],
+<<<<<<< HEAD
     "version": "HEAD-7c7fae7-250306T161943"
+=======
+    "version": "HEAD-73bac31-250303T134148"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -60250,6 +61193,61 @@
       "security"
     ],
     "version": "HEAD-feed1ae-250305T222524"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "resolve-march-native",
+    "pkg_family": "resolve-march-native",
+    "pkg_id": "sharun.wrappe.pypi.resolve-march-native",
+    "pkg_type": "archive",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/march-native/resolve-march-native/resolve-march-native",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/resolve-march-native/archive.sharun.pypi.yaml",
+    "category": [
+      "Utility"
+    ],
+    "description": "Tool to determine what GCC flags -march=native would resolve into",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "resolve-march-native"
+        ]
+      },
+      "nixpkgs": [
+        "resolve-march-native"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/resolve-march-native/archive.sharun.pypi.yaml",
+    "homepage": [
+      "https://github.com/hartwork/resolve-march-native"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun",
+      "Learn more @ https://docs.pkgforge.dev/formats/packages/archive",
+      "[PORTABLE] (Works on AnyLinux)",
+      "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/resolve-march-native/archive/sharun",
+    "provides": [
+      "resolve-march-native"
+    ],
+    "repology": [
+      "resolve-march-native"
+    ],
+    "src_url": [
+      "https://pypi.org/project/resolve-march-native"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "version": "6.0.1"
   },
   {
     "_disabled": "false",
@@ -60505,7 +61503,11 @@
       "analyzer",
       "linter"
     ],
+<<<<<<< HEAD
     "version": "HEAD-3bb2d1a-250307T231857"
+=======
+    "version": "HEAD-40b1750-250304T222154"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -60564,7 +61566,11 @@
     "tag": [
       "linter"
     ],
+<<<<<<< HEAD
     "version": "HEAD-6d0498c-250307T061824"
+=======
+    "version": "HEAD-88d5434-250303T131940"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -61331,6 +62337,7 @@
       "bittorrent",
       "torrent"
     ],
+<<<<<<< HEAD
     "version": "HEAD-e4595a7-250308T103915"
   },
   {
@@ -61421,6 +62428,9 @@
       "Utility"
     ],
     "version": "HEAD-a1a1095-250210T205538"
+=======
+    "version": "HEAD-f6c52d3-250228T135803"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -61606,7 +62616,11 @@
       "linter",
       "python"
     ],
+<<<<<<< HEAD
     "version": "0.9.10"
+=======
+    "version": "0.9.9"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -61841,6 +62855,7 @@
       "cloud",
       "devops"
     ],
+<<<<<<< HEAD
     "version": "v3.12.5"
   },
   {
@@ -61888,6 +62903,9 @@
       "Utility"
     ],
     "version": "HEAD-fca8427-250301T150505"
+=======
+    "version": "v3.12.4"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -62159,7 +63177,11 @@
       "screen-sharing",
       "teamviewer"
     ],
+<<<<<<< HEAD
     "version": "250309T013942"
+=======
+    "version": "250305T014045"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -62282,7 +63304,11 @@
       "scanning",
       "security"
     ],
+<<<<<<< HEAD
     "version": "HEAD-9d6bca1-250307T170519"
+=======
+    "version": "HEAD-6a1b49e-250305T092857"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -62338,7 +63364,11 @@
     "tag": [
       "pastebin"
     ],
+<<<<<<< HEAD
     "version": "HEAD-03e729b-250308T014931"
+=======
+    "version": "HEAD-f579881-250301T165552"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -62449,7 +63479,11 @@
       "interpreter",
       "ryelang"
     ],
+<<<<<<< HEAD
     "version": "v0.0.36"
+=======
+    "version": "v0.0.35"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -62506,7 +63540,11 @@
       "emulator",
       "game"
     ],
+<<<<<<< HEAD
     "version": "1.2.441"
+=======
+    "version": "1.2.433"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -63640,6 +64678,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "sanicdns",
     "pkg_family": "sanicdns",
     "pkg_id": "sharun.wrappe.stable.sanicdns",
@@ -63687,6 +64726,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "sanitize-filename",
     "pkg_family": "sanitize-filename",
     "pkg_id": "github.com.kardeiz.sanitize-filename.source",
@@ -63730,6 +64771,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "sastsweep",
     "pkg_family": "sastsweep",
     "pkg_id": "github.com.chebuya.sastsweep.source",
@@ -63773,6 +64815,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "sbctl",
     "pkg_family": "sbctl",
     "pkg_id": "github.com.Foxboron.sbctl",
@@ -64013,6 +65057,7 @@
       "Utility"
     ],
     "version": "4.9.0"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -64142,6 +65187,8 @@
       "Utility"
     ],
     "version": "HEAD-af73803-250224T154642"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -64621,6 +65668,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "shadowsocks-rust",
     "pkg_family": "shadowsocks-rust",
     "pkg_id": "github.com.shadowsocks.shadowsocks-rust.stable",
@@ -64690,6 +65738,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "sharutils",
     "pkg_family": "sharutils",
     "pkg_id": "nixpkgs.sharutils",
@@ -65241,7 +66291,11 @@
     "tag": [
       "shellcheck"
     ],
+<<<<<<< HEAD
     "version": "HEAD-143bbb1-250306T221630"
+=======
+    "version": "HEAD-5d53055-250304T233638"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -65564,7 +66618,11 @@
     "tag": [
       "image"
     ],
+<<<<<<< HEAD
     "version": "HEAD-c0d5d09-250308T030632"
+=======
+    "version": "HEAD-542457c-250304T182551"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -65977,7 +67035,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-01865ef-250306T140655"
+=======
+    "version": "HEAD-0970bbc-250228T115342"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -66128,7 +67190,11 @@
     "tag": [
       "fuzzyfinder"
     ],
+<<<<<<< HEAD
     "version": "HEAD-81799d1-250306T190504"
+=======
+    "version": "HEAD-9f02f95-250220T221753"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -66177,6 +67243,7 @@
       "utility",
       "skupper"
     ],
+<<<<<<< HEAD
     "version": "HEAD-6fd6e37-250306T201205"
   },
   {
@@ -66240,6 +67307,9 @@
       "Utility"
     ],
     "version": "HEAD-456a8b7-250130T101109"
+=======
+    "version": "HEAD-f448447-250304T131146"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -66573,7 +67643,11 @@
     "tag": [
       "package-manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-4ffd4eb-250308T120404"
+=======
+    "version": "HEAD-61a47fb-250303T212151"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -66628,7 +67702,11 @@
     "tag": [
       "package-manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-4ffd4eb-250308T120404"
+=======
+    "version": "HEAD-61a47fb-250303T212151"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -66683,7 +67761,11 @@
     "tag": [
       "package-manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-4ffd4eb-250308T120404"
+=======
+    "version": "HEAD-61a47fb-250303T212151"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -66739,7 +67821,11 @@
     "tag": [
       "package-manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-4ffd4eb-250308T120404"
+=======
+    "version": "HEAD-61a47fb-250303T212151"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -66794,7 +67880,11 @@
     "tag": [
       "package-manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-4ffd4eb-250308T120404"
+=======
+    "version": "HEAD-61a47fb-250303T212151"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -66849,7 +67939,11 @@
     "tag": [
       "package-manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-4ffd4eb-250308T120404"
+=======
+    "version": "HEAD-61a47fb-250303T212151"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -66905,7 +67999,11 @@
     "tag": [
       "package-manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-4ffd4eb-250308T120404"
+=======
+    "version": "HEAD-61a47fb-250303T212151"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -67080,7 +68178,11 @@
       "git",
       "ssh"
     ],
+<<<<<<< HEAD
     "version": "HEAD-2e1fc09-250305T145643"
+=======
+    "version": "HEAD-836b863-250224T110930"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -67577,6 +68679,7 @@
       "music",
       "spotify"
     ],
+<<<<<<< HEAD
     "version": "4.0.0"
   },
   {
@@ -67664,6 +68767,9 @@
       "Utility"
     ],
     "version": "HEAD-840af87-250210T140502"
+=======
+    "version": "3.9.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -67726,7 +68832,11 @@
       "jq",
       "sql"
     ],
+<<<<<<< HEAD
     "version": "HEAD-6ac315a-250308T192419"
+=======
+    "version": "HEAD-b1bea39-250209T131449"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -68155,7 +69265,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-02d2683-250305T200024"
+=======
+    "version": "HEAD-259fbe0-250224T124538"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -68602,7 +69716,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-ab69128-250308T144220"
+=======
+    "version": "HEAD-0ec119f-250124T144128"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -68953,7 +70071,11 @@
       "cloud",
       "sql"
     ],
+<<<<<<< HEAD
     "version": "HEAD-da2f3ec-250306T163418"
+=======
+    "version": "HEAD-d72aaeb-250203T180346"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -69585,6 +70707,7 @@
     "tag": [
       "stun"
     ],
+<<<<<<< HEAD
     "version": "HEAD-46d828f-250306T120229"
   },
   {
@@ -69629,6 +70752,9 @@
       "Utility"
     ],
     "version": "HEAD-f87d374-250126T202904"
+=======
+    "version": "HEAD-3bd769c-250305T120155"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -69747,6 +70873,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "subs",
     "pkg_family": "subs",
     "pkg_id": "github.com.0x4f53.subs.source",
@@ -69790,6 +70917,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "subtrace",
     "pkg_family": "subtrace",
     "pkg_id": "github.com.rhysd.subtrace.stable",
@@ -69834,6 +70963,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "subxtract",
     "pkg_family": "subxtract",
     "pkg_id": "github.com.pkgforge-security.subxtract",
@@ -69877,6 +71007,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "sudachi",
     "pkg_family": "sudachi",
     "pkg_id": "wrappe.sudachi",
@@ -70098,7 +71230,11 @@
     "tag": [
       "sudo"
     ],
+<<<<<<< HEAD
     "version": "HEAD-4e7db7f-250305T214002"
+=======
+    "version": "HEAD-5478630-250303T141745"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -70850,7 +71986,11 @@
       "wireguard",
       "zerotier"
     ],
+<<<<<<< HEAD
     "version": "HEAD-eb3313e-250307T231538"
+=======
+    "version": "HEAD-5eafce7-250304T185729"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -71600,7 +72740,11 @@
       "chat",
       "messenger"
     ],
+<<<<<<< HEAD
     "version": "v5.12.1"
+=======
+    "version": "v5.11.1"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -71684,6 +72828,7 @@
       "Networking/Chat"
     ],
     "version": "5.11.1"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -71727,6 +72872,8 @@
       "ldd"
     ],
     "version": "HEAD-29a65ed-230205T110928"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -72086,6 +73233,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "timelimitx",
     "pkg_family": "timelimitx",
     "pkg_id": "github.com.rix4uni.timelimitx.source",
@@ -72126,6 +73274,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "timer",
     "pkg_family": "timer",
     "pkg_id": "github.com.caarlos0.timer",
@@ -72435,6 +73585,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "tlder",
     "pkg_family": "tlder",
     "pkg_id": "github.com.dwisiswant0.tlder.source",
@@ -72478,6 +73629,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "tldextract",
     "pkg_family": "tldextract",
     "pkg_id": "sharun.wrappe.pypi.tldextract",
@@ -72582,6 +73735,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "tldscan",
     "pkg_family": "tldscan",
     "pkg_id": "github.com.rix4uni.tldscan.source",
@@ -72622,6 +73776,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "tlrc",
     "pkg_family": "tlrc",
     "pkg_id": "github.com.tldr-pages.tlrc",
@@ -72679,7 +73835,11 @@
       "tldr",
       "tldr-pages"
     ],
+<<<<<<< HEAD
     "version": "HEAD-b6545a5-250307T173852"
+=======
+    "version": "HEAD-b6b3608-250301T220531"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -72872,6 +74032,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "tok",
     "pkg_family": "tok",
     "pkg_id": "github.com.pkgforge-security.tok",
@@ -72915,6 +74076,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "tokei",
     "pkg_family": "tokei",
     "pkg_id": "github.com.XAMPPRocky.tokei",
@@ -73201,6 +74364,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "tracee",
     "pkg_family": "tracee",
     "pkg_id": "github.com.orhun.tracee.stable",
@@ -73248,6 +74412,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "tracexec",
     "pkg_family": "tracexec",
     "pkg_id": "github.com.kxxt.tracexec",
@@ -73643,7 +74809,11 @@
       "network",
       "traceroute"
     ],
+<<<<<<< HEAD
     "version": "HEAD-b7327ea-250309T120400"
+=======
+    "version": "HEAD-853c523-250227T120253"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -73704,7 +74874,11 @@
       "secret",
       "security"
     ],
+<<<<<<< HEAD
     "version": "v3.88.15"
+=======
+    "version": "v3.88.14"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -74129,6 +75303,7 @@
       "tun2socks",
       "tunnel"
     ],
+<<<<<<< HEAD
     "version": "HEAD-ca7cd25-250307T141514"
   },
   {
@@ -74274,6 +75449,9 @@
       "Utility"
     ],
     "version": "HEAD-8271001-250303T152329"
+=======
+    "version": "HEAD-e556f76-250227T145614"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -74816,7 +75994,11 @@
       "busybox",
       "coreboot"
     ],
+<<<<<<< HEAD
     "version": "HEAD-cddc7f8-250306T090548"
+=======
+    "version": "HEAD-e35fc4e-250225T101903"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -74968,6 +76150,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "udpz",
     "pkg_family": "udpz",
     "pkg_id": "github.com.FalconOpsLLC.udpz.source",
@@ -75054,6 +76237,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "ultimmc",
     "pkg_family": "ultimmc",
     "pkg_id": "wrappe.ultimmc",
@@ -75145,6 +76330,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "unch",
     "pkg_family": "unch",
     "pkg_id": "github.com.dwisiswant0.unch.source",
@@ -75188,6 +76374,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "uncover",
     "pkg_family": "uncover",
     "pkg_id": "github.com.projectdiscovery.uncover",
@@ -75240,6 +76428,7 @@
       "recon"
     ],
     "version": "HEAD-e2a3198-250205T092927"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -75280,6 +76469,8 @@
       "Utility"
     ],
     "version": "HEAD-06d0ddc-250120T175939"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -75554,6 +76745,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "uniqs",
     "pkg_family": "uniqs",
     "pkg_id": "github.com.simnalamburt.uniqs.source",
@@ -75640,6 +76832,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "unix",
     "pkg_family": "unix",
     "pkg_id": "github.com.rsc.unix",
@@ -75813,6 +77007,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "urless",
     "pkg_family": "urless",
     "pkg_id": "sharun.wrappe.source.urless",
@@ -75855,6 +77050,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "urlfinder",
     "pkg_family": "urlfinder",
     "pkg_id": "github.com.projectdiscovery.urlfinder.source",
@@ -75909,6 +77106,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "urlhunter",
     "pkg_family": "urlhunter",
     "pkg_id": "github.com.utkusen.urlhunter.source",
@@ -75952,6 +77150,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "uro",
     "pkg_family": "uro",
     "pkg_id": "sharun.wrappe.pypi.uro",
@@ -76487,6 +77687,7 @@
       "Utility"
     ],
     "version": "HEAD-06e822b-250113T180400"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -76558,6 +77759,8 @@
       "Utility"
     ],
     "version": "v5.28.0"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -76930,7 +78133,11 @@
     "tag": [
       "asdf"
     ],
+<<<<<<< HEAD
     "version": "HEAD-b1bf871-250308T205114"
+=======
+    "version": "HEAD-b37444a-250227T151458"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -77042,7 +78249,11 @@
       "gif",
       "recording"
     ],
+<<<<<<< HEAD
     "version": "HEAD-5fd3e35-250305T120110"
+=======
+    "version": "HEAD-3f91b73-250224T111226"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -77453,6 +78664,68 @@
     "_disabled": "false",
     "pkg": "vscodium",
     "pkg_family": "vscodium",
+    "pkg_id": "github.com.VSCodium.vscodium",
+    "pkg_type": "appimage",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/vscodium-vscodium/vscodium/vscodium",
+    "app_id": "com.vscodium.codium",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vscodium/appimage.official.stable.yaml",
+    "category": [
+      "IDE"
+    ],
+    "description": "Visual Studio Code without MS branding/telemetry/licensing",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "vscodium",
+          "vscodium-bin",
+          "vscodium-electron",
+          "vscodium-electron-bin",
+          "vscodium-git"
+        ]
+      },
+      "nixpkgs": [
+        "vscodium"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/packages/vscodium/appimage.official.stable.yaml",
+    "homepage": [
+      "https://vscodium.com",
+      "https://github.com/VSCodium/vscodium"
+    ],
+    "host": [
+      "x86_64-linux"
+    ],
+    "icon": "https://soarpkgs.pkgforge.dev/packages/vscodium/assets/default.png",
+    "license": [
+      "MIT"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/VSCodium/vscodium"
+    ],
+    "pkgcache": "ghcr.io/pkgforge/pkgcache/vscodium/appimage/official",
+    "provides": [
+      "vscodium==codium"
+    ],
+    "repology": [
+      "vscodium"
+    ],
+    "src_url": [
+      "https://github.com/VSCodium/vscodium"
+    ],
+    "tag": [
+      "code",
+      "editor",
+      "ide"
+    ],
+    "version": "1.97.2.25045"
+  },
+  {
+    "_disabled": "false",
+    "pkg": "vscodium",
+    "pkg_family": "vscodium",
     "pkg_id": "runimage.cachyos.steam",
     "pkg_type": "runimage",
     "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-steam/vscodium/vscodium",
@@ -77512,7 +78785,11 @@
       "editor",
       "ide"
     ],
+<<<<<<< HEAD
     "version": "1.98.0.25067"
+=======
+    "version": "1.97.2.25045"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "true",
@@ -77619,7 +78896,11 @@
       "multiplexer",
       "terminal"
     ],
+<<<<<<< HEAD
     "version": "v0.9.99.69"
+=======
+    "version": "v0.9.99.67"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -77928,6 +79209,7 @@
       "s3"
     ],
     "version": "HEAD-db05e44-250224T143041"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -77968,6 +79250,8 @@
       "Utility"
     ],
     "version": "HEAD-3f7098d-241008T171633"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -78363,7 +79647,11 @@
     "tag": [
       "Terminal"
     ],
+<<<<<<< HEAD
     "version": "HEAD-dd546c9-250308T192419"
+=======
+    "version": "HEAD-7d0bff0-250301T123420"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -79493,6 +80781,66 @@
   },
   {
     "_disabled": "false",
+    "pkg": "witness",
+    "pkg_family": "witness",
+    "pkg_id": "github.com.in-toto.witness.source",
+    "pkg_type": "static",
+    "pkg_webpage": "https://pkgs.pkgforge.dev/repo/soarpkgs/witness-source/witness/witness",
+    "bincache": "ghcr.io/pkgforge/bincache/cowitness/official/cowitness",
+    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/binaries/witness/static.official.source.yaml",
+    "category": [
+      "ConsoleOnly",
+      "Utility"
+    ],
+    "description": "Automates, normalizes, and verifies software artifact provenance",
+    "distro_pkg": {
+      "archlinux": {
+        "aur": [
+          "witness"
+        ]
+      },
+      "homebrew": [
+        "witness"
+      ],
+      "nixpkgs": [
+        "witness"
+      ]
+    },
+    "download_url": "https://soarpkgs.pkgforge.dev/binaries/witness/static.official.source.yaml",
+    "homepage": [
+      "https://witness.dev",
+      "https://github.com/in-toto/witness"
+    ],
+    "host": [
+      "aarch64-linux",
+      "x86_64-linux"
+    ],
+    "license": [
+      "Apache-2.0"
+    ],
+    "maintainer": [
+      "Azathothas (https://github.com/Azathothas)"
+    ],
+    "note": [
+      "[DO NOT RUN] (Meant for pkgforge CI Only)",
+      "Built From Source (Latest Git HEAD). Check/Report @ https://github.com/in-toto/witness"
+    ],
+    "provides": [
+      "witness"
+    ],
+    "repology": [
+      "witness"
+    ],
+    "src_url": [
+      "https://github.com/in-toto/witness"
+    ],
+    "tag": [
+      "Utility"
+    ],
+    "version": "HEAD-89faf44-250226T204005"
+  },
+  {
+    "_disabled": "false",
     "pkg": "wormhole-rs",
     "pkg_family": "wormhole-rs",
     "pkg_id": "github.com.magic-wormhole.magic-wormhole.rs",
@@ -79558,6 +80906,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "wpjson-parser",
     "pkg_family": "wpjson-parser",
     "pkg_id": "github.com.pkgforge-security.wpjson-parser",
@@ -79601,6 +80950,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "wps-office",
     "pkg_family": "wps-office",
     "pkg_id": "github.com.ivan-hc.WPS-Office-appimage.stable",
@@ -79719,7 +81070,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "3.114.0"
+=======
+    "version": "3.112.0"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -80066,7 +81421,11 @@
       "csv",
       "tsv"
     ],
+<<<<<<< HEAD
     "version": "HEAD-143a55f-250307T194310"
+=======
+    "version": "HEAD-e360ad6-250305T110209"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -80117,7 +81476,11 @@
     "tag": [
       "utility"
     ],
+<<<<<<< HEAD
     "version": "250307T234812"
+=======
+    "version": "250304T233255"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -80165,7 +81528,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "250307T234812"
+=======
+    "version": "250304T233255"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -80631,6 +81998,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "xnlinkfinder",
     "pkg_family": "xnlinkfinder",
     "pkg_id": "sharun.wrappe.source.xnLinkFinder",
@@ -80679,6 +82047,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "xonsh",
     "pkg_family": "xonsh",
     "pkg_id": "sharun.wrappe.pypi.xonsh",
@@ -80884,6 +82254,7 @@
   },
   {
     "_disabled": "false",
+<<<<<<< HEAD
     "pkg": "xray-core",
     "pkg_family": "xray-core",
     "pkg_id": "github.com.XTLS.Xray-core.stable",
@@ -80947,6 +82318,8 @@
   },
   {
     "_disabled": "false",
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     "pkg": "xray-knife",
     "pkg_family": "xray-knife",
     "pkg_id": "github.com.lilendian0x00.xray-knife.source",
@@ -81761,7 +83134,11 @@
       "explorer",
       "manager"
     ],
+<<<<<<< HEAD
     "version": "HEAD-31177fd-250308T151606"
+=======
+    "version": "HEAD-2b14e55-250305T144320"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -82132,7 +83509,11 @@
     "tag": [
       "Utility"
     ],
+<<<<<<< HEAD
     "version": "HEAD-05c8023-250307T221438"
+=======
+    "version": "HEAD-bd0a668-250305T063823"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -82681,7 +84062,11 @@
       "firefox",
       "www-client"
     ],
+<<<<<<< HEAD
     "version": "1.9b"
+=======
+    "version": "1.8.2b"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -82741,7 +84126,11 @@
       "firefox",
       "www-client"
     ],
+<<<<<<< HEAD
     "version": "1.9t_2025-03-08"
+=======
+    "version": "Twilightbuild-1.8.2t(2025-03-04at23:03:25)"
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",
@@ -83123,6 +84512,7 @@
       "security"
     ],
     "version": "HEAD-be51080-250302T133311"
+<<<<<<< HEAD
   },
   {
     "_disabled": "false",
@@ -83163,6 +84553,8 @@
       "Utility"
     ],
     "version": "HEAD-2221109-250224T035159"
+=======
+>>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
   },
   {
     "_disabled": "false",

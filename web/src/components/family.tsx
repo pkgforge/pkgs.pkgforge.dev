@@ -58,7 +58,7 @@ export default function App({ apps, name }: FamilyProps) {
       <div className="flex flex-col items-center my-4 space-y-2">
         <h1 className="text-2xl font-semibold flex items-center gap-2">
           <Package className="h-6 w-6" />
-          <span>{name} Family</span>
+          <span>{name}</span>
         </h1>
         <p className="text-muted-foreground">
           A collection of {apps.length} packages

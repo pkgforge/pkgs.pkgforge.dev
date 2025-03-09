@@ -1,14 +1,19 @@
-import * as React from "react"
+import * as React from "react";
 
-import type { ColumnDef, VisibilityState, SortingState, ColumnFiltersState } from "@tanstack/react-table";
+import type {
+  ColumnDef,
+  VisibilityState,
+  SortingState,
+  ColumnFiltersState,
+} from "@tanstack/react-table";
 import {
   flexRender,
   getCoreRowModel,
   useReactTable,
   getSortedRowModel,
   getFilteredRowModel,
-  getPaginationRowModel
-} from "@tanstack/react-table"
+  getPaginationRowModel,
+} from "@tanstack/react-table";
 
 import {
   Table,
@@ -17,22 +22,38 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/table";
 
-import { Input } from "@/components/ui/input"
+import { Input } from "@/components/ui/input";
 
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
   DropdownMenuContent,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 import { Button, buttonVariants } from "./ui/button";
 import { Label } from "./ui/label";
-import { CheckIcon, ChevronLeft, ChevronRight, ListTree, Search, SkipBack, SkipForward } from "lucide-react";
+import {
+  CheckIcon,
+  ChevronLeft,
+  ChevronRight,
+  ListTree,
+  Search,
+  SkipBack,
+  SkipForward,
+} from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { cn } from "@/lib/utils";
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "./ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from "./ui/select";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
 import binX86 from "../metadata_bincache_x86_64-linux.json";
@@ -46,8 +67,8 @@ const pkgArm64 = import("../metadata_pkgcache_aarch64-linux.json");
 const pkgX86 = import("../metadata_pkgcache_x86_64-linux.json");
 
 interface DataTableProps<TData, TValue> {
-  columns: ColumnDef<TData, TValue>[]
-  data: TData[]
+  columns: ColumnDef<TData, TValue>[];
+  data: TData[];
 }
 
 const getColumnVis = () => {
@@ -56,36 +77,31 @@ const getColumnVis = () => {
   } catch (e) {
     return {
       sha: false,
-      id: false,
-      size: false
     };
   }
-}
+};
 
 const initialFilters = {
-  column: "name",
   columnVisibility: getColumnVis(),
   page: "bincache_amd64",
-  search: '',
-}
+  search: "",
+};
 
 const getUrlParams = () => {
   const params = new URLSearchParams(window.location.search);
   return {
-    column: params.get('searchBy') || initialFilters.column,
-    page: params.get('repo') || initialFilters.page,
-    search: params.get('search') || initialFilters.search,
+    page: params.get("repo") || initialFilters.page,
+    search: params.get("search") || initialFilters.search,
   };
 };
 
 const updateUrlParams = (params: typeof initialFilters) => {
   const urlParams = new URLSearchParams();
-  if (params.column !== initialFilters.column) urlParams.set('searchBy', params.column);
-  if (params.page !== initialFilters.page) urlParams.set('repo', params.page);
-  if (params.search) urlParams.set('search', params.search);
+  if (params.page !== initialFilters.page) urlParams.set("repo", params.page);
+  if (params.search) urlParams.set("search", params.search);
 
-  const newUrl = `${window.location.pathname}${urlParams.toString() ? '?' + urlParams.toString() : ''}`;
-  window.history.replaceState({}, '', newUrl);
+  const newUrl = `${window.location.pathname}${urlParams.toString() ? `?${urlParams.toString()}` : ""}`;
+  window.history.replaceState({}, "", newUrl);
 };
 
 export function DataTable<TData>({
@@ -93,31 +109,33 @@ export function DataTable<TData>({
 }: { columns: (_: string) => ColumnDef<TData>[] }) {
   const urlParams = getUrlParams();
 
-  const [sorting, setSorting] = React.useState<SortingState>([])
-  const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>([])
-  const [column, setColumn] = React.useState(urlParams.column);
-  const [columnVisibility, setColumnVisibility] = React.useState<VisibilityState>(getColumnVis());
+  const [sorting, setSorting] = React.useState<SortingState>([]);
+  const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
+    [],
+  );
+  const [columnVisibility, setColumnVisibility] =
+    React.useState<VisibilityState>(getColumnVis());
   const [page, setPage] = React.useState(urlParams.page);
-  const [data, setData] = React.useState<TData[] | "loading">(binX86 as unknown as TData[]);
+  const [data, setData] = React.useState<TData[] | "loading">(
+    binX86 as unknown as TData[],
+  );
+  const [searchValue, setSearchValue] = React.useState("");
 
   const columns = React.useMemo(() => {
-    return col(page)
+    return col(page);
   }, [page]);
 
   React.useEffect(() => {
-    updateUrlParams(
-      {
-        column,
-        page,
-        search: (table?.getColumn(column)?.getFilterValue() as string) || '',
-        columnVisibility,
-      },
-    );
-  }, [column, page, columnFilters, columnVisibility]);
+    updateUrlParams({
+      page,
+      search: searchValue,
+      columnVisibility,
+    });
+  }, [page, columnFilters, columnVisibility, searchValue]);
 
   React.useEffect(() => {
     if (urlParams.search) {
-      table?.getColumn(urlParams.column)?.setFilterValue(urlParams.search);
+      table?.getColumn('name')?.setFilterValue(urlParams.search);
       if (input.current) {
         input.current.value = urlParams.search;
       }
@@ -151,7 +169,7 @@ export function DataTable<TData>({
   }, [page]);
 
   const table = useReactTable({
-    data: data == "loading" ? [] : data,
+    data: data === "loading" ? [] : data,
     columns,
     getCoreRowModel: getCoreRowModel(),
     onSortingChange: setSorting,
@@ -160,11 +178,20 @@ export function DataTable<TData>({
     getFilteredRowModel: getFilteredRowModel(),
     onColumnVisibilityChange: setColumnVisibility,
     getPaginationRowModel: getPaginationRowModel(),
+    filterFns: {
+      nameOrFamily: (row, columnId, filterValue) => {
+        const searchLower = filterValue.toLowerCase();
+        const name = (row.getValue("name") as string)?.toLowerCase() || "";
+        const family = (row.getValue("family") as string)?.toLowerCase() || "";
+        return name.includes(searchLower) || family.includes(searchLower);
+      },
+    },
     state: {
       sorting,
       columnFilters,
       columnVisibility,
-    },
+      globalFilter: searchValue,
+    }
   });
 
   React.useEffect(() => {
@@ -179,7 +206,12 @@ export function DataTable<TData>({
   }, []);
 
   const input: React.RefObject<HTMLInputElement | null> = React.useRef(null);
-  const pageNumberInput: React.RefObject<HTMLInputElement | null> = React.useRef(null);
+  const pageNumberInput: React.RefObject<HTMLInputElement | null> =
+    React.useRef(null);
+
+  const handleSearch = (value: string) => {
+    setSearchValue(value);
+  };
 
   return (
     <div className="rounded-md border">
@@ -189,60 +221,58 @@ export function DataTable<TData>({
           onSubmit={(e) => {
             e.preventDefault();
             if (input.current) {
-              const val = input.current.value;
-              table.getColumn(column)?.setFilterValue(val);
+              const val = input.current.value.trim();
+              handleSearch(val);
             }
           }}
         >
           <Input
-            placeholder="Filter using name..."
+            placeholder='Filter using name or package ID...'
             ref={input}
             maxLength={64}
-            // value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
             onChange={(event) => {
-              if (event.target.value == "") {
-                table.getAllColumns().forEach((s) => s.setFilterValue(""))
+              const value = event.target.value.trim();
+              if (!value) {
+                handleSearch("");
+                for (const col of table.getAllColumns()) {
+                  col.setFilterValue("");
+                }
+              } else {
+                handleSearch(value);
               }
             }}
             className="max-w-sm rounded-r-none"
           />
-          <Select
-            value={page}
-            onValueChange={setPage}
-          >
+          <Select value={page} onValueChange={setPage}>
             <SelectTrigger className="w-[180px] rounded-none">
               <SelectValue placeholder="Select Repo" />
             </SelectTrigger>
             <SelectContent>
               <SelectGroup>
                 <SelectLabel>bincache</SelectLabel>
-                <SelectItem value="bincache_amd64">bincache (x86_64)</SelectItem>
-                <SelectItem value="bincache_arm64">bincache (aarch64)</SelectItem>
-                <SelectItem value="pkgcache_amd64">pkgcache (x86_64)</SelectItem>
-                <SelectItem value="pkgcache_arm64">pkgcache (aarch64)</SelectItem>
+                <SelectItem value="bincache_amd64">
+                  bincache (x86_64)
+                </SelectItem>
+                <SelectItem value="bincache_arm64">
+                  bincache (aarch64)
+                </SelectItem>
+                <SelectItem value="pkgcache_amd64">
+                  pkgcache (x86_64)
+                </SelectItem>
+                <SelectItem value="pkgcache_arm64">
+                  pkgcache (aarch64)
+                </SelectItem>
                 <SelectItem value="soarpkgs">soarpkgs</SelectItem>
-              </SelectGroup>
-            </SelectContent>
-          </Select>
-          <Select
-            value={column}
-            onValueChange={setColumn}
-          >
-            <SelectTrigger className="w-[180px] rounded-none">
-              <SelectValue placeholder="Theme" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectGroup>
-                <SelectLabel>Filter among</SelectLabel>
-                <SelectItem value="name">Name</SelectItem>
-                <SelectItem value="family">Package Family</SelectItem>
-                <SelectItem value="category">Category</SelectItem>
               </SelectGroup>
             </SelectContent>
           </Select>
           <Tooltip>
             <TooltipTrigger
-              className={buttonVariants({ variant: "default", size: "default", className: "rounded-l-none" })}
+              className={buttonVariants({
+                variant: "default",
+                size: "default",
+                className: "rounded-l-none",
+              })}
               aria-valuetext="Search"
             >
               <Search />
@@ -254,7 +284,10 @@ export function DataTable<TData>({
         </form>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline" className="my-2 md:my-0 w-[90%] md:w-auto md:ml-auto">
+            <Button
+              variant="outline"
+              className="my-2 md:my-0 w-[90%] md:w-auto md:ml-auto"
+            >
               Configure
               <ListTree />
             </Button>
@@ -262,15 +295,13 @@ export function DataTable<TData>({
           <DropdownMenuContent align="end">
             {table
               .getAllColumns()
-              .filter(
-                (column) => column.getCanHide()
-              )
+              .filter((column) => column.getCanHide())
               .map((column) => {
                 return (
                   <DropdownMenuCheckboxItem
                     key={column.id}
                     className={cn("capitalize", {
-                      "uppercase": column.id == "sha" || column.id == 'id',
+                      uppercase: column.id === "sha" || column.id === "id",
                     })}
                     checked={column.getIsVisible()}
                     onCheckedChange={(value) =>
@@ -279,7 +310,7 @@ export function DataTable<TData>({
                   >
                     {column.id}
                   </DropdownMenuCheckboxItem>
-                )
+                );
               })}
           </DropdownMenuContent>
         </DropdownMenu>
@@ -295,10 +326,10 @@ export function DataTable<TData>({
                       ? null
                       : flexRender(
                         header.column.columnDef.header,
-                        header.getContext()
+                        header.getContext(),
                       )}
                   </TableHead>
-                )
+                );
               })}
             </TableRow>
           ))}
@@ -331,7 +362,7 @@ export function DataTable<TData>({
           variant="outline"
           size="sm"
           onClick={() => table.setPageIndex(0)}
-          disabled={table.getState().pagination.pageIndex == 0}
+          disabled={table.getState().pagination.pageIndex === 0}
           aria-valuetext="Go to first page"
         >
           <SkipBack />
@@ -349,9 +380,16 @@ export function DataTable<TData>({
         <Popover>
           <PopoverTrigger>
             <span
-              className={cn(buttonVariants({ variant: "outline", size: "sm", className: "" }))}
+              className={cn(
+                buttonVariants({
+                  variant: "outline",
+                  size: "sm",
+                  className: "",
+                }),
+              )}
             >
-              Page {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
+              Page {table.getState().pagination.pageIndex + 1} of{" "}
+              {table.getPageCount()}
             </span>
           </PopoverTrigger>
           <PopoverContent>
@@ -371,7 +409,7 @@ export function DataTable<TData>({
                     if (pageNumberInput.current) {
                       const val = Number(pageNumberInput.current.value);
 
-                      if (val > 0 && val < table.getPageCount()) {
+                      if (val > 0 && val <= table.getPageCount()) {
                         table.setPageIndex(val - 1);
                       }
                     }
@@ -415,12 +453,14 @@ export function DataTable<TData>({
           variant="outline"
           size="sm"
           onClick={() => table.setPageIndex(table.getPageCount() - 1)}
-          disabled={table.getState().pagination.pageIndex == (table.getPageCount() - 1)}
+          disabled={
+            table.getState().pagination.pageIndex === table.getPageCount() - 1
+          }
           aria-valuetext="Go to last page"
         >
           <SkipForward />
         </Button>
       </div>
     </div>
-  )
+  );
 }

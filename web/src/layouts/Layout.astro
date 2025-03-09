@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { Separator } from "@/components/ui/separator.tsx";
 import { ModeToggle } from "@/components/mode-toggle";
 import { SocialLink } from "@/components/social-link";
+import { GlobalSearch } from "@/components/global-search";
 ---
 
 <!doctype html>
@@ -15,9 +16,9 @@ import { SocialLink } from "@/components/social-link";
     <meta name="generator" content={Astro.generator} />
     <title>PkgForge Index</title>
   </head>
-  <body class="overflow-auto md:container">
+  <body class="overflow-auto">
     <nav
-      class="flex flex-row w-full h-16 px-3 text-center justify-between items-center"
+      class="flex flex-row w-full h-16 px-3 text-center justify-between items-center md:container"
     >
       <div class="flex flex-row space-x-2 items-center">
         <img id="secret" src="/favicon.svg" class="h-10 w-10" alt="Icon" />
@@ -28,12 +29,17 @@ import { SocialLink } from "@/components/social-link";
         >
       </div>
       <div class="flex flex-row items-center gap-2">
+        <GlobalSearch client:load />
         <SocialLink client:load />
         <ModeToggle client:load />
       </div>
     </nav>
-    <Separator className="mb-4" />
-    <slot />
+
+    <Separator className="mb-4 md:container" />
+
+    <div class="md:container">
+      <slot />
+    </div>
   </body>
 
   <script is:inline>

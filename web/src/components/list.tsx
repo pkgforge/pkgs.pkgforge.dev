@@ -60,7 +60,7 @@ const columns: (page: string) => ColumnDef<ListItem>[] = (page) => ([
         <div
           className="flex"
         >
-          Package Family
+          Package ID
           <Button
             variant="ghost"
             size="sm"
@@ -92,6 +92,10 @@ const columns: (page: string) => ColumnDef<ListItem>[] = (page) => ([
     header: "SHA Sum",
     cell: ({ row }) => {
       const sha = row.getValue("sha") as string;
+
+      if (!sha) {
+        return <p className="font-mono text-center"> - </p>
+      }
 
       return <Tooltip>
         <TooltipTrigger className="font-mono text-gray-600 dark:text-gray-400">{sha.length > 10 ? `${sha.substring(0, 10)}...` : sha}</TooltipTrigger>
@@ -147,13 +151,6 @@ const columns: (page: string) => ColumnDef<ListItem>[] = (page) => ([
         </Tooltip>
       </>;
     },
-  },
-  {
-    accessorKey: "id",
-    header: "ID",
-    cell: ({ row }) => {
-      return <span className="text-gray-500 dark:text-gray-400 font-mono text-sm">{row.getValue("id")}</span>
-    }
   },
   {
     accessorKey: page != "soarpkgs" ? "Build Date" : "Package Type",
