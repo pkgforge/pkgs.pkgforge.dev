@@ -1,7 +1,12 @@
-import { FileJson, DownloadCloud, Copy, ExternalLink } from 'lucide-react';
-import { useClipboard } from '../hooks/use-clipboard';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip';
-import { useState } from 'react';
+import { FileJson, DownloadCloud, Copy, ExternalLink } from "lucide-react";
+import { useClipboard } from "../hooks/use-clipboard";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "./ui/tooltip";
+import { useState } from "react";
 
 interface Props {
   webpage_url: string;
@@ -15,7 +20,10 @@ const FormulaLinks = ({ webpage_url, repo }: Props) => {
   const jsonApiUrl = `${webpage_url}/raw.json`;
 
   const [, , , , ...dataf] = webpage_url.split("/");
-  const downloadUrl = new URL(`/dl/${dataf.join("/")}/raw.dl`, window.location.origin);
+  const downloadUrl = new URL(
+    `/dl/${dataf.join("/")}/raw.dl`,
+    window.location.origin,
+  );
 
   const handleJsonCopy = () => {
     copy(jsonApiUrl);
@@ -33,7 +41,9 @@ const FormulaLinks = ({ webpage_url, repo }: Props) => {
     <TooltipProvider delayDuration={0}>
       <div className="grid gap-3 p-4 bg-blue-50/30 dark:bg-blue-950/30 rounded-lg border border-blue-100 dark:border-blue-900">
         <div className="space-y-2">
-          <h2 className="text-sm font-medium text-blue-700/70 dark:text-blue-300/70">Package Links</h2>
+          <h2 className="text-sm font-medium text-blue-700/70 dark:text-blue-300/70">
+            Package Links
+          </h2>
           <div className="grid gap-3">
             <div className="flex items-center gap-3 w-full group">
               <FileJson className="h-5 w-5 text-blue-600/70 dark:text-blue-400/70" />
@@ -54,8 +64,8 @@ const FormulaLinks = ({ webpage_url, repo }: Props) => {
                       <p>Copied!</p>
                     </TooltipContent>
                   </Tooltip>
-                  
-                  <a 
+
+                  <a
                     href={jsonApiUrl}
                     target="_blank"
                     rel="noreferrer"
@@ -80,7 +90,9 @@ const FormulaLinks = ({ webpage_url, repo }: Props) => {
                           onClick={handleDownloadCopy}
                           className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-blue-50 dark:bg-blue-950 hover:bg-blue-100 dark:hover:bg-blue-900 text-blue-600 dark:text-blue-400 transition-colors flex-1"
                         >
-                          <code className="text-xs font-mono">{downloadUrl.toString()}</code>
+                          <code className="text-xs font-mono">
+                            {downloadUrl.toString()}
+                          </code>
                           <Copy className="h-4 w-4 shrink-0" />
                         </button>
                       </TooltipTrigger>
@@ -88,8 +100,8 @@ const FormulaLinks = ({ webpage_url, repo }: Props) => {
                         <p>Copied!</p>
                       </TooltipContent>
                     </Tooltip>
-                    
-                    <a 
+
+                    <a
                       href={downloadUrl.toString()}
                       target="_blank"
                       rel="noreferrer"

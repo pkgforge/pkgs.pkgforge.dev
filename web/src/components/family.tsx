@@ -1,10 +1,18 @@
 import type { ColumnDef } from "@tanstack/react-table";
 import { Button } from "./ui/button";
-import { ArrowDownWideNarrow, ArrowUpDown, ExternalLinkIcon, Package } from "lucide-react";
+import {
+  ArrowDownWideNarrow,
+  ArrowUpDown,
+  ExternalLinkIcon,
+  Package,
+} from "lucide-react";
 import { DataTable } from "./data-table-family";
 import { TooltipProvider } from "./ui/tooltip";
 
-interface Family { name: string, url: string };
+interface Family {
+  name: string;
+  url: string;
+}
 
 interface FamilyProps {
   apps: Family[];
@@ -18,7 +26,7 @@ const columns: ColumnDef<Family>[] = [
       return (
         <Button
           variant="ghost"
-          size='sm'
+          size="sm"
           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
           className="flex items-center gap-2"
         >
@@ -29,18 +37,22 @@ const columns: ColumnDef<Family>[] = [
             <ArrowUpDown className="h-4 w-4" />
           )}
         </Button>
-      )
+      );
     },
     cell: ({ row }) => {
-      return <a className="font-medium hover:underline px-4" href={row.original.url}>{row.getValue("name")}</a>;
-    }
+      return (
+        <a className="font-medium hover:underline px-4" href={row.original.url}>
+          {row.getValue("name")}
+        </a>
+      );
+    },
   },
   {
     accessorKey: "url",
     header: "Actions",
     cell: ({ row }) => {
       return (
-        <a 
+        <a
           className="flex items-center gap-1 hover:underline text-sm text-muted-foreground"
           href={row.original.url}
         >
@@ -48,8 +60,8 @@ const columns: ColumnDef<Family>[] = [
           <ExternalLinkIcon className="h-3 w-3" />
         </a>
       );
-    }
-  }
+    },
+  },
 ];
 
 export default function App({ apps, name }: FamilyProps) {
@@ -68,5 +80,5 @@ export default function App({ apps, name }: FamilyProps) {
         <DataTable columns={columns} data={apps} />
       </TooltipProvider>
     </div>
-  )
+  );
 }

@@ -1,7 +1,20 @@
 import { Table, TableBody, TableCell, TableRow } from "./ui/table";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "./ui/tooltip";
 import { Badge } from "./ui/badge";
-import { ExternalLink, LucideTerminalSquare, Package, ScrollText, Download, Bug, Image as ImageIcon } from "lucide-react";
+import {
+  ExternalLink,
+  LucideTerminalSquare,
+  Package,
+  ScrollText,
+  Download,
+  Bug,
+  Image as ImageIcon,
+} from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import { useClipboard } from "../hooks/use-clipboard";
 import FormulaLinks from "./formula-links";
@@ -13,7 +26,27 @@ interface AppProps {
   downloadable?: boolean;
 }
 
-type FieldType = "link" | "version" | "size" | "date" | "hash" | "files" | "number" | "metric" | "category" | "default" | "links" | "tags" | "repology" | "provides" | "string[]" | "license" | "note" | "package_id" | "description" | "snapshots";
+type FieldType =
+  | "link"
+  | "version"
+  | "size"
+  | "date"
+  | "hash"
+  | "files"
+  | "number"
+  | "metric"
+  | "category"
+  | "default"
+  | "links"
+  | "tags"
+  | "repology"
+  | "provides"
+  | "string[]"
+  | "license"
+  | "note"
+  | "package_id"
+  | "description"
+  | "snapshots";
 
 interface ResolverField {
   label: string;
@@ -79,30 +112,44 @@ const resolver: { [key: string]: ResolverField } = {
 
 const ignored_fields = ["distro_pkg"];
 
-function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string }) {
+function Show({
+  value,
+  Key,
+  props,
+}: {
+  value: any;
+  props: AppProps;
+  Key?: string;
+}) {
   const { copy, copied } = useClipboard();
-  const field: ResolverField = Key ? resolver[Key] || { label: Key, type: "default" } : { label: "Default", type: "default" };
+  const field: ResolverField = Key
+    ? resolver[Key] || { label: Key, type: "default" }
+    : { label: "Default", type: "default" };
 
   switch (field.type) {
     case "string[]":
-      return (
-        <span>
-          {value.join(field?.joinWith || ", ")}
-        </span>
-      );
+      return <span>{value.join(field?.joinWith || ", ")}</span>;
 
     case "link":
       if (typeof value === "string" && !value.startsWith("http")) {
         return (
-          <a href={`https://${value}`} target="_blank" rel="noreferrer"
-            className="underline underline-offset-4">
+          <a
+            href={`https://${value}`}
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4"
+          >
             https://{value}
           </a>
         );
       }
       return (
-        <a href={value} target="_blank" rel="noreferrer"
-          className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-4">
+        <a
+          href={value}
+          target="_blank"
+          rel="noreferrer"
+          className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-4"
+        >
           {value}
         </a>
       );
@@ -115,14 +162,20 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
       );
 
     case "size":
-      return <span className="text-amber-700 dark:text-amber-400 font-medium">{value}</span>;
+      return (
+        <span className="text-amber-700 dark:text-amber-400 font-medium">
+          {value}
+        </span>
+      );
 
     case "date":
       const date = new Date(value);
       return (
         <Tooltip>
           <TooltipTrigger>
-            <span className="text-indigo-600 dark:text-indigo-400">{date.toLocaleString()}</span>
+            <span className="text-indigo-600 dark:text-indigo-400">
+              {date.toLocaleString()}
+            </span>
           </TooltipTrigger>
           <TooltipContent>
             <span className="font-mono">{date.toISOString()}</span>
@@ -148,27 +201,37 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
       );
 
     case "number":
-      return <span className="font-mono text-gray-600 dark:text-gray-400">{value}</span>;
+      return (
+        <span className="font-mono text-gray-600 dark:text-gray-400">
+          {value}
+        </span>
+      );
 
     case "metric":
       return (
         <span className="font-mono font-medium text-violet-600 dark:text-violet-400">
-          {typeof value === 'number' ? value.toLocaleString() : value}
+          {typeof value === "number" ? value.toLocaleString() : value}
         </span>
       );
 
     case "category":
-      const categories = Array.isArray(value) ? value : value.split(",").filter((c: string) => c.trim() != "");
+      const categories = Array.isArray(value)
+        ? value
+        : value.split(",").filter((c: string) => c.trim() != "");
       return (
         <div className="flex flex-wrap gap-1">
           {categories.map((c: string) => {
             const cate = c.trim();
 
             return (
-              <div key={c} className="p-1 px-2 border border-foreground rounded-xl bg-gray-100 dark:bg-gray-800 text-sm">
-                {cate.split("")[0].toUpperCase()}{cate.substring(1)}
+              <div
+                key={c}
+                className="p-1 px-2 border border-foreground rounded-xl bg-gray-100 dark:bg-gray-800 text-sm"
+              >
+                {cate.split("")[0].toUpperCase()}
+                {cate.substring(1)}
               </div>
-            )
+            );
           })}
         </div>
       );
@@ -182,11 +245,15 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
             dwnl?.searchParams.set("download", s);
             return (
               <div key={s} className="flex">
-                <a href={dwnl?.toString()} target="_blank" rel="noreferrer"
-                  className="underline underline-offset-4">
+                <a
+                  href={dwnl?.toString()}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline underline-offset-4"
+                >
                   {s}
                 </a>
-                {(i + 1) !== files.length && <span className="block">,</span>}
+                {i + 1 !== files.length && <span className="block">,</span>}
               </div>
             );
           })}
@@ -198,9 +265,7 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
       return (
         <div className="flex flex-col flex-wrap gap-1">
           {n.map((s) => {
-            return (
-              <span key={s}>{s}</span>
-            );
+            return <span key={s}>{s}</span>;
           })}
         </div>
       );
@@ -212,8 +277,12 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
           {l.map((s) => {
             return (
               <div key={s} className="flex">
-                <a href={`https://spdx.org/licenses/${s}.html`} target="_blank" rel="noreferrer"
-                  className="underline underline-offset-4">
+                <a
+                  href={`https://spdx.org/licenses/${s}.html`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline underline-offset-4"
+                >
                   <Badge className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100">
                     {s}
                   </Badge>
@@ -230,8 +299,12 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
           {repology.map((s) => {
             return (
               <div key={s} className="flex">
-                <a href={`https://repology.org/project/${s}/information`} target="_blank" rel="noreferrer"
-                  className="underline underline-offset-4">
+                <a
+                  href={`https://repology.org/project/${s}/information`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline underline-offset-4"
+                >
                   <Badge className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100">
                     {s}
                   </Badge>
@@ -243,7 +316,9 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
       );
 
     case "provides":
-      const data = URL.parse(props.data.pkg_webpage as string)!!.toString().split("/");
+      const data = URL.parse(props.data.pkg_webpage as string)!!
+        .toString()
+        .split("/");
       data.pop();
 
       const uri = data.join("/");
@@ -254,8 +329,12 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
           {provides.map((s) => {
             return (
               <div key={s} className="flex">
-                <a href={`${uri}/${s}`} target="_blank" rel="noreferrer"
-                  className="underline underline-offset-4">
+                <a
+                  href={`${uri}/${s}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline underline-offset-4"
+                >
                   <Badge className="bg-blue-100 dark:bg-teal-900 text-teal-800 dark:text-blue-100">
                     {s}
                   </Badge>
@@ -271,8 +350,13 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
       return (
         <div className="flex flex-col space-y-1">
           {links.map((link) => (
-            <a key={link} href={link} target="_blank" rel="noreferrer"
-              className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-4">
+            <a
+              key={link}
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-4"
+            >
               {link}
             </a>
           ))}
@@ -284,7 +368,10 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
       return (
         <div className="flex flex-wrap gap-1">
           {tags.map((tag) => (
-            <Badge key={tag} className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100">
+            <Badge
+              key={tag}
+              className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100"
+            >
               {tag}
             </Badge>
           ))}
@@ -293,26 +380,34 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
 
     case "package_id":
       return (
-        <span className="font-mono text-gray-600 dark:text-gray-400">{value}</span>
+        <span className="font-mono text-gray-600 dark:text-gray-400">
+          {value}
+        </span>
       );
 
     case "description":
-      if (typeof value === 'object') {
+      if (typeof value === "object") {
         const descriptions = value as PackageDescription;
         return (
           <div className="flex flex-col space-y-2">
-            {Object.entries(descriptions).map(([key, desc]: [string, string]) => (
-              <div key={key} className="flex flex-col">
-                {key === "_default" ? (
-                  <span className="font-medium">{desc}</span>
-                ) : (
-                  <>
-                    <span className="font-medium text-blue-600 dark:text-blue-400">{key}</span>
-                    <span className="text-sm text-muted-foreground">{desc}</span>
-                  </>
-                )}
-              </div>
-            ))}
+            {Object.entries(descriptions).map(
+              ([key, desc]: [string, string]) => (
+                <div key={key} className="flex flex-col">
+                  {key === "_default" ? (
+                    <span className="font-medium">{desc}</span>
+                  ) : (
+                    <>
+                      <span className="font-medium text-blue-600 dark:text-blue-400">
+                        {key}
+                      </span>
+                      <span className="text-sm text-muted-foreground">
+                        {desc}
+                      </span>
+                    </>
+                  )}
+                </div>
+              ),
+            )}
           </div>
         );
       }
@@ -323,7 +418,10 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
       return (
         <div className="flex flex-wrap gap-1">
           {snapshots.map((snap) => (
-            <Badge key={snap} className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-100">
+            <Badge
+              key={snap}
+              className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-100"
+            >
               {snap}
             </Badge>
           ))}
@@ -333,17 +431,30 @@ function Show({ value, Key, props }: { value: any, props: AppProps, Key?: string
     default:
       if (typeof value === "string" && value.startsWith("http")) {
         return (
-          <a href={value} target="_blank" rel="noreferrer"
-            className="underline underline-offset-4">
+          <a
+            href={value}
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4"
+          >
             {value}
           </a>
         );
       }
-      return <span className="block">{typeof (value) == "object" ? JSON.stringify(value, null, 2) : value}</span>;
+      return (
+        <span className="block">
+          {typeof value == "object" ? JSON.stringify(value, null, 2) : value}
+        </span>
+      );
   }
 }
 
-export default function App({ data, logs: build, repo, downloadable = true }: AppProps) {
+export default function App({
+  data,
+  logs: build,
+  repo,
+  downloadable = true,
+}: AppProps) {
   const { copy, copied } = useClipboard();
 
   return (
@@ -354,10 +465,7 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
             <Package className="text-blue-600 dark:text-blue-400" />
             <span>Package Details</span>
           </h1>
-          <FormulaLinks
-            webpage_url={data.pkg_webpage}
-            repo={repo}
-          />
+          <FormulaLinks webpage_url={data.pkg_webpage} repo={repo} />
           <Table className="border border-muted/70 mt-4 rounded-xl">
             <TableBody>
               {/* <TableRow>
@@ -369,62 +477,79 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
                 </TableCell>
               </TableRow> */}
 
-              {
-                Object.entries(data)
-                  .filter(([key,]) => !ignored_fields.includes(key))
-                  .map(([Key, Value]) => (
-                    <TableRow key={"index_" + Key + Value}>
-
-                      <TableCell className="min-w-28 bg-muted/70 text-wrap">
-                        {(resolver[Key]?.label || Key)}
-                      </TableCell>
-                      <TableCell className="text-wrap break-all whitespace-normal">
-                        <Show value={Value} props={{ data, logs: build, repo }} Key={Key} />
-                      </TableCell>
-                    </TableRow>
-                  ))
-              }
+              {Object.entries(data)
+                .filter(([key]) => !ignored_fields.includes(key))
+                .map(([Key, Value]) => (
+                  <TableRow key={"index_" + Key + Value}>
+                    <TableCell className="min-w-28 bg-muted/70 text-wrap">
+                      {resolver[Key]?.label || Key}
+                    </TableCell>
+                    <TableCell className="text-wrap break-all whitespace-normal">
+                      <Show
+                        value={Value}
+                        props={{ data, logs: build, repo }}
+                        Key={Key}
+                      />
+                    </TableCell>
+                  </TableRow>
+                ))}
             </TableBody>
           </Table>
         </div>
 
         <div className="lg:w-[15%] lg:sticky lg:top-3 flex w-full flex-col space-y-4">
-          {data.pkg_name && data.pkg_id && (<div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
-            <h2 className="text-lg font-semibold flex items-center space-x-2">
-              <Download className="text-blue-600 dark:text-blue-400" />
-              <span>Install Package</span>
-            </h2>
-            <div className="w-full rounded bg-muted/70 p-2 relative">
-              <Tooltip>
-                <TooltipTrigger asChild>
-                  <code
-                    onClick={() => copy(`soar add "${data.pkg_name}#${data.pkg_id}"`)}
-                    className="block cursor-pointer whitespace-pre-wrap break-all font-mono text-sm"
-                  >
-                    <span className="text-blue-600 dark:text-blue-400">soar</span>
-                    <span className="text-foreground"> add </span>
-                    <span className="text-muted-foreground">"</span>
-                    <span className="text-green-600 dark:text-green-400">{data.pkg_name}</span>
-                    <span className="text-muted-foreground">#</span>
-                    <span className="text-red-600 dark:text-red-400">{data.pkg_id}</span>
-                    <span className="text-muted-foreground">"</span>
-                  </code>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <span>Click to copy</span>
-                </TooltipContent>
-              </Tooltip>
-              <div
-                className={`absolute inset-0 bg-black/60 text-white flex cursor-pointer items-center justify-center text-xs font-medium transition-opacity duration-200 ${copied ? "opacity-100" : "opacity-0 pointer-events-none"
+          {data.pkg_name && data.pkg_id && (
+            <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
+              <h2 className="text-lg font-semibold flex items-center space-x-2">
+                <Download className="text-blue-600 dark:text-blue-400" />
+                <span>Install Package</span>
+              </h2>
+              <div className="w-full rounded bg-muted/70 p-2 relative">
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <code
+                      onClick={() =>
+                        copy(`soar add "${data.pkg_name}#${data.pkg_id}"`)
+                      }
+                      className="block cursor-pointer whitespace-pre-wrap break-all font-mono text-sm"
+                    >
+                      <span className="text-blue-600 dark:text-blue-400">
+                        soar
+                      </span>
+                      <span className="text-foreground"> add </span>
+                      <span className="text-muted-foreground">"</span>
+                      <span className="text-green-600 dark:text-green-400">
+                        {data.pkg_name}
+                      </span>
+                      <span className="text-muted-foreground">#</span>
+                      <span className="text-red-600 dark:text-red-400">
+                        {data.pkg_id}
+                      </span>
+                      <span className="text-muted-foreground">"</span>
+                    </code>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <span>Click to copy</span>
+                  </TooltipContent>
+                </Tooltip>
+                <div
+                  className={`absolute inset-0 bg-black/60 text-white flex cursor-pointer items-center justify-center text-xs font-medium transition-opacity duration-200 ${
+                    copied ? "opacity-100" : "opacity-0 pointer-events-none"
                   }`}
-              >
-                Copied!
+                >
+                  Copied!
+                </div>
               </div>
+              <a
+                href="https://github.com/pkgforge/soar"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xs underline text-muted-foreground text-center"
+              >
+                Note: Requires soar to be installed
+              </a>
             </div>
-            <a href="https://github.com/pkgforge/soar" target="_blank" rel="noreferrer" className="text-xs underline text-muted-foreground text-center">
-              Note: Requires soar to be installed
-            </a>
-          </div>)}
+          )}
 
           {build && (
             <div className="flex flex-col items-center space-y-2 p-3 rounded-lg border bg-card">
@@ -432,11 +557,16 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
                 <ScrollText className="text-purple-600 dark:text-purple-400" />
                 <span>Build Logs</span>
               </h2>
-              <a href={build} target="_blank" rel="noreferrer"
+              <a
+                href={build}
+                target="_blank"
+                rel="noreferrer"
                 className={buttonVariants({
                   variant: "default",
-                  className: "w-full flex items-center justify-center space-x-2"
-                })}>
+                  className:
+                    "w-full flex items-center justify-center space-x-2",
+                })}
+              >
                 <span>View Logs</span>
                 <ExternalLink className="h-4 w-4" />
               </a>
@@ -449,11 +579,16 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
                 <LucideTerminalSquare className="text-green-600 dark:text-green-400" />
                 <span>Build Script</span>
               </h2>
-              <a href={data.build_script} target="_blank" rel="noreferrer"
+              <a
+                href={data.build_script}
+                target="_blank"
+                rel="noreferrer"
                 className={buttonVariants({
                   variant: "outline",
-                  className: "w-full flex items-center justify-center space-x-2"
-                })}>
+                  className:
+                    "w-full flex items-center justify-center space-x-2",
+                })}
+              >
                 <span>View Script</span>
                 <ExternalLink className="h-4 w-4" />
               </a>
@@ -465,11 +600,15 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
               <Bug className="text-red-600 dark:text-red-400" />
               <span>Report Issues</span>
             </h2>
-            <a href="https://github.com/pkgforge/soarpkgs/issues/new/choose" target="_blank" rel="noreferrer"
+            <a
+              href="https://github.com/pkgforge/soarpkgs/issues/new/choose"
+              target="_blank"
+              rel="noreferrer"
               className={buttonVariants({
                 variant: "outline",
-                className: "w-full flex items-center justify-center space-x-2"
-              })}>
+                className: "w-full flex items-center justify-center space-x-2",
+              })}
+            >
               <span>Create Issue</span>
               <ExternalLink className="h-4 w-4" />
             </a>
@@ -481,12 +620,21 @@ export default function App({ data, logs: build, repo, downloadable = true }: Ap
                 <ImageIcon className="text-amber-600 dark:text-amber-400" />
                 <span>Package Icon</span>
               </h2>
-              <img src={data.icon} alt="Package Icon" className="w-16 h-16 rounded-lg" />
-              <a href={data.icon} target="_blank" rel="noreferrer"
+              <img
+                src={data.icon}
+                alt="Package Icon"
+                className="w-16 h-16 rounded-lg"
+              />
+              <a
+                href={data.icon}
+                target="_blank"
+                rel="noreferrer"
                 className={buttonVariants({
                   variant: "outline",
-                  className: "w-full flex items-center justify-center space-x-2"
-                })}>
+                  className:
+                    "w-full flex items-center justify-center space-x-2",
+                })}
+              >
                 <span>View Raw</span>
                 <ExternalLink className="h-4 w-4" />
               </a>

@@ -1,5 +1,5 @@
-import * as React from 'react';
-import MiniSearch from 'minisearch';
+import * as React from "react";
+import MiniSearch from "minisearch";
 
 interface SearchResult {
   pkg_name: string;
@@ -11,7 +11,7 @@ interface SearchResult {
 export function useSearch(
   searchIndex: MiniSearch<SearchResult> | null,
   searchTerm: string,
-  isLoading: boolean
+  isLoading: boolean,
 ): SearchResult[] {
   const [results, setResults] = React.useState<SearchResult[]>([]);
 
@@ -20,13 +20,15 @@ export function useSearch(
       setResults([]);
       return;
     }
-    
+
     const searchResults = searchIndex.search(searchTerm, {
       prefix: true,
       fuzzy: true,
     });
-    
-    setResults(searchResults.map(result => result as unknown as SearchResult));
+
+    setResults(
+      searchResults.map((result) => result as unknown as SearchResult),
+    );
   }, [searchTerm, searchIndex, isLoading]);
 
   return results;

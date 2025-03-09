@@ -1,14 +1,18 @@
-import * as React from "react"
+import * as React from "react";
 
-import type { ColumnDef, SortingState, ColumnFiltersState } from "@tanstack/react-table";
+import type {
+  ColumnDef,
+  SortingState,
+  ColumnFiltersState,
+} from "@tanstack/react-table";
 import {
   flexRender,
   getCoreRowModel,
   useReactTable,
   getSortedRowModel,
   getFilteredRowModel,
-  getPaginationRowModel
-} from "@tanstack/react-table"
+  getPaginationRowModel,
+} from "@tanstack/react-table";
 
 import {
   Table,
@@ -17,29 +21,36 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/table";
 
-import { Input } from "@/components/ui/input"
+import { Input } from "@/components/ui/input";
 
 import { Button, buttonVariants } from "./ui/button";
 import { Label } from "./ui/label";
-import { CheckIcon, ChevronLeft, ChevronRight, Search, SkipBack, SkipForward } from "lucide-react";
+import {
+  CheckIcon,
+  ChevronLeft,
+  ChevronRight,
+  Search,
+  SkipBack,
+  SkipForward,
+} from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { cn } from "@/lib/utils";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
 interface DataTableProps<TData, TValue> {
-  columns: ColumnDef<TData, TValue>[]
-  data: TData[]
+  columns: ColumnDef<TData, TValue>[];
+  data: TData[];
 }
 
 export function DataTable<TData, TValue>({
   columns,
-  data
+  data,
 }: DataTableProps<TData, TValue>) {
-  const [sorting, setSorting] = React.useState<SortingState>([])
+  const [sorting, setSorting] = React.useState<SortingState>([]);
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
-    []
+    [],
   );
 
   const table = useReactTable({
@@ -69,7 +80,8 @@ export function DataTable<TData, TValue>({
   }, []);
 
   const input: React.RefObject<HTMLInputElement | null> = React.useRef(null);
-  const pageNumberInput: React.RefObject<HTMLInputElement | null> = React.useRef(null);
+  const pageNumberInput: React.RefObject<HTMLInputElement | null> =
+    React.useRef(null);
 
   return (
     <div className="rounded-md border">
@@ -91,14 +103,18 @@ export function DataTable<TData, TValue>({
             // value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
             onChange={(event) => {
               if (event.target.value == "") {
-                table.getAllColumns().forEach((s) => s.setFilterValue(""))
+                table.getAllColumns().forEach((s) => s.setFilterValue(""));
               }
             }}
             className="max-w-sm rounded-r-none"
           />
           <Tooltip>
             <TooltipTrigger
-              className={buttonVariants({ variant: "default", size: "default", className: "rounded-l-none" })}
+              className={buttonVariants({
+                variant: "default",
+                size: "default",
+                className: "rounded-l-none",
+              })}
               aria-valuetext="Search"
             >
               <Search />
@@ -119,11 +135,11 @@ export function DataTable<TData, TValue>({
                     {header.isPlaceholder
                       ? null
                       : flexRender(
-                        header.column.columnDef.header,
-                        header.getContext()
-                      )}
+                          header.column.columnDef.header,
+                          header.getContext(),
+                        )}
                   </TableHead>
-                )
+                );
               })}
             </TableRow>
           ))}
@@ -174,9 +190,16 @@ export function DataTable<TData, TValue>({
         <Popover>
           <PopoverTrigger>
             <span
-              className={cn(buttonVariants({ variant: "outline", size: "sm", className: "" }))}
+              className={cn(
+                buttonVariants({
+                  variant: "outline",
+                  size: "sm",
+                  className: "",
+                }),
+              )}
             >
-              Page {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
+              Page {table.getState().pagination.pageIndex + 1} of{" "}
+              {table.getPageCount()}
             </span>
           </PopoverTrigger>
           <PopoverContent>
@@ -240,12 +263,14 @@ export function DataTable<TData, TValue>({
           variant="outline"
           size="sm"
           onClick={() => table.setPageIndex(table.getPageCount() - 1)}
-          disabled={table.getState().pagination.pageIndex == (table.getPageCount() - 1)}
+          disabled={
+            table.getState().pagination.pageIndex == table.getPageCount() - 1
+          }
           aria-valuetext="Go to last page"
         >
           <SkipForward />
         </Button>
       </div>
     </div>
-  )
+  );
 }

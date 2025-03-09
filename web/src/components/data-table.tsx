@@ -106,7 +106,9 @@ const updateUrlParams = (params: typeof initialFilters) => {
 
 export function DataTable<TData>({
   columns: col,
-}: { columns: (_: string) => ColumnDef<TData>[] }) {
+}: {
+  columns: (_: string) => ColumnDef<TData>[];
+}) {
   const urlParams = getUrlParams();
 
   const [sorting, setSorting] = React.useState<SortingState>([]);
@@ -135,7 +137,7 @@ export function DataTable<TData>({
 
   React.useEffect(() => {
     if (urlParams.search) {
-      table?.getColumn('name')?.setFilterValue(urlParams.search);
+      table?.getColumn("name")?.setFilterValue(urlParams.search);
       if (input.current) {
         input.current.value = urlParams.search;
       }
@@ -191,7 +193,7 @@ export function DataTable<TData>({
       columnFilters,
       columnVisibility,
       globalFilter: searchValue,
-    }
+    },
   });
 
   React.useEffect(() => {
@@ -227,7 +229,7 @@ export function DataTable<TData>({
           }}
         >
           <Input
-            placeholder='Filter using name or package ID...'
+            placeholder="Filter using name or package ID..."
             ref={input}
             maxLength={64}
             onChange={(event) => {
@@ -325,9 +327,9 @@ export function DataTable<TData>({
                     {header.isPlaceholder
                       ? null
                       : flexRender(
-                        header.column.columnDef.header,
-                        header.getContext(),
-                      )}
+                          header.column.columnDef.header,
+                          header.getContext(),
+                        )}
                   </TableHead>
                 );
               })}
