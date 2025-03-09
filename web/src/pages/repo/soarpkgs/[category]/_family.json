@@ -11,6 +11,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/0ad/0ad"
     ]
   ],
+  "40four-source/40four": [
+    [
+      "40four",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/40four-source/40four/40four"
+    ]
+  ],
   "ip7z-7zip/7z": [
     [
       "7z",
@@ -101,6 +107,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/affine-stable/affine/affine"
     ]
   ],
+  "afrog-source/afrog": [
+    [
+      "afrog",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/afrog-source/afrog/afrog"
+    ]
+  ],
   "filosottile-age/age": [
     [
       "age",
@@ -167,6 +179,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/app-akuse/akuse/akuse"
     ]
   ],
+  "ppkg-alacritty/alacritty": [
+    [
+      "alacritty",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-alacritty/alacritty/alacritty"
+    ]
+  ],
   "alba4k-albafetch/albafetch": [
     [
       "albafetch",
@@ -189,6 +207,12 @@
     [
       "alist",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/org-alist/alist/alist"
+    ]
+  ],
+  "cli-source/aliyun-cli": [
+    [
+      "aliyun-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-source/aliyun-cli/aliyun-cli"
     ]
   ],
   "app-allusion/allusion": [
@@ -231,6 +255,12 @@
     [
       "altus",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/amanharwara-altus/altus/altus"
+    ]
+  ],
+  "isolated-source/am-i-isolated": [
+    [
+      "am-i-isolated",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/isolated-source/am-i-isolated/am-i-isolated"
     ]
   ],
   "amass-amass/amass": [
@@ -305,6 +335,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ani-cli/ani-cli/ani-cli"
     ]
   ],
+  "anipy-cli/anipy-cli": [
+    [
+      "anipy-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/anipy-cli/anipy-cli/anipy-cli"
+    ]
+  ],
+  "aperf-source/aperf": [
+    [
+      "aperf",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/aperf-source/aperf/aperf"
+    ]
+  ],
   "apk-tools/apk-static": [
     [
       "apk-static",
@@ -323,6 +365,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/efforg-apkeep/apkeep/apkeep"
     ]
   ],
+  "pypi-apprise/apprise": [
+    [
+      "apprise",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-apprise/apprise/apprise"
+    ]
+  ],
   "static-tools/appstreamcli": [
     [
       "appstreamcli",
@@ -335,16 +383,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dev-aptly/aptly/aptly"
     ]
   ],
+  "apx-source/apx": [
+    [
+      "apx",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/apx-source/apx/apx"
+    ]
+  ],
+  "pypi-aqtinstall/aqtinstall": [
+    [
+      "aqtinstall",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-aqtinstall/aqtinstall/aqtinstall"
+    ]
+  ],
   "origami-arc/arc": [
     [
       "arc",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/origami-arc/arc/arc"
     ]
   ],
+  "arc-source/arc-archiver": [
+    [
+      "arc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/arc-source/arc-archiver/arc"
+    ]
+  ],
   "horlogeskynet-archey4/archey": [
     [
       "archey",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/horlogeskynet-archey4/archey/archey"
+    ]
+  ],
+  "pypi-archey/archey": [
+    [
+      "archey",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-archey/archey/archey"
+    ]
+  ],
+  "source-archey/archey": [
+    [
+      "archey",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-archey/archey/archey"
+    ]
+  ],
+  "finder-source/archive-finder": [
+    [
+      "archive-finder",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/finder-source/archive-finder/archive-finder"
     ]
   ],
   "docker-archlinux/archlinux": [
@@ -357,6 +441,12 @@
     [
       "arduino-cli",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/arduino-cli/arduino-cli/arduino-cli"
+    ]
+  ],
+  "ares-source/ares": [
+    [
+      "ares",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ares-source/ares/ares"
     ]
   ],
   "aretext-aretext/aretext": [
@@ -407,10 +497,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/moul-assh/assh/assh"
     ]
   ],
+  "aterm-source/aterm": [
+    [
+      "aterm",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/aterm-source/aterm/aterm"
+    ]
+  ],
   "atuinsh-atuin/atuin": [
     [
       "atuin",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/atuinsh-atuin/atuin/atuin"
+    ]
+  ],
+  "audiobook-dl/audiobook-dl": [
+    [
+      "audiobook-dl",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/audiobook-dl/audiobook-dl/audiobook-dl"
+    ]
+  ],
+  "slavaganzin-await/await": [
+    [
+      "await",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/slavaganzin-await/await/await"
     ]
   ],
   "onetrueawk-awk/awk": [
@@ -431,16 +539,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/wire-lengths/aws-wire-lengths/aws-wire-lengths"
     ]
   ],
+  "pypi-awscli/awscli": [
+    [
+      "awscli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-awscli/awscli/awscli"
+    ]
+  ],
   "accelerator-axel/axel": [
     [
       "axel",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/accelerator-axel/axel/axel"
     ]
   ],
+  "axfr2hosts-source/axfr2hosts": [
+    [
+      "axfr2hosts",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/axfr2hosts-source/axfr2hosts/axfr2hosts"
+    ]
+  ],
   "team-blake3/b3sum": [
     [
       "b3sum",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/team-blake3/b3sum/b3sum"
+    ]
+  ],
+  "pypi-baddns/baddns": [
+    [
+      "baddns",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-baddns/baddns/baddns"
     ]
   ],
   "imsnif-bandwhich/bandwhich": [
@@ -479,6 +605,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/itchyny-bed/bed/bed"
     ]
   ],
+  "bed-source/bed": [
+    [
+      "bed",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/bed-source/bed/bed"
+    ]
+  ],
+  "pypi-beet/beet": [
+    [
+      "beet",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-beet/beet/beet"
+    ]
+  ],
   "teddysun-across/bench": [
     [
       "bench",
@@ -489,6 +627,12 @@
     [
       "berty",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/berty-berty/berty/berty"
+    ]
+  ],
+  "beszel-stable/beszel": [
+    [
+      "beszel",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/beszel-stable/beszel/beszel"
     ]
   ],
   "marcosnils-bin/bin": [
@@ -521,6 +665,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sharkdp-binocle/binocle/binocle"
     ]
   ],
+  "binsider-source/binsider": [
+    [
+      "binsider",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/binsider-source/binsider/binsider"
+    ]
+  ],
+  "binsider-stable/binsider": [
+    [
+      "binsider",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/binsider-stable/binsider/binsider"
+    ]
+  ],
   "nixpkgs-bintools/bintools": [
     [
       "bintools",
@@ -539,6 +695,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/oll3-bita/bita/bita"
     ]
   ],
+  "ppkg-bitcoin/bitcoin": [
+    [
+      "bitcoin",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-bitcoin/bitcoin/bitcoin"
+    ]
+  ],
   "debian-blender/blender": [
     [
       "blender",
@@ -555,6 +717,12 @@
     [
       "bluetuith",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/darkhz-bluetuith/bluetuith/bluetuith"
+    ]
+  ],
+  "ppkg-bmake/bmake": [
+    [
+      "bmake",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-bmake/bmake/bmake"
     ]
   ],
   "sloum-bombadillo/bombadillo": [
@@ -599,16 +767,16 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-nightly/brave/brave"
     ]
   ],
-  "nixpkgs-brave/brave": [
-    [
-      "brave",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-brave/brave/brave"
-    ]
-  ],
   "appimage-stable/brave": [
     [
       "brave",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/brave/brave"
+    ]
+  ],
+  "nixpkgs-brave/brave": [
+    [
+      "brave",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-brave/brave/brave"
     ]
   ],
   "appimage-beta/brave": [
@@ -639,6 +807,12 @@
     [
       "brutespray",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/x90skysn3k-brutespray/brutespray/brutespray"
+    ]
+  ],
+  "bsdutils-source/bsdutils": [
+    [
+      "bsdutils",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/bsdutils-source/bsdutils/bsdutils"
     ]
   ],
   "aristocratos-btop/btop": [
@@ -683,6 +857,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/redhuntlabs-bucketloot/bucketloot/bucketloot"
     ]
   ],
+  "bulkdns-source/bulkdns": [
+    [
+      "bulkdns",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/bulkdns-source/bulkdns/bulkdns"
+    ]
+  ],
   "standalone-glibc/busybox": [
     [
       "busybox",
@@ -699,6 +879,12 @@
     [
       "busybox",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/busybox-standalone/busybox/busybox"
+    ]
+  ],
+  "nixpkgs-byedpi/byedpi": [
+    [
+      "byedpi",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-byedpi/byedpi/byedpi"
     ]
   ],
   "lobuhi-byp4xx/byp4xx": [
@@ -719,16 +905,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/caddy-stable/caddy/caddy"
     ]
   ],
+  "caido-stable/caido": [
+    [
+      "caido",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/caido-stable/caido/caido"
+    ]
+  ],
+  "caido-cli/caido-cli": [
+    [
+      "caido-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/caido-cli/caido-cli/caido-cli"
+    ]
+  ],
+  "binstall-source/cargo-binstall": [
+    [
+      "cargo-binstall",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/binstall-source/cargo-binstall/cargo-binstall"
+    ]
+  ],
+  "quickinstall-source/cargo-quickinstall": [
+    [
+      "cargo-quickinstall",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/quickinstall-source/cargo-quickinstall/cargo-quickinstall"
+    ]
+  ],
   "cargo-unlock/cargo-unlock": [
     [
       "cargo-unlock",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cargo-unlock/cargo-unlock/cargo-unlock"
     ]
   ],
+  "cariddi-source/cariddi": [
+    [
+      "cariddi",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cariddi-source/cariddi/cariddi"
+    ]
+  ],
   "opensuse-catatonit/catatonit": [
     [
       "catatonit",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/opensuse-catatonit/catatonit/catatonit"
+    ]
+  ],
+  "catcher-source/catcher": [
+    [
+      "catcher",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/catcher-source/catcher/catcher"
     ]
   ],
   "rapiz1-catp/catp": [
@@ -755,10 +977,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/xm1k3-cent/cent/cent"
     ]
   ],
+  "cli-source/cert-cli": [
+    [
+      "cert-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-source/cert-cli/cert-cli"
+    ]
+  ],
+  "pypi-certbot/certbot": [
+    [
+      "certbot",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-certbot/certbot/certbot"
+    ]
+  ],
   "lanrat-certgraph/certgraph": [
     [
       "certgraph",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/lanrat-certgraph/certgraph/certgraph"
+    ]
+  ],
+  "certinfo-source/certinfo": [
+    [
+      "certinfo",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/certinfo-source/certinfo/certinfo"
     ]
   ],
   "sslmate-certspotter/certspotter": [
@@ -797,10 +1037,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cloudflare-cfssl/cfssl/cfssl"
     ]
   ],
+  "alpine-chafa/chafa": [
+    [
+      "chafa",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-chafa/chafa/chafa"
+    ]
+  ],
   "chaos-client/chaos-client": [
     [
       "chaos-client",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/chaos-client/chaos-client/chaos-client"
+    ]
+  ],
+  "chars-source/chars": [
+    [
+      "chars",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/chars-source/chars/chars"
     ]
   ],
   "cheat-cheat/cheat": [
@@ -809,16 +1061,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cheat-cheat/cheat/cheat"
     ]
   ],
+  "checkcdn-source/checkcdn": [
+    [
+      "checkcdn",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/checkcdn-source/checkcdn/checkcdn"
+    ]
+  ],
   "security-cherrybomb/cherrybomb": [
     [
       "cherrybomb",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/security-cherrybomb/cherrybomb/cherrybomb"
     ]
   ],
+  "linux-chimerautils/chimerautils": [
+    [
+      "chimerautils",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/linux-chimerautils/chimerautils/chimerautils"
+    ]
+  ],
   "jpillora-chisel/chisel": [
     [
       "chisel",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/jpillora-chisel/chisel/chisel"
+    ]
+  ],
+  "chromedb-source/chromedb": [
+    [
+      "chromedb",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/chromedb-source/chromedb/chromedb"
     ]
   ],
   "ungoogled-chromium/chromium": [
@@ -833,16 +1103,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-chromium/chromium/chromium"
     ]
   ],
+  "chsrc-stable/chsrc": [
+    [
+      "chsrc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/chsrc-stable/chsrc/chsrc"
+    ]
+  ],
+  "info-stable/ci-info": [
+    [
+      "ci-info",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/info-stable/ci-info/ci-info"
+    ]
+  ],
   "bschaatsbergen-cidr/cidr": [
     [
       "cidr",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/bschaatsbergen-cidr/cidr/cidr"
     ]
   ],
+  "source-ciphey/ciphey": [
+    [
+      "ciphey",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-ciphey/ciphey/ciphey"
+    ]
+  ],
   "bensadeh-circumflex/circumflex": [
     [
       "circumflex",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/bensadeh-circumflex/circumflex/circumflex"
+    ]
+  ],
+  "cli-stable/cirrus-cli": [
+    [
+      "cirrus-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-stable/cirrus-cli/cirrus-cli"
+    ]
+  ],
+  "appimage-stable/citron": [
+    [
+      "citron",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/citron/citron"
+    ]
+  ],
+  "appimage-v3/citron": [
+    [
+      "citron",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-v3/citron/citron"
     ]
   ],
   "debian-clamtk/clamtk": [
@@ -857,10 +1163,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/brew-clearlinux/clearlinux/clearlinux"
     ]
   ],
+  "cleed-source/cleed": [
+    [
+      "cleed",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cleed-source/cleed/cleed"
+    ]
+  ],
+  "cli53-source/cli53": [
+    [
+      "cli53",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli53-source/cli53/cli53"
+    ]
+  ],
   "xrelkd-clipcat/clipcat": [
     [
       "clipcat",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/xrelkd-clipcat/clipcat/clipcat"
+    ]
+  ],
+  "clive-source/clive": [
+    [
+      "clive",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/clive-source/clive/clive"
     ]
   ],
   "cbeuw-cloak/cloak": [
@@ -899,10 +1223,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cloudreve-cloudreve/cloudreve/cloudreve"
     ]
   ],
+  "cloudsword-source/cloudsword": [
+    [
+      "cloudsword",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cloudsword-source/cloudsword/cloudsword"
+    ]
+  ],
+  "cmake-stable/cmake": [
+    [
+      "cmake",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cmake-stable/cmake/cmake"
+    ]
+  ],
   "cmd-wrapped/cmd-wrapped": [
     [
       "cmd-wrapped",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cmd-wrapped/cmd-wrapped/cmd-wrapped"
+    ]
+  ],
+  "cmdx-stable/cmdx": [
+    [
+      "cmdx",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cmdx-stable/cmdx/cmdx"
     ]
   ],
   "contabo-cntb/cntb": [
@@ -923,16 +1265,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cocogitto-cocogitto/cocogitto/cocogitto"
     ]
   ],
+  "server-stable/code-server": [
+    [
+      "code-server",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/server-stable/code-server/code-server"
+    ]
+  ],
   "colorized-logs/colorized-logs": [
     [
       "colorized-logs",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/colorized-logs/colorized-logs/colorized-logs"
     ]
   ],
+  "security-comb/comb": [
+    [
+      "comb",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/security-comb/comb/comb"
+    ]
+  ],
+  "pypi-commix/commix": [
+    [
+      "commix",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-commix/commix/commix"
+    ]
+  ],
   "containerd-containerd/containerd": [
     [
       "containerd",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/containerd-containerd/containerd/containerd"
+    ]
+  ],
+  "cookiemonster-source/cookiemonster": [
+    [
+      "cookiemonster",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cookiemonster-source/cookiemonster/cookiemonster"
     ]
   ],
   "coreutils-multicall/coreutils": [
@@ -951,12 +1317,6 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-coreutils/coreutils/coreutils"
     ]
   ],
-  "standalone-glibc/coreutils": [
-    [
-      "coreutils",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/standalone-glibc/coreutils/coreutils"
-    ]
-  ],
   "coreutils-standalone/coreutils": [
     [
       "coreutils",
@@ -965,6 +1325,12 @@
     [
       "coreutils_uutils",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/coreutils-standalone/coreutils/coreutils_uutils"
+    ]
+  ],
+  "standalone-glibc/coreutils": [
+    [
+      "coreutils",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/standalone-glibc/coreutils/coreutils"
     ]
   ],
   "multicall-glibc/coreutils": [
@@ -1009,10 +1375,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-cpufetch/cpufetch/cpufetch"
     ]
   ],
+  "stable-crave/crave": [
+    [
+      "crave",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/stable-crave/crave/crave"
+    ]
+  ],
   "s0rg-crawley/crawley": [
     [
       "crawley",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/s0rg-crawley/crawley/crawley"
+    ]
+  ],
+  "pypi-credsweeper/credsweeper": [
+    [
+      "credsweeper",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-credsweeper/credsweeper/credsweeper"
     ]
   ],
   "cri-tools/cri-tools": [
@@ -1049,6 +1427,18 @@
     [
       "crt",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cemulus-crt/crt/crt"
+    ]
+  ],
+  "security-crt/crt": [
+    [
+      "crt",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/security-crt/crt/crt"
+    ]
+  ],
+  "crtsher-source/crtsher": [
+    [
+      "crtsher",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/crtsher-source/crtsher/crtsher"
     ]
   ],
   "nixpkgs-cryptsetup/cryptsetup": [
@@ -1105,10 +1495,16 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cut-cdn/cut-cdn/cut-cdn"
     ]
   ],
-  "projectdiscovery-cvemap/cvemap": [
+  "security-cutlines/cutlines": [
+    [
+      "cutlines",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/security-cutlines/cutlines/cutlines"
+    ]
+  ],
+  "cvemap-source/cvemap": [
     [
       "cvemap",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/projectdiscovery-cvemap/cvemap/cvemap"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cvemap-source/cvemap/cvemap"
     ]
   ],
   "cwe-checker/cwe_checker": [
@@ -1145,6 +1541,18 @@
     [
       "dasel",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/tomwright-dasel/dasel/dasel"
+    ]
+  ],
+  "nixpkgs-bash/dash": [
+    [
+      "dash",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-bash/dash/dash"
+    ]
+  ],
+  "ppkg-dash/dash": [
+    [
+      "dash",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-dash/dash/dash"
     ]
   ],
   "keithknott26-datadash/datadash": [
@@ -1189,6 +1597,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-dbus/dbus/dbus"
     ]
   ],
+  "pypi-ddgr/ddgr": [
+    [
+      "ddgr",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-ddgr/ddgr/ddgr"
+    ]
+  ],
   "cachyos-ddnet/ddnet": [
     [
       "ddnet",
@@ -1207,22 +1621,38 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dandavison-delta/delta/delta"
     ]
   ],
+  "debian-deltapatcher/deltapatcher": [
+    [
+      "deltapatcher",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-deltapatcher/deltapatcher/deltapatcher"
+    ]
+  ],
   "egebalci-deoptimizer/deoptimizer": [
     [
       "deoptimizer",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/egebalci-deoptimizer/deoptimizer/deoptimizer"
     ]
   ],
+  "depsdev-source/depsdev": [
+    [
+      "depsdev",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/depsdev-source/depsdev/depsdev"
+    ]
+  ],
   "file-utils/desktop-file-utils": [
+    [
+      "desktop-file-utils",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/file-utils/desktop-file-utils/desktop-file-utils"
+    ],
     [
       "desktop-file-utils",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/file-utils/desktop-file-utils/desktop-file-utils"
     ]
   ],
-  "io-devbox/devbox": [
+  "devbox-stable/devbox": [
     [
       "devbox",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/io-devbox/devbox/devbox"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/devbox-stable/devbox/devbox"
     ]
   ],
   "sh-devpod/devpod": [
@@ -1297,6 +1727,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/wagoodman-dive/dive/dive"
     ]
   ],
+  "dlevel-source/dlevel": [
+    [
+      "dlevel",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dlevel-source/dlevel/dlevel"
+    ]
+  ],
+  "bench-source/dns-bench": [
+    [
+      "dns-bench",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/bench-source/dns-bench/dns-bench"
+    ]
+  ],
   "dns-doctor/dns-doctor": [
     [
       "dns-doctor",
@@ -1327,6 +1769,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/pwnesia-dnstake/dnstake/dnstake"
     ]
   ],
+  "source-dnsvalidator/dnsvalidator": [
+    [
+      "dnsvalidator",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-dnsvalidator/dnsvalidator/dnsvalidator"
+    ]
+  ],
   "projectdiscovery-dnsx/dnsx": [
     [
       "dnsx",
@@ -1337,6 +1785,18 @@
     [
       "doas",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-doas/doas/doas"
+    ]
+  ],
+  "bench-source/docker-bench": [
+    [
+      "docker-bench",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/bench-source/docker-bench/docker-bench"
+    ]
+  ],
+  "repack-source/docker-repack": [
+    [
+      "docker-repack",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/repack-source/docker-repack/docker-repack"
     ]
   ],
   "nilsirl-dockerc/dockerc": [
@@ -1369,6 +1829,36 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/minio-dperf/dperf/dperf"
     ]
   ],
+  "ppkg-dpkg/dpkg": [
+    [
+      "dpkg",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-dpkg/dpkg/dpkg"
+    ]
+  ],
+  "dropbear-multicall/dropbear": [
+    [
+      "dropbear",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dropbear-multicall/dropbear/dropbear"
+    ]
+  ],
+  "multicall-glibc/dropbear": [
+    [
+      "dropbear",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/multicall-glibc/dropbear/dropbear"
+    ]
+  ],
+  "dropbear-standalone/dropbear": [
+    [
+      "dropbear",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dropbear-standalone/dropbear/dropbear"
+    ]
+  ],
+  "standalone-glibc/dropbear": [
+    [
+      "dropbear",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/standalone-glibc/dropbear/dropbear"
+    ]
+  ],
   "trickest-dsieve/dsieve": [
     [
       "dsieve",
@@ -1387,16 +1877,82 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sigoden-dufs/dufs/dufs"
     ]
   ],
+  "dumbpipe-source/dumbpipe": [
+    [
+      "dumbpipe",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dumbpipe-source/dumbpipe/dumbpipe"
+    ]
+  ],
   "tkellogg-dura/dura": [
     [
       "dura",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/tkellogg-dura/dura/dura"
     ]
   ],
+  "durl-source/durl": [
+    [
+      "durl",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/durl-source/durl/durl"
+    ]
+  ],
+  "bootandy-dust/dust": [
+    [
+      "dust",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/bootandy-dust/dust/dust"
+    ]
+  ],
+  "pypi-dvc/dvc": [
+    [
+      "dvc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-dvc/dvc/dvc"
+    ]
+  ],
+  "source-dvc/dvc": [
+    [
+      "dvc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-dvc/dvc/dvc"
+    ]
+  ],
+  "dwarfs-multicall/dwarfs": [
+    [
+      "dwarfs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dwarfs-multicall/dwarfs/dwarfs"
+    ]
+  ],
+  "dwarfs-standalone/dwarfs": [
+    [
+      "dwarfs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dwarfs-standalone/dwarfs/dwarfs"
+    ]
+  ],
+  "dyff-source/dyff": [
+    [
+      "dyff",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dyff-source/dyff/dyff"
+    ]
+  ],
+  "searcher-source/dynamic-file-searcher": [
+    [
+      "dynamic-file-searcher",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/searcher-source/dynamic-file-searcher/dynamic-file-searcher"
+    ]
+  ],
+  "canop-dysk/dysk": [
+    [
+      "dysk",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/canop-dysk/dysk/dysk"
+    ]
+  ],
   "nixpkgs-e2fsprogs/e2fsprogs": [
     [
       "e2fsprogs",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-e2fsprogs/e2fsprogs/e2fsprogs"
+    ]
+  ],
+  "ecapture-stable/ecapture": [
+    [
+      "ecapture",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ecapture-stable/ecapture/ecapture"
     ]
   ],
   "turner-ecoji/ecoji": [
@@ -1423,6 +1979,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ehole-magic/ehole/ehole"
     ]
   ],
+  "vladimiry-electronmail/electron-mail": [
+    [
+      "electron-mail",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/vladimiry-electronmail/electron-mail/electron-mail"
+    ]
+  ],
+  "element-desktop/element-desktop": [
+    [
+      "element-desktop",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/element-desktop/element-desktop/element-desktop"
+    ]
+  ],
+  "element-web/element-web": [
+    [
+      "element-web",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/element-web/element-web/element-web"
+    ]
+  ],
   "ruslashev-elfcat/elfcat": [
     [
       "elfcat",
@@ -1439,6 +2013,12 @@
     [
       "elvish",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/elves-elvish/elvish/elvish"
+    ]
+  ],
+  "source-emailfinder/emailfinder": [
+    [
+      "emailfinder",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-emailfinder/emailfinder/emailfinder"
     ]
   ],
   "life4-enc/enc": [
@@ -1465,16 +2045,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/theyahya-enola/enola/enola"
     ]
   ],
+  "enscan_go-source/enscan": [
+    [
+      "enscan",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/enscan_go-source/enscan/enscan"
+    ]
+  ],
   "nixpkgs-entr/entr": [
     [
       "entr",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-entr/entr/entr"
     ]
   ],
-  "trickest-enumerepo/enumerepo": [
+  "enumeraga-source/enumeraga": [
+    [
+      "enumeraga",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/enumeraga-source/enumeraga/enumeraga"
+    ]
+  ],
+  "enumerepo-source/enumerepo": [
     [
       "enumerepo",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/trickest-enumerepo/enumerepo/enumerepo"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/enumerepo-source/enumerepo/enumerepo"
     ]
   ],
   "sj14-epoch/epoch": [
@@ -1487,6 +2079,12 @@
     [
       "esbuild",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/evanw-esbuild/esbuild/esbuild"
+    ]
+  ],
+  "org-escrcpy/escrcpy": [
+    [
+      "escrcpy",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/org-escrcpy/escrcpy/escrcpy"
     ]
   ],
   "io-etcd/etcd": [
@@ -1513,6 +2111,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-exfatprogs/exfatprogs/exfatprogs"
     ]
   ],
+  "ppkg-exif/exif": [
+    [
+      "exif",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-exif/exif/exif"
+    ]
+  ],
   "aydinnyunus-exiflooter/exiflooter": [
     [
       "exiflooter",
@@ -1525,16 +2129,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/community-eza/eza/eza"
     ]
   ],
+  "f2-source/f2": [
+    [
+      "f2",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/f2-source/f2/f2"
+    ]
+  ],
+  "dtolnay-faketty/faketty": [
+    [
+      "faketty",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dtolnay-faketty/faketty/faketty"
+    ]
+  ],
   "falconforceteam-falconhound/falconhound": [
     [
       "falconhound",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/falconforceteam-falconhound/falconhound/falconhound"
     ]
   ],
+  "alpine-falkon/falkon": [
+    [
+      "falkon",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-falkon/falkon/falkon"
+    ]
+  ],
+  "pypi-fanficfare/fanficfare": [
+    [
+      "fanficfare",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-fanficfare/fanficfare/fanficfare"
+    ]
+  ],
   "cli-fastfetch/fastfetch": [
     [
       "fastfetch",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-fastfetch/fastfetch/fastfetch"
+    ]
+  ],
+  "stable-fastfetch/fastfetch": [
+    [
+      "fastfetch",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/stable-fastfetch/fastfetch/fastfetch"
+    ]
+  ],
+  "favirecon-source/favirecon": [
+    [
+      "favirecon",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/favirecon-source/favirecon/favirecon"
     ]
   ],
   "brocode-fblog/fblog": [
@@ -1555,6 +2195,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sharkdp-fd/fd-find/fd"
     ]
   ],
+  "wrappe-fdm/fdm": [
+    [
+      "fdm",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wrappe-fdm/fdm/fdm"
+    ]
+  ],
+  "cachyos-fdm/fdm": [
+    [
+      "fdm",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-fdm/fdm/fdm"
+    ]
+  ],
+  "debian-fdm/fdm": [
+    [
+      "fdm",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-fdm/fdm/fdm"
+    ]
+  ],
   "nixpkgs-fdupes/fdupes": [
     [
       "fdupes",
@@ -1567,10 +2225,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/epi052-feroxbuster/feroxbuster/feroxbuster"
     ]
   ],
+  "cachyos-ffdec/ffdec": [
+    [
+      "ffdec",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-ffdec/ffdec/ffdec"
+    ]
+  ],
+  "ffmpeg-stable/ffmpeg": [
+    [
+      "ffmpeg",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ffmpeg-stable/ffmpeg/ffmpeg"
+    ]
+  ],
+  "binaries-stable/ffmpeg": [
+    [
+      "ffmpeg",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/binaries-stable/ffmpeg/ffmpeg"
+    ]
+  ],
   "ffuf-ffuf/ffuf": [
     [
       "ffuf",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ffuf-ffuf/ffuf/ffuf"
+    ]
+  ],
+  "tool-source/ffuf-workflow": [
+    [
+      "ffuf-workflow",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/tool-source/ffuf-workflow/ffuf-workflow"
     ]
   ],
   "damian89-ffufpostprocessing/ffufpostprocessing": [
@@ -1585,10 +2267,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/puzzlepeaches-ffufw/ffufw/ffufw"
     ]
   ],
+  "security-fget/fget": [
+    [
+      "fget",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/security-fget/fget/fget"
+    ]
+  ],
+  "fico-source/fico": [
+    [
+      "fico",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/fico-source/fico/fico"
+    ]
+  ],
+  "file-stable/file": [
+    [
+      "file",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/file-stable/file/file"
+    ]
+  ],
   "filebrowser-filebrowser/filebrowser": [
     [
       "filebrowser",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/filebrowser-filebrowser/filebrowser/filebrowser"
+    ]
+  ],
+  "suid-source/find-suid": [
+    [
+      "find-suid",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/suid-source/find-suid/find-suid"
     ]
   ],
   "findomain-findomain/findomain": [
@@ -1663,10 +2369,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/orhun-flawz/flawz/flawz"
     ]
   ],
+  "flyscrape-source/flyscrape": [
+    [
+      "flyscrape",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/flyscrape-source/flyscrape/flyscrape"
+    ]
+  ],
   "schniz-fnm/fnm": [
     [
       "fnm",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/schniz-fnm/fnm/fnm"
+    ]
+  ],
+  "ppkg-fontconfig/fontconfig": [
+    [
+      "fontconfig",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-fontconfig/fontconfig/fontconfig"
+    ]
+  ],
+  "martymac-fpart/fpart": [
+    [
+      "fpart",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/martymac-fpart/fpart/fpart"
+    ]
+  ],
+  "schweikert-fping/fping": [
+    [
+      "fping",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/schweikert-fping/fping/fping"
     ]
   ],
   "wader-fq/fq": [
@@ -1675,16 +2405,46 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/wader-fq/fq/fq"
     ]
   ],
+  "freerdp-stable/freerdp": [
+    [
+      "freerdp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/freerdp-stable/freerdp/freerdp"
+    ]
+  ],
   "charmbracelet-freeze/freeze": [
     [
       "freeze",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/charmbracelet-freeze/freeze/freeze"
     ]
   ],
+  "freq-source/freq": [
+    [
+      "freq",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/freq-source/freq/freq"
+    ]
+  ],
+  "frp-source/frp": [
+    [
+      "frp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/frp-source/frp/frp"
+    ]
+  ],
   "shadow1ng-fscan/fscan": [
     [
       "fscan",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/shadow1ng-fscan/fscan/fscan"
+    ]
+  ],
+  "fsize-source/fsize": [
+    [
+      "fsize",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/fsize-source/fsize/fsize"
+    ]
+  ],
+  "debian-funkin/funkin": [
+    [
+      "funkin",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-funkin/funkin/funkin"
     ]
   ],
   "nixpkgs-fuse/fuse": [
@@ -1735,6 +2495,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/junegunn-fzf/fzf/fzf"
     ]
   ],
+  "galer-source/galer": [
+    [
+      "galer",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/galer-source/galer/galer"
+    ]
+  ],
+  "garble-source/garble": [
+    [
+      "garble",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/garble-source/garble/garble"
+    ]
+  ],
+  "gateau-source/gateau": [
+    [
+      "gateau",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gateau-source/gateau/gateau"
+    ]
+  ],
   "lc-gau/gau": [
     [
       "gau",
@@ -1765,16 +2543,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-gearlever/gearlever/gearlever"
     ]
   ],
+  "geckodriver-stable/geckodriver": [
+    [
+      "geckodriver",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/geckodriver-stable/geckodriver/geckodriver"
+    ]
+  ],
   "geonet-rs/geonet": [
     [
       "geonet",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/geonet-rs/geonet/geonet"
     ]
   ],
+  "pypi-getaltname/getaltname": [
+    [
+      "getaltname",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-getaltname/getaltname/getaltname"
+    ]
+  ],
   "kavishgr-getghrel/getghrel": [
     [
       "getghrel",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/kavishgr-getghrel/getghrel/getghrel"
+    ]
+  ],
+  "003random-getjs/getjs": [
+    [
+      "getjs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/003random-getjs/getjs/getjs"
     ]
   ],
   "nixpkgs-gettext/gettext": [
@@ -1787,6 +2583,12 @@
     [
       "gf",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/tomnomnom-gf/gf/gf"
+    ]
+  ],
+  "gf-source/gf": [
+    [
+      "gf",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gf-source/gf/gf"
     ]
   ],
   "dwisiswant0-gfx/gfx": [
@@ -1807,10 +2609,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/gh-dash/gh-dash/gh-dash"
     ]
   ],
+  "ghalint-stable/ghalint": [
+    [
+      "ghalint",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ghalint-stable/ghalint/ghalint"
+    ]
+  ],
+  "source-ghauri/ghauri": [
+    [
+      "ghauri",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-ghauri/ghauri/ghauri"
+    ]
+  ],
+  "ghcp-stable/ghcp": [
+    [
+      "ghcp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ghcp-stable/ghcp/ghcp"
+    ]
+  ],
+  "alpine-ghex/ghex": [
+    [
+      "ghex",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-ghex/ghex/ghex"
+    ]
+  ],
   "orangekame3-ghfetch/ghfetch": [
     [
       "ghfetch",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/orangekame3-ghfetch/ghfetch/ghfetch"
+    ]
+  ],
+  "cachyos-ghidra/ghidra": [
+    [
+      "ghidra",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-ghidra/ghidra/ghidra"
     ]
   ],
   "gabrie30-ghorg/ghorg": [
@@ -1831,10 +2663,16 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-source/ghostty/ghostty"
     ]
   ],
-  "ghostty-appimage/ghostty": [
+  "appimage-stable/ghostty": [
     [
       "ghostty",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/ghostty-appimage/ghostty/ghostty"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/ghostty/ghostty"
+    ]
+  ],
+  "ghostunnel-source/ghostunnel": [
+    [
+      "ghostunnel",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ghostunnel-source/ghostunnel/ghostunnel"
     ]
   ],
   "cooperspencer-gickup/gickup": [
@@ -1843,16 +2681,70 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cooperspencer-gickup/gickup/gickup"
     ]
   ],
+  "gimp-appimage/gimp": [
+    [
+      "gimp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gimp-appimage/gimp/gimp"
+    ]
+  ],
+  "gimp-git/gimp": [
+    [
+      "gimp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gimp-git/gimp/gimp"
+    ]
+  ],
+  "gimp-stable/gimp": [
+    [
+      "gimp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gimp-stable/gimp/gimp"
+    ]
+  ],
+  "appimage-dev/gimp": [
+    [
+      "gimp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-dev/gimp/gimp"
+    ]
+  ],
+  "appimage-git/gimp": [
+    [
+      "gimp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-git/gimp/gimp"
+    ]
+  ],
+  "appimage-stable/gimp": [
+    [
+      "gimp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/gimp/gimp"
+    ]
+  ],
   "dalance-gip/gip": [
     [
       "gip",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dalance-gip/gip/gip"
     ]
   ],
+  "git-stable/git": [
+    [
+      "git",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/git-stable/git/git"
+    ]
+  ],
+  "alpine-git/git": [
+    [
+      "git",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-git/git/git"
+    ]
+  ],
   "git-cliff/git-cliff": [
     [
       "git-cliff",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/git-cliff/git-cliff/git-cliff"
+    ]
+  ],
+  "git-dumper/git-dumper": [
+    [
+      "git-dumper",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/git-dumper/git-dumper/git-dumper"
     ]
   ],
   "git-lfs/git-lfs": [
@@ -1877,6 +2769,12 @@
     [
       "gitea",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/gitea-gitea/gitea/gitea"
+    ]
+  ],
+  "comment-stable/github-comment": [
+    [
+      "github-comment",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/comment-stable/github-comment/github-comment"
     ]
   ],
   "github-endpoints/github-endpoints": [
@@ -1927,16 +2825,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/filhodanuvem-gitql/gitql/gitql"
     ]
   ],
+  "gitty-source/gitty": [
+    [
+      "gitty",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gitty-source/gitty/gitty"
+    ]
+  ],
   "extrawurst-gitui/gitui": [
     [
       "gitui",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/extrawurst-gitui/gitui/gitui"
     ]
   ],
+  "glib-tools/glib": [
+    [
+      "glib",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/glib-tools/glib/glib"
+    ]
+  ],
+  "glider-source/glider": [
+    [
+      "glider",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/glider-source/glider/glider"
+    ]
+  ],
+  "cli-source/globalping-cli": [
+    [
+      "globalping-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-source/globalping-cli/globalping-cli"
+    ]
+  ],
   "charmbracelet-glow/glow": [
     [
       "glow",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/charmbracelet-glow/glow/glow"
+    ]
+  ],
+  "boxes-stable/gnome-boxes": [
+    [
+      "gnome-boxes",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/boxes-stable/gnome-boxes/gnome-boxes"
+    ]
+  ],
+  "appimage-stable/gnome-boxes": [
+    [
+      "gnome-boxes",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/gnome-boxes/gnome-boxes"
     ]
   ],
   "go-audit/go-audit": [
@@ -1967,6 +2901,12 @@
     [
       "goawk",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/benhoyt-goawk/goawk/goawk"
+    ]
+  ],
+  "gobuster-dev/gobuster": [
+    [
+      "gobuster",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gobuster-dev/gobuster/gobuster"
     ]
   ],
   "oj-gobuster/gobuster": [
@@ -2011,10 +2951,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/pmillz-gofireprox/gofireprox/gofireprox"
     ]
   ],
+  "gogo-source/gogo": [
+    [
+      "gogo",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gogo-source/gogo/gogo"
+    ]
+  ],
   "itchyny-gojq/gojq": [
     [
       "gojq",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/itchyny-gojq/gojq/gojq"
+    ]
+  ],
+  "goldboot-source/goldboot": [
+    [
+      "goldboot",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/goldboot-source/goldboot/goldboot"
+    ]
+  ],
+  "golin-source/golin": [
+    [
+      "golin",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/golin-source/golin/golin"
     ]
   ],
   "0xsha-golinkfinder/golinkfinder": [
@@ -2053,6 +3011,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/d4rckh-gorilla/gorilla/gorilla"
     ]
   ],
+  "gosearch-source/gosearch": [
+    [
+      "gosearch",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gosearch-source/gosearch/gosearch"
+    ]
+  ],
   "securego-gosec/gosec": [
     [
       "gosec",
@@ -2063,6 +3027,18 @@
     [
       "gosmee",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/chmouel-gosmee/gosmee/gosmee"
+    ]
+  ],
+  "gospider-source/gospider": [
+    [
+      "gospider",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gospider-source/gospider/gospider"
+    ]
+  ],
+  "gost-source/gost": [
+    [
+      "gost",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gost-source/gost/gost"
     ]
   ],
   "ginuerzh-gost/gost": [
@@ -2089,16 +3065,80 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sorenisanerd-gotty/gotty/gotty"
     ]
   ],
+  "goverlay-beta/goverlay": [
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/goverlay-beta/goverlay/goverlay"
+    ]
+  ],
+  "goverlay-beta2/goverlay": [
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/goverlay-beta2/goverlay/goverlay"
+    ]
+  ],
+  "goverlay-git/goverlay": [
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/goverlay-git/goverlay/goverlay"
+    ]
+  ],
+  "goverlay-stable/goverlay": [
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/goverlay-stable/goverlay/goverlay"
+    ],
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/goverlay-stable/goverlay/goverlay"
+    ]
+  ],
+  "goverlay-nightly/goverlay": [
+    [
+      "goverlay",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/goverlay-nightly/goverlay/goverlay"
+    ]
+  ],
   "sensepost-gowitness/gowitness": [
     [
       "gowitness",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sensepost-gowitness/gowitness/gowitness"
     ]
   ],
+  "ppkg-gperftools/gperftools": [
+    [
+      "gperftools",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-gperftools/gperftools/gperftools"
+    ]
+  ],
   "gpg-tui/gpg-tui": [
     [
       "gpg-tui",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/gpg-tui/gpg-tui/gpg-tui"
+    ]
+  ],
+  "gpt4all-git/gpt4all": [
+    [
+      "gpt4all",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gpt4all-git/gpt4all/gpt4all"
+    ]
+  ],
+  "pypi-gptme/gptme": [
+    [
+      "gptme",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-gptme/gptme/gptme"
+    ]
+  ],
+  "cgit-grep/grep": [
+    [
+      "grep",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cgit-grep/grep/grep"
+    ]
+  ],
+  "grep-glibc/grep": [
+    [
+      "grep",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/grep-glibc/grep/grep"
     ]
   ],
   "pemistahl-grex/grex": [
@@ -2131,10 +3171,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/hackerschoice-gsocket/gsocket/gsocket"
     ]
   ],
+  "gstring-source/gstring": [
+    [
+      "gstring",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gstring-source/gstring/gstring"
+    ]
+  ],
+  "gtts-cli/gtts-cli": [
+    [
+      "gtts-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gtts-cli/gtts-cli/gtts-cli"
+    ]
+  ],
+  "pypi-guarddog/guarddog": [
+    [
+      "guarddog",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-guarddog/guarddog/guarddog"
+    ]
+  ],
+  "ppkg-guile/guile": [
+    [
+      "guile",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-guile/guile/guile"
+    ]
+  ],
   "charmbracelet-gum/gum": [
     [
       "gum",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/charmbracelet-gum/gum/gum"
+    ]
+  ],
+  "gungnir-source/gungnir": [
+    [
+      "gungnir",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gungnir-source/gungnir/gungnir"
     ]
   ],
   "nao1215-gup/gup": [
@@ -2143,10 +3213,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nao1215-gup/gup/gup"
     ]
   ],
+  "gxss-source/gxss": [
+    [
+      "gxss",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/gxss-source/gxss/gxss"
+    ]
+  ],
+  "cachyos-gzdoom/gzdoom": [
+    [
+      "gzdoom",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-gzdoom/gzdoom/gzdoom"
+    ]
+  ],
   "nixpkgs-gzip/gzip": [
     [
       "gzip",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-gzip/gzip/gzip"
+    ]
+  ],
+  "hackbrowserdata-source/hack-browser-data": [
+    [
+      "hack-browser-data",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/hackbrowserdata-source/hack-browser-data/hack-browser-data"
     ]
   ],
   "hacker-scoper/hacker-scoper": [
@@ -2159,6 +3247,12 @@
     [
       "hadolint",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/hadolint-hadolint/hadolint/hadolint"
+    ]
+  ],
+  "cachyos-haguichi/haguichi": [
+    [
+      "haguichi",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-haguichi/haguichi/haguichi"
     ]
   ],
   "hakluke-hakip2host/hakip2host": [
@@ -2183,6 +3277,12 @@
     [
       "hakrevdns",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/hakluke-hakrevdns/hakrevdns/hakrevdns"
+    ]
+  ],
+  "haktrailsfree-source/haktrailsfree": [
+    [
+      "haktrailsfree",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/haktrailsfree-source/haktrailsfree/haktrailsfree"
     ]
   ],
   "handlr-regex/handlr": [
@@ -2227,6 +3327,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cleancut-headtail/headtail/headtail"
     ]
   ],
+  "hearth-source/hearth": [
+    [
+      "hearth",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/hearth-source/hearth/hearth"
+    ]
+  ],
   "huntdownproject-hednsextractor/hednsextractor": [
     [
       "hednsextractor",
@@ -2239,6 +3345,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-helix/helix/helix"
     ]
   ],
+  "herd-source/herd": [
+    [
+      "herd",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/herd-source/herd/herd"
+    ]
+  ],
+  "hermit-stable/hermit": [
+    [
+      "hermit",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/hermit-stable/hermit/hermit"
+    ]
+  ],
   "sitkevij-hex/hex": [
     [
       "hex",
@@ -2249,6 +3367,12 @@
     [
       "hexyl",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sharkdp-hexyl/hexyl/hexyl"
+    ]
+  ],
+  "hl-source/hl": [
+    [
+      "hl",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/hl-source/hl/hl"
     ]
   ],
   "federicoponzi-horust/horust": [
@@ -2287,10 +3411,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/mgdm-htmlq/htmlq/htmlq"
     ]
   ],
+  "dev-htop/htop": [
+    [
+      "htop",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dev-htop/htop/htop"
+    ]
+  ],
+  "httpd-source/httpd": [
+    [
+      "httpd",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/httpd-source/httpd/httpd"
+    ]
+  ],
+  "pypi-httpie/httpie": [
+    [
+      "httpie",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-httpie/httpie/httpie"
+    ]
+  ],
   "tomnomnom-httprobe/httprobe": [
     [
       "httprobe",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/tomnomnom-httprobe/httprobe/httprobe"
+    ]
+  ],
+  "httpstat-source/httpstat": [
+    [
+      "httpstat",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/httpstat-source/httpstat/httpstat"
+    ]
+  ],
+  "httptap-source/httptap": [
+    [
+      "httptap",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/httptap-source/httptap/httptap"
     ]
   ],
   "projectdiscovery-httpx/httpx": [
@@ -2305,16 +3459,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/mislav-hub/hub/hub"
     ]
   ],
+  "huggingface-cli/huggingface-cli": [
+    [
+      "huggingface-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/huggingface-cli/huggingface-cli/huggingface-cli"
+    ]
+  ],
   "gohugoio-hugo/hugo": [
     [
       "hugo",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/gohugoio-hugo/hugo/hugo"
     ]
   ],
+  "huniq-source/huniq": [
+    [
+      "huniq",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/huniq-source/huniq/huniq"
+    ]
+  ],
   "nixpkgs-hurl/hurl": [
     [
       "hurl",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-hurl/hurl/hurl"
+    ]
+  ],
+  "husarnet-husarnet/husarnet": [
+    [
+      "husarnet",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/husarnet-husarnet/husarnet/husarnet"
     ]
   ],
   "blacknon-hwatch/hwatch": [
@@ -2329,10 +3501,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sharkdp-hyperfine/hyperfine/hyperfine"
     ]
   ],
+  "ppkg-i2pd/i2pd": [
+    [
+      "i2pd",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-i2pd/i2pd/i2pd"
+    ]
+  ],
   "ulyssa-iamb/iamb": [
     [
       "iamb",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ulyssa-iamb/iamb/iamb"
+    ]
+  ],
+  "image-bootstrap/image-bootstrap": [
+    [
+      "image-bootstrap",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/image-bootstrap/image-bootstrap/image-bootstrap"
     ]
   ],
   "danielgatis-imgcat/imgcat": [
@@ -2353,10 +3537,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/riza-indextree/indextree/indextree"
     ]
   ],
+  "file-source/ini-file": [
+    [
+      "ini-file",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/file-source/ini-file/ini-file"
+    ]
+  ],
+  "inkscape-inkscape/inkscape": [
+    [
+      "inkscape",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/inkscape-inkscape/inkscape/inkscape"
+    ]
+  ],
+  "alpine-inkscape/inkscape": [
+    [
+      "inkscape",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-inkscape/inkscape/inkscape"
+    ]
+  ],
+  "inotify-tools/inotify-tools": [
+    [
+      "inotify-tools",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/inotify-tools/inotify-tools/inotify-tools"
+    ]
+  ],
+  "security-inscope/inscope": [
+    [
+      "inscope",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/security-inscope/inscope/inscope"
+    ]
+  ],
   "projectdiscovery-interactsh/interactsh": [
     [
       "interactsh",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/projectdiscovery-interactsh/interactsh/interactsh"
+    ]
+  ],
+  "source-interlace/interlace": [
+    [
+      "interlace",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-interlace/interlace/interlace"
+    ]
+  ],
+  "ppkg-intltool/intltool": [
+    [
+      "intltool",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-intltool/intltool/intltool"
     ]
   ],
   "darkhz-invidtui/invidtui": [
@@ -2377,6 +3603,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ipa-server/ipa-server/ipa-server"
     ]
   ],
+  "ppkg-iperf/iperf": [
+    [
+      "iperf",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-iperf/iperf/iperf"
+    ]
+  ],
   "nixpkgs-iperf3/iperf3": [
     [
       "iperf3",
@@ -2389,10 +3621,16 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/iperf3-static/iperf3/iperf3"
     ]
   ],
-  "ipinfo-cli/ipinfo": [
+  "iphandle-source/iphandle": [
+    [
+      "iphandle",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/iphandle-source/iphandle/iphandle"
+    ]
+  ],
+  "cli-source/ipinfo": [
     [
       "ipinfo",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/ipinfo-cli/ipinfo/ipinfo"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-source/ipinfo/ipinfo"
     ]
   ],
   "nixpkgs-iproute2/iproute2": [
@@ -2407,10 +3645,46 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-iputils/iputils/iputils"
     ]
   ],
+  "iroh-source/iroh": [
+    [
+      "iroh",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/iroh-source/iroh/iroh"
+    ]
+  ],
+  "is-source/is": [
+    [
+      "is",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/is-source/is/is"
+    ]
+  ],
+  "pypi-isd/isd": [
+    [
+      "isd",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-isd/isd/isd"
+    ]
+  ],
+  "pypi-isort/isort": [
+    [
+      "isort",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-isort/isort/isort"
+    ]
+  ],
   "project-jaeles/jaeles": [
     [
       "jaeles",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/project-jaeles/jaeles/jaeles"
+    ]
+  ],
+  "pypi-jc/jc": [
+    [
+      "jc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-jc/jc/jc"
+    ]
+  ],
+  "jd-source/jd": [
+    [
+      "jd",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/jd-source/jd/jd"
     ]
   ],
   "whitfin-jen/jen": [
@@ -2425,6 +3699,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/jira-cli/jira-cli/jira-cli"
     ]
   ],
+  "ppkg-jless/jless": [
+    [
+      "jless",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-jless/jless/jless"
+    ]
+  ],
+  "jless-stable/jless": [
+    [
+      "jless",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/jless-stable/jless/jless"
+    ]
+  ],
   "ynqa-jnv/jnv": [
     [
       "jnv",
@@ -2435,6 +3721,24 @@
     [
       "job-security",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/job-security/job-security/job-security"
+    ]
+  ],
+  "joker-source/joker": [
+    [
+      "joker",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/joker-source/joker/joker"
+    ]
+  ],
+  "jq-source/jq": [
+    [
+      "jq",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/jq-source/jq/jq"
+    ]
+  ],
+  "jq-stable/jq": [
+    [
+      "jq",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/jq-stable/jq/jq"
     ]
   ],
   "noahgorstein-jqp/jqp": [
@@ -2449,6 +3753,30 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ugol-jr/jr/jr"
     ]
   ],
+  "pypi-jrnl/jrnl": [
+    [
+      "jrnl",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-jrnl/jrnl/jrnl"
+    ]
+  ],
+  "jsdif-source/jsdif": [
+    [
+      "jsdif",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/jsdif-source/jsdif/jsdif"
+    ]
+  ],
+  "jsluice-source/jsluice": [
+    [
+      "jsluice",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/jsluice-source/jsluice/jsluice"
+    ]
+  ],
+  "cleaner-source/json-cleaner": [
+    [
+      "json-cleaner",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cleaner-source/json-cleaner/json-cleaner"
+    ]
+  ],
   "martinvonz-jj/jujutsu": [
     [
       "jujutsu",
@@ -2459,6 +3787,12 @@
     [
       "jwt-hack",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/jwt-hack/jwt-hack/jwt-hack"
+    ]
+  ],
+  "jyt-source/jyt": [
+    [
+      "jyt",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/jyt-source/jyt/jyt"
     ]
   ],
   "derailed-k9s/k9s": [
@@ -2485,6 +3819,30 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/projectdiscovery-katana/katana/katana"
     ]
   ],
+  "kcptun-source/kcptun": [
+    [
+      "kcptun",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/kcptun-source/kcptun/kcptun"
+    ]
+  ],
+  "kdenlive-nightly/kdenlive": [
+    [
+      "kdenlive",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/kdenlive-nightly/kdenlive/kdenlive"
+    ]
+  ],
+  "kdenlive-stable/kdenlive": [
+    [
+      "kdenlive",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/kdenlive-stable/kdenlive/kdenlive"
+    ]
+  ],
+  "alpine-kdenlive/kdenlive": [
+    [
+      "kdenlive",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-kdenlive/kdenlive/kdenlive"
+    ]
+  ],
   "kdeutils-appimage/kdeutils": [
     [
       "kdeutils",
@@ -2501,6 +3859,12 @@
     [
       "killport",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/jkfran-killport/killport/killport"
+    ]
+  ],
+  "pypi-klp/klp": [
+    [
+      "klp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-klp/klp/klp"
     ]
   ],
   "nixpkgs-kmod/kmod": [
@@ -2533,6 +3897,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/kopia-kopia/kopia/kopia"
     ]
   ],
+  "krita-next/krita": [
+    [
+      "krita",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/krita-next/krita/krita"
+    ]
+  ],
+  "krita-stable/krita": [
+    [
+      "krita",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/krita-stable/krita/krita"
+    ]
+  ],
+  "alpine-krita/krita": [
+    [
+      "krita",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-krita/krita/krita"
+    ]
+  ],
   "hack-ksubdomain/ksubdomain": [
     [
       "ksubdomain",
@@ -2543,6 +3925,24 @@
     [
       "kubo",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ipfs-kubo/kubo/kubo"
+    ]
+  ],
+  "kunai-stable/kunai": [
+    [
+      "kunai",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/kunai-stable/kunai/kunai"
+    ]
+  ],
+  "kungfu-source/kungfu": [
+    [
+      "kungfu",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/kungfu-source/kungfu/kungfu"
+    ]
+  ],
+  "cachyos-lact/lact": [
+    [
+      "lact",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-lact/lact/lact"
     ]
   ],
   "everywall-ladder/ladder": [
@@ -2557,16 +3957,16 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-lazarus/lazarus/lazarus"
     ]
   ],
-  "cachyos-lazarus/lazarus": [
-    [
-      "lazarus",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-lazarus/lazarus/lazarus"
-    ]
-  ],
   "debian-lazarus/lazarus": [
     [
       "lazarus",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-lazarus/lazarus/lazarus"
+    ]
+  ],
+  "cachyos-lazarus/lazarus": [
+    [
+      "lazarus",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-lazarus/lazarus/lazarus"
     ]
   ],
   "jesseduffield-lazydocker/lazydocker": [
@@ -2579,6 +3979,30 @@
     [
       "lazygit",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/jesseduffield-lazygit/lazygit/lazygit"
+    ]
+  ],
+  "lc-source/lc": [
+    [
+      "lc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/lc-source/lc/lc"
+    ]
+  ],
+  "lcdf-typetools/lcdf-typetools": [
+    [
+      "lcdf-typetools",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/lcdf-typetools/lcdf-typetools/lcdf-typetools"
+    ]
+  ],
+  "ppkg-lcov/lcov": [
+    [
+      "lcov",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-lcov/lcov/lcov"
+    ]
+  ],
+  "lddtree-rs/lddtree": [
+    [
+      "lddtree",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/lddtree-rs/lddtree/lddtree"
     ]
   ],
   "nixpkgs-less/less": [
@@ -2605,16 +4029,94 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nathants-libaws/libaws-cli/libaws"
     ]
   ],
+  "fresh-basic/libreoffice": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/fresh-basic/libreoffice/libreoffice"
+    ]
+  ],
+  "fresh-full/libreoffice": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/fresh-full/libreoffice/libreoffice"
+    ]
+  ],
+  "fresh-standard/libreoffice": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/fresh-standard/libreoffice/libreoffice"
+    ]
+  ],
+  "still-basic/libreoffice": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/still-basic/libreoffice/libreoffice"
+    ]
+  ],
+  "still-full/libreoffice": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/still-full/libreoffice/libreoffice"
+    ]
+  ],
+  "still-standard/libreoffice": [
+    [
+      "libreoffice",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/still-standard/libreoffice/libreoffice"
+    ]
+  ],
+  "cachyos-libresprite/libresprite": [
+    [
+      "libresprite",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-libresprite/libresprite/libresprite"
+    ]
+  ],
+  "appimage-stable/librewolf": [
+    [
+      "librewolf",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/librewolf/librewolf"
+    ]
+  ],
   "cachyos-librewolf/librewolf": [
     [
       "librewolf",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-librewolf/librewolf/librewolf"
     ]
   ],
+  "haampi-libtree/libtree": [
+    [
+      "libtree",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/haampi-libtree/libtree/libtree"
+    ]
+  ],
   "nixpkgs-libtree/libtree": [
     [
       "libtree",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-libtree/libtree/libtree"
+    ]
+  ],
+  "ng-source/ligolo-ng": [
+    [
+      "ligolo-ng",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ng-source/ligolo-ng/ligolo-ng"
+    ]
+  ],
+  "lilipod-source/lilipod": [
+    [
+      "lilipod",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/lilipod-source/lilipod/lilipod"
+    ]
+  ],
+  "linetime-source/linetime": [
+    [
+      "linetime",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/linetime-source/linetime/linetime"
+    ]
+  ],
+  "pypi-linkook/linkook": [
+    [
+      "linkook",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-linkook/linkook/linkook"
     ]
   ],
   "christitustech-linutil/linutil": [
@@ -2633,6 +4135,12 @@
     [
       "listmonk",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/knadh-listmonk/listmonk/listmonk"
+    ]
+  ],
+  "hack-tools/lit-bb-hack-tools": [
+    [
+      "lit-bb-hack-tools",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/hack-tools/lit-bb-hack-tools/lit-bb-hack-tools"
     ]
   ],
   "superfly-litefs/litefs": [
@@ -2657,6 +4165,12 @@
     [
       "logdy",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/logdy-core/logdy/logdy"
+    ]
+  ],
+  "logss-source/logss": [
+    [
+      "logss",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/logss-source/logss/logss"
     ]
   ],
   "jdrews-logstation/logstation": [
@@ -2695,10 +4209,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-lsof/lsof/lsof"
     ]
   ],
+  "ppkg-lua/lua": [
+    [
+      "lua",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-lua/lua/lua"
+    ]
+  ],
   "mudler-luet/luet": [
     [
       "luet",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/mudler-luet/luet/luet"
+    ]
+  ],
+  "lurk-source/lurk": [
+    [
+      "lurk",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/lurk-source/lurk/lurk"
     ]
   ],
   "iawia002-lux/lux": [
@@ -2731,6 +4257,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/axllent-mailpit/mailpit/mailpit"
     ]
   ],
+  "ppkg-gmake/make": [
+    [
+      "make",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-gmake/make/make"
+    ]
+  ],
+  "nixpkgs-gnumake/make": [
+    [
+      "make",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-gnumake/make/make"
+    ]
+  ],
+  "pypi-malwoverview/malwoverview": [
+    [
+      "malwoverview",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-malwoverview/malwoverview/malwoverview"
+    ]
+  ],
   "alajmo-mani/mani": [
     [
       "mani",
@@ -2755,6 +4299,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-masscan/masscan/masscan"
     ]
   ],
+  "massdns-glibc/massdns": [
+    [
+      "massdns",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/massdns-glibc/massdns/massdns"
+    ]
+  ],
+  "massdns-musl/massdns": [
+    [
+      "massdns",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/massdns-musl/massdns/massdns"
+    ]
+  ],
   "42wim-matterbridge/matterbridge": [
     [
       "matterbridge",
@@ -2773,16 +4329,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/minio-mc/mc/mc"
     ]
   ],
-  "swsnr-mdcat/mdcat": [
+  "cachyos-mcpelauncher/mcpelauncher": [
     [
-      "mdcat",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/swsnr-mdcat/mdcat/mdcat"
+      "mcpelauncher",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-mcpelauncher/mcpelauncher/mcpelauncher"
+    ]
+  ],
+  "mdq-source/mdq": [
+    [
+      "mdq",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/mdq-source/mdq/mdq"
     ]
   ],
   "zimbatm-mdsh/mdsh": [
     [
       "mdsh",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/zimbatm-mdsh/mdsh/mdsh"
+    ]
+  ],
+  "ppkg-mediainfo/mediainfo": [
+    [
+      "mediainfo",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-mediainfo/mediainfo/mediainfo"
+    ]
+  ],
+  "debian-megasync/megasync": [
+    [
+      "megasync",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-megasync/megasync/megasync"
     ]
   ],
   "dev-melange/melange": [
@@ -2797,10 +4371,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/meli-meli/meli/meli"
     ]
   ],
+  "emu-melonds/melonds": [
+    [
+      "melonds",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/emu-melonds/melonds/melonds"
+    ]
+  ],
   "trapexit-mergerfs/mergerfs": [
     [
       "mergerfs",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/trapexit-mergerfs/mergerfs/mergerfs"
+    ]
+  ],
+  "cli-source/merklemap-cli": [
+    [
+      "merklemap-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-source/merklemap-cli/merklemap-cli"
+    ]
+  ],
+  "metabigor-source/metabigor": [
+    [
+      "metabigor",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/metabigor-source/metabigor/metabigor"
+    ]
+  ],
+  "source-metafinder/metafinder": [
+    [
+      "metafinder",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-metafinder/metafinder/metafinder"
     ]
   ],
   "trickest-mgwls/mgwls": [
@@ -2815,6 +4413,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/zyedidia-micro/micro/micro"
     ]
   ],
+  "releases-stable/micromamba": [
+    [
+      "micromamba",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/releases-stable/micromamba/micromamba"
+    ]
+  ],
+  "mieru-source/mieru": [
+    [
+      "mieru",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/mieru-source/mieru/mieru"
+    ]
+  ],
   "johnkerl-miller/miller": [
     [
       "miller",
@@ -2827,10 +4437,16 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/miniflux-v2/miniflux/miniflux"
     ]
   ],
-  "tdewolff-minify/minify": [
+  "minify-source/minify": [
     [
       "minify",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/tdewolff-minify/minify/minify"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/minify-source/minify/minify"
+    ]
+  ],
+  "svenstaro-miniserve/miniserve": [
+    [
+      "miniserve",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/svenstaro-miniserve/miniserve/miniserve"
     ]
   ],
   "jedisct1-minisign/minisign": [
@@ -2849,6 +4465,12 @@
     [
       "mise",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/jdx-mise/mise/mise"
+    ]
+  ],
+  "pypi-mitmproxy/mitmproxy": [
+    [
+      "mitmproxy",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-mitmproxy/mitmproxy/mitmproxy"
     ]
   ],
   "nixpkgs-mkpasswd/mkpasswd": [
@@ -2881,6 +4503,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/y2z-monolith/monolith/monolith"
     ]
   ],
+  "ppkg-moreutils/moreutils": [
+    [
+      "moreutils",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-moreutils/moreutils/moreutils"
+    ]
+  ],
+  "morrigan-source/morrigan": [
+    [
+      "morrigan",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/morrigan-source/morrigan/morrigan"
+    ]
+  ],
+  "multiarch-stable/mosh": [
+    [
+      "mosh",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/multiarch-stable/mosh/mosh"
+    ]
+  ],
   "appimage-stable/mpv": [
     [
       "mpv",
@@ -2911,10 +4551,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/kitabisa-mubeng/mubeng/mubeng"
     ]
   ],
+  "muffet-source/muffet": [
+    [
+      "muffet",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/muffet-source/muffet/muffet"
+    ]
+  ],
+  "mult-source/mult": [
+    [
+      "mult",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/mult-source/mult/mult"
+    ]
+  ],
+  "mup-source/mup": [
+    [
+      "mup",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/mup-source/mup/mup"
+    ]
+  ],
   "projectdiscovery-naabu/naabu": [
     [
       "naabu",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/projectdiscovery-naabu/naabu/naabu"
+    ]
+  ],
+  "that-hash/name-that-hash": [
+    [
+      "name-that-hash",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/that-hash/name-that-hash/name-that-hash"
     ]
   ],
   "anandvarma-namegen/namegen": [
@@ -2927,6 +4591,18 @@
     [
       "navi",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/denisidoro-navi/navi/navi"
+    ]
+  ],
+  "nl-ncdu/ncdu": [
+    [
+      "ncdu",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nl-ncdu/ncdu/ncdu"
+    ]
+  ],
+  "ppkg-ncdu/ncdu": [
+    [
+      "ncdu",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-ncdu/ncdu/ncdu"
     ]
   ],
   "jansc-ncgopher/ncgopher": [
@@ -2983,6 +4659,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/netcat-libressl/netcat/netcat"
     ]
   ],
+  "source-netexec/netexec": [
+    [
+      "netexec",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-netexec/netexec/netexec"
+    ]
+  ],
   "gravitl-netmaker/netmaker": [
     [
       "netmaker",
@@ -3007,10 +4689,56 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nfs-utils/nfs-utils/nfs-utils"
     ]
   ],
+  "binaries-stable/nginx": [
+    [
+      "nginx",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/binaries-stable/nginx/nginx"
+    ]
+  ],
   "dwisiswant0-ngocok/ngocok": [
     [
       "ngocok",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dwisiswant0-ngocok/ngocok/ngocok"
+    ]
+  ],
+  "ngrok-stable/ngrok": [
+    [
+      "ngrok",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ngrok-stable/ngrok/ngrok"
+    ]
+  ],
+  "ppkg-ngspice/ngspice": [
+    [
+      "ngspice",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-ngspice/ngspice/ngspice"
+    ]
+  ],
+  "cachyos-nheko/nheko": [
+    [
+      "nheko",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-nheko/nheko/nheko"
+    ]
+  ],
+  "ppkg-ninja/ninja": [
+    [
+      "ninja",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-ninja/ninja/ninja"
+    ]
+  ],
+  "nllint-stable/nllint": [
+    [
+      "nllint",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nllint-stable/nllint/nllint"
+    ]
+  ],
+  "alpine-nmap/nmap": [
+    [
+      "nmap",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-nmap/nmap/nmap"
+    ],
+    [
+      "nmap",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-nmap/nmap/nmap"
     ]
   ],
   "nixpkgs-nmap/nmap": [
@@ -3031,10 +4759,10 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sdcampbell-nmapurls/nmapurls/nmapurls"
     ]
   ],
-  "devploit-nomore403/nomore403": [
+  "nomore403-source/nomore403": [
     [
       "nomore403",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/devploit-nomore403/nomore403/nomore403"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nomore403-source/nomore403/nomore403"
     ]
   ],
   "inc-noseyparker/noseyparker": [
@@ -3049,10 +4777,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/projectdiscovery-notify/notify/notify"
     ]
   ],
+  "nping-source/nping": [
+    [
+      "nping",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nping-source/nping/nping"
+    ]
+  ],
   "public-nrich/nrich": [
     [
       "nrich",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/public-nrich/nrich/nrich"
+    ]
+  ],
+  "ntask-source/ntask": [
+    [
+      "ntask",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ntask-source/ntask/ntask"
     ]
   ],
   "projectdiscovery-nuclei/nuclei": [
@@ -3085,10 +4825,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/obs-studio/obs-studio"
     ]
   ],
+  "oci-cli/oci-cli": [
+    [
+      "oci-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/oci-cli/oci-cli/oci-cli"
+    ]
+  ],
   "nixpkgs-oksh/oksh": [
     [
       "oksh",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-oksh/oksh/oksh"
+    ]
+  ],
+  "onctl-source/onctl": [
+    [
+      "onctl",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/onctl-source/onctl/onctl"
     ]
   ],
   "aramperes-onetun/onetun": [
@@ -3109,10 +4861,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/probe-cli/ooniprobe/ooniprobe"
     ]
   ],
+  "oosexclude-source/oosexclude": [
+    [
+      "oosexclude",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/oosexclude-source/oosexclude/oosexclude"
+    ]
+  ],
   "openapi-tui/openapi-tui": [
     [
       "openapi-tui",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/openapi-tui/openapi-tui/openapi-tui"
+    ]
+  ],
+  "cachyos-openboard/openboard": [
+    [
+      "openboard",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-openboard/openboard/openboard"
     ]
   ],
   "apernet-opengfw/opengfw": [
@@ -3133,6 +4897,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/projectdiscovery-openrisk/openrisk/openrisk"
     ]
   ],
+  "nixpkgs-openssh/openssh": [
+    [
+      "openssh",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-openssh/openssh/openssh"
+    ]
+  ],
+  "ppkg-openssh/openssh": [
+    [
+      "openssh",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-openssh/openssh/openssh"
+    ]
+  ],
   "nixpkgs-openssl/openssl": [
     [
       "openssl",
@@ -3145,16 +4921,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-openvpn/openvpn/openvpn"
     ]
   ],
+  "server-stable/openvscode-server": [
+    [
+      "openvscode-server",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/server-stable/openvscode-server/openvscode-server"
+    ]
+  ],
   "project-oras/oras": [
     [
       "oras",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/project-oras/oras/oras"
     ]
   ],
+  "oras-stable/oras": [
+    [
+      "oras",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/oras-stable/oras/oras"
+    ]
+  ],
   "xyproto-orbiton/orbiton": [
     [
       "orbiton",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/xyproto-orbiton/orbiton/orbiton"
+    ]
+  ],
+  "org2asn-source/org2asn": [
+    [
+      "org2asn",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/org2asn-source/org2asn/org2asn"
+    ]
+  ],
+  "oryx-stable/oryx": [
+    [
+      "oryx",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/oryx-stable/oryx/oryx"
     ]
   ],
   "j3ssie-osmedeus/osmedeus": [
@@ -3199,6 +4999,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/curlpipe-ox/ox/ox"
     ]
   ],
+  "source-p1radup/p1radup": [
+    [
+      "p1radup",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-p1radup/p1radup/p1radup"
+    ]
+  ],
+  "pacaptr-source/pacaptr": [
+    [
+      "pacaptr",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pacaptr-source/pacaptr/pacaptr"
+    ]
+  ],
   "aydinnyunus-passdetective/passdetective": [
     [
       "passdetective",
@@ -3215,6 +5027,10 @@
     [
       "pax-utils",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/pax-utils/pax-utils/pax-utils"
+    ],
+    [
+      "pax-utils",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pax-utils/pax-utils/pax-utils"
     ]
   ],
   "pdfcpu-pdfcpu/pdfcpu": [
@@ -3223,10 +5039,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/pdfcpu-pdfcpu/pdfcpu/pdfcpu"
     ]
   ],
+  "pypi-pdfly/pdfly": [
+    [
+      "pdfly",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-pdfly/pdfly/pdfly"
+    ]
+  ],
+  "pdtm-source/pdtm": [
+    [
+      "pdtm",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pdtm-source/pdtm/pdtm"
+    ]
+  ],
+  "peazip-appimage/peazip": [
+    [
+      "peazip",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/peazip-appimage/peazip/peazip"
+    ]
+  ],
   "ffuf-pencode/pencode": [
     [
       "pencode",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ffuf-pencode/pencode/pencode"
+    ]
+  ],
+  "pet-source/pet": [
+    [
+      "pet",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pet-source/pet/pet"
+    ]
+  ],
+  "pypi-pg_activity/pg_activity": [
+    [
+      "pg_activity",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-pg_activity/pg_activity/pg_activity"
     ]
   ],
   "pgrok-pgrok/pgrok": [
@@ -3247,6 +5093,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dndx-phantun/phantun/phantun"
     ]
   ],
+  "cli-stable/php": [
+    [
+      "php",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-stable/php/php"
+    ]
+  ],
+  "cli-source/picocrypt": [
+    [
+      "picocrypt",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-source/picocrypt/picocrypt"
+    ]
+  ],
+  "picoshare-stable/picoshare": [
+    [
+      "picoshare",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/picoshare-stable/picoshare/picoshare"
+    ]
+  ],
   "cli-pier/pier": [
     [
       "pier",
@@ -3259,6 +5123,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-pigz/pigz/pigz"
     ]
   ],
+  "pik-source/pik": [
+    [
+      "pik",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pik-source/pik/pik"
+    ]
+  ],
   "norskeld-pingmole/pingmole": [
     [
       "pingmole",
@@ -3269,6 +5139,12 @@
     [
       "pingtunnel",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/esrrhs-pingtunnel/pingtunnel/pingtunnel"
+    ]
+  ],
+  "dev-pixelpulse2/pixelpulse2": [
+    [
+      "pixelpulse2",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dev-pixelpulse2/pixelpulse2/pixelpulse2"
     ]
   ],
   "dev-pixi/pixi": [
@@ -3319,6 +5195,30 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/mxpv-podsync/podsync/podsync"
     ]
   ],
+  "porch-pirate/porch-pirate": [
+    [
+      "porch-pirate",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/porch-pirate/porch-pirate/porch-pirate"
+    ]
+  ],
+  "port-for/port-for": [
+    [
+      "port-for",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/port-for/port-for/port-for"
+    ]
+  ],
+  "portguard-source/portguard": [
+    [
+      "portguard",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/portguard-source/portguard/portguard"
+    ]
+  ],
+  "portmap-source/portmap": [
+    [
+      "portmap",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/portmap-source/portmap/portmap"
+    ]
+  ],
   "marwanhawari-ppath/ppath": [
     [
       "ppath",
@@ -3331,10 +5231,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dwisiswant0-ppfuzz/ppfuzz/ppfuzz"
     ]
   ],
+  "pphack-source/pphack": [
+    [
+      "pphack",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pphack-source/pphack/pphack"
+    ]
+  ],
   "wzv5-pping/pping": [
     [
       "pping",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/wzv5-pping/pping/pping"
+    ]
+  ],
+  "ppmap-source/ppmap": [
+    [
+      "ppmap",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppmap-source/ppmap/ppmap"
     ]
   ],
   "appimage-stable/ppsspp": [
@@ -3379,16 +5291,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-proot/proot/proot"
     ]
   ],
+  "protocurl-source/protocurl": [
+    [
+      "protocurl",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/protocurl-source/protocurl/protocurl"
+    ]
+  ],
   "projectdiscovery-proxify/proxify": [
     [
       "proxify",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/projectdiscovery-proxify/proxify/proxify"
     ]
   ],
+  "alpine-proxychains/proxychains": [
+    [
+      "proxychains",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-proxychains/proxychains/proxychains"
+    ]
+  ],
   "proxychains-ng/proxychains-ng": [
     [
       "proxychains-ng",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/proxychains-ng/proxychains-ng/proxychains-ng"
+    ]
+  ],
+  "pypi-ps_mem/ps_mem": [
+    [
+      "ps_mem",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-ps_mem/ps_mem/ps_mem"
     ]
   ],
   "nixpkgs-psmisc/psmisc": [
@@ -3409,16 +5339,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/puddletag/puddletag"
     ]
   ],
+  "pypi-puncia/puncia": [
+    [
+      "puncia",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-puncia/puncia/puncia"
+    ]
+  ],
   "d3mondev-puredns/puredns": [
     [
       "puredns",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/d3mondev-puredns/puredns/puredns"
     ]
   ],
+  "ivarch-pv/pv": [
+    [
+      "pv",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ivarch-pv/pv/pv"
+    ]
+  ],
+  "pwait-source/pwait": [
+    [
+      "pwait",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pwait-source/pwait/pwait"
+    ]
+  ],
+  "pwdsafety-source/pwdsafety": [
+    [
+      "pwdsafety",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pwdsafety-source/pwdsafety/pwdsafety"
+    ]
+  ],
   "io12-pwninit/pwninit": [
     [
       "pwninit",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/io12-pwninit/pwninit/pwninit"
+    ]
+  ],
+  "pypi-pyarmor/pyarmor": [
+    [
+      "pyarmor",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-pyarmor/pyarmor/pyarmor"
+    ]
+  ],
+  "pypi-pyp/pyp": [
+    [
+      "pyp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-pyp/pyp/pyp"
     ]
   ],
   "nixpkgs-python/python3": [
@@ -3433,10 +5399,46 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/natesales-q/q/q"
     ]
   ],
+  "qbittorrent-beta/qbittorrent": [
+    [
+      "qbittorrent",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/qbittorrent-beta/qbittorrent/qbittorrent"
+    ]
+  ],
+  "qbittorrent-stable/qbittorrent": [
+    [
+      "qbittorrent",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/qbittorrent-stable/qbittorrent/qbittorrent"
+    ]
+  ],
+  "edition-stable/qbittorrent-enhanced": [
+    [
+      "qbittorrent-enhanced",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/edition-stable/qbittorrent-enhanced/qbittorrent-enhanced"
+    ]
+  ],
   "nox-static/qbittorrent-nox": [
     [
       "qbittorrent-nox",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nox-static/qbittorrent-nox/qbittorrent-nox"
+    ]
+  ],
+  "ppkg-qemu/qemu": [
+    [
+      "qemu",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-qemu/qemu/qemu"
+    ]
+  ],
+  "qemu-static/qemu-user": [
+    [
+      "qemu-user",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/qemu-static/qemu-user/qemu-user"
+    ]
+  ],
+  "qq-source/qq": [
+    [
+      "qq",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/qq-source/qq/qq"
     ]
   ],
   "tomnomnom-qsreplace/qsreplace": [
@@ -3457,10 +5459,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/c3l3si4n-quickcert/quickcert/quickcert"
     ]
   ],
+  "quotes-escaper/quotes-escaper": [
+    [
+      "quotes-escaper",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/quotes-escaper/quotes-escaper/quotes-escaper"
+    ]
+  ],
   "str4d-rage/rage": [
     [
       "rage",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/str4d-rage/rage/rage"
+    ]
+  ],
+  "limit-checker/rate-limit-checker": [
+    [
+      "rate-limit-checker",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/limit-checker/rate-limit-checker/rate-limit-checker"
     ]
   ],
   "rattler-build/rattler-build": [
@@ -3469,10 +5483,10 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/rattler-build/rattler-build/rattler-build"
     ]
   ],
-  "rclone-rclone/rclone": [
+  "rclone-stable/rclone": [
     [
       "rclone",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/rclone-rclone/rclone/rclone"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rclone-stable/rclone/rclone"
     ]
   ],
   "mrusme-reader/reader": [
@@ -3485,6 +5499,12 @@
     [
       "realm-tavern",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/spellshift-realm/realm-tavern/realm-tavern"
+    ]
+  ],
+  "oglo12-rebos/rebos": [
+    [
+      "rebos",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/oglo12-rebos/rebos/rebos"
     ]
   ],
   "kpcyrd-rebuilderd/rebuilderd": [
@@ -3529,10 +5549,22 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sassoftware-relic/relic/relic"
     ]
   ],
-  "root4loot-rescope/rescope": [
+  "nelhage-reptyr/reptyr": [
+    [
+      "reptyr",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nelhage-reptyr/reptyr/reptyr"
+    ]
+  ],
+  "rescope-source/rescope": [
     [
       "rescope",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/root4loot-rescope/rescope/rescope"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rescope-source/rescope/rescope"
+    ]
+  ],
+  "march-native/resolve-march-native": [
+    [
+      "resolve-march-native",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/march-native/resolve-march-native/resolve-march-native"
     ]
   ],
   "restic-restic/restic": [
@@ -3547,6 +5579,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/abdfnx-resto/resto/resto"
     ]
   ],
+  "reverse_ssh-source/reverse_ssh": [
+    [
+      "reverse_ssh",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/reverse_ssh-source/reverse_ssh/reverse_ssh"
+    ]
+  ],
   "reviewdog-reviewdog/reviewdog": [
     [
       "reviewdog",
@@ -3559,6 +5597,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/mgechev-revive/revive/revive"
     ]
   ],
+  "ripgrep-all/rga": [
+    [
+      "rga",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ripgrep-all/rga/rga"
+    ]
+  ],
+  "rhash-source/rhash": [
+    [
+      "rhash",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rhash-source/rhash/rhash"
+    ]
+  ],
+  "riff-source/riff": [
+    [
+      "riff",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/riff-source/riff/riff"
+    ]
+  ],
   "resyncgg-ripgen/ripgen": [
     [
       "ripgen",
@@ -3569,6 +5625,18 @@
     [
       "ripgrep",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/burntsushi-ripgrep/ripgrep/ripgrep"
+    ]
+  ],
+  "zatrazz-rldd/rldd": [
+    [
+      "rldd",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/zatrazz-rldd/rldd/rldd"
+    ]
+  ],
+  "ppkg-rlwrap/rlwrap": [
+    [
+      "rlwrap",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-rlwrap/rlwrap/rlwrap"
     ]
   ],
   "ismaelgv-rnr/rnr": [
@@ -3601,10 +5669,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ferama-rospo/rospo/rospo"
     ]
   ],
+  "routedns-source/routedns": [
+    [
+      "routedns",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/routedns-source/routedns/routedns"
+    ]
+  ],
   "ikatson-rqbit/rqbit": [
     [
       "rqbit",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ikatson-rqbit/rqbit/rqbit"
+    ]
+  ],
+  "rsacracker-source/rsacracker": [
+    [
+      "rsacracker",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rsacracker-source/rsacracker/rsacracker"
+    ]
+  ],
+  "rsbkb-source/rsbkb": [
+    [
+      "rsbkb",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rsbkb-source/rsbkb/rsbkb"
     ]
   ],
   "kpcyrd-rshijack/rshijack": [
@@ -3625,6 +5711,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sh-ruff/ruff/ruff"
     ]
   ],
+  "ruffle-nightly/ruffle": [
+    [
+      "ruffle",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ruffle-nightly/ruffle/ruffle"
+    ]
+  ],
   "opencontainers-runc/runc": [
     [
       "runc",
@@ -3641,6 +5733,12 @@
     [
       "runme",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/stateful-runme/runme/runme"
+    ]
+  ],
+  "ruplacer-source/ruplacer": [
+    [
+      "ruplacer",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ruplacer-source/ruplacer/ruplacer"
     ]
   ],
   "hacker-ruri/ruri": [
@@ -3667,6 +5765,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/robiot-rustcat/rustcat/rustcat"
     ]
   ],
+  "rustdesk-nightly/rustdesk": [
+    [
+      "rustdesk",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rustdesk-nightly/rustdesk/rustdesk"
+    ]
+  ],
+  "rustdesk-stable/rustdesk": [
+    [
+      "rustdesk",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rustdesk-stable/rustdesk/rustdesk"
+    ]
+  ],
   "rustscan-rustscan/rustscan": [
     [
       "rustscan",
@@ -3689,6 +5799,18 @@
     [
       "ryelang",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sh-ryelang/ryelang/ryelang"
+    ]
+  ],
+  "ryujinx-canary/ryujinx": [
+    [
+      "ryujinx",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ryujinx-canary/ryujinx/ryujinx"
+    ]
+  ],
+  "ryujinx-stable/ryujinx": [
+    [
+      "ryujinx",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ryujinx-stable/ryujinx/ryujinx"
     ]
   ],
   "sa7mon-s3scanner/s3scanner": [
@@ -3757,6 +5879,36 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/alajmo-sake/sake/sake"
     ]
   ],
+  "ppkg-samurai/samurai": [
+    [
+      "samurai",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-samurai/samurai/samurai"
+    ]
+  ],
+  "pypi-sandwine/sandwine": [
+    [
+      "sandwine",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-sandwine/sandwine/sandwine"
+    ]
+  ],
+  "stable-sanicdns/sanicdns": [
+    [
+      "sanicdns",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/stable-sanicdns/sanicdns/sanicdns"
+    ]
+  ],
+  "filename-source/sanitize-filename": [
+    [
+      "sanitize-filename",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/filename-source/sanitize-filename/sanitize-filename"
+    ]
+  ],
+  "sastsweep-source/sastsweep": [
+    [
+      "sastsweep",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sastsweep-source/sastsweep/sastsweep"
+    ]
+  ],
   "foxboron-sbctl/sbctl": [
     [
       "sbctl",
@@ -3775,10 +5927,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/edoardottt-scilla/scilla/scilla"
     ]
   ],
+  "pypi-scons/scons": [
+    [
+      "scons",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-scons/scons/scons"
+    ]
+  ],
+  "security-scopegen/scopegen": [
+    [
+      "scopegen",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/security-scopegen/scopegen/scopegen"
+    ]
+  ],
+  "log-source/scrape-ct-log": [
+    [
+      "scrape-ct-log",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/log-source/scrape-ct-log/scrape-ct-log"
+    ]
+  ],
+  "screener-source/screener": [
+    [
+      "screener",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/screener-source/screener/screener"
+    ]
+  ],
   "kittykatt-screenfetch/screenfetch": [
     [
       "screenfetch",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/kittykatt-screenfetch/screenfetch/screenfetch"
+    ]
+  ],
+  "sdns-source/sdns": [
+    [
+      "sdns",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sdns-source/sdns/sdns"
     ]
   ],
   "nixpkgs-gnused/sed": [
@@ -3787,16 +5969,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-gnused/sed/sed"
     ]
   ],
+  "sendme-source/sendme": [
+    [
+      "sendme",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sendme-source/sendme/sendme"
+    ]
+  ],
+  "sequin-source/sequin": [
+    [
+      "sequin",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sequin-source/sequin/sequin"
+    ]
+  ],
   "flow-sessionprobe/sessionprobe": [
     [
       "sessionprobe",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/flow-sessionprobe/sessionprobe/sessionprobe"
     ]
   ],
+  "nixpkgs-shadow/shadow": [
+    [
+      "shadow",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-shadow/shadow/shadow"
+    ]
+  ],
+  "rust-stable/shadowsocks-rust": [
+    [
+      "shadowsocks-rust",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rust-stable/shadowsocks-rust/shadowsocks-rust"
+    ]
+  ],
   "nixpkgs-sharutils/sharutils": [
     [
       "sharutils",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-sharutils/sharutils/sharutils"
+    ]
+  ],
+  "shcopy-source/shcopy": [
+    [
+      "shcopy",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/shcopy-source/shcopy/shcopy"
+    ]
+  ],
+  "shell-gpt/shell-gpt": [
+    [
+      "shell-gpt",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/shell-gpt/shell-gpt/shell-gpt"
     ]
   ],
   "msoap-shell2http/shell2http": [
@@ -3823,6 +6041,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/evilsocket-shellz/shellz/shellz"
     ]
   ],
+  "pypi-sherlock/sherlock": [
+    [
+      "sherlock",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-sherlock/sherlock/sherlock"
+    ]
+  ],
   "mvdan-sh/shfmt": [
     [
       "shfmt",
@@ -3833,6 +6057,24 @@
     [
       "shortscan",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/bitquark-shortscan/shortscan/shortscan"
+    ]
+  ],
+  "shot-scraper/shot-scraper": [
+    [
+      "shot-scraper",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/shot-scraper/shot-scraper/shot-scraper"
+    ]
+  ],
+  "pypi-showcert/showcert": [
+    [
+      "showcert",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-showcert/showcert/showcert"
+    ]
+  ],
+  "shpool-source/shpool": [
+    [
+      "shpool",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/shpool-source/shpool/shpool"
     ]
   ],
   "projectdiscovery-shuffledns/shuffledns": [
@@ -3853,7 +6095,17 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/richardlehane-siegfried/siegfried/siegfried"
     ]
   ],
+  "appimage-stable/signal-desktop": [
+    [
+      "signal-desktop",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/signal-desktop/signal-desktop"
+    ]
+  ],
   "simplex-chat/simplex-chat": [
+    [
+      "simplex-chat",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/simplex-chat/simplex-chat/simplex-chat"
+    ],
     [
       "simplex-chat",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/simplex-chat/simplex-chat/simplex-chat"
@@ -3901,6 +6153,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/skupperproject-skupper/skupper/skupper"
     ]
   ],
+  "slim-source/slim": [
+    [
+      "slim",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/slim-source/slim/slim"
+    ]
+  ],
   "nixpkgs-slirp4netns/slirp4netns": [
     [
       "slirp4netns",
@@ -3919,16 +6177,64 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/s0md3v-smap/smap/smap"
     ]
   ],
+  "pypi-snallygaster/snallygaster": [
+    [
+      "snallygaster",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-snallygaster/snallygaster/snallygaster"
+    ]
+  ],
   "sw33tlie-sns/sns": [
     [
       "sns",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sw33tlie-sns/sns/sns"
     ]
   ],
-  "pkgforge-soar/soar": [
+  "soar-mimalloc/soar": [
     [
       "soar",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/pkgforge-soar/soar/soar"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/soar-mimalloc/soar/soar"
+    ]
+  ],
+  "glibc-v3/soar": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/glibc-v3/soar/soar"
+    ]
+  ],
+  "glibc-v4/soar": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/glibc-v4/soar/soar"
+    ]
+  ],
+  "soar-glibc/soar": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/soar-glibc/soar/soar"
+    ]
+  ],
+  "musl-v3/soar": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/musl-v3/soar/soar"
+    ]
+  ],
+  "musl-v4/soar": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/musl-v4/soar/soar"
+    ]
+  ],
+  "soar-musl/soar": [
+    [
+      "soar",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/soar-musl/soar/soar"
+    ]
+  ],
+  "dl-source/soar-dl": [
+    [
+      "soar-dl",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/dl-source/soar-dl/soar-dl"
     ]
   ],
   "nixpkgs-socat/socat": [
@@ -3943,6 +6249,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/soft-serve/soft-serve/soft-serve"
     ]
   ],
+  "sops-source/sops": [
+    [
+      "sops",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sops-source/sops/sops"
+    ]
+  ],
   "denandz-sourcemapper/sourcemapper": [
     [
       "sourcemapper",
@@ -3955,16 +6267,46 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/speedtest-go/speedtest-go/speedtest-go"
     ]
   ],
+  "spirv-tools/spirv-tools": [
+    [
+      "spirv-tools",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/spirv-tools/spirv-tools/spirv-tools"
+    ]
+  ],
   "dhn-spk/spk": [
     [
       "spk",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/dhn-spk/spk/spk"
     ]
   ],
-  "xvzc-spoofdpi/spoof-dpi": [
+  "spoofdpi-source/spoofdpi": [
     [
-      "spoof-dpi",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/xvzc-spoofdpi/spoof-dpi/spoof-dpi"
+      "spoofdpi",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/spoofdpi-source/spoofdpi/spoofdpi"
+    ]
+  ],
+  "spotify-appimage/spotify": [
+    [
+      "spotify",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/spotify-appimage/spotify/spotify"
+    ]
+  ],
+  "cachyos-spotube/spotube": [
+    [
+      "spotube",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-spotube/spotube/spotube"
+    ]
+  ],
+  "spray-source/spray": [
+    [
+      "spray",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/spray-source/spray/spray"
+    ]
+  ],
+  "sprayshark-source/sprayshark": [
+    [
+      "sprayshark",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sprayshark-source/sprayshark/sprayshark"
     ]
   ],
   "neilotoole-sq/sq": [
@@ -4003,6 +6345,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-squashfuse/squashfuse/squashfuse"
     ]
   ],
+  "sync-source/ssh-key-sync": [
+    [
+      "ssh-key-sync",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sync-source/ssh-key-sync/ssh-key-sync"
+    ]
+  ],
+  "sshamble-source/sshamble": [
+    [
+      "sshamble",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sshamble-source/sshamble/sshamble"
+    ]
+  ],
   "jaksi-sshesame/sshesame": [
     [
       "sshesame",
@@ -4015,10 +6369,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/eun-sshkeys/sshkeys/sshkeys"
     ]
   ],
+  "git-glibc/sshpass": [
+    [
+      "sshpass",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/git-glibc/sshpass/sshpass"
+    ]
+  ],
+  "git-musl/sshpass": [
+    [
+      "sshpass",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/git-musl/sshpass/sshpass"
+    ]
+  ],
+  "sshpass-source/sshpass-go": [
+    [
+      "sshpass",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sshpass-source/sshpass-go/sshpass"
+    ]
+  ],
+  "sshpiper-source/sshpiperd": [
+    [
+      "sshpiper",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sshpiper-source/sshpiperd/sshpiper"
+    ]
+  ],
   "moul-sshportal/sshportal": [
     [
       "sshportal",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/moul-sshportal/sshportal/sshportal"
+    ]
+  ],
+  "sshs-source/sshs": [
+    [
+      "sshs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sshs-source/sshs/sshs"
     ]
   ],
   "ekzhang-sshx/sshx": [
@@ -4069,6 +6453,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/marwanhawari-stew/stew/stew"
     ]
   ],
+  "stowaway-source/stowaway": [
+    [
+      "stowaway",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/stowaway-source/stowaway/stowaway"
+    ]
+  ],
   "nixpkgs-strace/strace": [
     [
       "strace",
@@ -4079,6 +6469,12 @@
     [
       "strawberry",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/strawberry/strawberry"
+    ]
+  ],
+  "pypi-streamlink/streamlink": [
+    [
+      "streamlink",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-streamlink/streamlink/streamlink"
     ]
   ],
   "orangekame3-stree/stree": [
@@ -4111,6 +6507,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/firefart-stunner/stunner/stunner"
     ]
   ],
+  "subdog-source/subdog": [
+    [
+      "subdog",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/subdog-source/subdog/subdog"
+    ]
+  ],
   "projectdiscovery-subfinder/subfinder": [
     [
       "subfinder",
@@ -4123,10 +6525,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/lc-subjs/subjs/subjs"
     ]
   ],
+  "subs-source/subs": [
+    [
+      "subs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/subs-source/subs/subs"
+    ]
+  ],
+  "subtrace-stable/subtrace": [
+    [
+      "subtrace",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/subtrace-stable/subtrace/subtrace"
+    ]
+  ],
+  "security-subxtract/subxtract": [
+    [
+      "subxtract",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/security-subxtract/subxtract/subxtract"
+    ]
+  ],
+  "wrappe-sudachi/sudachi": [
+    [
+      "sudachi",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wrappe-sudachi/sudachi/sudachi"
+    ]
+  ],
   "nixpkgs-sudo/sudo": [
     [
       "sudo",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-sudo/sudo/sudo"
+    ]
+  ],
+  "rs-source/sudo-rs": [
+    [
+      "sudo-rs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rs-source/sudo-rs/sudo-rs"
     ]
   ],
   "pomdtr-sunbeam/sunbeam": [
@@ -4141,6 +6573,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/aptible-supercronic/supercronic/supercronic"
     ]
   ],
+  "supernova-source/supernova": [
+    [
+      "supernova",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/supernova-source/supernova/supernova"
+    ]
+  ],
   "ochinchina-supervisord/supervisord": [
     [
       "supervisord",
@@ -4151,6 +6589,12 @@
     [
       "surf",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/assetnote-surf/surf/surf"
+    ]
+  ],
+  "suyu-stable/suyu": [
+    [
+      "suyu",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/suyu-stable/suyu/suyu"
     ]
   ],
   "svg-hush/svg-hush": [
@@ -4165,10 +6609,16 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/foxfriends-syncat/syncat/syncat"
     ]
   ],
-  "syncthing-syncthing/syncthing": [
+  "syncthing-stable/syncthing": [
     [
       "syncthing",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/syncthing-syncthing/syncthing/syncthing"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/syncthing-stable/syncthing/syncthing"
+    ]
+  ],
+  "synfig-stable/synfigstudio": [
+    [
+      "synfigstudio",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/synfig-stable/synfigstudio/synfigstudio"
     ]
   ],
   "info-collector/system-info-collector": [
@@ -4225,6 +6675,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-gnutar/tar/tar"
     ]
   ],
+  "split-source/tar-split": [
+    [
+      "tar-split",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/split-source/tar-split/tar-split"
+    ]
+  ],
   "nixpkgs-tcpdump/tcpdump": [
     [
       "tcpdump",
@@ -4235,6 +6691,24 @@
     [
       "tdl",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/iyear-tdl/tdl/tdl"
+    ]
+  ],
+  "rs-tealdeer/tealdeer": [
+    [
+      "tealdeer",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/rs-tealdeer/tealdeer/tealdeer"
+    ]
+  ],
+  "wrappe-teamviewer/teamviewer": [
+    [
+      "teamviewer",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wrappe-teamviewer/teamviewer/teamviewer"
+    ]
+  ],
+  "teip-source/teip": [
+    [
+      "teip",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/teip-source/teip/teip"
     ]
   ],
   "divyam234-teldrive/teldrive": [
@@ -4253,6 +6727,12 @@
     [
       "telegram-desktop",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/telegram-desktop/telegram-desktop/telegram-desktop"
+    ]
+  ],
+  "terashuf-source/terashuf": [
+    [
+      "terashuf",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/terashuf-source/terashuf/terashuf"
     ]
   ],
   "mgunyho-tere/tere": [
@@ -4285,6 +6765,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/alexhallam-tv/tidy-viewer/tidy-viewer"
     ]
   ],
+  "ppkg-tiff/tiff": [
+    [
+      "tiff",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-tiff/tiff/tiff"
+    ]
+  ],
+  "timelimitx-source/timelimitx": [
+    [
+      "timelimitx",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/timelimitx-source/timelimitx/timelimitx"
+    ]
+  ],
   "caarlos0-timer/timer": [
     [
       "timer",
@@ -4297,10 +6789,46 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/hackmanit-tinja/tinja/tinja"
     ]
   ],
+  "tinycc-glibc/tinycc": [
+    [
+      "tinycc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/tinycc-glibc/tinycc/tinycc"
+    ]
+  ],
+  "tinycc-musl/tinycc": [
+    [
+      "tinycc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/tinycc-musl/tinycc/tinycc"
+    ]
+  ],
   "nixpkgs-tio/tio": [
     [
       "tio",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-tio/tio/tio"
+    ]
+  ],
+  "tlder-source/tlder": [
+    [
+      "tlder",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/tlder-source/tlder/tlder"
+    ]
+  ],
+  "pypi-tldextract/tldextract": [
+    [
+      "tldextract",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-tldextract/tldextract/tldextract"
+    ]
+  ],
+  "tldfinder-source/tldfinder": [
+    [
+      "tldfinder",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/tldfinder-source/tldfinder/tldfinder"
+    ]
+  ],
+  "tldscan-source/tldscan": [
+    [
+      "tldscan",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/tldscan-source/tldscan/tldscan"
     ]
   ],
   "pages-tlrc/tlrc": [
@@ -4321,16 +6849,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-tmux/tmux/tmux"
     ]
   ],
+  "pypi-tmuxp/tmuxp": [
+    [
+      "tmuxp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-tmuxp/tmuxp/tmuxp"
+    ]
+  ],
+  "security-tok/tok": [
+    [
+      "tok",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/security-tok/tok/tok"
+    ]
+  ],
   "xampprocky-tokei/tokei": [
     [
       "tokei",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/xampprocky-tokei/tokei/tokei"
     ]
   ],
+  "toml2json-source/toml2json": [
+    [
+      "toml2json",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/toml2json-source/toml2json/toml2json"
+    ]
+  ],
   "sweetbbak-toru/toru": [
     [
       "toru",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sweetbbak-toru/toru/toru"
+    ]
+  ],
+  "appimage-stable/torzu": [
+    [
+      "torzu",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/torzu/torzu"
+    ]
+  ],
+  "appimage-v3/torzu": [
+    [
+      "torzu",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-v3/torzu/torzu"
+    ]
+  ],
+  "tracee-stable/tracee": [
+    [
+      "tracee",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/tracee-stable/tracee/tracee"
     ]
   ],
   "kxxt-tracexec/tracexec": [
@@ -4343,6 +6907,30 @@
     [
       "traefik",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/traefik-traefik/traefik/traefik"
+    ]
+  ],
+  "pypi-trafilatura/trafilatura": [
+    [
+      "trafilatura",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-trafilatura/trafilatura/trafilatura"
+    ]
+  ],
+  "sh-source/transfersh": [
+    [
+      "transfersh",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/sh-source/transfersh/transfersh"
+    ]
+  ],
+  "trayscale-stable/trayscale": [
+    [
+      "trayscale",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/trayscale-stable/trayscale/trayscale"
+    ]
+  ],
+  "ppkg-tree/tree": [
+    [
+      "tree",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-tree/tree/tree"
     ]
   ],
   "fujiapple852-trippy/trippy": [
@@ -4369,16 +6957,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/trzsz-ssh/tssh/tssh"
     ]
   ],
+  "ttfb-source/ttfb": [
+    [
+      "ttfb",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ttfb-source/ttfb/ttfb"
+    ]
+  ],
   "kost-tty2web/tty2web": [
     [
       "tty2web",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/kost-tty2web/tty2web/tty2web"
     ]
   ],
-  "tsl0922-ttyd/ttyd": [
+  "ttyd-stable/ttyd": [
     [
       "ttyd",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/tsl0922-ttyd/ttyd/ttyd"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ttyd-stable/ttyd/ttyd"
+    ]
+  ],
+  "ttyimg-source/ttyimg": [
+    [
+      "ttyimg",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ttyimg-source/ttyimg/ttyimg"
     ]
   ],
   "dnalor-tuiarchiver/tuiarchiver": [
@@ -4393,6 +6993,24 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/tun2proxy-tun2proxy/tun2proxy/tun2proxy"
     ]
   ],
+  "tun2socks-source/tun2socks": [
+    [
+      "tun2socks",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/tun2socks-source/tun2socks/tun2socks"
+    ]
+  ],
+  "attack-source/turbo-attack": [
+    [
+      "turbo-attack",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/attack-source/turbo-attack/turbo-attack"
+    ]
+  ],
+  "scanner-source/turbo-scanner": [
+    [
+      "turbo-scanner",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/scanner-source/turbo-scanner/turbo-scanner"
+    ]
+  ],
   "tus-tusd/tusd": [
     [
       "tusd",
@@ -4403,6 +7021,30 @@
     [
       "tut",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/rasmuslindroth-tut/tut/tut"
+    ]
+  ],
+  "pypi-twine/twine": [
+    [
+      "twine",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-twine/twine/twine"
+    ]
+  ],
+  "twingate-stable/twingate": [
+    [
+      "twingate",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/twingate-stable/twingate/twingate"
+    ]
+  ],
+  "connector-stable/twingate-connector": [
+    [
+      "twingate",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/connector-stable/twingate-connector/twingate"
+    ]
+  ],
+  "twitch-dl/twitch-dl": [
+    [
+      "twitch-dl",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/twitch-dl/twitch-dl/twitch-dl"
     ]
   ],
   "txn2-txeh/txeh": [
@@ -4417,10 +7059,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/oz-tz/tz/tz"
     ]
   ],
+  "tzupdate-source/tzupdate": [
+    [
+      "tzupdate",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/tzupdate-source/tzupdate/tzupdate"
+    ]
+  ],
   "u-root/u-root": [
     [
       "u-root",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/u-root/u-root/u-root"
+    ]
+  ],
+  "pypi-udocker/udocker": [
+    [
+      "udocker",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-udocker/udocker/udocker"
+    ]
+  ],
+  "udon-source/udon": [
+    [
+      "udon",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/udon-source/udon/udon"
     ]
   ],
   "nullt3r-udpx/udpx": [
@@ -4429,10 +7089,46 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nullt3r-udpx/udpx/udpx"
     ]
   ],
+  "udpz-source/udpz": [
+    [
+      "udpz",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/udpz-source/udpz/udpz"
+    ]
+  ],
+  "uforall-source/uforall": [
+    [
+      "uforall",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/uforall-source/uforall/uforall"
+    ]
+  ],
+  "wrappe-ultimmc/ultimmc": [
+    [
+      "ultimmc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wrappe-ultimmc/ultimmc/ultimmc"
+    ]
+  ],
+  "debian-ultimmc/ultimmc": [
+    [
+      "ultimmc",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/debian-ultimmc/ultimmc/ultimmc"
+    ]
+  ],
+  "unch-source/unch": [
+    [
+      "unch",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/unch-source/unch/unch"
+    ]
+  ],
   "projectdiscovery-uncover/uncover": [
     [
       "uncover",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/projectdiscovery-uncover/uncover/uncover"
+    ]
+  ],
+  "unew-source/unew": [
+    [
+      "unew",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/unew-source/unew/unew"
     ]
   ],
   "io12-unf/unf": [
@@ -4453,6 +7149,30 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nmimusic-unifetch/unifetch/unifetch"
     ]
   ],
+  "unionfs-fuse/unionfs-fuse": [
+    [
+      "unionfs-fuse",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/unionfs-fuse/unionfs-fuse/unionfs-fuse"
+    ]
+  ],
+  "unionfs-fuse3/unionfs-fuse3": [
+    [
+      "unionfs-fuse3",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/unionfs-fuse3/unionfs-fuse3/unionfs-fuse3"
+    ]
+  ],
+  "uniqs-source/uniqs": [
+    [
+      "uniqs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/uniqs-source/uniqs/uniqs"
+    ]
+  ],
+  "uniqtoo-source/uniqtoo": [
+    [
+      "uniqtoo",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/uniqtoo-source/uniqtoo/uniqtoo"
+    ]
+  ],
   "rsc-unix/unix": [
     [
       "unix",
@@ -4465,16 +7185,64 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/upx-upx/upx/upx"
     ]
   ],
-  "xo-usql/usql": [
+  "parser-source/url-parser": [
+    [
+      "url-parser",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/parser-source/url-parser/url-parser"
+    ]
+  ],
+  "source-urless/urless": [
+    [
+      "urless",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-urless/urless/urless"
+    ]
+  ],
+  "urlfinder-source/urlfinder": [
+    [
+      "urlfinder",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/urlfinder-source/urlfinder/urlfinder"
+    ]
+  ],
+  "urlhunter-source/urlhunter": [
+    [
+      "urlhunter",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/urlhunter-source/urlhunter/urlhunter"
+    ]
+  ],
+  "pypi-uro/uro": [
+    [
+      "uro",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-uro/uro/uro"
+    ]
+  ],
+  "ppkg-usbutils/usbutils": [
+    [
+      "usbutils",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-usbutils/usbutils/usbutils"
+    ]
+  ],
+  "source-glibc/usql": [
     [
       "usql",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/xo-usql/usql/usql"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-glibc/usql/usql"
     ]
   ],
   "util-linux/util-linux": [
     [
       "util-linux",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/util-linux/util-linux/util-linux"
+    ]
+  ],
+  "uuinfo-source/uuinfo": [
+    [
+      "uuinfo",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/uuinfo-source/uuinfo/uuinfo"
+    ]
+  ],
+  "core-stable/v2ray-core": [
+    [
+      "v2ray-core",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/core-stable/v2ray-core/v2ray-core"
     ]
   ],
   "v2raya-v2raya/v2raya": [
@@ -4495,16 +7263,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/tsenart-vegeta/vegeta/vegeta"
     ]
   ],
+  "vermilion-source/vermilion": [
+    [
+      "vermilion",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/vermilion-source/vermilion/vermilion"
+    ]
+  ],
   "vencord-vesktop/vesktop": [
     [
       "vesktop",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/vencord-vesktop/vesktop/vesktop"
     ]
   ],
+  "vetu-stable/vetu": [
+    [
+      "vetu",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/vetu-stable/vetu/vetu"
+    ]
+  ],
   "fox-vfox/vfox": [
     [
       "vfox",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/fox-vfox/vfox/vfox"
+    ]
+  ],
+  "fuzzer-source/vhost-fuzzer": [
+    [
+      "vhost-fuzzer",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/fuzzer-source/vhost-fuzzer/vhost-fuzzer"
     ]
   ],
   "charmbracelet-vhs/vhs": [
@@ -4519,22 +7305,40 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-vim/vim/vim"
     ]
   ],
+  "vnstat-glibc/vnstat": [
+    [
+      "vnstat",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/vnstat-glibc/vnstat/vnstat"
+    ]
+  ],
+  "vnstat-musl/vnstat": [
+    [
+      "vnstat",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/vnstat-musl/vnstat/vnstat"
+    ]
+  ],
   "cli-volta/volta": [
     [
       "volta",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-volta/volta/volta"
     ]
   ],
-  "cachyos-steam/vscodium": [
+  "vopono-source/vopono": [
     [
-      "vscodium",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-steam/vscodium/vscodium"
+      "vopono",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/vopono-source/vopono/vopono"
     ]
   ],
   "vscodium-vscodium/vscodium": [
     [
       "vscodium",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/vscodium-vscodium/vscodium/vscodium"
+    ]
+  ],
+  "cachyos-steam/vscodium": [
+    [
+      "vscodium",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-steam/vscodium/vscodium"
     ]
   ],
   "tkellogg-vsql/vsql": [
@@ -4561,16 +7365,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/wadl-dumper/wadl-dumper/wadl-dumper"
     ]
   ],
+  "source-wafw00f/wafw00f": [
+    [
+      "wafw00f",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-wafw00f/wafw00f/wafw00f"
+    ]
+  ],
   "antonmedv-walk/walk": [
     [
       "walk",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/antonmedv-walk/walk/walk"
     ]
   ],
+  "pypi-wappalyzer/wappalyzer": [
+    [
+      "wappalyzer",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-wappalyzer/wappalyzer/wappalyzer"
+    ]
+  ],
   "minio-warp/minio-warp": [
     [
       "warp",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/minio-warp/minio-warp/warp"
+    ]
+  ],
+  "waybackfetch-source/waybackfetch": [
+    [
+      "waybackfetch",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/waybackfetch-source/waybackfetch/waybackfetch"
     ]
   ],
   "mhmdiaa-waybackrobots/waybackrobots": [
@@ -4585,6 +7407,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/tomnomnom-waybackurls/waybackurls/waybackurls"
     ]
   ],
+  "helper-stable/waydroid-helper": [
+    [
+      "waydroid-helper",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/helper-stable/waydroid-helper/waydroid-helper"
+    ]
+  ],
+  "wcurl-source/wcurl": [
+    [
+      "wcurl",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wcurl-source/wcurl/wcurl"
+    ]
+  ],
   "vulnerability-scanner/web-cache-vulnerability-scanner": [
     [
       "web-cache-vulnerability-scanner",
@@ -4597,14 +7431,16 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/schachmat-wego/wego/wego"
     ]
   ],
-  "wez-wezterm/wezterm": [
+  "wezterm-source/wezterm": [
     [
       "wezterm",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/wez-wezterm/wezterm/wezterm"
-    ],
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wezterm-source/wezterm/wezterm"
+    ]
+  ],
+  "wezterm-stable/wezterm": [
     [
       "wezterm",
-      "https://pkgs.pkgforge.dev/repo/soarpkgs/wez-wezterm/wezterm/wezterm"
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wezterm-stable/wezterm/wezterm"
     ]
   ],
   "alpine-wezterm/wezterm": [
@@ -4617,6 +7453,12 @@
     [
       "wezterm",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/cachyos-wezterm/wezterm/wezterm"
+    ]
+  ],
+  "cli-source/wgcf-cli": [
+    [
+      "wgcf-cli",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/cli-source/wgcf-cli/wgcf-cli"
     ]
   ],
   "ppkg-wget/wget": [
@@ -4637,6 +7479,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-wget2/wget2/wget2"
     ]
   ],
+  "wharfie-source/wharfie": [
+    [
+      "wharfie",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wharfie-source/wharfie/wharfie"
+    ]
+  ],
   "nixpkgs-which/which": [
     [
       "which",
@@ -4647,6 +7495,18 @@
     [
       "whois",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-whois/whois/whois"
+    ]
+  ],
+  "whoiswatcher-source/whoiswatcher": [
+    [
+      "whoiswatcher",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/whoiswatcher-source/whoiswatcher/whoiswatcher"
+    ]
+  ],
+  "whoxysubs-source/whoxysubs": [
+    [
+      "whoxysubs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/whoxysubs-source/whoxysubs/whoxysubs"
     ]
   ],
   "wireguard-go/wireguard": [
@@ -4679,16 +7539,52 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sandialabs-wiretap/wiretap/wiretap"
     ]
   ],
+  "witchcraft-source/witchcraft": [
+    [
+      "witchcraft",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/witchcraft-source/witchcraft/witchcraft"
+    ]
+  ],
+  "witness-source/witness": [
+    [
+      "witness",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/witness-source/witness/witness"
+    ]
+  ],
   "wormhole-rs/wormhole-rs": [
     [
       "wormhole-rs",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/wormhole-rs/wormhole-rs/wormhole-rs"
     ]
   ],
+  "wpjson-parser/wpjson-parser": [
+    [
+      "wpjson-parser",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wpjson-parser/wpjson-parser/wpjson-parser"
+    ]
+  ],
+  "appimage-stable/wps-office": [
+    [
+      "wps-office",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/appimage-stable/wps-office/wps-office"
+    ]
+  ],
+  "npm-wrangler/wrangler": [
+    [
+      "wrangler",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/npm-wrangler/wrangler/wrangler"
+    ]
+  ],
   "systemcluster-wrappe/wrappe": [
     [
       "wrappe",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/systemcluster-wrappe/wrappe/wrappe"
+    ]
+  ],
+  "wstunnel-source/wstunnel": [
+    [
+      "wstunnel",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wstunnel-source/wstunnel/wstunnel"
     ]
   ],
   "wtfutil-wtf/wtf": [
@@ -4721,6 +7617,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/medialab-xan/xan/xan"
     ]
   ],
+  "xash3d-fwgs/xash3d-fwgs": [
+    [
+      "xash3d-fwgs",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/xash3d-fwgs/xash3d-fwgs/xash3d-fwgs"
+    ]
+  ],
+  "wrappe-xashds/xashds": [
+    [
+      "xashds",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/wrappe-xashds/xashds/xashds"
+    ]
+  ],
   "ppkg-xclip/xclip": [
     [
       "xclip",
@@ -4745,10 +7653,34 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-xdotool/xdotool/xdotool"
     ]
   ],
+  "alpine-xhost/xhost": [
+    [
+      "xhost",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/alpine-xhost/xhost/xhost"
+    ]
+  ],
+  "source-xmap/xmap": [
+    [
+      "xmap",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-xmap/xmap/xmap"
+    ]
+  ],
   "xmrig-xmrig/xmrig": [
     [
       "xmrig",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/xmrig-xmrig/xmrig/xmrig"
+    ]
+  ],
+  "source-xnlinkfinder/xnlinkfinder": [
+    [
+      "xnlinkfinder",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-xnlinkfinder/xnlinkfinder/xnlinkfinder"
+    ]
+  ],
+  "pypi-xonsh/xonsh": [
+    [
+      "xonsh",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-xonsh/xonsh/xonsh"
     ]
   ],
   "sayanarijit-xplr/xplr": [
@@ -4763,16 +7695,58 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/sibprogrammer-xq/xq/xq"
     ]
   ],
+  "core-stable/xray-core": [
+    [
+      "xray-core",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/core-stable/xray-core/xray-core"
+    ]
+  ],
+  "knife-source/xray-knife": [
+    [
+      "xray-knife",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/knife-source/xray-knife/xray-knife"
+    ]
+  ],
+  "xrdp-stable/xrdp": [
+    [
+      "xrdp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/xrdp-stable/xrdp/xrdp"
+    ]
+  ],
   "ppkg-xsel/xsel": [
     [
       "xsel",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-xsel/xsel/xsel"
     ]
   ],
+  "xsubfind3r-source/xsubfind3r": [
+    [
+      "xsubfind3r",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/xsubfind3r-source/xsubfind3r/xsubfind3r"
+    ]
+  ],
+  "xtee-source/xtee": [
+    [
+      "xtee",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/xtee-source/xtee/xtee"
+    ]
+  ],
+  "xurlfind3r-source/xurlfind3r": [
+    [
+      "xurlfind3r",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/xurlfind3r-source/xurlfind3r/xurlfind3r"
+    ]
+  ],
   "mvdan-xurls/xurls": [
     [
       "xurls",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/mvdan-xurls/xurls/xurls"
+    ]
+  ],
+  "xvfb-run/xvfb-run": [
+    [
+      "xvfb-run",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/xvfb-run/xvfb-run/xvfb-run"
     ]
   ],
   "nixpkgs-xz/xz": [
@@ -4791,6 +7765,12 @@
     [
       "yalis",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/eatonchips-yalis/yalis/yalis"
+    ]
+  ],
+  "pypi-yamllint/yamllint": [
+    [
+      "yamllint",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/pypi-yamllint/yamllint/yamllint"
     ]
   ],
   "damian89-yataf/yataf": [
@@ -4829,10 +7809,44 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/mikefarah-yq/yq/yq"
     ]
   ],
+  "yt-dlp/yt-dlp": [
+    [
+      "yt-dlp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/yt-dlp/yt-dlp/yt-dlp"
+    ],
+    [
+      "yt-dlp",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/yt-dlp/yt-dlp/yt-dlp"
+    ]
+  ],
+  "z-source/z": [
+    [
+      "z",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/z-source/z/z"
+    ]
+  ],
   "z-tokens/z-tokens": [
     [
       "z-tokens",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/z-tokens/z-tokens/z-tokens"
+    ]
+  ],
+  "ppkg-z88dk/z88dk": [
+    [
+      "z88dk",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-z88dk/z88dk/z88dk"
+    ]
+  ],
+  "hackerschoice-zapper/zapper": [
+    [
+      "zapper",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/hackerschoice-zapper/zapper/zapper"
+    ]
+  ],
+  "nixpkgs-zapret/zapret": [
+    [
+      "zapret",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-zapret/zapret/zapret"
     ]
   ],
   "zmap-zdns/zdns": [
@@ -4871,6 +7885,12 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/bvaisvil-zenith/zenith/zenith"
     ]
   ],
+  "zerotier-stable/zerotier": [
+    [
+      "zerotier",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/zerotier-stable/zerotier/zerotier"
+    ]
+  ],
   "laktak-zfind/zfind": [
     [
       "zfind",
@@ -4889,6 +7909,18 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/zmap-zgrab2/zgrab2/zgrab2"
     ]
   ],
+  "source-zmap/zmap": [
+    [
+      "zmap",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/source-zmap/zmap/zmap"
+    ]
+  ],
+  "zombie-source/zombie": [
+    [
+      "zombie",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/zombie-source/zombie/zombie"
+    ]
+  ],
   "ajeetdsouza-zoxide/zoxide": [
     [
       "zoxide",
@@ -4901,10 +7933,28 @@
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-zsh/zsh/zsh"
     ]
   ],
+  "zsplit-source/zsplit": [
+    [
+      "zsplit",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/zsplit-source/zsplit/zsplit"
+    ]
+  ],
   "nixpkgs-zstd/zstd": [
     [
       "zstd",
       "https://pkgs.pkgforge.dev/repo/soarpkgs/nixpkgs-zstd/zstd/zstd"
+    ]
+  ],
+  "zsv-source/zsv": [
+    [
+      "zsv",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/zsv-source/zsv/zsv"
+    ]
+  ],
+  "ppkg-zsv/zsv": [
+    [
+      "zsv",
+      "https://pkgs.pkgforge.dev/repo/soarpkgs/ppkg-zsv/zsv/zsv"
     ]
   ]
 }
