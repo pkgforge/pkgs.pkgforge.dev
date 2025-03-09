@@ -4,7 +4,6 @@ import { Button } from "./ui/button";
 import { Search, Copy, ExternalLink } from "lucide-react";
 import { useClipboard } from "@/hooks/use-clipboard";
 import { Badge } from "./ui/badge";
-import { useVirtualizer } from '@tanstack/react-virtual';
 import useGlobalSearch from "@/hooks/use-global-search";
 import useDebounce from "@/hooks/use-debounce";
 import { useSearch } from "@/hooks/use-search";
@@ -17,21 +16,21 @@ interface SearchResult {
 }
 
 const SearchResultItem = React.memo(
-  ({ item, onCopy }: { 
-    item: SearchResult; 
-    onCopy: (name: string, id: string, e: React.MouseEvent) => void 
+  ({ item, onCopy }: {
+    item: SearchResult;
+    onCopy: (name: string, id: string, e: React.MouseEvent) => void
   }) => {
     const [copied, setCopied] = React.useState(false);
 
     React.useEffect(() => {
       let timer: NodeJS.Timeout;
-      
+
       if (copied) {
         timer = setTimeout(() => {
           setCopied(false);
         }, 2000);
       }
-      
+
       return () => {
         clearTimeout(timer);
       };
@@ -47,45 +46,46 @@ const SearchResultItem = React.memo(
     };
 
     return (
-    <CommandItem
-      className="h-[80px] flex hover:cursor-pointer flex-col items-start justify-center"
-      value={`${item.pkg_name}#${item.pkg_id}#${item.source}`}
-    >
-      <div className="flex items-center w-full">
-        <div className="flex flex-col gap-2">
-          <div className="flex flex-row gap-2 items-center">
-            <span className="font-medium">{item.pkg_name}</span>
-            <Badge className="ml-2 text-[10px]">
-              {item.source}
+      <CommandItem
+        className="h-[80px] flex hover:cursor-pointer flex-col items-start justify-center"
+        value={`${item.pkg_name}#${item.pkg_id}#${item.source}`}
+      >
+        <div className="flex items-center w-full">
+          <div className="flex flex-col gap-2">
+            <div className="flex flex-row gap-2 items-center">
+              <span className="font-medium">{item.pkg_name}</span>
+              <Badge className="ml-2 text-[10px]">
+                {item.source}
+              </Badge>
+            </div>
+            <Badge variant="outline">
+              {item.pkg_id}
             </Badge>
           </div>
-          <Badge variant="outline">
-            {item.pkg_id}
-          </Badge>
+          <div className="ml-auto flex space-x-2">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={handleLinkClick}
+            >
+              <ExternalLink className="h-1.5 w-1.5 mr-1" /> Open
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={handleCopyInstall}
+            >
+              {copied ? "Copied!" : (
+                <>
+                  <Copy className="h-1.5 w-1.5 mr-1" /> Install
+                </>
+              )}
+            </Button>
+          </div>
         </div>
-        <div className="ml-auto flex space-x-2">
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={handleLinkClick}
-          >
-            <ExternalLink className="h-1.5 w-1.5 mr-1" /> Open
-          </Button>
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={handleCopyInstall}
-          >
-            {copied ? "Copied!" : (
-              <>
-                <Copy className="h-1.5 w-1.5 mr-1" /> Install
-              </>
-            )}
-          </Button>
-        </div>
-      </div>
-    </CommandItem>
-  )}
+      </CommandItem>
+    )
+  }
 );
 
 SearchResultItem.displayName = 'SearchResultItem';
@@ -97,46 +97,41 @@ export function GlobalSearch() {
   const dialogDescriptionId = React.useId();
   const parentRef = React.useRef<HTMLDivElement>(null);
   const { searchIndex, isLoading, open, handleOpen } = useGlobalSearch();
-  
-  const results = useSearch(searchIndex, debouncedSearchTerm, isLoading);
 
-  const rowVirtualizer = useVirtualizer({
-    count: results.length,
-    getScrollElement: () => parentRef.current,
-    estimateSize: React.useCallback(() => 80, []),
-    overscan: 5,
-  });
+  const results = useSearch(searchIndex, debouncedSearchTerm, isLoading);
 
   const handleCopy = React.useCallback((pkgName: string, pkgId: string, e: React.MouseEvent) => {
     e.stopPropagation();
     copy(`soar add "${pkgName}#${pkgId}"`);
   }, [copy]);
 
-  const virtualItems = rowVirtualizer.getVirtualItems();
-  const totalSize = rowVirtualizer.getTotalSize();
-
   const showStartTypingPrompt = !isLoading && searchTerm.trim() === '';
-  
+
+  React.useEffect(() => {
+    if (!open) {
+      setSearchTerm("");
+    }
+  }, [open]);
+
   const renderVirtualItems = React.useCallback(() => {
-    return virtualItems.map(virtualRow => {
-      const item = results[virtualRow.index];
+    return results.map((item, i) => {
       return (
         <div
-          key={virtualRow.key}
+          key={i}
           style={{
-            position: 'absolute',
+            //position: 'absolute',
             top: 0,
             left: 0,
             width: '100%',
-            height: `${virtualRow.size}px`,
-            transform: `translateY(${virtualRow.start}px)`,
+            //height: `${virtualRow.size}px`,
+            //transform: `translateY(${virtualRow.start}px)`,
           }}
         >
           <SearchResultItem item={item} onCopy={handleCopy} />
         </div>
       );
     });
-  }, [virtualItems, results, handleCopy]);
+  }, [results, handleCopy]);
 
   const SearchButton = React.useMemo(() => (
     <Button
@@ -161,8 +156,8 @@ export function GlobalSearch() {
           Search and select packages from various repositories. Use up and down arrow keys to navigate results.
           Press Enter to select a package. Press Escape to close the dialog.
         </div>
-        <CommandInput 
-          placeholder="Search all packages..." 
+        <CommandInput
+          placeholder="Search all packages..."
           value={searchTerm}
           onValueChange={setSearchTerm}
           autoFocus
@@ -181,10 +176,11 @@ export function GlobalSearch() {
                 <CommandGroup>
                   <div
                     style={{
-                      height: `${totalSize}px`,
+                      height: `40vh`,
                       width: '100%',
                       position: 'relative',
                     }}
+                    className="flex flex-col overflow-hidden overflow-y-scroll"
                   >
                     {renderVirtualItems()}
                   </div>

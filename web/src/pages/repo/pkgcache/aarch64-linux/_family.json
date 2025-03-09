@@ -11,63 +11,7 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/akregator/runimage/alpine/stable/akregator"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/anipy-cli": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/anipy-cli/archive/sharun/pypi/anipy-cli"
-    ]
-  ],
-  "aarch64-linux/apprise": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/apprise/archive/sharun/pypi/apprise"
-    ]
-  ],
-  "aarch64-linux/aqtinstall": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/aqtinstall/archive/sharun/pypi/aqtinstall"
-    ]
-  ],
-  "aarch64-linux/archey": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/archey/archive/sharun/pypi/archey"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/archey/archive/sharun/source/archey"
-    ]
-  ],
-  "aarch64-linux/audiobook-dl": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/audiobook-dl/archive/sharun/pypi/audiobook-dl"
-    ]
-  ],
-  "aarch64-linux/awscli": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/awscli/archive/sharun/pypi/aws"
-    ]
-  ],
-  "aarch64-linux/baddns": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/baddns/archive/sharun/pypi/baddns"
-    ]
-  ],
-  "aarch64-linux/beet": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/beet/archive/sharun/pypi/beet"
-    ]
-  ],
-  "aarch64-linux/blender": [
-=======
   "Utility/sharun.wrappe.pypi.anipy-cli": [
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     [
       "anipy-cli",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/anipy-cli/archive/sharun/pypi/anipy-cli"
@@ -133,35 +77,7 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/brave/nixappimage/nixpkgs/stable/brave"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/caido-cli": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/caido-cli/archive/sharun/stable/caido-cli"
-    ]
-  ],
-  "aarch64-linux/caido": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/caido/appimage/official/stable/caido"
-    ]
-  ],
-  "aarch64-linux/certbot": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/certbot/archive/sharun/pypi/certbot"
-    ]
-  ],
-  "aarch64-linux/chafa": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/chafa/archive/sharun/alpine/chafa"
-    ]
-  ],
-  "aarch64-linux/chromium": [
-=======
   "Utility/sharun.wrappe.stable.caido-cli": [
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     [
       "caido-cli",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/caido-cli/archive/sharun/stable/caido-cli"
@@ -203,121 +119,10 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/clamtk/runimage/debian/stable/clamtk"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/cmake": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/cmake/appimage/ppkg/stable/cmake"
-    ]
-  ],
-  "aarch64-linux/code-server": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/code-server/archive/wrappe/stable/code-server"
-    ]
-  ],
-  "aarch64-linux/commix": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/commix/archive/sharun/pypi/commix"
-    ]
-  ],
-  "aarch64-linux/crave": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/crave/archive/sharun/stable/crave"
-    ]
-  ],
-  "aarch64-linux/credsweeper": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/credsweeper/archive/sharun/pypi/credsweeper"
-    ]
-  ],
-  "aarch64-linux/ddgr": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ddgr/archive/sharun/pypi/ddgr"
-    ]
-  ],
-  "aarch64-linux/dnsvalidator": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/dnsvalidator/archive/sharun/source/dnsvalidator"
-    ]
-  ],
-  "aarch64-linux/dvc": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/dvc/archive/sharun/pypi/dvc"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/dvc/archive/sharun/source/dvc"
-    ]
-  ],
-  "aarch64-linux/element-desktop": [
-    [
-      "runimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/element-desktop/runimage/alpine/stable/element-desktop"
-    ]
-  ],
-  "aarch64-linux/emailfinder": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/emailfinder/archive/sharun/source/emailfinder"
-    ]
-  ],
-  "aarch64-linux/escrcpy": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/escrcpy/appimage/official/stable/escrcpy"
-    ]
-  ],
-  "aarch64-linux/falkon": [
-    [
-      "runimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/falkon/runimage/alpine/stable/falkon"
-    ]
-  ],
-  "aarch64-linux/fanficfare": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/fanficfare/archive/sharun/pypi/fanficfare"
-    ]
-  ],
-  "aarch64-linux/fastfetch": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/fastfetch/archive/sharun/stable/fastfetch"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/fastfetch/archive/sharun/stable/flashfetch"
-    ]
-  ],
-  "aarch64-linux/file": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/file/appimage/ppkg/stable/file"
-    ]
-  ],
-  "aarch64-linux/flameshot": [
-    [
-      "nixappimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/flameshot/nixappimage/nixpkgs/unstable/flameshot"
-    ]
-  ],
-  "aarch64-linux/freerdp": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/freerdp/appimage/ppkg/stable/freerdp"
-=======
   "ConsoleOnly,Utility/ppkg.bundle.cmake.stable": [
     [
       "cmake",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/cmake/appimage/ppkg/stable/cmake"
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     ]
   ],
   "Utility/wrappe.code-server.stable": [
@@ -350,6 +155,12 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ddgr/archive/sharun/pypi/ddgr"
     ]
   ],
+  "Utility/sharun.wrappe.source.dnsvalidator": [
+    [
+      "dnsvalidator",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/dnsvalidator/archive/sharun/source/dnsvalidator"
+    ]
+  ],
   "Utility/sharun.wrappe.pypi.dvc": [
     [
       "dvc",
@@ -366,6 +177,12 @@
     [
       "element-desktop",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/element-desktop/runimage/alpine/stable/element-desktop"
+    ]
+  ],
+  "Utility/sharun.wrappe.source.EmailFinder": [
+    [
+      "emailfinder",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/emailfinder/archive/sharun/source/emailfinder"
     ]
   ],
   "Utility/github.com.viarotel-org.escrcpy": [
@@ -420,69 +237,16 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/gearlever/nixappimage/nixpkgs/stable/gearlever"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/getaltname": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/getaltname/archive/sharun/pypi/gsan"
-    ]
-  ],
-  "aarch64-linux/ghauri": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghauri/archive/sharun/source/ghauri"
-    ]
-  ],
-  "aarch64-linux/ghex": [
-    [
-      "runimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghex/runimage/alpine/stable/ghex"
-    ]
-  ],
-  "aarch64-linux/ghostty": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghostty/appimage/psadi/stable/ghostty"
-    ]
-  ],
-  "aarch64-linux/git-dumper": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/git-dumper/archive/sharun/pypi/git-dumper"
-    ]
-  ],
-  "aarch64-linux/git": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/git/appimage/ppkg/stable/git"
-    ],
-    [
-      "runimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/git/runimage/alpine/stable/git"
-    ]
-  ],
-  "aarch64-linux/gptme": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/gptme/archive/sharun/pypi/gptme"
-    ]
-  ],
-  "aarch64-linux/gtts-cli": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/gtts-cli/archive/sharun/pypi/gtts-cli"
-    ]
-  ],
-  "aarch64-linux/guarddog": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/guarddog/archive/sharun/pypi/guarddog"
-=======
   "Utility/sharun.wrappe.pypi.getaltname": [
     [
       "gsan",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/getaltname/archive/sharun/pypi/gsan"
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
+    ]
+  ],
+  "Utility/sharun.wrappe.source.ghauri": [
+    [
+      "ghauri",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ghauri/archive/sharun/source/ghauri"
     ]
   ],
   "Utility/runimage.alpine.ghex": [
@@ -539,125 +303,7 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/helix/nixappimage/nixpkgs/stable/helix"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/httpie": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/httpie/archive/sharun/pypi/httpie"
-    ]
-  ],
-  "aarch64-linux/huggingface-cli": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/huggingface-cli/archive/sharun/source/huggingface-cli"
-    ]
-  ],
-  "aarch64-linux/image-bootstrap": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/image-bootstrap/archive/sharun/pypi/image-bootstrap"
-    ]
-  ],
-  "aarch64-linux/inkscape": [
-    [
-      "runimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/inkscape/runimage/alpine/stable/inkscape"
-    ]
-  ],
-  "aarch64-linux/interlace": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/interlace/archive/sharun/source/interlace"
-    ]
-  ],
-  "aarch64-linux/isd": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/isd/archive/sharun/pypi/isd"
-    ]
-  ],
-  "aarch64-linux/isort": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/isort/archive/sharun/pypi/isort"
-    ]
-  ],
-  "aarch64-linux/jc": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/jc/archive/sharun/pypi/jc"
-    ]
-  ],
-  "aarch64-linux/jless": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/jless/appimage/ppkg/stable/jless"
-    ]
-  ],
-  "aarch64-linux/jrnl": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/jrnl/archive/sharun/pypi/jrnl"
-    ]
-  ],
-  "aarch64-linux/kdenlive": [
-    [
-      "runimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/kdenlive/runimage/alpine/stable/kdenlive"
-    ]
-  ],
-  "aarch64-linux/klp": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/klp/archive/sharun/pypi/klp"
-    ]
-  ],
-  "aarch64-linux/krita": [
-    [
-      "runimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/krita/runimage/alpine/stable/krita"
-    ]
-  ],
-  "aarch64-linux/librewolf": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/librewolf/appimage/official/stable/librewolf"
-    ]
-  ],
-  "aarch64-linux/linkook": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/linkook/archive/sharun/pypi/linkook"
-    ]
-  ],
-  "aarch64-linux/malwoverview": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/malwoverview/archive/sharun/pypi/malwoverview"
-    ]
-  ],
-  "aarch64-linux/metafinder": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/metafinder/archive/sharun/source/metafinder"
-    ]
-  ],
-  "aarch64-linux/mitmproxy": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/mitmproxy/archive/sharun/pypi/mitmproxy"
-    ]
-  ],
-  "aarch64-linux/name-that-hash": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/name-that-hash/archive/sharun/source/nth"
-    ]
-  ],
-  "aarch64-linux/neovim": [
-=======
   "Utility/sharun.wrappe.pypi.httpie": [
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     [
       "httpie",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/httpie/archive/sharun/pypi/httpie"
@@ -679,6 +325,12 @@
     [
       "inkscape",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/inkscape/runimage/alpine/stable/inkscape"
+    ]
+  ],
+  "Utility/sharun.wrappe.source.Interlace": [
+    [
+      "interlace",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/interlace/archive/sharun/source/interlace"
     ]
   ],
   "Utility/sharun.wrappe.pypi.isd": [
@@ -747,10 +399,22 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/malwoverview/archive/sharun/pypi/malwoverview"
     ]
   ],
+  "Utility/sharun.wrappe.source.MetaFinder": [
+    [
+      "metafinder",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/metafinder/archive/sharun/source/metafinder"
+    ]
+  ],
   "Utility/sharun.wrappe.pypi.mitmproxy": [
     [
       "mitmproxy",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/mitmproxy/archive/sharun/pypi/mitmproxy"
+    ]
+  ],
+  "Utility/sharun.wrappe.source.name-that-hash": [
+    [
+      "nth",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/name-that-hash/archive/sharun/source/nth"
     ]
   ],
   "TextEditor/nixpkgs.neovim": [
@@ -759,179 +423,7 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/neovim/nixappimage/nixpkgs/stable/neovim"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/netexec": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/netexec/archive/sharun/source/netexec"
-    ]
-  ],
-  "aarch64-linux/nmap": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nmap/archive/sharun/alpine/ncat"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nmap/archive/sharun/alpine/nmap"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nmap/archive/sharun/alpine/nping"
-    ],
-    [
-      "runimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nmap/runimage/alpine/stable/nmap"
-    ]
-  ],
-  "aarch64-linux/oci-cli": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/oci-cli/archive/sharun/pypi/oci"
-    ]
-  ],
-  "aarch64-linux/openvscode-server": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/openvscode-server/archive/wrappe/stable/openvscode-server"
-    ]
-  ],
-  "aarch64-linux/p1radup": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/p1radup/archive/sharun/source/p1radup"
-    ]
-  ],
-  "aarch64-linux/pdfly": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/pdfly/archive/sharun/pypi/pdfly"
-    ]
-  ],
-  "aarch64-linux/pg_activity": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/pg_activity/archive/sharun/pypi/pg_activity"
-    ]
-  ],
-  "aarch64-linux/pixelpulse2": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2"
-    ]
-  ],
-  "aarch64-linux/porch-pirate": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/porch-pirate/archive/sharun/source/porch-pirate"
-    ]
-  ],
-  "aarch64-linux/port-for": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/port-for/archive/sharun/pypi/port-for"
-    ]
-  ],
-  "aarch64-linux/proxychains": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/proxychains/archive/sharun/alpine/proxychains-daemon"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/proxychains/archive/sharun/alpine/proxychains"
-    ]
-  ],
-  "aarch64-linux/ps_mem": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ps_mem/archive/sharun/pypi/ps_mem"
-    ]
-  ],
-  "aarch64-linux/puncia": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/puncia/archive/sharun/pypi/puncia"
-    ]
-  ],
-  "aarch64-linux/pyarmor": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/pyarmor/archive/sharun/pypi/pyarmor"
-    ]
-  ],
-  "aarch64-linux/pyp": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/pyp/archive/sharun/pypi/pyp"
-    ]
-  ],
-  "aarch64-linux/resolve-march-native": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/resolve-march-native/archive/sharun/pypi/resolve-march-native"
-    ]
-  ],
-  "aarch64-linux/rustdesk": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/rustdesk/appimage/official/nightly/rustdesk"
-    ],
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/rustdesk/appimage/official/stable/rustdesk"
-    ]
-  ],
-  "aarch64-linux/ryujinx": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ryujinx/appimage/official/canary/ryujinx"
-    ],
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/ryujinx/appimage/official/stable/ryujinx"
-    ]
-  ],
-  "aarch64-linux/sandwine": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/sandwine/archive/sharun/pypi/sandwine"
-    ]
-  ],
-  "aarch64-linux/scons": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/scons/archive/sharun/pypi/scons"
-    ]
-  ],
-  "aarch64-linux/shell-gpt": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/shell-gpt/archive/sharun/pypi/sgpt"
-    ]
-  ],
-  "aarch64-linux/sherlock": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/sherlock/archive/sharun/pypi/sherlock"
-    ]
-  ],
-  "aarch64-linux/shot-scraper": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/shot-scraper/archive/sharun/pypi/shot-scraper"
-    ]
-  ],
-  "aarch64-linux/showcert": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/showcert/archive/sharun/pypi/showcert"
-    ]
-  ],
-  "aarch64-linux/simplex-desktop": [
-=======
   "Utility/sharun.wrappe.source.netexec": [
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     [
       "netexec",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/netexec/archive/sharun/source/netexec"
@@ -969,6 +461,12 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/openvscode-server/archive/wrappe/stable/openvscode-server"
     ]
   ],
+  "Utility/sharun.wrappe.source.p1radup": [
+    [
+      "p1radup",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/p1radup/archive/sharun/source/p1radup"
+    ]
+  ],
   "Utility/sharun.wrappe.pypi.pdfly": [
     [
       "pdfly",
@@ -985,6 +483,12 @@
     [
       "pixelpulse2",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2"
+    ]
+  ],
+  "Utility/sharun.wrappe.source.porch-pirate": [
+    [
+      "porch-pirate",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/porch-pirate/archive/sharun/source/porch-pirate"
     ]
   ],
   "Utility/sharun.wrappe.pypi.port-for": [
@@ -1099,37 +603,7 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/snallygaster": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/snallygaster/archive/sharun/pypi/snallygaster"
-    ]
-  ],
-  "aarch64-linux/streamlink": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/streamlink/archive/sharun/pypi/streamlink"
-    ]
-  ],
-  "aarch64-linux/sudo-rs": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/sudo-rs/archive/sharun/source/su"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/sudo-rs/archive/sharun/source/sudo"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/sudo-rs/archive/sharun/source/visudo"
-    ]
-  ],
-  "aarch64-linux/tangent": [
-=======
   "Utility/sharun.wrappe.pypi.snallygaster": [
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     [
       "snallygaster",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/snallygaster/archive/sharun/pypi/snallygaster"
@@ -1167,17 +641,7 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/tangent/appimage/official/stable/tangent"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/teamviewer": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/teamviewer/archive/wrappe/stable/teamviewer"
-    ]
-  ],
-  "aarch64-linux/telegram-desktop": [
-=======
   "Utility/wrappe.teamviewer": [
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     [
       "teamviewer",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/teamviewer/archive/wrappe/stable/teamviewer"
@@ -1189,73 +653,7 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/tldextract": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/tldextract/archive/sharun/pypi/tldextract"
-    ]
-  ],
-  "aarch64-linux/tmuxp": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/tmuxp/archive/sharun/pypi/tmuxp"
-    ]
-  ],
-  "aarch64-linux/trafilatura": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/trafilatura/archive/sharun/pypi/trafilatura"
-    ]
-  ],
-  "aarch64-linux/twine": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/twine/archive/sharun/pypi/twine"
-    ]
-  ],
-  "aarch64-linux/twingate": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/twingate/archive/sharun/stable/twingate-notifier"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/twingate/archive/sharun/stable/twingate"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/twingate/archive/sharun/stable/twingated"
-    ]
-  ],
-  "aarch64-linux/twitch-dl": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/twitch-dl/archive/sharun/pypi/twitch-dl"
-    ]
-  ],
-  "aarch64-linux/udocker": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/udocker/archive/sharun/pypi/udocker"
-    ]
-  ],
-  "aarch64-linux/urless": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/urless/archive/sharun/source/urless"
-    ]
-  ],
-  "aarch64-linux/uro": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/uro/archive/sharun/pypi/uro"
-    ]
-  ],
-  "aarch64-linux/vesktop": [
-=======
   "Utility/sharun.wrappe.pypi.tldextract": [
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     [
       "tldextract",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/tldextract/archive/sharun/pypi/tldextract"
@@ -1305,6 +703,12 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/udocker/archive/sharun/pypi/udocker"
     ]
   ],
+  "Utility/sharun.wrappe.source.urless": [
+    [
+      "urless",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/urless/archive/sharun/source/urless"
+    ]
+  ],
   "Utility/sharun.wrappe.pypi.uro": [
     [
       "uro",
@@ -1317,93 +721,13 @@
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/vesktop/appimage/official/stable/vesktop"
     ]
   ],
-<<<<<<< HEAD
-  "aarch64-linux/wafw00f": [
+  "Utility/sharun.wrappe.source.wafw00f": [
     [
-      "archive",
+      "wafw00f",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/wafw00f/archive/sharun/source/wafw00f"
     ]
   ],
-  "aarch64-linux/wappalyzer": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/wappalyzer/archive/sharun/pypi/wappalyzer"
-    ]
-  ],
-  "aarch64-linux/wezterm": [
-    [
-      "runimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/wezterm/runimage/alpine/stable/wezterm"
-    ]
-  ],
-  "aarch64-linux/wrangler": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/wrangler/archive/sharun/npm/wrangler"
-    ]
-  ],
-  "aarch64-linux/xashds": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/xashds/archive/wrappe/stable/xashds"
-    ]
-  ],
-  "aarch64-linux/xhost": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/xhost/archive/sharun/alpine/xhost"
-    ]
-  ],
-  "aarch64-linux/xmap": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/xmap/archive/sharun/source/xmap"
-    ]
-  ],
-  "aarch64-linux/xnlinkfinder": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/xnlinkfinder/archive/sharun/source/xnlinkfinder"
-    ]
-  ],
-  "aarch64-linux/xonsh": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/xonsh/archive/sharun/pypi/xonsh"
-    ]
-  ],
-  "aarch64-linux/xrdp": [
-    [
-      "appimage",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/xrdp/appimage/ppkg/stable/xrdp"
-    ]
-  ],
-  "aarch64-linux/xvfb-run": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/xvfb-run/archive/sharun/alpine/xvfb-run"
-    ]
-  ],
-  "aarch64-linux/yamllint": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/yamllint/archive/sharun/pypi/yamllint"
-    ]
-  ],
-  "aarch64-linux/yt-dlp": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/yt-dlp/archive/sharun/pypi/yt-dlp"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/yt-dlp/archive/sharun/source/yt-dlp"
-    ]
-  ],
-  "aarch64-linux/zen-browser": [
-=======
   "Utility/sharun.wrappe.pypi.wappalyzer": [
->>>>>>> 7d9b2686a1f8f9f0ba232c4d8d7e9611f1fb23b5
     [
       "wappalyzer",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/wappalyzer/archive/sharun/pypi/wappalyzer"
@@ -1437,6 +761,12 @@
     [
       "xmap",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/xmap/archive/sharun/source/xmap"
+    ]
+  ],
+  "Utility/sharun.wrappe.source.xnLinkFinder": [
+    [
+      "xnlinkfinder",
+      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/xnlinkfinder/archive/sharun/source/xnlinkfinder"
     ]
   ],
   "Utility/sharun.wrappe.pypi.xonsh": [
@@ -1518,34 +848,6 @@
     ],
     [
       "ztests",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zmap/archive/sharun/source/ztests"
-    ]
-  ],
-  "aarch64-linux/zerotier": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zerotier/archive/sharun/stable/zerotier-one"
-    ]
-  ],
-  "aarch64-linux/zmap": [
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zmap/archive/sharun/source/zblocklist"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zmap/archive/sharun/source/ziterate"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zmap/archive/sharun/source/zmap"
-    ],
-    [
-      "archive",
-      "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zmap/archive/sharun/source/ztee"
-    ],
-    [
-      "archive",
       "https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zmap/archive/sharun/source/ztests"
     ]
   ]
