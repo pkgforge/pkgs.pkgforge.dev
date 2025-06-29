@@ -1,0 +1,29 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import App from "../../../../components/family.tsx";
+
+export async function getStaticPaths() {
+  const { default: family } = await import("./_family.json");
+
+  return Object.entries(family).map(([fam, apps]) => {
+    const [, family] = fam.split("/");
+
+    return {
+      params: { family },
+      props: {
+        name: family,
+        apps: apps.map(([name, url]) => ({
+          name,
+          url,
+        })),
+      },
+    };
+  });
+}
+
+const { name, apps } = Astro.props;
+---
+
+<Layout>
+  <App apps={apps} name={name} client:load />
+</Layout>

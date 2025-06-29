@@ -8,6 +8,16 @@ const pkgcacheX86 = "https://meta.pkgforge.dev/pkgcache/x86_64-Linux.json";
 
 const soarpkgs = "https://meta.pkgforge.dev/soarpkgs/INDEX.json";
 
+const pkgforgeCargoArm64 = "https://meta.pkgforge.dev/external/pkgforge-cargo/aarch64-Linux.json"
+const pkgforgeCargoX86 = "https://meta.pkgforge.dev/external/pkgforge-cargo/x86_64-Linux.json"
+const pkgforgeCargoloongAarch64 = "https://meta.pkgforge.dev/external/pkgforge-cargo/loongarch64-Linux.json"
+const pkgforgeCargoRiscv64 = "https://meta.pkgforge.dev/external/pkgforge-cargo/riscv64-Linux.json"
+
+const pkgforgeGoArm64 = "https://meta.pkgforge.dev/external/pkgforge-go/aarch64-Linux.json"
+const pkgforgeGoX86 = "https://meta.pkgforge.dev/external/pkgforge-go/x86_64-Linux.json"
+const pkgforgeGoloongAarch64 = "https://meta.pkgforge.dev/external/pkgforge-go/loongarch64-Linux.json"
+const pkgforgeGoRiscv64 = "https://meta.pkgforge.dev/external/pkgforge-go/riscv64-Linux.json"
+
 const run = async (url, branch, arch) => {
   /**
    * @type {{ pkg: string, build_date: string, family: string, sha: string, id: string?, name: string, version: string, category: string, size: string, sizeNum: number, type: "base" | "bin" | "pkg" }[]}
@@ -24,7 +34,12 @@ const run = async (url, branch, arch) => {
   resp.forEach((data) => {
     response.push(data);
 
-    if (!data.pkg_webpage) {
+    // Store original external URL for pkgforge-cargo and pkgforge-go
+    if (branch === "pkgforge-cargo" || branch === "pkgforge-go") {
+      data.external_webpage = data.pkg_webpage; // Store the original external URL
+      // Override with internal URL for page generation
+      data.pkg_webpage = `https://pkgs.pkgforge.dev/repo/${branch}/${arch}/${data.pkg_id}/${data.pkg_name || data.pkg}`;
+    } else if (!data.pkg_webpage) {
       console.log(
         `⚠️ Auto guessed pkg_webpage for ${branch}-${arch}/${data.pkg_id}/${data.pkg_name || data.pkg}`
       );
@@ -56,7 +71,17 @@ const run = async (url, branch, arch) => {
     `./src/metadata_${branch}_${arch}.json`,
     JSON.stringify(
       response.map((data) => {
+        // For pkgforge-cargo and pkgforge-go, use the category directly since URLs are standardized
+        // let category;
+        // if (branch === "pkgforge-cargo" || branch === "pkgforge-go") {
+        //   category = data.category
+        // } else {
+        //   const [, , , , , extractedCategory] = data.pkg_webpage.split("/");
+        //   category = extractedCategory;
+        // }
+
         const [, , , , , category] = data.pkg_webpage.split("/");
+
         return {
           "name": data.pkg_name || data.pkg,
           "pkg": data.pkg,
@@ -71,6 +96,8 @@ const run = async (url, branch, arch) => {
           "Build Date": data.build_date,
           "url": data.pkg_webpage,
           "familyUrl": `/${branch}/${category}/${data.pkg_id}`,
+          // Include external_webpage for pkgforge-cargo and pkgforge-go
+          ...(data.external_webpage && { external_webpage: data.external_webpage }),
         };
       })
     )
@@ -92,6 +119,30 @@ const run = async (url, branch, arch) => {
 
   console.log("⏲️ Downloading pkgcache x86_64");
   await run(pkgcacheX86, "pkgcache", "x86_64-linux");
+
+  console.log("⏲️ Downloading pkgforge-cargo aarch64");
+  await run(pkgforgeCargoArm64, "pkgforge-cargo", "aarch64-linux");
+
+  console.log("⏲️ Downloading pkgforge-cargo x86_64");
+  await run(pkgforgeCargoX86, "pkgforge-cargo", "x86_64-linux");
+
+  console.log("⏲️ Downloading pkgforge-cargo loongarch64");
+  await run(pkgforgeCargoloongAarch64, "pkgforge-cargo", "loongarch64-linux");
+
+  console.log("⏲️ Downloading pkgforge-cargo riscv64");
+  await run(pkgforgeCargoRiscv64, "pkgforge-cargo", "riscv64-linux");
+
+  console.log("⏲️ Downloading pkgforge-go aarch64");
+  await run(pkgforgeGoArm64, "pkgforge-go", "aarch64-linux");
+
+  console.log("⏲️ Downloading pkgforge-go x86_64");
+  await run(pkgforgeGoX86, "pkgforge-go", "x86_64-linux");
+
+  console.log("⏲️ Downloading pkgforge-go loongarch64");
+  await run(pkgforgeGoloongAarch64, "pkgforge-go", "loongarch64-linux");
+
+  console.log("⏲️ Downloading pkgforge-go riscv64");
+  await run(pkgforgeGoRiscv64, "pkgforge-go", "riscv64-linux");
 
   // console.log("⏲️ Downloading Community");
   // await run(community, "community", "universal-linux");

@@ -1,0 +1,30 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import App from "../../../../components/app.tsx";
+
+export async function getStaticPaths() {
+  const { default: apps } = await import("./_apps.json");
+
+  return apps.map((app) => {
+    // Thanks @Azathothas for forcing us to write this hellifying script
+    const [, , , , , , ...pkg] = app.pkg_webpage.split("/");
+    const slug = pkg.join("/");
+
+    return {
+      params: {
+        slug,
+      },
+      props: {
+        data: app,
+        logs: app.build_log || "",
+      },
+    };
+  });
+}
+
+const { data, logs } = Astro.props;
+---
+
+<Layout>
+  <App data={data} logs={logs} repo="pkgforge-cargo" client:only />
+</Layout>

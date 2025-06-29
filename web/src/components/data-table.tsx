@@ -59,12 +59,60 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import binX86 from "../metadata_bincache_x86_64-linux.json";
 
 const binArm64 = import("../metadata_bincache_aarch64-linux.json");
-
 const soarPkgs = import("../metadata_soarpkgs_[category].json");
-
 const pkgArm64 = import("../metadata_pkgcache_aarch64-linux.json");
-
 const pkgX86 = import("../metadata_pkgcache_x86_64-linux.json");
+
+const pkgforgeCargoAmd64 = import("../metadata_pkgforge-cargo_x86_64-linux.json");
+const pkgforgeCargoArm64 = import("../metadata_pkgforge-cargo_aarch64-linux.json");
+const pkgforgeCargoLoongarch64 = import("../metadata_pkgforge-cargo_loongarch64-linux.json");
+const pkgforgeCargoRiscv64 = import("../metadata_pkgforge-cargo_riscv64-linux.json");
+
+const pkgforgeGoAmd64 = import("../metadata_pkgforge-go_x86_64-linux.json");
+const pkgforgeGoArm64 = import("../metadata_pkgforge-go_aarch64-linux.json");
+const pkgforgeGoLoongarch64 = import("../metadata_pkgforge-go_loongarch64-linux.json");
+const pkgforgeGoRiscv64 = import("../metadata_pkgforge-go_riscv64-linux.json");
+
+const repositories = {
+  bincache: {
+    label: "bincache",
+    architectures: {
+      amd64: { label: "x86_64" },
+      arm64: { label: "aarch64" },
+    }
+  },
+  pkgcache: {
+    label: "pkgcache",
+    architectures: {
+      amd64: { label: "x86_64" },
+      arm64: { label: "aarch64" },
+    }
+  },
+  "pkgforge-cargo": {
+    label: "pkgforge-cargo",
+    architectures: {
+      amd64: { label: "x86_64" },
+      arm64: { label: "aarch64" },
+      loongarch64: { label: "loongarch64" },
+      riscv64: { label: "riscv64" },
+    }
+  },
+  "pkgforge-go": {
+    label: "pkgforge-go",
+    architectures: {
+      amd64: { label: "x86_64" },
+      arm64: { label: "aarch64" },
+      loongarch64: { label: "loongarch64" },
+      riscv64: { label: "riscv64" },
+    }
+  },
+  soarpkgs: {
+    label: "soarpkgs",
+    architectures: {
+      universal: { label: "universal" },
+    }
+  },
+};
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -150,22 +198,59 @@ export function DataTable<TData>({
 
   React.useEffect(() => {
     (async () => {
-      switch (page) {
-        case "soarpkgs":
-          setData((await soarPkgs).default as unknown as TData[]);
+      const [repo, arch] = page.split('_');
+      
+      if (repo === 'soarpkgs') {
+        setData((await soarPkgs).default as unknown as TData[]);
+        return;
+      }
+
+      if (repo === 'bincache' && arch === 'amd64') {
+        setData(binX86 as unknown as TData[]);
+        return;
+      }
+
+      let moduleImport;
+      switch (`${repo}_${arch}`) {
+        case 'bincache_arm64':
+          moduleImport = binArm64;
           break;
-        case "bincache_amd64":
-          setData(binX86 as unknown as TData[]);
+        case 'pkgcache_amd64':
+          moduleImport = pkgX86;
           break;
-        case "bincache_arm64":
-          setData((await binArm64).default as unknown as TData[]);
+        case 'pkgcache_arm64':
+          moduleImport = pkgArm64;
           break;
-        case "pkgcache_amd64":
-          setData((await pkgX86).default as unknown as TData[]);
+        case 'pkgforge-cargo_amd64':
+          moduleImport = pkgforgeCargoAmd64;
           break;
-        case "pkgcache_arm64":
-          setData((await pkgArm64).default as unknown as TData[]);
+        case 'pkgforge-cargo_arm64':
+          moduleImport = pkgforgeCargoArm64;
           break;
+        case 'pkgforge-cargo_loongarch64':
+          moduleImport = pkgforgeCargoLoongarch64;
+          break;
+        case 'pkgforge-cargo_riscv64':
+          moduleImport = pkgforgeCargoRiscv64;
+          break;
+        case 'pkgforge-go_amd64':
+          moduleImport = pkgforgeGoAmd64;
+          break;
+        case 'pkgforge-go_arm64':
+          moduleImport = pkgforgeGoArm64;
+          break;
+        case 'pkgforge-go_loongarch64':
+          moduleImport = pkgforgeGoLoongarch64;
+          break;
+        case 'pkgforge-go_riscv64':
+          moduleImport = pkgforgeGoRiscv64;
+          break;
+        default:
+          return;
+      }
+
+      if (moduleImport) {
+        setData((await moduleImport).default as unknown as TData[]);
       }
     })();
   }, [page]);
@@ -250,22 +335,19 @@ export function DataTable<TData>({
               <SelectValue placeholder="Select Repo" />
             </SelectTrigger>
             <SelectContent>
-              <SelectGroup>
-                <SelectLabel>bincache</SelectLabel>
-                <SelectItem value="bincache_amd64">
-                  bincache (x86_64)
-                </SelectItem>
-                <SelectItem value="bincache_arm64">
-                  bincache (aarch64)
-                </SelectItem>
-                <SelectItem value="pkgcache_amd64">
-                  pkgcache (x86_64)
-                </SelectItem>
-                <SelectItem value="pkgcache_arm64">
-                  pkgcache (aarch64)
-                </SelectItem>
-                <SelectItem value="soarpkgs">soarpkgs</SelectItem>
-              </SelectGroup>
+              {Object.entries(repositories).map(([repoKey, repoConfig]) => (
+                <SelectGroup key={repoKey}>
+                  <SelectLabel>{repoConfig.label}</SelectLabel>
+                  {Object.entries(repoConfig.architectures).map(([archKey, archConfig]) => {
+                    const value = repoKey === 'soarpkgs' ? 'soarpkgs' : `${repoKey}_${archKey}`;
+                    return (
+                      <SelectItem key={`${repoKey}_${archKey}`} value={value}>
+                        {repoConfig.label} ({archConfig.label})
+                      </SelectItem>
+                    );
+                  })}
+                </SelectGroup>
+              ))}
             </SelectContent>
           </Select>
           <Tooltip>
