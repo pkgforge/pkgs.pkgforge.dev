@@ -71,15 +71,6 @@ const run = async (url, branch, arch) => {
     `./src/metadata_${branch}_${arch}.json`,
     JSON.stringify(
       response.map((data) => {
-        // For pkgforge-cargo and pkgforge-go, use the category directly since URLs are standardized
-        // let category;
-        // if (branch === "pkgforge-cargo" || branch === "pkgforge-go") {
-        //   category = data.category
-        // } else {
-        //   const [, , , , , extractedCategory] = data.pkg_webpage.split("/");
-        //   category = extractedCategory;
-        // }
-
         const [, , , , , category] = data.pkg_webpage.split("/");
 
         return {
