@@ -117,23 +117,9 @@ export function GlobalSearch() {
   }, [open]);
 
   const renderVirtualItems = React.useCallback(() => {
-    return results.map((item, i) => {
-      return (
-        <div
-          key={i}
-          style={{
-            //position: 'absolute',
-            top: 0,
-            left: 0,
-            width: "100%",
-            //height: `${virtualRow.size}px`,
-            //transform: `translateY(${virtualRow.start}px)`,
-          }}
-        >
-          <SearchResultItem item={item} onCopy={handleCopy} />
-        </div>
-      );
-    });
+    return results.map((item) => (
+      <SearchResultItem key={`${item.pkg_name}#${item.pkg_id}#${item.source}`} item={item} onCopy={handleCopy} />
+    ));
   }, [results, handleCopy]);
 
   const SearchButton = React.useMemo(
@@ -182,21 +168,12 @@ export function GlobalSearch() {
             <div className="flex items-center justify-center p-8 text-muted-foreground">
               Start typing to search packages...
             </div>
-          ) : (
+              ) : (
             <>
               <CommandEmpty>No results found.</CommandEmpty>
               {results.length > 0 && (
-                <CommandGroup>
-                  <div
-                    style={{
-                      height: `40vh`,
-                      width: "100%",
-                      position: "relative",
-                    }}
-                    className="flex flex-col overflow-hidden overflow-y-scroll"
-                  >
-                    {renderVirtualItems()}
-                  </div>
+                <CommandGroup className="max-h-[40vh] overflow-y-auto">
+                  {renderVirtualItems()}
                 </CommandGroup>
               )}
             </>

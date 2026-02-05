@@ -21,14 +21,24 @@ export function useSearch(
       return;
     }
 
-    const searchResults = searchIndex.search(searchTerm, {
-      prefix: true,
-      fuzzy: true,
-    });
+    try {
+      const searchResults = searchIndex.search(searchTerm, {
+        prefix: true,
+        fuzzy: true,
+      });
 
-    setResults(
-      searchResults.map((result) => result as unknown as SearchResult),
-    );
+      setResults(
+        searchResults.map((result) => ({
+          pkg_name: result.pkg_name as string,
+          pkg_id: result.pkg_id as string,
+          source: result.source as string,
+          url: result.url as string,
+        })),
+      );
+    } catch (error) {
+      console.error("Search failed:", error);
+      setResults([]);
+    }
   }, [searchTerm, searchIndex, isLoading]);
 
   return results;

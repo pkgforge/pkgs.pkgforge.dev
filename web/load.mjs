@@ -29,7 +29,14 @@ const run = async (url, branch, arch) => {
    */
   const familyMap = {};
 
-  const resp = await fetch(url).then((res) => res.json());
+  const res = await fetch(url);
+  
+  if (!res.ok) {
+    console.warn(`⚠️ Skipping ${branch}-${arch}: ${res.status} ${res.statusText}`);
+    return;
+  }
+
+  const resp = await res.json();
 
   resp.forEach((data) => {
     response.push(data);
