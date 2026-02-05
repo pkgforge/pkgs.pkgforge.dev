@@ -26,10 +26,12 @@ jobs:
 
       - name: Install Deps & Build
         run: |
-          npm i -g pnpm
-          pnpm install
+          npm i -g pnpm --silent
+          pnpm install --silent
 
-          pnpm build
+          pnpm build --silent > /dev/null 2>&1
+
+          echo "Build completed successfully"
         working-directory: web
 
       - name: Upload for debugging
