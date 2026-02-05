@@ -1,4 +1,5 @@
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { readdirSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { dirname } from "node:path";
 
 readdirSync("./src/pages/repo/").forEach((repo) => {
   readdirSync(`./src/pages/repo/${repo}/`).forEach((arch) => {
@@ -11,11 +12,10 @@ readdirSync("./src/pages/repo/").forEach((repo) => {
 
     apps.forEach((app) => {
       const [, , , , , category, ...pkg] = app.pkg_webpage.split("/");
-
-      writeFileSync(
-        `./dist/repo/${repo}/${category}/${pkg.join("/")}/raw.json`,
-        JSON.stringify(app, null, 2)
-      );
+      const filePath = `./dist/repo/${repo}/${category}/${pkg.join("/")}/raw.json`;
+      
+      mkdirSync(dirname(filePath), { recursive: true });
+      writeFileSync(filePath, JSON.stringify(app, null, 2));
     });
   });
 });
