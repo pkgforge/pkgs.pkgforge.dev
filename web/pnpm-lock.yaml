@@ -78,8 +78,8 @@ importers:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
       tailwind-merge:
-        specifier: ^2.6.0
-        version: 2.6.0
+        specifier: ^3.0.0
+        version: 3.6.0
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
@@ -1459,7 +1459,7 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
   astro-react-swc@https://codeload.github.com/ahqsoftwares/astro-react-swc/tar.gz/481769ad276ca437a96dc446297aa44c1d731255:
-    resolution: {tarball: https://codeload.github.com/ahqsoftwares/astro-react-swc/tar.gz/481769ad276ca437a96dc446297aa44c1d731255}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/ahqsoftwares/astro-react-swc/tar.gz/481769ad276ca437a96dc446297aa44c1d731255}
     version: 4.1.0
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0}
     peerDependencies:
@@ -2531,8 +2531,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tailwind-merge@2.6.0:
-    resolution: {integrity: sha512-P+Vu1qXfzediirmHOC3xKGAYeZtPcV9g76X+xg2FD4tYgR71ewMA35Y3sCz3zhiN/dwefRpJX0yBcgwi1fXNQA==}
+  tailwind-merge@3.6.0:
+    resolution: {integrity: sha512-uxL7qAVQriqRQPAyK3pj66VqskWqoZ37PW94jwOTwNfq/z9oyu1V+eqrZqtR2+fCiXdYOZe/Modt8GtvqNzu+w==}
 
   tailwindcss-animate@1.0.7:
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
@@ -5558,7 +5558,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwind-merge@2.6.0: {}
+  tailwind-merge@3.6.0: {}
 
   tailwindcss-animate@1.0.7(tailwindcss@3.4.17):
     dependencies:
